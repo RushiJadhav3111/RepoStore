@@ -55,7 +55,7 @@ RepoStore is a native Android app that turns GitHub releases into a clean, Play 
 </a>
 
 <a href="https://www.openapk.net/repostore/com.samyak.repostore/">
-  <img src="https://camo.githubusercontent.com/cd56895b28a73ebd781a65b4f567add5419e45797a5cf1485ce408e851c2318e/68747470733a2f2f7777772e6f70656e61706b2e6e65742f696d616765732f6f70656e61706b2d62616467652e706e67" height="60" alt="Get it on OpenAPK"/>
+  <img src="https://camo.githubusercontent.com/cd56895b28a73ebd781a65b4f567add5419e45797a5cf1485ce408e851c2318e/68747470733a2f2f7777772e6f70656e61706b2e6e65742f696d616765732f6f70656e61706b2d62616467652e706e67" alt="Get it on OpenAPK"/>
 </a>
 
 ---
