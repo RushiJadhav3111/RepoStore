@@ -19,6 +19,10 @@
   RepoStore is a GitHub-powered Android app store that discovers repositories shipping real installable APKs and lets you install, track, and update them from one place.
 </p>
 
+> [!CAUTION]
+> Free and Open-Source Android is under threat. Google will turn Android into a locked-down platform, restricting your essential freedom to install apps of your choice. Make your voice heard – [keepandroidopen.org](https://keepandroidopen.org/).
+
+
 <p align="center">
   <img src="screenshots/banner/1.png" />
 </p>
