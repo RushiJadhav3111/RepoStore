@@ -14,8 +14,7 @@ import com.samyak.repostore.databinding.ItemAppListRowBinding
 import java.util.Locale
 
 class RankedAppAdapter(
-    private val onItemClick: (AppItem) -> Unit,
-    private val onDeveloperClick: ((String, String) -> Unit)? = null
+    private val onItemClick: (AppItem) -> Unit
 ) : ListAdapter<AppItem, RankedAppAdapter.AppViewHolder>(AppDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AppViewHolder {
@@ -51,11 +50,6 @@ class RankedAppAdapter(
                 tvRank.text = rank.toString()
                 tvAppName.text = repo.name
                 tvDeveloper.text = repo.owner.login
-
-                // Developer click listener
-                tvDeveloper.setOnClickListener {
-                    onDeveloperClick?.invoke(repo.owner.login, repo.owner.avatarUrl)
-                }
 
                 // Show actual GitHub stars count
                 tvStars.text = formatNumber(repo.stars)

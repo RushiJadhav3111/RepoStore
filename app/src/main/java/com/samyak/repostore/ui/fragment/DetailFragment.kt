@@ -19,12 +19,16 @@ import com.samyak.repostore.RepoStoreApp
 import com.samyak.repostore.data.model.GitHubRelease
 import com.samyak.repostore.data.model.GitHubRepo
 import com.samyak.repostore.databinding.FragmentDetailBinding
+import com.samyak.repostore.databinding.LayoutReleaseVariantPickerBinding
 import com.samyak.repostore.ui.activity.DeveloperActivity
 import com.samyak.repostore.ui.activity.ScreenshotViewerActivity
+import com.samyak.repostore.ui.adapter.ReleaseVariantAdapter
 import com.samyak.repostore.ui.adapter.ScreenshotAdapter
 import com.samyak.repostore.ui.viewmodel.DetailUiState
 import com.samyak.repostore.ui.viewmodel.DetailViewModel
 import com.samyak.repostore.ui.viewmodel.DetailViewModelFactory
+import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.samyak.repostore.data.model.ReleaseAsset
 import io.noties.markwon.Markwon
 import io.noties.markwon.ext.strikethrough.StrikethroughPlugin
 import io.noties.markwon.ext.tables.TablePlugin
@@ -245,15 +249,20 @@ class DetailFragment : Fragment() {
                 
                 tvReleaseDate.text = formatDate(release.publishedAt)
 
-                // Find APK asset
-                val apkAsset = release.assets.find {
-                    it.name.endsWith(".apk") || it.name.endsWith(".aab")
+                // Find all APK/AAB assets
+                val installableAssets = release.assets.filter {
+                    it.name.endsWith(".apk", ignoreCase = true) || 
+                    it.name.endsWith(".aab", ignoreCase = true)
                 }
 
-                if (apkAsset != null) {
+                if (installableAssets.isNotEmpty()) {
                     btnDownload.text = getString(R.string.install)
                     btnDownload.setOnClickListener {
-                        openUrl(apkAsset.downloadUrl)
+                        if (installableAssets.size > 1) {
+                            showReleaseVariantPicker(installableAssets)
+                        } else {
+                            openUrl(installableAssets[0].downloadUrl)
+                        }
                     }
                 } else {
                     btnDownload.text = getString(R.string.view_release)
@@ -299,6 +308,25 @@ class DetailFragment : Fragment() {
     private fun openUrl(url: String) {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
         startActivity(intent)
+    }
+
+    private fun showReleaseVariantPicker(assets: List<ReleaseAsset>) {
+        val bottomSheet = BottomSheetDialog(requireContext())
+        val pickerBinding = LayoutReleaseVariantPickerBinding.inflate(layoutInflater)
+        bottomSheet.setContentView(pickerBinding.root)
+
+        val adapter = ReleaseVariantAdapter { asset ->
+            openUrl(asset.downloadUrl)
+            bottomSheet.dismiss()
+        }
+
+        pickerBinding.rvVariants.apply {
+            this.adapter = adapter
+            layoutManager = LinearLayoutManager(requireContext())
+        }
+
+        adapter.submitList(assets)
+        bottomSheet.show()
     }
 
     override fun onDestroyView() {

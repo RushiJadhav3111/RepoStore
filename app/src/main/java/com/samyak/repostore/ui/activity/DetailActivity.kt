@@ -28,7 +28,10 @@ import com.samyak.repostore.data.model.GitHubRelease
 import com.samyak.repostore.data.model.GitHubRepo
 import com.samyak.repostore.data.model.ReleaseAsset
 import com.samyak.repostore.databinding.ActivityDetailBinding
+import com.samyak.repostore.databinding.LayoutReleaseVariantPickerBinding
+import com.samyak.repostore.ui.adapter.ReleaseVariantAdapter
 import com.samyak.repostore.ui.adapter.ScreenshotAdapter
+import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.samyak.repostore.ui.viewmodel.DetailUiState
 import com.samyak.repostore.ui.viewmodel.DetailViewModel
 import com.samyak.repostore.ui.viewmodel.DetailViewModelFactory
@@ -45,6 +48,7 @@ import io.noties.markwon.html.HtmlPlugin
 import io.noties.markwon.image.glide.GlideImagesPlugin
 import io.noties.markwon.linkify.LinkifyPlugin
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.text.NumberFormat
@@ -68,9 +72,11 @@ class DetailActivity : AppCompatActivity() {
     private var owner: String = ""
     private var repoName: String = ""
     private var currentApkAsset: ReleaseAsset? = null
+    private var allApkAssets: List<ReleaseAsset> = emptyList()
     private var installedPackageName: String? = null
     private var currentRepo: GitHubRepo? = null
     private var currentReleaseTag: String? = null
+    private var setupButtonJob: kotlinx.coroutines.Job? = null
     
     // Shimmer layout for skeleton loading
     private var shimmerLayout: ShimmerFrameLayout? = null
@@ -367,6 +373,9 @@ class DetailActivity : AppCompatActivity() {
 
             // Archived badge
             chipArchived.visibility = if (repo.archived) View.VISIBLE else View.GONE
+            
+            // Set current repo
+            currentRepo = repo
 
             // Release info
             if (release != null) {
@@ -383,33 +392,40 @@ class DetailActivity : AppCompatActivity() {
                 
                 tvReleaseDate.text = formatDate(release.publishedAt)
 
-                // Find best APK for device architecture (arm64-v8a, armeabi-v7a, x86_64, x86)
-                when (val selection = ApkArchitectureHelper.selectBestApk(release.assets)) {
-                    is ApkSelectionResult.NoApkFound -> {
-                        Log.d(TAG, "No APK assets found")
-                        currentApkAsset = null
-                    }
-                    is ApkSelectionResult.Single -> {
-                        Log.d(TAG, "Single APK found: ${selection.asset.name}")
-                        currentApkAsset = selection.asset
-                    }
-                    is ApkSelectionResult.ExactMatch -> {
-                        Log.d(TAG, "Found exact match for ${selection.abi}: ${selection.asset.name}")
-                        currentApkAsset = selection.asset
-                    }
-                    is ApkSelectionResult.Universal -> {
-                        Log.d(TAG, "Found universal APK: ${selection.asset.name}")
-                        currentApkAsset = selection.asset
-                    }
-                    is ApkSelectionResult.Fallback -> {
-                        Log.d(TAG, "No architecture match, using first APK: ${selection.asset.name}")
-                        currentApkAsset = selection.asset
-                    }
+                // Find all APK assets
+                allApkAssets = release.assets.filter { 
+                    it.name.endsWith(".apk", ignoreCase = true)
                 }
 
-                if (currentApkAsset != null) {
+                if (allApkAssets.isNotEmpty()) {
+                    // Auto-select best APK for single APK or architecture-specific builds
+                    val selection = ApkArchitectureHelper.selectBestApk(release.assets)
+                    when (selection) {
+                        is ApkSelectionResult.NoApkFound -> {
+                            Log.d(TAG, "No APK assets found")
+                            currentApkAsset = null
+                        }
+                        is ApkSelectionResult.Single -> {
+                            Log.d(TAG, "Single APK found: ${selection.asset.name}")
+                            currentApkAsset = selection.asset
+                        }
+                        is ApkSelectionResult.ExactMatch -> {
+                            Log.d(TAG, "Found exact match for ${selection.abi}: ${selection.asset.name}")
+                            currentApkAsset = selection.asset
+                        }
+                        is ApkSelectionResult.Universal -> {
+                            Log.d(TAG, "Found universal APK: ${selection.asset.name}")
+                            currentApkAsset = selection.asset
+                        }
+                        is ApkSelectionResult.Fallback -> {
+                            Log.d(TAG, "No architecture match, using first APK: ${selection.asset.name}")
+                            currentApkAsset = selection.asset
+                        }
+                    }
+                    
                     setupInstallButton(repo.name, repo.owner.login)
                 } else {
+                    currentApkAsset = null
                     btnDownload.text = getString(R.string.view_release)
                     btnDownload.setOnClickListener {
                         openUrl(release.htmlUrl)
@@ -503,11 +519,15 @@ class DetailActivity : AppCompatActivity() {
     }
 
     private fun setupInstallButton(repoName: String, ownerName: String) {
-        lifecycleScope.launch {
+        setupButtonJob?.cancel()
+        setupButtonJob = lifecycleScope.launch {
             // Run heavy findPackage (DB query + PackageManager scan) off the main thread
             val detectedPackage = withContext(Dispatchers.IO) {
                 appInstaller.findPackage(repoName, ownerName)
             }
+            
+            if (!isActive) return@launch
+            
             installedPackageName = detectedPackage
             val isInstalled = installedPackageName?.let { appInstaller.isInstalled(it) } ?: false
 
@@ -534,9 +554,22 @@ class DetailActivity : AppCompatActivity() {
                 
                 if (hasUpdate) {
                     // Update available - show Update button
-                    binding.btnDownload.text = getString(R.string.update)
+                    if (allApkAssets.size > 1) {
+                        binding.btnDownload.text = getString(R.string.update) + " (${allApkAssets.size} variants)"
+                    } else {
+                        binding.btnDownload.text = getString(R.string.update)
+                    }
+                    
                     binding.btnDownload.setOnClickListener {
-                        currentApkAsset?.let { startDownload(it) }
+                        // Show picker if multiple APKs available, otherwise download directly
+                        if (allApkAssets.size > 1) {
+                            showReleaseVariantPicker()
+                        } else {
+                            currentApkAsset?.let { startDownload(it) } ?: run {
+                                // Fallback: open release page if no APK but button was shown
+                                openUrl(currentRepo?.htmlUrl ?: "")
+                            }
+                        }
                     }
                 } else {
                     // Already up to date - show Open button
@@ -546,16 +579,66 @@ class DetailActivity : AppCompatActivity() {
                             Toast.makeText(this@DetailActivity, R.string.cannot_open_app, Toast.LENGTH_SHORT).show()
                         }
                     }
+                    
+                    // Allow switching variants via long-press if multiple options exist
+                    if (allApkAssets.size > 1) {
+                        binding.btnDownload.setOnLongClickListener {
+                            showReleaseVariantPicker()
+                            true
+                        }
+                    } else {
+                        binding.btnDownload.setOnLongClickListener(null)
+                    }
                 }
             } else {
                 // Not installed - show Install button
                 binding.btnUninstall.visibility = View.GONE
-                binding.btnDownload.text = getString(R.string.install)
+                
+                // Show indicator if multiple APKs available
+                if (allApkAssets.size > 1) {
+                    binding.btnDownload.text = getString(R.string.install) + " (${allApkAssets.size} variants)"
+                } else {
+                    binding.btnDownload.text = getString(R.string.install)
+                }
+                
                 binding.btnDownload.setOnClickListener {
-                    currentApkAsset?.let { startDownload(it) }
+                    // Show picker if multiple APKs available, otherwise download directly
+                    if (allApkAssets.size > 1) {
+                        showReleaseVariantPicker()
+                    } else {
+                        currentApkAsset?.let { startDownload(it) } ?: run {
+                            // Fallback
+                            openUrl(currentRepo?.htmlUrl ?: "")
+                        }
+                    }
                 }
             }
         }
+    }
+
+    private fun showReleaseVariantPicker() {
+        val bottomSheet = BottomSheetDialog(this)
+        val pickerBinding = LayoutReleaseVariantPickerBinding.inflate(layoutInflater)
+        bottomSheet.setContentView(pickerBinding.root)
+
+        val adapter = ReleaseVariantAdapter { asset ->
+            currentApkAsset = asset
+            startDownload(asset)
+            bottomSheet.dismiss()
+        }
+        
+        // Mark the auto-selected APK as recommended
+        adapter.setRecommendedAssetId(currentApkAsset?.id)
+
+        pickerBinding.rvVariants.apply {
+            this.adapter = adapter
+            layoutManager = LinearLayoutManager(this@DetailActivity)
+        }
+
+        // Sort variants: Recommended first, then others
+        val sortedVariants = allApkAssets.sortedWith(compareByDescending { it.id == currentApkAsset?.id })
+        adapter.submitList(sortedVariants)
+        bottomSheet.show()
     }
 
     companion object {

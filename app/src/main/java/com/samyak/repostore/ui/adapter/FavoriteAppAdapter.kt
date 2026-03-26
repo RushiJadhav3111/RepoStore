@@ -13,8 +13,7 @@ import com.samyak.repostore.databinding.ItemAppListRowBinding
 import java.util.Locale
 
 class FavoriteAppAdapter(
-    private val onItemClick: (FavoriteApp) -> Unit,
-    private val onDeveloperClick: ((String, String) -> Unit)? = null
+    private val onItemClick: (FavoriteApp) -> Unit
 ) : ListAdapter<FavoriteApp, FavoriteAppAdapter.FavoriteViewHolder>(FavoriteDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FavoriteViewHolder {
@@ -48,11 +47,6 @@ class FavoriteAppAdapter(
                 tvRank.text = rank.toString()
                 tvAppName.text = item.name
                 tvDeveloper.text = item.ownerLogin
-
-                // Developer click listener
-                tvDeveloper.setOnClickListener {
-                    onDeveloperClick?.invoke(item.ownerLogin, item.ownerAvatarUrl)
-                }
 
                 // Show stars count
                 tvStars.text = formatNumber(item.stars)

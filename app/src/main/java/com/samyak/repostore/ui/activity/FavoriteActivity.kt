@@ -72,10 +72,6 @@ class FavoriteActivity : AppCompatActivity() {
                     favoriteApp.name
                 )
                 startActivity(intent)
-            },
-            onDeveloperClick = { developer, avatarUrl ->
-                val intent = DeveloperActivity.newIntent(this, developer, avatarUrl)
-                startActivity(intent)
             }
         )
 

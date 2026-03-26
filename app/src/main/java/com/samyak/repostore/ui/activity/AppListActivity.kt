@@ -82,10 +82,6 @@ class AppListActivity : AppCompatActivity() {
                     appItem.repo.name
                 )
                 startActivity(intent)
-            },
-            onDeveloperClick = { developer, avatarUrl ->
-                val intent = DeveloperActivity.newIntent(this, developer, avatarUrl)
-                startActivity(intent)
             }
         )
 

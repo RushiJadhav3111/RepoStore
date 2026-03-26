@@ -13,8 +13,8 @@ object ApkArchitectureHelper {
      * Mapping of device ABIs to common APK naming patterns
      */
     private val abiPatterns = mapOf(
-        "arm64-v8a" to listOf("arm64-v8a", "arm64", "aarch64", "arm64_v8a"),
-        "armeabi-v7a" to listOf("armeabi-v7a", "armeabi_v7a", "armv7", "arm-v7a", "arm"),
+        "arm64-v8a" to listOf("arm64-v8a", "arm64", "aarch64", "arm64_v8a", "x64"),
+        "armeabi-v7a" to listOf("armeabi-v7a", "armeabi_v7a", "armv7", "arm-v7a", "arm", "x32"),
         "x86_64" to listOf("x86_64", "x86-64", "amd64"),
         "x86" to listOf("x86", "i686", "i386")
     )
@@ -122,29 +122,45 @@ object ApkArchitectureHelper {
         val lowerName = apkName.lowercase()
         val deviceAbis = getDeviceAbis()
         
-        // Check if it's a universal APK
+        // 1. Check if it's a universal APK
         if (universalPatterns.any { pattern ->
             lowerName.contains(pattern)
         }) {
             return true
         }
         
-        // Check if it matches any device ABI
+        // 2. Check if it matches any supported device ABI
         for (abi in deviceAbis) {
             val patterns = abiPatterns[abi] ?: continue
+            // Use same separator matching as findApkByPatterns
             if (patterns.any { pattern ->
-                lowerName.contains(pattern.lowercase())
+                val p = pattern.lowercase()
+                lowerName.contains("-$p") ||
+                lowerName.contains("_$p") ||
+                lowerName.contains(".$p") ||
+                lowerName.contains("${p}-") ||
+                lowerName.contains("${p}_") ||
+                lowerName.contains("${p}.") ||
+                // Also handle exact match if the filename is small or no separators
+                lowerName == "$p.apk"
             }) {
                 return true
             }
         }
         
-        // If no architecture pattern found, assume it's universal
-        val hasArchPattern = abiPatterns.values.flatten().any { pattern ->
-            lowerName.contains(pattern.lowercase())
+        // 3. If no supported architecture pattern found, check if it has UNSUPPORTED patterns
+        val allPatterns = abiPatterns.values.flatten().map { it.lowercase() }
+        val hasAntyArchPattern = allPatterns.any { pattern ->
+                lowerName.contains("-$pattern") ||
+                lowerName.contains("_$pattern") ||
+                lowerName.contains(".$pattern") ||
+                lowerName.contains("${pattern}-") ||
+                lowerName.contains("${pattern}_") ||
+                lowerName.contains("${pattern}.")
         }
         
-        return !hasArchPattern
+        // If it has NO arch patterns at all, assume it's probably compatible (fallback)
+        return !hasAntyArchPattern
     }
 }
 

@@ -101,8 +101,7 @@ class DeveloperActivity : AppCompatActivity() {
                     appItem.repo.name
                 )
                 startActivity(intent)
-            },
-            onDeveloperClick = null // Already on developer page, no need to navigate
+            }
         )
 
         binding.rvApps.apply {

@@ -26,7 +26,6 @@ import com.samyak.repostore.data.model.SortOption
 import com.samyak.repostore.data.model.UpdatedWithin
 import com.samyak.repostore.databinding.FragmentSearchBinding
 import com.samyak.repostore.ui.activity.DetailActivity
-import com.samyak.repostore.ui.activity.DeveloperActivity
 import com.samyak.repostore.ui.adapter.RankedAppAdapter
 import com.samyak.repostore.ui.viewmodel.SearchUiState
 import com.samyak.repostore.ui.viewmodel.SearchViewModel
@@ -117,10 +116,6 @@ class SearchFragment : Fragment() {
         appAdapter = RankedAppAdapter(
             onItemClick = { appItem ->
                 navigateToDetail(appItem)
-            },
-            onDeveloperClick = { developer, avatarUrl ->
-                val intent = DeveloperActivity.newIntent(requireContext(), developer, avatarUrl)
-                startActivity(intent)
             }
         )
 
