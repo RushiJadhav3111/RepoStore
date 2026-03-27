@@ -22,7 +22,6 @@ import com.samyak.repostore.ui.activity.DonateActivity
 import com.samyak.repostore.ui.activity.GitHubSignInActivity
 import com.samyak.repostore.ui.activity.LicensesActivity
 import com.samyak.repostore.ui.activity.FavoriteActivity
-import com.samyak.repostore.ui.activity.MyAppsActivity
 import com.samyak.repostore.ui.activity.DownloadSettingsActivity
 
 
@@ -45,7 +44,6 @@ class SettingsFragment : Fragment() {
         setupAccountSection()
         setupAppearanceSection()
         setupMyAppsSection()
-        setupManageAppsSection()
         setupDownloadSettingsSection()
         setupAboutSection()
         setupDeveloperSection()
@@ -176,11 +174,6 @@ class SettingsFragment : Fragment() {
         }
     }
 
-    private fun setupManageAppsSection() {
-        binding.manageAppsCard.setOnClickListener {
-            startActivity(Intent(requireContext(), MyAppsActivity::class.java))
-        }
-    }
 
     private fun setupDownloadSettingsSection() {
         binding.downloadSettingsCard.setOnClickListener {

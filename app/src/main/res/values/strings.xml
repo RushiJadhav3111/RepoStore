@@ -197,7 +197,6 @@
     <string name="added_to_favorites">Added to favorites</string>
     <string name="removed_from_favorites">Removed from favorites</string>
     <string name="favorite_apps">Favorite Apps</string>
-    <string name="manage_apps">Manage Apps</string>
     <string name="no_installed_apps">No installed apps</string>
     <string name="no_installed_apps_hint">Apps you install from your favorites will appear here</string>
     
