@@ -3,6 +3,7 @@ package com.samyak.repostore.data.repository
 import com.samyak.repostore.data.api.RetrofitClient
 import com.samyak.repostore.data.db.RepoDao
 import com.samyak.repostore.data.model.*
+import com.samyak.repostore.util.GitHubUrlParser
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -194,6 +195,27 @@ class GitHubRepository(private val repoDao: RepoDao) {
             ))
         } catch (e: HttpException) {
             handleHttpException(e)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
+    /**
+     * Fetch a single app by its GitHub URL
+     */
+    suspend fun getAppByUrl(url: String): Result<AppItem> = withContext(Dispatchers.IO) {
+        try {
+            val repoInfo = GitHubUrlParser.parse(url) 
+                ?: return@withContext Result.failure(Exception("Invalid GitHub URL"))
+            
+            val repoResult = getRepoDetails(repoInfo.owner, repoInfo.name)
+            val repo = repoResult.getOrThrow()
+            
+            val releaseResult = getLatestRelease(repo.owner.login, repo.name)
+            val release = releaseResult.getOrNull()
+            
+            val tag = determineTag(repo, release)
+            Result.success(AppItem(repo, release, tag))
         } catch (e: Exception) {
             Result.failure(e)
         }

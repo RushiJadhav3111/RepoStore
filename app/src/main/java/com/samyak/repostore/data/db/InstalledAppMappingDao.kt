@@ -39,8 +39,8 @@ interface InstalledAppMappingDao {
     suspend fun deleteMapping(owner: String, repo: String)
 
     /**
-     * Get all stored mappings (for debugging/MyApps feature).
+     * Get all stored mappings as a Flow (for reactive updates in MyApps).
      */
     @Query("SELECT * FROM installed_app_mappings ORDER BY updatedAt DESC")
-    suspend fun getAllMappings(): List<InstalledAppMapping>
+    fun getAllMappingsFlow(): kotlinx.coroutines.flow.Flow<List<InstalledAppMapping>>
 }

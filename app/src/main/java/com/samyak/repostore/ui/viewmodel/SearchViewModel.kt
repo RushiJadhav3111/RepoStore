@@ -8,6 +8,7 @@ import com.samyak.repostore.data.model.SearchFilters
 import com.samyak.repostore.data.model.SortOption
 import com.samyak.repostore.data.model.UpdatedWithin
 import com.samyak.repostore.data.repository.GitHubRepository
+import com.samyak.repostore.util.GitHubUrlParser
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -137,6 +138,20 @@ class SearchViewModel(private val repository: GitHubRepository) : ViewModel() {
                     AppItem(repo, null, null)
                 }
                 _uiState.value = SearchUiState.Success(appItems)
+            }
+
+            // Check if query is a GitHub URL
+            if (GitHubUrlParser.isGitHubUrl(query)) {
+                val urlResult = repository.getAppByUrl(query)
+                urlResult.fold(
+                    onSuccess = { appItem ->
+                        _totalResults.value = 1
+                        hasNextPage = false
+                        _uiState.value = SearchUiState.Success(listOf(appItem))
+                        return@launch
+                    },
+                    onFailure = { /* Fall back to regular search if URL fetch fails */ }
+                )
             }
 
             // Then fetch from API with filters

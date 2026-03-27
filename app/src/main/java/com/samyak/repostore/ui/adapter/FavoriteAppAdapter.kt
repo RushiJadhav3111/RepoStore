@@ -55,10 +55,21 @@ class FavoriteAppAdapter(
                 // Hide tag for favorites
                 chipTag.visibility = View.GONE
 
-                Glide.with(ivAppIcon)
-                    .load(item.ownerAvatarUrl)
-                    .placeholder(R.drawable.ic_app_placeholder)
-                    .into(ivAppIcon)
+                // Load icon: System icon for pkg: URIs, otherwise Glide for URLs
+                if (item.ownerAvatarUrl.startsWith("pkg:")) {
+                    val packageName = item.ownerAvatarUrl.substring(4)
+                    try {
+                        val icon = root.context.packageManager.getApplicationIcon(packageName)
+                        ivAppIcon.setImageDrawable(icon)
+                    } catch (e: Exception) {
+                        ivAppIcon.setImageResource(R.drawable.ic_app_placeholder)
+                    }
+                } else {
+                    Glide.with(ivAppIcon)
+                        .load(item.ownerAvatarUrl)
+                        .placeholder(R.drawable.ic_app_placeholder)
+                        .into(ivAppIcon)
+                }
             }
         }
 

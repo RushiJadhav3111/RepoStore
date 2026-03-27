@@ -29,6 +29,7 @@ class MyAppsActivity : AppCompatActivity() {
     private val viewModel: MyAppsViewModel by viewModels {
         MyAppsViewModelFactory(
             (application as RepoStoreApp).favoriteAppDao,
+            (application as RepoStoreApp).installedAppMappingDao,
             packageManager
         )
     }
