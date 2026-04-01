@@ -22,6 +22,7 @@ room = "2.7.2"
 markwon = "4.6.2"
 mockk = "1.14.9"
 ksp = "2.3.5"
+lottie = "6.4.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -56,6 +57,7 @@ markwon-tables = { group = "io.noties.markwon", name = "ext-tables", version.ref
 markwon-strikethrough = { group = "io.noties.markwon", name = "ext-strikethrough", version.ref = "markwon" }
 markwon-html = { group = "io.noties.markwon", name = "html", version.ref = "markwon" }
 mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

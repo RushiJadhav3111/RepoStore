@@ -1,5 +1,6 @@
 package com.samyak.repostore.ui.adapter
 
+import android.content.res.ColorStateList
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
@@ -17,9 +18,15 @@ class ReleaseVariantAdapter(
 ) : ListAdapter<ReleaseAsset, ReleaseVariantAdapter.ViewHolder>(AssetDiffCallback()) {
 
     private var recommendedAssetId: Long? = null
+    private var selectedAssetId: Long? = null
 
     fun setRecommendedAssetId(id: Long?) {
         recommendedAssetId = id
+        notifyDataSetChanged()
+    }
+
+    fun setSelectedAssetId(id: Long?) {
+        selectedAssetId = id
         notifyDataSetChanged()
     }
 
@@ -58,6 +65,27 @@ class ReleaseVariantAdapter(
                 android.view.View.VISIBLE
             } else {
                 android.view.View.GONE
+            }
+
+            // Selected state: green check + green stroke
+            val isSelected = asset.id == selectedAssetId
+            binding.ivSelectedCheck.visibility = if (isSelected) {
+                android.view.View.VISIBLE
+            } else {
+                android.view.View.GONE
+            }
+
+            val card = binding.cardVariant
+            if (isSelected) {
+                card.strokeColor = ContextCompat.getColor(card.context, R.color.primary)
+                card.strokeWidth = card.context.resources.getDimensionPixelSize(R.dimen.selected_stroke_width)
+            } else {
+                card.strokeColor = card.context.getColor(com.google.android.material.R.attr.colorOutlineVariant.let {
+                    val typedValue = android.util.TypedValue()
+                    card.context.theme.resolveAttribute(it, typedValue, true)
+                    typedValue.resourceId
+                })
+                card.strokeWidth = (1.2f * card.context.resources.displayMetrics.density).toInt()
             }
 
             binding.root.setOnClickListener {

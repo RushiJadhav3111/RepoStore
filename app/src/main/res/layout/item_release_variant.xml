@@ -73,7 +73,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/ivSelectedCheck"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
@@ -101,6 +101,21 @@
                 tools:text="Compatible" />
 
         </LinearLayout>
+
+        <!-- Selected Check Icon -->
+        <ImageView
+            android:id="@+id/ivSelectedCheck"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_check_circle"
+            app:tint="@color/primary"
+            android:visibility="gone"
+            android:contentDescription="Selected"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

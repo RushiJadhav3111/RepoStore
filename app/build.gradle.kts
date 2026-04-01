@@ -113,6 +113,9 @@ dependencies {
     // DotsIndicator - ViewPager2 page indicators
     implementation(libs.dotsindicator)
     
+    // Lottie - Animations
+    implementation(libs.lottie)
+    
     testImplementation(libs.junit)
     testImplementation(libs.mockk)
     androidTestImplementation(libs.androidx.junit)

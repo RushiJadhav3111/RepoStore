@@ -230,7 +230,7 @@
                     android:id="@+id/btn_uninstall"
                     style="@style/Widget.Material3.Button.OutlinedButton"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginEnd="8dp"
                     android:text="@string/uninstall"
@@ -240,13 +240,88 @@
                     android:visibility="gone"
                     tools:visibility="visible" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btn_download"
+                <LinearLayout
+                    android:id="@+id/card_download_group"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:text="@string/install"
-                    app:cornerRadius="24dp" />
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <!-- Main Button Card -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/btn_download_main_card"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:cardElevation="0dp"
+                        app:strokeWidth="0dp"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearance.App.LeftSplitButton"
+                        app:cardBackgroundColor="?attr/colorPrimary">
+
+                        <LinearLayout
+                            android:id="@+id/btn_download_main"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:background="?attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:focusable="true">
+
+                            <TextView
+                                android:id="@+id/tv_download_action"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/install"
+                                android:textColor="?attr/colorOnPrimary"
+                                android:textStyle="bold"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/tv_download_subtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="?attr/colorOnPrimary"
+                                android:textSize="11sp"
+                                android:visibility="gone"
+                                tools:text="aarch64 • 11.5 MB"
+                                tools:visibility="visible" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Space Gap -->
+                    <Space
+                        android:id="@+id/divider_download"
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"
+                        tools:visibility="visible" />
+
+                    <!-- Dropdown Arrow Card -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/btn_download_dropdown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:cardElevation="0dp"
+                        app:strokeWidth="0dp"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearance.App.RightSplitButton"
+                        app:cardBackgroundColor="?attr/colorPrimary"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:visibility="gone"
+                        tools:visibility="visible">
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_arrow_down"
+                            android:scaleType="centerInside"
+                            android:background="?attr/selectableItemBackground"
+                            android:contentDescription="@string/select_variant"
+                            app:tint="?attr/colorOnPrimary" />
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
 
             </LinearLayout>
 

@@ -427,17 +427,22 @@ class DetailActivity : AppCompatActivity() {
                     setupInstallButton(repo.name, repo.owner.login)
                 } else {
                     currentApkAsset = null
-                    btnDownload.text = getString(R.string.view_release)
-                    btnDownload.setOnClickListener {
+                    setDownloadButtonState(getString(R.string.view_release))
+                    btnDownloadMain.setOnClickListener {
                         openUrl(release.htmlUrl)
+                    }
+                    updateSplitButtonShape(true)
+                    btnDownloadDropdown.setOnClickListener {
+                        showReleaseVariantPicker()
                     }
                 }
             } else {
                 cardRelease.visibility = View.GONE
-                btnDownload.text = getString(R.string.view_on_github)
-                btnDownload.setOnClickListener {
+                setDownloadButtonState(getString(R.string.view_on_github))
+                btnDownloadMain.setOnClickListener {
                     openUrl(repo.htmlUrl)
                 }
+                updateSplitButtonShape(false)
             }
 
             // GitHub button
@@ -472,10 +477,65 @@ class DetailActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    private fun setDownloadButtonState(text: String, isEnabled: Boolean = true, subtitle: String? = null) {
+        binding.apply {
+            tvDownloadAction.text = text
+            btnDownloadMain.isEnabled = isEnabled
+            cardDownloadGroup.isEnabled = isEnabled
+            cardDownloadGroup.alpha = if (isEnabled) 1.0f else 0.5f
+            
+            if (subtitle != null && subtitle.isNotEmpty()) {
+                tvDownloadSubtitle.text = subtitle
+                tvDownloadSubtitle.visibility = View.VISIBLE
+            } else {
+                tvDownloadSubtitle.visibility = View.GONE
+            }
+        }
+    }
+
+    private fun updateSplitButtonShape(showDropdown: Boolean) {
+        val radius24 = 24f * resources.displayMetrics.density
+        val radius6 = 6f * resources.displayMetrics.density
+        
+        val builder = com.google.android.material.shape.ShapeAppearanceModel.builder()
+            .setTopLeftCorner(com.google.android.material.shape.CornerFamily.ROUNDED, radius24)
+            .setBottomLeftCorner(com.google.android.material.shape.CornerFamily.ROUNDED, radius24)
+            
+        if (showDropdown) {
+            builder.setTopRightCorner(com.google.android.material.shape.CornerFamily.ROUNDED, radius6)
+            builder.setBottomRightCorner(com.google.android.material.shape.CornerFamily.ROUNDED, radius6)
+            binding.btnDownloadDropdown.visibility = View.VISIBLE
+            binding.dividerDownload.visibility = View.VISIBLE
+        } else {
+            builder.setTopRightCorner(com.google.android.material.shape.CornerFamily.ROUNDED, radius24)
+            builder.setBottomRightCorner(com.google.android.material.shape.CornerFamily.ROUNDED, radius24)
+            binding.btnDownloadDropdown.visibility = View.GONE
+            binding.dividerDownload.visibility = View.GONE
+        }
+        binding.btnDownloadMainCard.shapeAppearanceModel = builder.build()
+    }
+
+    private fun formatAssetSubtitle(asset: ReleaseAsset?): String? {
+        if (asset == null) return null
+        
+        val lowerName = asset.name.lowercase()
+        val archStr = when {
+            lowerName.contains("arm64") || lowerName.contains("aarch64") -> "aarch64"
+            lowerName.contains("armeabi-v7a") || lowerName.contains("arm-v7a") || lowerName.contains("armv7") -> "armeabi-v7a"
+            lowerName.contains("x86_64") -> "x86_64"
+            lowerName.contains("x86") -> "x86"
+            lowerName.contains("universal") || lowerName.contains("all") -> "Universal"
+            else -> "App"
+        }
+        
+        val sizeMb = String.format(java.util.Locale.US, "%.1f MB", asset.size / (1024.0 * 1024.0))
+        return "$archStr • $sizeMb"
+    }
+
     private fun startDownload(asset: ReleaseAsset) {
         // Disable button immediately
-        binding.btnDownload.isEnabled = false
-        binding.btnDownload.text = "0%"
+        setDownloadButtonState("0%", false, formatAssetSubtitle(asset))
+        binding.btnDownloadDropdown.isEnabled = false
         
         appInstaller.download(
             url = asset.downloadUrl,
@@ -488,24 +548,23 @@ class DetailActivity : AppCompatActivity() {
             runOnUiThread {
                 when (state) {
                     is AppInstaller.InstallState.Idle -> {
-                        binding.btnDownload.isEnabled = true
-                        binding.btnDownload.text = getString(R.string.install)
+                        setDownloadButtonState(getString(R.string.install), true, formatAssetSubtitle(currentApkAsset))
+                        binding.btnDownloadDropdown.isEnabled = true
                     }
                     is AppInstaller.InstallState.Downloading -> {
-                        binding.btnDownload.isEnabled = false
-                        binding.btnDownload.text = "${state.progress}% (${state.downloaded}/${state.total})"
+                        setDownloadButtonState("${state.progress}% (${state.downloaded}/${state.total})", false, formatAssetSubtitle(currentApkAsset))
                     }
                     is AppInstaller.InstallState.Installing -> {
-                        binding.btnDownload.text = getString(R.string.installing)
+                        setDownloadButtonState(getString(R.string.installing), false)
                     }
                     is AppInstaller.InstallState.Success -> {
-                        binding.btnDownload.isEnabled = true
+                        binding.btnDownloadDropdown.isEnabled = true
                         Toast.makeText(this@DetailActivity, R.string.download_complete, Toast.LENGTH_SHORT).show()
                         checkInstalledState()
                     }
                     is AppInstaller.InstallState.Error -> {
-                        binding.btnDownload.isEnabled = true
-                        binding.btnDownload.text = getString(R.string.install)
+                        setDownloadButtonState(getString(R.string.install), true, formatAssetSubtitle(currentApkAsset))
+                        binding.btnDownloadDropdown.isEnabled = true
                         Toast.makeText(this@DetailActivity, state.message, Toast.LENGTH_SHORT).show()
                     }
                 }
@@ -535,6 +594,12 @@ class DetailActivity : AppCompatActivity() {
             Log.d(TAG, "setupInstallButton: repo='$repoName', owner='$ownerName', " +
                     "detectedPkg='$installedPackageName', isInstalled=$isInstalled")
 
+            // Always show dropdown arrow, even if only 1 variant exists
+            updateSplitButtonShape(true)
+            binding.btnDownloadDropdown.setOnClickListener {
+                showReleaseVariantPicker()
+            }
+
             if (isInstalled && installedPackageName != null) {
                 // Check if update is available
                 val installedVersion = appInstaller.getInstalledVersion(installedPackageName!!)
@@ -543,9 +608,6 @@ class DetailActivity : AppCompatActivity() {
                 } else {
                     false
                 }
-
-                Log.d(TAG, "setupInstallButton: installedVersion='$installedVersion', " +
-                        "releaseTag='$currentReleaseTag', hasUpdate=$hasUpdate")
                 
                 // Show uninstall button
                 binding.btnUninstall.visibility = View.VISIBLE
@@ -554,34 +616,25 @@ class DetailActivity : AppCompatActivity() {
                 }
                 
                 if (hasUpdate) {
-                    // Update available - show Update button
-                    if (allApkAssets.size > 1) {
-                        binding.btnDownload.text = getString(R.string.update) + " (${allApkAssets.size} variants)"
-                    } else {
-                        binding.btnDownload.text = getString(R.string.update)
-                    }
+                    // Update available
+                    setDownloadButtonState(getString(R.string.update), true, formatAssetSubtitle(currentApkAsset))
                     
-                    binding.btnDownload.setOnClickListener {
-                        // Show picker if multiple APKs available, otherwise download directly
-                        if (allApkAssets.size > 1) {
-                            showReleaseVariantPicker()
-                        } else {
-                            currentApkAsset?.let { startDownload(it) } ?: run {
-                                // Fallback: open release page if no APK but button was shown
-                                openUrl(currentRepo?.htmlUrl ?: "")
-                            }
+                    binding.btnDownloadMain.setOnClickListener {
+                        currentApkAsset?.let { startDownload(it) } ?: run {
+                            openUrl(currentRepo?.htmlUrl ?: "")
                         }
                     }
                 } else {
-                    binding.btnDownload.text = getString(R.string.open)
-                    binding.btnDownload.setOnClickListener {
+                    updateSplitButtonShape(false)
+                    setDownloadButtonState(getString(R.string.open), true, null)
+                    binding.btnDownloadMain.setOnClickListener {
                         if (!appInstaller.launch(installedPackageName!!)) {
                             Toast.makeText(this@DetailActivity, R.string.cannot_open_app, Toast.LENGTH_SHORT).show()
                         }
                     }
                     
                     // Allow overriding mismatch or switching variants via long-press
-                    binding.btnDownload.setOnLongClickListener {
+                    binding.btnDownloadMain.setOnLongClickListener {
                         showMismatchActionDialog(installedPackageName!!)
                         true
                     }
@@ -590,24 +643,19 @@ class DetailActivity : AppCompatActivity() {
                 // Not installed - show Install button
                 binding.btnUninstall.visibility = View.GONE
                 
-                // Show indicator if multiple APKs available
-                if (allApkAssets.size > 1) {
-                    binding.btnDownload.text = getString(R.string.install) + " (${allApkAssets.size} variants)"
-                } else {
-                    binding.btnDownload.text = getString(R.string.install)
-                }
+                setDownloadButtonState(getString(R.string.install), true, formatAssetSubtitle(currentApkAsset))
                 
-                binding.btnDownload.setOnClickListener {
-                    // Show picker if multiple APKs available, otherwise download directly
-                    if (allApkAssets.size > 1) {
-                        showReleaseVariantPicker()
-                    } else {
-                        currentApkAsset?.let { startDownload(it) } ?: run {
-                            // Fallback
-                            openUrl(currentRepo?.htmlUrl ?: "")
-                        }
+                binding.btnDownloadMain.setOnClickListener {
+                    currentApkAsset?.let { startDownload(it) } ?: run {
+                        // Fallback
+                        openUrl(currentRepo?.htmlUrl ?: "")
                     }
                 }
+            }
+            
+            // Remove lingering long-press listener if not installed
+            if (!isInstalled) {
+                binding.btnDownloadMain.setOnLongClickListener(null)
             }
         }
     }
@@ -630,12 +678,8 @@ class DetailActivity : AppCompatActivity() {
                 }
             }
             .setNegativeButton(R.string.install_anyway) { _, _ ->
-                if (allApkAssets.size > 1) {
-                    showReleaseVariantPicker()
-                } else {
-                    currentApkAsset?.let { startDownload(it) } ?: run {
-                        openUrl(currentRepo?.htmlUrl ?: "")
-                    }
+                currentApkAsset?.let { startDownload(it) } ?: run {
+                    openUrl(currentRepo?.htmlUrl ?: "")
                 }
             }
             .setNeutralButton(R.string.forget_mapping) { _, _ ->
@@ -651,26 +695,47 @@ class DetailActivity : AppCompatActivity() {
 
     private fun showReleaseVariantPicker() {
         val bottomSheet = BottomSheetDialog(this)
-        val pickerBinding = LayoutReleaseVariantPickerBinding.inflate(layoutInflater)
+        val pickerBinding = com.samyak.repostore.databinding.LayoutReleaseVariantPickerBinding.inflate(layoutInflater)
         bottomSheet.setContentView(pickerBinding.root)
 
-        val adapter = ReleaseVariantAdapter { asset ->
-            currentApkAsset = asset
-            startDownload(asset)
-            bottomSheet.dismiss()
-        }
-        
-        // Mark the auto-selected APK as recommended
-        adapter.setRecommendedAssetId(currentApkAsset?.id)
+        if (allApkAssets.isEmpty()) {
+            pickerBinding.layoutNoApk.visibility = View.VISIBLE
+            pickerBinding.rvVariants.visibility = View.GONE
+        } else {
+            pickerBinding.layoutNoApk.visibility = View.GONE
+            pickerBinding.rvVariants.visibility = View.VISIBLE
 
-        pickerBinding.rvVariants.apply {
-            this.adapter = adapter
-            layoutManager = LinearLayoutManager(this@DetailActivity)
+            val adapter = com.samyak.repostore.ui.adapter.ReleaseVariantAdapter { asset ->
+                currentApkAsset = asset
+                setDownloadButtonState(binding.tvDownloadAction.text.toString(), true, formatAssetSubtitle(asset))
+                bottomSheet.dismiss()
+            }
+            
+            // Find the actual recommended asset
+            val recommendedResult = com.samyak.repostore.util.ApkArchitectureHelper.selectBestApk(allApkAssets)
+            val recommendedAssetId = when (recommendedResult) {
+                is com.samyak.repostore.util.ApkSelectionResult.Single -> recommendedResult.asset.id
+                is com.samyak.repostore.util.ApkSelectionResult.ExactMatch -> recommendedResult.asset.id
+                is com.samyak.repostore.util.ApkSelectionResult.Universal -> recommendedResult.asset.id
+                is com.samyak.repostore.util.ApkSelectionResult.Fallback -> recommendedResult.asset.id
+                else -> null
+            }
+            
+            // Mark the actual recommended APK
+            adapter.setRecommendedAssetId(recommendedAssetId)
+            // Mark the currently selected APK (what will be downloaded)
+            adapter.setSelectedAssetId(currentApkAsset?.id)
+
+            pickerBinding.rvVariants.apply {
+                this.adapter = adapter
+                layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this@DetailActivity)
+            }
+
+            // Sort variants: Recommended first, then others
+            val sortedVariants = allApkAssets.sortedWith(compareByDescending { it.id == recommendedAssetId })
+            adapter.submitList(sortedVariants)
         }
 
-        // Sort variants: Recommended first, then others
-        val sortedVariants = allApkAssets.sortedWith(compareByDescending { it.id == currentApkAsset?.id })
-        adapter.submitList(sortedVariants)
         bottomSheet.show()
     }
 
