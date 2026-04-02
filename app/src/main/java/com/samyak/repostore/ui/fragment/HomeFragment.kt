@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
+import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
@@ -13,7 +13,6 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
-import androidx.viewpager2.widget.ViewPager2
 import com.samyak.repostore.ui.widget.ShimmerFrameLayout
 import com.google.android.material.tabs.TabLayout
 import com.samyak.repostore.R
@@ -24,6 +23,7 @@ import com.samyak.repostore.databinding.FragmentHomeBinding
 import com.samyak.repostore.databinding.SectionAppCarouselBinding
 import com.samyak.repostore.databinding.SectionAppListBinding
 import com.samyak.repostore.ui.activity.AppListActivity
+import com.samyak.repostore.ui.activity.CategoriesActivity
 import com.samyak.repostore.ui.activity.DetailActivity
 import com.samyak.repostore.ui.adapter.FeaturedAppAdapter
 import com.samyak.repostore.ui.adapter.PlayStoreAppAdapter
@@ -45,15 +45,11 @@ class HomeFragment : Fragment() {
     }
 
     private lateinit var featuredAdapter: FeaturedAppAdapter
-    private lateinit var trendingAdapter: PlayStoreAppAdapter
-    private lateinit var updatedAdapter: PlayStoreAppAdapter
-
     private lateinit var sectionFeatured: SectionAppCarouselBinding
-    private lateinit var sectionTrending: SectionAppListBinding
-    private lateinit var sectionUpdated: SectionAppListBinding
 
+    // Dynamic category sections: category -> (section view, binding, adapter)
+    private val categorySections = mutableMapOf<AppCategory, Triple<View, SectionAppListBinding, PlayStoreAppAdapter>>()
 
-    
     // Shimmer layout for skeleton loading
     private var shimmerLayout: ShimmerFrameLayout? = null
 
@@ -69,29 +65,23 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Initialize shimmer layout from the included layout
-        // ViewBinding exposes included layouts, but ShimmerFrameLayout is the root
         shimmerLayout = view.findViewById(R.id.skeleton_layout)
-        
+
         bindSections()
         setupSearchBar()
         setupCategoryTabs()
         setupFeaturedCarousel()
-        setupAppSections()
-        setupSeeMoreButtons()
+        setupCategorySections()
+        setupFeaturedSeeMore()
         setupSwipeRefresh()
         setupErrorRetry()
+        setupScrollListener()
         observeViewModel()
     }
 
     private fun bindSections() {
         sectionFeatured = SectionAppCarouselBinding.bind(binding.sectionFeatured.root)
-        sectionTrending = SectionAppListBinding.bind(binding.sectionTrending.root)
-        sectionUpdated = SectionAppListBinding.bind(binding.sectionUpdated.root)
-
         sectionFeatured.tvSectionTitle.text = getString(R.string.recommended_for_you)
-        sectionTrending.tvSectionTitle.text = getString(R.string.top_free_apps)
-        sectionUpdated.tvSectionTitle.text = getString(R.string.recently_updated)
     }
 
     private fun setupSearchBar() {
@@ -103,25 +93,91 @@ class HomeFragment : Fragment() {
         }
     }
 
+    /**
+     * Setup category tabs - show first 5 categories + "More" tab.
+     * Tapping a category tab scrolls to that section.
+     * Tapping "More" opens CategoriesActivity with all categories.
+     */
     private fun setupCategoryTabs() {
-        val categories = AppCategory.entries
-        categories.forEach { category ->
+        val allCategories = viewModel.displayCategories
+        val visibleCategories = allCategories.take(5)
+
+        // Add "All" tab first (scrolls to top)
+        binding.tabCategories.addTab(
+            binding.tabCategories.newTab().setText(AppCategory.ALL.displayName)
+        )
+
+        // Add first 5 category tabs
+        visibleCategories.forEach { category ->
             binding.tabCategories.addTab(
                 binding.tabCategories.newTab().setText(category.displayName)
             )
         }
 
+        // Add "More" tab as the 6th option
+        binding.tabCategories.addTab(
+            binding.tabCategories.newTab().setText(getString(R.string.more))
+        )
+
         binding.tabCategories.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
             override fun onTabSelected(tab: TabLayout.Tab?) {
                 tab?.let {
-                    val category = categories[it.position]
-                    viewModel.selectCategory(category)
+                    when {
+                        it.position == 0 -> {
+                            // "All" tab - scroll to top
+                            binding.scrollView.smoothScrollTo(0, 0)
+                        }
+                        it.position <= visibleCategories.size -> {
+                            // Category tab - scroll to section
+                            val category = visibleCategories[it.position - 1]
+                            viewModel.loadCategoryIfNeeded(category)
+                            scrollToCategorySection(category)
+                        }
+                        else -> {
+                            // "More" tab - open CategoriesActivity
+                            startActivity(CategoriesActivity.newIntent(requireContext()))
+                            // Reset tab selection to previous tab
+                            binding.tabCategories.post {
+                                binding.tabCategories.getTabAt(0)?.select()
+                            }
+                        }
+                    }
                 }
             }
 
             override fun onTabUnselected(tab: TabLayout.Tab?) {}
-            override fun onTabReselected(tab: TabLayout.Tab?) {}
+            override fun onTabReselected(tab: TabLayout.Tab?) {
+                tab?.let {
+                    when {
+                        it.position == 0 -> {
+                            binding.scrollView.smoothScrollTo(0, 0)
+                        }
+                        it.position <= visibleCategories.size -> {
+                            val category = visibleCategories[it.position - 1]
+                            scrollToCategorySection(category)
+                        }
+                        else -> {
+                            startActivity(CategoriesActivity.newIntent(requireContext()))
+                        }
+                    }
+                }
+            }
         })
+    }
+
+    /**
+     * Scroll the NestedScrollView to the given category's section
+     */
+    private fun scrollToCategorySection(category: AppCategory) {
+        categorySections[category]?.let { (sectionView, _, _) ->
+            // Ensure the section is visible first
+            if (sectionView.visibility == View.GONE) {
+                sectionView.visibility = View.VISIBLE
+            }
+            sectionView.post {
+                binding.scrollView.smoothScrollTo(0, sectionView.top)
+            }
+        }
     }
 
     private fun setupFeaturedCarousel() {
@@ -142,64 +198,76 @@ class HomeFragment : Fragment() {
                 page.scaleY = scale
             }
             setPageTransformer(transformer)
-
-            // No page change callback needed - WormDotsIndicator handles it automatically
         }
     }
 
     private fun setupWormDotsIndicator() {
-        // Attach WormDotsIndicator to ViewPager2 - handles page changes automatically
         sectionFeatured.wormDotsIndicator.attachTo(sectionFeatured.viewpagerFeatured)
     }
 
-    private fun setupAppSections() {
-        trendingAdapter = PlayStoreAppAdapter { appItem ->
-            navigateToDetail(appItem)
-        }
-        sectionTrending.rvApps.apply {
-            adapter = trendingAdapter
-            layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
-        }
+    /**
+     * Dynamically create a section_app_list for each AppCategory
+     */
+    private fun setupCategorySections() {
+        val contentLayout = binding.contentLayout
+        val displayCategories = viewModel.displayCategories
+        val density = resources.displayMetrics.density
 
-        updatedAdapter = PlayStoreAppAdapter { appItem ->
-            navigateToDetail(appItem)
-        }
-        sectionUpdated.rvApps.apply {
-            adapter = updatedAdapter
-            layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+        displayCategories.forEach { category ->
+            val sectionView = layoutInflater.inflate(
+                R.layout.section_app_list,
+                contentLayout,
+                false
+            )
+
+            val params = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            params.topMargin = (16 * density).toInt()
+            sectionView.layoutParams = params
+
+            val sectionBinding = SectionAppListBinding.bind(sectionView)
+            sectionBinding.tvSectionTitle.text = category.displayName
+
+            val adapter = PlayStoreAppAdapter { appItem ->
+                navigateToDetail(appItem)
+            }
+            sectionBinding.rvApps.apply {
+                this.adapter = adapter
+                layoutManager = LinearLayoutManager(
+                    requireContext(),
+                    LinearLayoutManager.HORIZONTAL,
+                    false
+                )
+            }
+
+            // Hide until data is loaded
+            sectionView.visibility = View.GONE
+
+            // See more button navigates to full app list for this category
+            sectionBinding.btnSeeMore.setOnClickListener {
+                val intent = AppListActivity.newIntent(
+                    requireContext(),
+                    ListType.CATEGORY,
+                    category.displayName,
+                    category.name
+                )
+                startActivity(intent)
+            }
+
+            contentLayout.addView(sectionView)
+            categorySections[category] = Triple(sectionView, sectionBinding, adapter)
         }
     }
 
-    private fun setupSeeMoreButtons() {
+    private fun setupFeaturedSeeMore() {
         sectionFeatured.btnSeeMore.setOnClickListener {
-            val category = viewModel.selectedCategory.value
             val intent = AppListActivity.newIntent(
                 requireContext(),
                 ListType.FEATURED,
                 getString(R.string.recommended_for_you),
-                category.name
-            )
-            startActivity(intent)
-        }
-
-        sectionTrending.btnSeeMore.setOnClickListener {
-            val category = viewModel.selectedCategory.value
-            val intent = AppListActivity.newIntent(
-                requireContext(),
-                ListType.TRENDING,
-                getString(R.string.top_free_apps),
-                category.name
-            )
-            startActivity(intent)
-        }
-
-        sectionUpdated.btnSeeMore.setOnClickListener {
-            val category = viewModel.selectedCategory.value
-            val intent = AppListActivity.newIntent(
-                requireContext(),
-                ListType.UPDATED,
-                getString(R.string.recently_updated),
-                category.name
+                AppCategory.ALL.name
             )
             startActivity(intent)
         }
@@ -207,6 +275,9 @@ class HomeFragment : Fragment() {
 
     private fun setupSwipeRefresh() {
         binding.swipeRefresh.setOnRefreshListener {
+            categorySections.values.forEach { (sectionView, _, _) ->
+                sectionView.visibility = View.GONE
+            }
             viewModel.refresh()
         }
     }
@@ -217,11 +288,34 @@ class HomeFragment : Fragment() {
         }
     }
 
+    /**
+     * Lazy-load more categories as user scrolls down
+     */
+    private fun setupScrollListener() {
+        binding.scrollView.setOnScrollChangeListener { _, _, scrollY, _, oldScrollY ->
+            if (scrollY > oldScrollY) {
+                val child = binding.scrollView.getChildAt(0) ?: return@setOnScrollChangeListener
+                val scrollRange = child.height - binding.scrollView.height
+                if (scrollRange > 0 && scrollY > scrollRange * 0.6) {
+                    viewModel.loadMoreCategories()
+                }
+            }
+        }
+    }
+
     private fun observeViewModel() {
         viewLifecycleOwner.lifecycleScope.launch {
             viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
-                viewModel.uiState.collect { state ->
-                    handleUiState(state)
+                launch {
+                    viewModel.uiState.collect { state ->
+                        handleUiState(state)
+                    }
+                }
+
+                launch {
+                    viewModel.categoryApps.collect { categoryAppsMap ->
+                        updateCategorySections(categoryAppsMap)
+                    }
                 }
             }
         }
@@ -248,14 +342,14 @@ class HomeFragment : Fragment() {
                 hideSkeleton()
                 binding.scrollView.visibility = View.VISIBLE
                 binding.tvError.visibility = View.GONE
-                updateSections(state.currentApps)
+                updateFeaturedSection(state.currentApps)
             }
 
             is HomeUiState.Success -> {
                 hideSkeleton()
                 binding.scrollView.visibility = View.VISIBLE
                 binding.tvError.visibility = View.GONE
-                updateSections(state.apps)
+                updateFeaturedSection(state.apps)
             }
 
             is HomeUiState.Error -> {
@@ -263,26 +357,18 @@ class HomeFragment : Fragment() {
                 binding.scrollView.visibility = View.GONE
                 binding.tvError.visibility = View.VISIBLE
                 binding.tvError.text = "${state.message}\n\n${getString(R.string.tap_to_retry)}"
-                
-                // Show rate limit dialog if applicable
                 RateLimitDialog.showIfNeeded(requireContext(), state.message)
             }
         }
     }
-    
-    /**
-     * Show skeleton loading animation
-     */
+
     private fun showSkeleton() {
         shimmerLayout?.apply {
             visibility = View.VISIBLE
             startShimmer()
         }
     }
-    
-    /**
-     * Hide skeleton loading animation
-     */
+
     private fun hideSkeleton() {
         shimmerLayout?.apply {
             stopShimmer()
@@ -290,28 +376,23 @@ class HomeFragment : Fragment() {
         }
     }
 
-    private fun updateSections(apps: List<AppItem>) {
+    private fun updateFeaturedSection(apps: List<AppItem>) {
         if (apps.isEmpty()) return
-
-        // Sort by stars for featured/trending
         val sortedByStars = apps.sortedByDescending { it.repo.stars }
-        
-        // Featured: top apps by stars (show at least some)
         val featured = sortedByStars.take(minOf(5, apps.size))
         featuredAdapter.submitList(featured)
         setupWormDotsIndicator()
+    }
 
-        // Trending: mix of top apps (may overlap for small sets)
-        val trending = if (apps.size > 5) {
-            sortedByStars.drop(3).take(10)
-        } else {
-            sortedByStars.take(10)
+    private fun updateCategorySections(categoryAppsMap: Map<AppCategory, List<AppItem>>) {
+        categoryAppsMap.forEach { (category, apps) ->
+            categorySections[category]?.let { (sectionView, _, adapter) ->
+                if (apps.isNotEmpty()) {
+                    adapter.submitList(apps.take(10))
+                    sectionView.visibility = View.VISIBLE
+                }
+            }
         }
-        trendingAdapter.submitList(trending.ifEmpty { sortedByStars.take(10) })
-
-        // Recently updated: sorted by update date
-        val updated = apps.sortedByDescending { it.repo.updatedAt }.take(10)
-        updatedAdapter.submitList(updated.ifEmpty { sortedByStars.take(10) })
     }
 
     private fun navigateToDetail(appItem: AppItem) {
@@ -325,6 +406,7 @@ class HomeFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        categorySections.clear()
         shimmerLayout = null
         _binding = null
     }

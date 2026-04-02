@@ -40,6 +40,8 @@
     <string name="top_free_apps">Top free apps</string>
     <string name="recently_updated">Recently updated</string>
     <string name="see_more">See more</string>
+    <string name="all_categories">All Categories</string>
+    <string name="more">More</string>
 
     <!-- Game Sections -->
     <string name="featured_games">Featured Games</string>

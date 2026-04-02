@@ -34,7 +34,7 @@ class AppListViewModel(
     private var isLoadingMore = false
 
     private val category: AppCategory? = categoryName?.let { 
-        AppCategory.values().find { cat -> cat.name == it }
+        AppCategory.entries.find { cat -> cat.name == it }
     }
 
     init {

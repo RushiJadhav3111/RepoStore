@@ -9,27 +9,27 @@ import androidx.appcompat.app.AppCompatDelegate
  * Supports: System, For You (Dynamic), Dark, Light modes.
  */
 object ThemePreferences {
-    
+
     private const val PREFS_NAME = "theme_preferences"
     private const val KEY_THEME_MODE = "theme_mode"
-    
+
     // Theme mode constants
     const val THEME_SYSTEM = 0
     const val THEME_FOR_YOU = 1  // Dynamic - follows system but can be personalized
     const val THEME_DARK = 2
     const val THEME_LIGHT = 3
-    
+
     private fun getPrefs(context: Context): SharedPreferences {
         return context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
     }
-    
+
     /**
      * Get the current theme mode
      */
     fun getThemeMode(context: Context): Int {
         return getPrefs(context).getInt(KEY_THEME_MODE, THEME_SYSTEM)
     }
-    
+
     /**
      * Set the theme mode and apply it
      */
@@ -37,7 +37,7 @@ object ThemePreferences {
         getPrefs(context).edit().putInt(KEY_THEME_MODE, mode).apply()
         applyTheme(mode)
     }
-    
+
     /**
      * Apply the theme based on mode
      */
@@ -51,7 +51,7 @@ object ThemePreferences {
         }
         AppCompatDelegate.setDefaultNightMode(nightMode)
     }
-    
+
     /**
      * Apply saved theme on app start
      */

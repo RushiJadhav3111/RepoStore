@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -36,8 +35,8 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@drawable/ic_search"
                     android:contentDescription="@string/search"
+                    android:src="@drawable/ic_search"
                     app:tint="?attr/colorOnSurfaceVariant" />
 
                 <TextView
@@ -49,12 +48,15 @@
                     android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
                     android:textColor="?attr/colorOnSurfaceVariant" />
 
-                <ImageView
+                <com.airbnb.lottie.LottieAnimationView
                     android:id="@+id/iv_profile"
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    android:src="@drawable/ic_github_mark"
                     android:contentDescription="@string/profile"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_colorFilter="?attr/colorOnSurfaceVariant"
+                    app:lottie_rawRes="@raw/github_logo"
                     app:tint="?attr/colorOnSurfaceVariant" />
 
             </LinearLayout>
@@ -67,13 +69,13 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             app:tabGravity="start"
-            app:tabMode="scrollable"
             app:tabIndicatorColor="?attr/colorPrimary"
-            app:tabSelectedTextColor="?attr/colorPrimary"
-            app:tabTextColor="?attr/colorOnSurfaceVariant"
             app:tabIndicatorFullWidth="false"
+            app:tabMode="scrollable"
+            app:tabPaddingEnd="16dp"
             app:tabPaddingStart="16dp"
-            app:tabPaddingEnd="16dp" />
+            app:tabSelectedTextColor="?attr/colorPrimary"
+            app:tabTextColor="?attr/colorOnSurfaceVariant" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -103,21 +105,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp" />
 
-                <!-- Trending Section -->
-                <include
-                    android:id="@+id/section_trending"
-                    layout="@layout/section_app_list"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp" />
-
-                <!-- Recently Updated Section -->
-                <include
-                    android:id="@+id/section_updated"
-                    layout="@layout/section_app_list"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp" />
+                <!-- Category sections are added dynamically by HomeFragment -->
 
             </LinearLayout>
 
