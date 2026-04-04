@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Ana Sayfa</string>
+    <string name="games">Oyunlar</string>
+    <string name="apps">Uygulamalar</string>
+    <string name="trending">Trendler</string>
+    <string name="search">Ara</string>
+    <string name="profile">Profil</string>
+    <string name="back">Geri</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Uygulama ve oyun ara</string>
+    <string name="search_github_repos">GitHub depolarında ara…</string>
+    <string name="search_hint">GitHub\'daki Android uygulamalarını keşfet</string>
+    <string name="no_results">Maalesef bir şey bulamadık</string>
+    <string name="clear">Temizle</string>
+    <string name="voice_search">Sesli arama</string>
+    <string name="filter">Filtrele</string>
+    <string name="sort_by">Şuna göre sırala:</string>
+    <string name="updated">Güncelleme</string>
+    <string name="has_apk">APK\'sı var</string>
+    <string name="reset">Sıfırla</string>
+    <string name="results_count">%d sonuç</string>
+    <string name="any_language">Tüm diller</string>
+    <string name="any_stars">Fark etmez</string>
+    <string name="min_stars_format">%d+ yıldız</string>
+    <string name="best_match">En Alâkalı</string>
+    <string name="most_stars">En Çok Yıldız</string>
+    <string name="most_forks">En Çok Fork</string>
+    <string name="recently_updated_sort">En Son Güncellenenler</string>
+    <string name="any_time">Tüm zamanlar</string>
+    <string name="last_week">Son 1 hafta</string>
+    <string name="last_month">Son 1 ay</string>
+    <string name="last_3_months">Son 3 ay</string>
+    <string name="last_year">Son 1 yıl</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Sana özel öneriler</string>
+    <string name="top_free_apps">Popüler ücretsizler</string>
+    <string name="recently_updated">Yeni güncellenenler</string>
+    <string name="see_more">Tümünü gör</string>
+    <string name="all_categories">Tüm Kategoriler</string>
+    <string name="more">Daha fazla</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Öne Çıkan Oyunlar</string>
+    <string name="popular_games">Popüler Oyunlar</string>
+    <string name="new_games">Yeni Oyunlar</string>
+    <string name="no_games_found">Hiç oyun bulunamadı</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Uygulama simgesi</string>
+    <string name="banner">Kapak görseli</string>
+    <string name="about">Hakkında</string>
+    <string name="about_this_app">Bu uygulama hakkında</string>
+    <string name="screenshots">Ekran Görüntüleri</string>
+    <string name="screenshot">Ekran görüntüsü</string>
+    <string name="stars">Yıldız</string>
+    <string name="forks">Fork</string>
+    <string name="language">Dil</string>
+    <string name="last_updated">Son güncelleme</string>
+    <string name="updated_on">Güncellenme tarihi</string>
+    <string name="latest_release">Son Sürüm</string>
+    <string name="whats_new">Yeni neler var?</string>
+    <string name="readme">README</string>
+    <string name="download">İndir</string>
+    <string name="install">Yükle</string>
+    <string name="download_apk">APK İndir</string>
+    <string name="view_release">Sürümü Görüntüle</string>
+    <string name="view_on_github">GitHub\'da gör</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Açıklama girilmemiş</string>
+    <string name="no_release_notes">Sürüm notu eklenmemiş</string>
+    <string name="archived">Arşivlendi</string>
+
+    <!-- Tags -->
+    <string name="tag_new">YENİ</string>
+    <string name="tag_updated">GÜNCELLENDİ</string>
+    <string name="tag_archived">ARŞİVLENDİ</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Hiç uygulama bulunamadı</string>
+    <string name="no_repos_found">Hiç depo bulunamadı</string>
+    <string name="rate_limit_error">İstek sınırına takıldın. Lütfen biraz sonra tekrar dene.</string>
+    <string name="network_error">Bağlantı hatası. Lütfen internetini kontrol et.</string>
+    <string name="tap_to_retry">Tekrar denemek için dokun</string>
+    <string name="loading">Yükleniyor…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Depolar</string>
+    <string name="repositories_count">%d depo</string>
+    <string name="view_github_profile">GitHub Profiline Git</string>
+
+    <!-- Settings -->
+    <string name="settings">Ayarlar</string>
+    <string name="github_token">GitHub Kişisel Erişim Jetonu (Token)</string>
+    <string name="github_token_desc">Jeton ekleyerek saatlik 60 olan API limitini 5.000 isteğe çıkarabilirsin.</string>
+    <string name="enter_token">GitHub jetonunu gir</string>
+    <string name="save_token">Jetonu Kaydet</string>
+    <string name="clear_token">Jetonu Sil</string>
+    <string name="create_token_on_github">GitHub\'da Jeton Oluştur</string>
+    <string name="token_saved">Jeton başarıyla kaydedildi</string>
+    <string name="token_removed">Jeton kaldırıldı</string>
+    <string name="rate_limit_info_title">API İstek Sınırı</string>
+    <string name="rate_limit_info_desc">Jetonsuz: Saatte 60 istek\nJetonlu: Saatte 5.000 istek</string>
+    <string name="how_to_create_token">Nasıl jeton oluşturulur?</string>
+    <string name="token_instructions">1. GitHub Ayarları → \"Developer settings\" menüsüne git\n2. \"Personal access tokens\" → \"Tokens (classic)\" seçeneğine tıkla\n3. \"Generate new token\" diyerek yeni oluştur\n4. Bir isim ver ve \"public_repo\" yetkisini seç\n5. \"Generate token\" butonuna bas ve çıkan kodu kopyala</string>
+    <string name="no_token_set">Jeton eklenmemiş</string>
+    <string name="token_configured">Jeton ayarlandı</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Geliştirici</string>
+    <string name="followers">Takipçi</string>
+    <string name="following">Takip Edilen</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">İndiriliyor…</string>
+    <string name="downloading_apk">APK iniyor</string>
+    <string name="download_complete">İndirme tamamlandı</string>
+    <string name="download_in_progress">Şu anda zaten iniyor</string>
+    <string name="file_not_found">İndirilen dosya bulunamadı</string>
+    <string name="install_error">Yükleyici açılamadı</string>
+    <string name="installing">Yükleniyor…</string>
+    <string name="open">Aç</string>
+    <string name="cannot_open_app">Uygulama açılamıyor</string>
+    <string name="queued">Sırada…</string>
+    <string name="preparing">Hazırlanıyor…</string>
+    <string name="verifying">Doğrulanıyor…</string>
+    <string name="storage_error">Depolama hatası oluştu</string>
+    <string name="insufficient_storage">Cihazda yeterli yer yok</string>
+    <string name="verification_failed">Dosya doğrulaması başarısız</string>
+    <string name="download_timeout">İndirme zaman aşımına uğradı</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="cancel">İptal</string>
+    <string name="update">Güncelle</string>
+    <string name="update_available">Güncelleme var</string>
+    <string name="uninstall">Kaldır</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">GitHub ile Giriş Yap</string>
+    <string name="sign_in_to_increase_limit">Limitini artırmak için giriş yap</string>
+    <string name="connecting_to_github">GitHub\'a bağlanılıyor…</string>
+    <string name="enter_code_on_github">Bu kodu GitHub\'a girin</string>
+    <string name="code_instructions">Tarayıcından GitHub\'ı aç ve giriş yapmak için aşağıdaki kodu gir.</string>
+    <string name="copy_code">Kodu Kopyala</string>
+    <string name="code_copied">Kod panoya kopyalandı</string>
+    <string name="open_github">GitHub\'ı Aç</string>
+    <string name="waiting_for_authorization">Onay bekleniyor…</string>
+    <string name="signed_in_successfully">Giriş başarılı!</string>
+    <string name="signed_in">Giriş yapıldı</string>
+    <string name="signed_in_as">%s olarak giriş yapıldı</string>
+    <string name="rate_limit_increased">API limiti saatte 5.000 isteğe yükseltildi</string>
+    <string name="sign_out">Çıkış Yap</string>
+    <string name="signed_out">Çıkış yapıldı</string>
+    <string name="failed_to_get_code">Onay kodu alınamadı</string>
+    <string name="auth_expired">Oturum süresi doldu. Lütfen tekrar dene.</string>
+    <string name="unknown_error">Bilinmeyen bir hata oluştu</string>
+    <string name="something_went_wrong">Bir şeyler ters gitti</string>
+    <string name="user">\@kullanici</string>
+    <string name="rate_limit_exceeded_title">Limit Aşıldı</string>
+    <string name="rate_limit_exceeded_message">GitHub API saatlik istek sınırını (60 istek) aştın.\n\nGitHub hesabınla giriş yaparak bu limiti tamamen ücretsiz bir şekilde saatte 5.000 isteğe çıkarabilirsin!</string>
+    <string name="rate_limit_exceeded_signed_in">Saatlik 5.000 olan istek limitini aştın. Lütfen tekrar denemeden önce birkaç dakika bekle.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Bağış Yap</string>
+    <string name="support_developer">Geliştiriciye Destek Ol</string>
+    <string name="donate_description">Bu uygulamayı faydalı bulduysan, ufak bir bağışla geliştirmeye destek olabilirsin.</string>
+    <string name="scan_qr_code">Ödemek için QR Kodu okut</string>
+    <string name="upi_qr_code">UPI QR Kodu</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Kopyala</string>
+    <string name="upi_id_copied">UPI ID panoya kopyalandı</string>
+    <string name="thank_you_message">Desteğin için çok teşekkürler! ❤️</string>
+    <string name="pay_with_upi_app">UPI Uygulamasıyla Öde</string>
+    <string name="no_upi_apps_found">Cihazında hiçbir UPI ödeme uygulaması bulunamadı</string>
+    <string name="payment_app_icon">Ödeme uygulaması simgesi</string>
+    <string name="pay">Öde</string>
+    <string name="cannot_open_payment_app">Ödeme uygulaması açılamadı</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Açık Kaynak Lisansları</string>
+    <string name="source_code">Kaynak Kod</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%s (%s/%s)</string>
+    <string name="download_starting">%%0</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Sürüm %s</string>
+    <string name="username_format">\@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Uygulamalarım</string>
+    <string name="no_favorite_apps">Henüz favori uygulaman yok</string>
+    <string name="no_favorite_apps_hint">Buraya eklemek için uygulamalardaki kalp simgesine dokunabilirsin</string>
+    <string name="add_to_favorites">Favorilere ekle</string>
+    <string name="remove_from_favorites">Favorilerden çıkar</string>
+    <string name="added_to_favorites">Favorilere eklendi</string>
+    <string name="removed_from_favorites">Favorilerden çıkarıldı</string>
+    <string name="favorite_apps">Favori Uygulamalar</string>
+    <string name="no_installed_apps">Yüklü uygulama yok</string>
+    <string name="no_installed_apps_hint">Favorilerinden yüklediğin uygulamalar burada görünecek</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Görünüm</string>
+    <string name="theme_system">Sisteme Uy</string>
+    <string name="theme_for_you">Sana Özel</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_light">Açık</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">İndirme Ayarları</string>
+    <string name="proxy">Proxy</string>
+    <string name="mirror_proxy_description">GitHub\'ın engelli olduğu bir bölgedeysen indirme yapmak için proxy kullanabilirsin.</string>
+    <string name="enable_mirror_proxy">Ayna (Mirror) Proxy\'yi Aç</string>
+    <string name="proxy_url_hint">Proxy Adresi (örn. https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Popüler Proxy\'ler</string>
+    <string name="multi_part_download">Parçalı İndirme</string>
+    <string name="multi_part_description">Dosyaları çoklu bağlantı kullanarak bölümler halinde, çok daha hızlı indir.</string>
+    <string name="enable_multi_part">Parçalı İndirmeyi Aç</string>
+    <string name="download_threads">İndirme İş Parçacığı (Thread)</string>
+    <string name="thread_count_hint">Yüksek değerler hızı artırabilir ama cihazı daha çok yorar (1-32)</string>
+    <string name="download_settings_info">Ayna proxy, GitHub bağlantılarını bir sunucu üzerinden geçirir. Parçalı indirme ise dosyaları küçük parçalara bölerek aynı anda indirir.</string>
+    <string name="download_speed_format">%s/sn</string>
+    <string name="select_variant">Sürüm Seç</string>
+    <string name="compatible">Uyumlu</string>
+    <string name="incompatible">Uyumsuz</string>
+    <string name="recommended">Önerilen</string>
+    <string name="app_mismatch_title">Farklı Bir Uygulama Mı?</string>
+    <string name="app_mismatch_message">RepoStore bu depoyu cihazındaki şu uygulamayla eşleştirdi: %1$s (%2$s).\n\nEğer bu aynı uygulama DEĞİLSE, yine de bu depodaki APK\'yı cihazına kurmayı seçebilirsin.</string>
+    <string name="install_anyway">Yine de Yükle</string>
+    <string name="forget_mapping">Eşleşmeyi Unut</string>
+</resources>
