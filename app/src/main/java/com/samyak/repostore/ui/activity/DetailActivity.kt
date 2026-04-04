@@ -597,9 +597,13 @@ class DetailActivity : AppCompatActivity() {
     private fun setupInstallButton(repoName: String, ownerName: String) {
         setupButtonJob?.cancel()
         setupButtonJob = lifecycleScope.launch {
-            // Run heavy findPackage (DB query + PackageManager scan) off the main thread
+            // Run heavy findPackage (DB query + GitHub source lookup + PackageManager scan) off the main thread
             val detectedPackage = withContext(Dispatchers.IO) {
-                appInstaller.findPackage(repoName, ownerName, currentReleaseTag)
+                appInstaller.findPackage(
+                    repoName, ownerName, currentReleaseTag,
+                    defaultBranch = currentRepo?.defaultBranch,
+                    language = currentRepo?.language
+                )
             }
             
             if (!isActive) return@launch

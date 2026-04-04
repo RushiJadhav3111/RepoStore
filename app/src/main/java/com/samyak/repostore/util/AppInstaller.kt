@@ -33,9 +33,27 @@ class AppInstaller private constructor(private val context: Context) {
 
         // Highly common keywords that shouldn't trigger a match on their own
         private val GENERIC_TOKENS = setOf(
-            "maps", "music", "player", "gallery", "calculator", "browser", "camera", 
-            "video", "audio", "file", "manager", "pro", "free", "lite", "app", 
-            "android", "google", "mobile", "tool", "editor", "viewer"
+            "maps", "music", "player", "gallery", "calculator", "browser", "camera",
+            "video", "audio", "file", "manager", "pro", "free", "lite", "app",
+            "android", "google", "mobile", "tool", "editor", "viewer",
+            // App-type tokens too common to be distinctive alone
+            "phone", "dialer", "contacts", "calendar", "clock", "alarm",
+            "keyboard", "launcher", "notes", "recorder", "weather",
+            "messenger", "mail", "email", "sms", "call", "radio",
+            "tv", "store", "market", "search", "translate", "drive",
+            "photos", "news", "reader", "writer", "scanner", "compass",
+            "torch", "flashlight", "timer", "counter", "tracker",
+            "monitor", "backup", "cleaner", "battery", "vpn", "proxy",
+            "wallet", "messages", "files", "settings", "updater"
+        )
+
+        // System/OEM package prefixes — these are almost never the correct
+        // match for an open-source GitHub repository
+        private val SYSTEM_PACKAGE_PREFIXES = listOf(
+            "com.google.android", "com.google.", "com.samsung.", "com.sec.android.",
+            "com.huawei.", "com.xiaomi.", "com.miui.", "com.oppo.", "com.coloros.",
+            "com.vivo.", "com.oneplus.", "com.motorola.", "com.lge.",
+            "com.qualcomm.", "com.mediatek.", "com.android."
         )
 
         @Volatile
@@ -645,10 +663,17 @@ class AppInstaller private constructor(private val context: Context) {
      * Find installed package by repo/owner name.
      * 
      * Priority:
-     * 1. Database Mapping (100% accurate)
-     * 2. Token-Based Similarity Scan (Fuzzy Matcher)
+     * 1. Database Mapping (100% accurate — from previous install)
+     * 2. GitHub Source Code Lookup (100% accurate — fetches real applicationId)
+     * 3. Token-Based Similarity Scan (Fuzzy Matcher — last resort)
      */
-    fun findPackage(repoName: String, ownerName: String, expectedVersion: String? = null): String? {
+    fun findPackage(
+        repoName: String,
+        ownerName: String,
+        expectedVersion: String? = null,
+        defaultBranch: String? = null,
+        language: String? = null
+    ): String? {
         Log.d(TAG, "findPackage: Looking for repo='$repoName', owner='$ownerName', expectedVersion='$expectedVersion'")
 
         // 1. Check Database for known mapping (100% accurate)
@@ -663,7 +688,39 @@ class AppInstaller private constructor(private val context: Context) {
             Log.e(TAG, "findPackage: Failed to check DB mapping", e)
         }
 
-        // 2. Fallback: Token-Based Similarity Scan
+        // 2. GitHub Source Code Lookup — fetch real applicationId from build.gradle/AndroidManifest.xml
+        // This provides 100% accurate detection without requiring prior installation
+        try {
+            val sourcePackageId = kotlinx.coroutines.runBlocking {
+                PackageIdFetcher.fetchPackageId(ownerName, repoName, defaultBranch, language)
+            }
+            if (sourcePackageId != null) {
+                Log.d(TAG, "findPackage: SOURCE CODE MATCH — Resolved applicationId '$sourcePackageId'")
+                // Cache in DB for instant future lookups
+                try {
+                    val dao = (context.applicationContext as RepoStoreApp).installedAppMappingDao
+                    downloadScope.launch {
+                        dao.saveMapping(InstalledAppMapping(
+                            ownerName = ownerName,
+                            repoName = repoName,
+                            packageName = sourcePackageId
+                        ))
+                    }
+                } catch (e: Exception) {
+                    Log.e(TAG, "findPackage: Failed to cache source code mapping", e)
+                }
+                if (isInstalled(sourcePackageId)) {
+                    return sourcePackageId
+                }
+                // Package found in source but not installed — return null (not installed)
+                Log.d(TAG, "findPackage: Package '$sourcePackageId' found in source but NOT installed")
+                return null
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "findPackage: GitHub source lookup failed", e)
+        }
+
+        // 3. Fallback: Token-Based Similarity Scan
         // Scans all apps and scores them based on token overlap with owner/repo
         return findBestMatchingPackage(repoName, ownerName, expectedVersion)
     }
@@ -802,7 +859,9 @@ class AppInstaller private constructor(private val context: Context) {
             }
         }
 
-        // 6. Penalty for generic-only matches
+        // 6. Penalty for generic-only matches (owner-aware)
+        // When all repo matches are generic words (phone, calculator, etc.),
+        // the owner match becomes the critical discriminator
         var genericMatchPenalty = 0.0
         val significantMatches = repoTokens.count { rToken ->
             !GENERIC_TOKENS.contains(rToken) && (
@@ -811,16 +870,38 @@ class AppInstaller private constructor(private val context: Context) {
             )
         }
         if (significantMatches == 0 && repoMatches > 0) {
-            // Match is entirely based on generic tokens like "maps"
-            genericMatchPenalty = 0.4
+            // All matching repo tokens are generic (e.g., "Phone", "Calculator")
+            val ownerMatchRatio = ownerMatches.toDouble() / ownerTokens.size.coerceAtLeast(1)
+            when {
+                ownerMatches == 0 -> {
+                    // No owner confirmation → very likely a wrong match
+                    // e.g., FossifyOrg/Phone matched to com.google.android.dialer
+                    genericMatchPenalty = 0.7
+                }
+                ownerMatchRatio < 0.5 -> {
+                    // Weak owner confirmation → suspicious
+                    genericMatchPenalty = 0.4
+                }
+                // Strong owner match → no penalty (owner confirms the match)
+            }
         }
 
-        // 7. Calculation
-        // Repo match: 0.5, Owner match: 0.2, Label boost: 0.3, Concat boost: 0.2, Version boost: 0.5
+        // 7. System/OEM package penalty
+        // System apps (com.google.android.*, com.samsung.*, etc.) are almost never
+        // the correct match for an open-source GitHub repository
+        var systemPenalty = 0.0
+        val lowerPkg = packageName.lowercase()
+        if (SYSTEM_PACKAGE_PREFIXES.any { lowerPkg.startsWith(it) }) {
+            if (ownerMatches == 0) {
+                systemPenalty = 0.5
+            }
+        }
+
+        // 8. Calculation
         val repoScore = repoMatches.toDouble() / repoTokens.size.coerceAtLeast(1)
         val ownerScore = ownerMatches.toDouble() / ownerTokens.size.coerceAtLeast(1)
-        
-        val finalScore = (repoScore * 0.5) + (ownerScore * 0.2) + labelBoost + concatBoost + versionBoost - genericMatchPenalty
+
+        val finalScore = (repoScore * 0.5) + (ownerScore * 0.3) + labelBoost + concatBoost + versionBoost - genericMatchPenalty - systemPenalty
         return finalScore.coerceAtLeast(0.0)
     }
 
