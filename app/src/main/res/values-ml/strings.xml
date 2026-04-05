@@ -1,0 +1,335 @@
+<resources>
+    <string name="app_name">റിപ്പോ സ്റ്റോർ</string>
+
+    <!-- Navigation -->
+    <string name="home">വീട്</string>
+    <string name="games">ഗെയിമുകൾ</string>
+    <string name="apps">ആപ്പുകൾ</string>
+    <string name="trending">ട്രെൻഡിംഗ്</string>
+    <string name="search">തിരയുക</string>
+    <string name="profile">പ്രൊഫൈൽ</string>
+    <string name="back">തിരികെ</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">ആപ്പുകളും ഗെയിമുകളും തിരയുക</string>
+    <string name="search_github_repos">GitHub ശേഖരണങ്ങൾ തിരയുക...</string>
+    <string name="search_hint">GitHub-ൽ Android ആപ്പുകൾക്കായി തിരയുക</string>
+    <string name="no_results">ഫലങ്ങളൊന്നും കണ്ടെത്തിയില്ല</string>
+    <string name="clear">ക്ലിയർ</string>
+    <string name="voice_search">ശബ്ദ തിരയൽ</string>
+    <string name="filter">ഫിൽട്ടർ ചെയ്യുക</string>
+    <string name="sort_by">ഇങ്ങനെ അടുക്കുക</string>
+    <string name="updated">അപ്ഡേറ്റ് ചെയ്തു</string>
+    <string name="has_apk">APK ഉണ്ട്</string>
+    <string name="reset">പുനഃസജ്ജമാക്കുക</string>
+    <string name="results_count">%d ഫലങ്ങൾ</string>
+    <string name="any_language">ഏത് ഭാഷയും</string>
+    <string name="any_stars">ഏതെങ്കിലും നക്ഷത്രങ്ങൾ</string>
+    <string name="min_stars_format">%d + നക്ഷത്രങ്ങൾ</string>
+    <string name="best_match">മികച്ച മത്സരം</string>
+    <string name="most_stars">മിക്ക താരങ്ങളും</string>
+    <string name="most_forks">മിക്ക ഫോർക്കുകളും</string>
+    <string name="recently_updated_sort">അടുത്തിടെ അപ്ഡേറ്റ് ചെയ്തത്</string>
+    <string name="any_time">എപ്പോൾ വേണമെങ്കിലും</string>
+    <string name="last_week">കഴിഞ്ഞ ആഴ്ച</string>
+    <string name="last_month">കഴിഞ്ഞ മാസം</string>
+    <string name="last_3_months">കഴിഞ്ഞ 3 മാസം</string>
+    <string name="last_year">കഴിഞ്ഞ വര്ഷം</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">നിങ്ങൾക്കായി ശുപാർശ ചെയ്‌തിരിക്കുന്നു</string>
+    <string name="top_free_apps">മുൻനിര സൗജന്യ ആപ്പുകൾ</string>
+    <string name="recently_updated">അടുത്തിടെ അപ്ഡേറ്റ് ചെയ്തത്</string>
+    <string name="see_more">കൂടുതൽ കാണുക</string>
+    <string name="all_categories">എല്ലാ വിഭാഗങ്ങളും</string>
+    <string name="more">കൂടുതൽ</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">തിരഞ്ഞെടുത്ത ഗെയിമുകൾ</string>
+    <string name="popular_games">ജനപ്രിയ ഗെയിമുകൾ</string>
+    <string name="new_games">പുതിയ ഗെയിമുകൾ</string>
+    <string name="no_games_found">ഗെയിമുകളൊന്നും കണ്ടെത്തിയില്ല</string>
+
+    <!-- App Details -->
+    <string name="app_icon">ആപ്പ് ഐക്കൺ</string>
+    <string name="banner">ബാനർ</string>
+    <string name="about">കുറിച്ച്</string>
+    <string name="about_this_app">ഈ ആപ്പിനെക്കുറിച്ച്</string>
+    <string name="screenshots">സ്ക്രീൻഷോട്ടുകൾ</string>
+    <string name="screenshot">സ്ക്രീൻഷോട്ട്</string>
+    <string name="stars">നക്ഷത്രങ്ങൾ</string>
+    <string name="forks">ഫോർക്കുകൾ</string>
+    <string name="language">ഭാഷ</string>
+    <string name="last_updated">അവസാനം അപ്ഡേറ്റ് ചെയ്തത്</string>
+    <string name="updated_on">അപ്ഡേറ്റ് ചെയ്തു</string>
+    <string name="latest_release">ഏറ്റവും പുതിയ റിലീസ്</string>
+    <string name="whats_new">പുതിയതെന്താണ്</string>
+    <string name="readme">README</string>
+    <string name="download">ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="install">ഇൻസ്റ്റാൾ ചെയ്യുക</string>
+    <string name="download_apk">APK ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="view_release">റിലീസ് കാണുക</string>
+    <string name="view_on_github">GitHub-ൽ കാണുക</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">വിവരണമൊന്നും ലഭ്യമല്ല</string>
+    <string name="no_release_notes">റിലീസ് കുറിപ്പുകളൊന്നുമില്ല</string>
+    <string name="archived">ആർക്കൈവ് ചെയ്തു</string>
+
+    <!-- Tags -->
+    <string name="tag_new">പുതിയത്</string>
+    <string name="tag_updated">അപ്ഡേറ്റ് ചെയ്തു</string>
+    <string name="tag_archived">ആർക്കൈവ് ചെയ്തു</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">ആപ്പുകളൊന്നും കണ്ടെത്തിയില്ല</string>
+    <string name="no_repos_found">ശേഖരങ്ങളൊന്നും കണ്ടെത്തിയില്ല</string>
+    <string name="rate_limit_error">നിരക്ക് പരിധി കവിഞ്ഞു. ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="network_error">നെറ്റ്‌വർക്ക് പിശക്. ദയവായി നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക.</string>
+    <string name="tap_to_retry">വീണ്ടും ശ്രമിക്കാൻ ടാപ്പ് ചെയ്യുക</string>
+    <string name="loading">ലോഡ് ചെയ്യുന്നു...</string>
+
+    <!-- Developer -->
+    <string name="repositories">ശേഖരങ്ങൾ</string>
+    <string name="repositories_count">%d ശേഖരങ്ങൾ</string>
+    <string name="view_github_profile">GitHub പ്രൊഫൈൽ കാണുക</string>
+
+    <!-- Settings -->
+    <string name="settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="github_token">GitHub വ്യക്തിഗത ആക്സസ് ടോക്കൺ</string>
+    <string name="github_token_desc">API നിരക്ക് പരിധി മണിക്കൂറിൽ 60 ൽ നിന്ന് 5000 ആയി ഉയർത്താൻ ഒരു ടോക്കൺ ചേർക്കുക.</string>
+    <string name="enter_token">നിങ്ങളുടെ GitHub ടോക്കൺ നൽകുക</string>
+    <string name="save_token">ടോക്കൺ സംരക്ഷിക്കുക</string>
+    <string name="clear_token">ടോക്കൺ മായ്‌ക്കുക</string>
+    <string name="create_token_on_github">GitHub-ൽ ടോക്കൺ സൃഷ്‌ടിക്കുക</string>
+    <string name="token_saved">ടോക്കൺ സംരക്ഷിച്ചു</string>
+    <string name="token_removed">ടോക്കൺ നീക്കം ചെയ്തു</string>
+    <string name="rate_limit_info_title">API നിരക്ക് പരിധി</string>
+    <string name="rate_limit_info_desc">ഒരു ടോക്കൺ ഇല്ലാതെ: 60 അഭ്യർത്ഥനകൾ / മണിക്കൂർ 
+ ഒരു ടോക്കണിനൊപ്പം: 5,000 അഭ്യർത്ഥനകൾ / മണിക്കൂർ</string>
+    <string name="how_to_create_token">ഒരു ടോക്കൺ എങ്ങനെ സൃഷ്ടിക്കാം:</string>
+    <string name="token_instructions">1. GitHub ക്രമീകരണങ്ങളിലേക്ക് പോകുക → ഡെവലപ്പർ ക്രമീകരണങ്ങൾ 
+ 2. "വ്യക്തിഗത ആക്സസ് ടോക്കണുകൾ" ക്ലിക്ക് ചെയ്യുക → "ടോക്കണുകൾ (ക്ലാസിക്)" 
+ 3. "പുതിയ ടോക്കൺ സൃഷ്‌ടിക്കുക" 
+ ക്ലിക്ക് ചെയ്യുക 4. അതിന് ഒരു പേര് നൽകി "public_reporate" സ്കോപ്പ് തിരഞ്ഞെടുക്കുക.</string>
+    <string name="no_token_set">ടോക്കൺ സജ്ജീകരിച്ചിട്ടില്ല</string>
+    <string name="token_configured">ടോക്കൺ ക്രമീകരിച്ചു</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">ഡെവലപ്പർ</string>
+    <string name="followers">അനുയായികൾ</string>
+    <string name="following">പിന്തുടരുന്നു</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">ഡൗൺലോഡ് ചെയ്യുന്നു...</string>
+    <string name="downloading_apk">APK ഡൗൺലോഡ് ചെയ്യുന്നു</string>
+    <string name="download_complete">ഡൗൺലോഡ് പൂർത്തിയായി</string>
+    <string name="download_in_progress">ഡൗൺലോഡ് ഇതിനകം പുരോഗതിയിലാണ്</string>
+    <string name="file_not_found">ഡൗൺലോഡ് ചെയ്ത ഫയൽ കണ്ടെത്തിയില്ല</string>
+    <string name="install_error">ഇൻസ്റ്റാളർ തുറക്കാൻ കഴിഞ്ഞില്ല</string>
+    <string name="installing">ഇൻസ്റ്റാൾ ചെയ്യുന്നു...</string>
+    <string name="open">തുറക്കുക</string>
+    <string name="cannot_open_app">ആപ്പ് തുറക്കാൻ കഴിയില്ല</string>
+    <string name="queued">ക്യൂവിൽ…</string>
+    <string name="preparing">തയ്യാറെടുക്കുന്നു...</string>
+    <string name="verifying">സ്ഥിരീകരിക്കുന്നു...</string>
+    <string name="storage_error">സംഭരണ ​​പിശക് സംഭവിച്ചു</string>
+    <string name="insufficient_storage">മതിയായ സംഭരണ ​​ഇടമില്ല</string>
+    <string name="verification_failed">ഫയൽ സ്ഥിരീകരണം പരാജയപ്പെട്ടു</string>
+    <string name="download_timeout">ഡൗൺലോഡ് കാലഹരണപ്പെട്ടു</string>
+    <string name="retry">വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="update">അപ്ഡേറ്റ്</string>
+    <string name="update_available">അപ്ഡേറ്റ് ലഭ്യമാണ്</string>
+    <string name="uninstall">അൺഇൻസ്റ്റാൾ ചെയ്യുക</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">GitHub ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക</string>
+    <string name="sign_in_to_increase_limit">API നിരക്ക് പരിധി വർദ്ധിപ്പിക്കാൻ സൈൻ ഇൻ ചെയ്യുക</string>
+    <string name="connecting_to_github">GitHub-ലേക്ക് ബന്ധിപ്പിക്കുന്നു...</string>
+    <string name="enter_code_on_github">GitHub-ൽ ഈ കോഡ് നൽകുക</string>
+    <string name="code_instructions">നിങ്ങളുടെ ബ്രൗസറിൽ GitHub തുറന്ന് സൈൻ ഇൻ ചെയ്യുന്നതിന് ചുവടെയുള്ള കോഡ് നൽകുക</string>
+    <string name="copy_code">കോഡ് പകർത്തുക</string>
+    <string name="code_copied">കോഡ് ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി</string>
+    <string name="open_github">GitHub തുറക്കുക</string>
+    <string name="waiting_for_authorization">അംഗീകാരത്തിനായി കാത്തിരിക്കുന്നു...</string>
+    <string name="signed_in_successfully">സൈൻ ഇൻ ചെയ്‌തു!</string>
+    <string name="signed_in">സൈൻ ഇൻ ചെയ്തു</string>
+    <string name="signed_in_as">%s ആയി സൈൻ ഇൻ ചെയ്‌തു</string>
+    <string name="rate_limit_increased">API നിരക്ക് പരിധി 5,000 അഭ്യർത്ഥനകൾ/മണിക്കൂറായി വർദ്ധിച്ചു</string>
+    <string name="sign_out">സൈൻ ഔട്ട്</string>
+    <string name="signed_out">സൈൻ ഔട്ട് ചെയ്തു</string>
+    <string name="failed_to_get_code">അംഗീകാര കോഡ് നേടുന്നതിൽ പരാജയപ്പെട്ടു</string>
+    <string name="auth_expired">അംഗീകാരം കാലഹരണപ്പെട്ടു. ദയവായി വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="unknown_error">അജ്ഞാത പിശക് സംഭവിച്ചു</string>
+    <string name="something_went_wrong">എന്തോ കുഴപ്പം സംഭവിച്ചു</string>
+    <string name="user">@ ഉപയോക്താവ്</string>
+    <string name="rate_limit_exceeded_title">നിരക്ക് പരിധി കവിഞ്ഞു</string>
+    <string name="rate_limit_exceeded_message">നിങ്ങൾ GitHub API നിരക്ക് പരിധി കവിഞ്ഞു (60 അഭ്യർത്ഥനകൾ/മണിക്കൂർ). 
+ 
+ നിങ്ങളുടെ പരിധി 5,000 അഭ്യർത്ഥനകൾ/മണിക്കൂറായി സൗജന്യമായി വർദ്ധിപ്പിക്കുന്നതിന് GitHub ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക!</string>
+    <string name="rate_limit_exceeded_signed_in">നിങ്ങൾ ആധികാരിക നിരക്ക് പരിധി കവിഞ്ഞു (5,000 അഭ്യർത്ഥനകൾ/മണിക്കൂർ). വീണ്ടും ശ്രമിക്കുന്നതിന് മുമ്പ് കുറച്ച് മിനിറ്റ് കാത്തിരിക്കുക.</string>
+    
+    <!-- Donate -->
+    <string name="donate">ദാനം ചെയ്യുക</string>
+    <string name="support_developer">ഡെവലപ്പറെ പിന്തുണയ്ക്കുക</string>
+    <string name="donate_description">നിങ്ങൾക്ക് ഈ ആപ്പ് ഉപയോഗപ്രദമാണെന്ന് തോന്നുകയാണെങ്കിൽ, ഒരു ചെറിയ സംഭാവന ഉപയോഗിച്ച് വികസനത്തെ പിന്തുണയ്ക്കുന്നത് പരിഗണിക്കുക.</string>
+    <string name="scan_qr_code">പണമടയ്ക്കാൻ QR കോഡ് സ്കാൻ ചെയ്യുക</string>
+    <string name="upi_qr_code">UPI QR കോഡ്</string>
+    <string name="upi_id">UPI ഐഡി</string>
+    <string name="copy">പകർത്തുക</string>
+    <string name="upi_id_copied">UPI ഐഡി ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി</string>
+    <string name="thank_you_message">നിങ്ങളുടെ പിന്തുണയ്ക്ക് നന്ദി! ❤️</string>
+    <string name="pay_with_upi_app">UPI ആപ്പ് ഉപയോഗിച്ച് പണമടയ്ക്കുക</string>
+    <string name="no_upi_apps_found">നിങ്ങളുടെ ഉപകരണത്തിൽ UPI പേയ്‌മെൻ്റ് ആപ്പുകളൊന്നും കണ്ടെത്തിയില്ല</string>
+    <string name="payment_app_icon">പേയ്‌മെൻ്റ് ആപ്പ് ഐക്കൺ</string>
+    <string name="pay">പണം നൽകുക</string>
+    <string name="cannot_open_payment_app">പേയ്‌മെൻ്റ് ആപ്പ് തുറക്കാൻ കഴിയില്ല</string>
+    <string name="buy_me_a_coffee">എനിക്ക് ഒരു കാപ്പി വാങ്ങൂ</string>
+    <string name="support_buy_me_a_coffee">ബൈ മീ എ കോഫി എന്നതിനുള്ള പിന്തുണ</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">ഓപ്പൺ സോഴ്സ് ലൈസൻസുകൾ</string>
+    <string name="source_code">ഉറവിട കോഡ്</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s ( %2$s / %3$s )</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">പതിപ്പ് %s</string>
+    <string name="username_format">@ %s</string>
+    <string name="error_with_retry">%1$s 
+ 
+ %2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">എൻ്റെ ആപ്പുകൾ</string>
+    <string name="no_favorite_apps">ഇതുവരെ പ്രിയപ്പെട്ട ആപ്പുകളൊന്നുമില്ല</string>
+    <string name="no_favorite_apps_hint">ഇവിടെ ചേർക്കാൻ ഏതെങ്കിലും ആപ്പിലെ ഹൃദയ ഐക്കൺ ടാപ്പ് ചെയ്യുക</string>
+    <string name="add_to_favorites">പ്രിയപ്പെട്ടവയിലേക്ക് ചേർക്കുക</string>
+    <string name="remove_from_favorites">പ്രിയപ്പെട്ടവയിൽ നിന്ന് നീക്കം ചെയ്യുക</string>
+    <string name="added_to_favorites">പ്രിയപ്പെട്ടവയിലേക്ക് ചേർത്തു</string>
+    <string name="removed_from_favorites">പ്രിയപ്പെട്ടവയിൽ നിന്ന് നീക്കംചെയ്‌തു</string>
+    <string name="favorite_apps">പ്രിയപ്പെട്ട ആപ്പുകൾ</string>
+    <string name="no_installed_apps">ഇൻസ്റ്റാൾ ചെയ്ത ആപ്പുകളൊന്നുമില്ല</string>
+    <string name="no_installed_apps_hint">നിങ്ങളുടെ പ്രിയപ്പെട്ടവയിൽ നിന്ന് ഇൻസ്റ്റാൾ ചെയ്യുന്ന ആപ്പുകൾ ഇവിടെ ദൃശ്യമാകും</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">രൂപഭാവം</string>
+    <string name="theme_system">സിസ്റ്റം</string>
+    <string name="theme_for_you">നിനക്കായ്</string>
+    <string name="theme_dark">ഇരുട്ട്</string>
+    <string name="theme_light">വെളിച്ചം</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">ഡൗൺലോഡ് ക്രമീകരണങ്ങൾ</string>
+    <string name="proxy">പ്രോക്സി</string>
+    <string name="mirror_proxy_description">GitHub തടഞ്ഞ രാജ്യങ്ങൾക്കോ ​​പ്രദേശങ്ങൾക്കോ ​​വേണ്ടി, ഡൗൺലോഡ് ചെയ്യാൻ ഒരു പ്രോക്സി ഉപയോഗിക്കുക.</string>
+    <string name="enable_mirror_proxy">മിറർ പ്രോക്സി പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="proxy_url_hint">പ്രോക്സി URL (ഉദാ. https://gh-proxy.com/)</string>
+    <string name="popular_proxies">ജനപ്രിയ പ്രോക്സികൾ</string>
+    <string name="multi_part_download">മൾട്ടി-പാർട്ട് ഡൗൺലോഡ്</string>
+    <string name="multi_part_description">വേഗതയേറിയ വേഗതയ്ക്കായി ഒന്നിലധികം കണക്ഷനുകൾ ഉപയോഗിച്ച് ഫയലുകൾ ഡൗൺലോഡ് ചെയ്യുക.</string>
+    <string name="enable_multi_part">മൾട്ടി-പാർട്ട് ഡൗൺലോഡ് പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="download_threads">ത്രെഡുകൾ ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="thread_count_hint">ഉയർന്ന മൂല്യങ്ങൾ വേഗത മെച്ചപ്പെടുത്തിയേക്കാം, പക്ഷേ കൂടുതൽ വിഭവങ്ങൾ ഉപയോഗിക്കുന്നു (1-32)</string>
+    <string name="download_settings_info">മിറർ പ്രോക്‌സി ഒരു പ്രോക്‌സി സെർവർ വഴി GitHub URL-കളെ പരിവർത്തനം ചെയ്യുന്നു. ഒന്നിലധികം ഭാഗങ്ങൾ ഡൗൺലോഡ് ചെയ്യുന്നത് സമാന്തരമായി ഡൗൺലോഡ് ചെയ്യുന്നതിനായി ഫയലുകളെ ഭാഗങ്ങളായി വിഭജിക്കുന്നു.</string>
+    <string name="download_speed_format">%s/സെ</string>
+    <string name="select_variant">പതിപ്പ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="compatible">അനുയോജ്യം</string>
+    <string name="incompatible">പൊരുത്തമില്ലാത്തത്</string>
+    <string name="recommended">ശുപാർശ ചെയ്തത്</string>
+    <string name="app_mismatch_title">ആപ്പ് പൊരുത്തക്കേട്?</string>
+    <string name="app_mismatch_message">RepoStore ഈ ശേഖരണത്തെ ഒരു ഇൻസ്റ്റാൾ ചെയ്ത ആപ്പുമായി പൊരുത്തപ്പെടുത്തി: %1$s (%2$s ). 
+ 
+ ഇത് ഒരേ ആപ്പല്ലെങ്കിൽ, ഈ ശേഖരത്തിൽ നിന്ന് APK ഇൻസ്റ്റാൾ ചെയ്യാൻ നിങ്ങൾക്ക് തിരഞ്ഞെടുക്കാം.</string>
+    <string name="install_anyway">എന്തായാലും ഇൻസ്റ്റാൾ ചെയ്യുക</string>
+    <string name="forget_mapping">മാപ്പിംഗ് മറക്കുക</string>
+    <string name="contributors">സംഭാവന ചെയ്യുന്നവർ</string>
+    <string name="no_apk_variants_available">APK വേരിയൻ്റുകളൊന്നും ലഭ്യമല്ല</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">തിരഞ്ഞെടുത്തു</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">എല്ലാം</string>
+    <string name="cat_name_ai_chat">AI ചാറ്റ്</string>
+    <string name="cat_name_app_manager">ആപ്പ് മാനേജർ</string>
+    <string name="cat_name_app_store_updater">ആപ്പ് സ്റ്റോറും അപ്‌ഡേറ്ററും</string>
+    <string name="cat_name_battery">ബാറ്ററി</string>
+    <string name="cat_name_bookmark">ബുക്ക്മാർക്ക്</string>
+    <string name="cat_name_browser">ബ്രൗസർ</string>
+    <string name="cat_name_calculator">കാൽക്കുലേറ്റർ</string>
+    <string name="cat_name_calendar_agenda">കലണ്ടറും അജണ്ടയും</string>
+    <string name="cat_name_clock">ക്ലോക്ക്</string>
+    <string name="cat_name_cloud_storage">ക്ലൗഡ് സംഭരണവും ഫയൽ സമന്വയവും</string>
+    <string name="cat_name_connectivity">കണക്റ്റിവിറ്റി</string>
+    <string name="cat_name_contact">ബന്ധപ്പെടുക</string>
+    <string name="cat_name_development">വികസനം</string>
+    <string name="cat_name_dns_hosts">DNS &amp; ഹോസ്റ്റുകൾ</string>
+    <string name="cat_name_draw">വരയ്ക്കുക</string>
+    <string name="cat_name_ebook_reader">ഇബുക്ക് റീഡർ</string>
+    <string name="cat_name_email">ഇമെയിൽ</string>
+    <string name="cat_name_file_encryption">ഫയൽ എൻക്രിപ്ഷൻ &amp; വോൾട്ട്</string>
+    <string name="cat_name_file_transfer">ഫയൽ കൈമാറ്റം</string>
+    <string name="cat_name_firewall">ഫയർവാൾ</string>
+    <string name="cat_name_finance_manager">ഫിനാൻസ് മാനേജർ</string>
+    <string name="cat_name_flashlight">ഫ്ലാഷ്ലൈറ്റ്</string>
+    <string name="cat_name_forum">ഫോറം</string>
+    <string name="cat_name_gallery">ഗാലറി</string>
+    <string name="cat_name_games">ഗെയിമുകൾ</string>
+    <string name="cat_name_graphics">ഗ്രാഫിക്സ്</string>
+    <string name="cat_name_habit_tracker">ശീലം ട്രാക്കർ</string>
+    <string name="cat_name_icon_pack">ഐക്കൺ പായ്ക്ക്</string>
+    <string name="cat_name_internet">ഇൻ്റർനെറ്റ്</string>
+    <string name="cat_name_inventory">ഇൻവെൻ്ററി</string>
+    <string name="cat_name_keyboard_ime">കീബോർഡും IME</string>
+    <string name="cat_name_launcher">ലോഞ്ചർ</string>
+    <string name="cat_name_local_media_player">പ്രാദേശിക മീഡിയ പ്ലെയർ</string>
+    <string name="cat_name_location_tracker">ലൊക്കേഷൻ ട്രാക്കറും ഷെയററും</string>
+    <string name="cat_name_messaging">സന്ദേശമയയ്ക്കൽ</string>
+    <string name="cat_name_money">പണം</string>
+    <string name="cat_name_multimedia">മൾട്ടിമീഡിയ</string>
+    <string name="cat_name_music_audio">സംഗീതവും ഓഡിയോയും</string>
+    <string name="cat_name_video_players">വീഡിയോ പ്ലേയറുകൾ</string>
+    <string name="cat_name_music_practice">സംഗീത പരിശീലന ഉപകരണം</string>
+    <string name="cat_name_navigation">നാവിഗേഷൻ</string>
+    <string name="cat_name_network_analyzer">നെറ്റ്‌വർക്ക് അനലൈസർ</string>
+    <string name="cat_name_news">വാർത്ത</string>
+    <string name="cat_name_note">കുറിപ്പ്</string>
+    <string name="cat_name_online_media_player">ഓൺലൈൻ മീഡിയ പ്ലെയർ</string>
+    <string name="cat_name_pass_wallet">വാലറ്റ് പാസ് ചെയ്യുക</string>
+    <string name="cat_name_fa">പാസ്‌വേഡും 2FA</string>
+    <string name="cat_name_phone_sms">ഫോൺ &amp; SMS</string>
+    <string name="cat_name_podcast">പോഡ്കാസ്റ്റ്</string>
+    <string name="cat_name_public_transport">പൊതു ഗതാഗതം</string>
+    <string name="cat_name_radio">റേഡിയോ</string>
+    <string name="cat_name_reading">വായന</string>
+    <string name="cat_name_recipe_manager">പാചകക്കുറിപ്പ് മാനേജർ</string>
+    <string name="cat_name_remote_controller">റിമോട്ട് കൺട്രോളർ</string>
+    <string name="cat_name_science_education">ശാസ്ത്രവും വിദ്യാഭ്യാസവും</string>
+    <string name="cat_name_security">സുരക്ഷ</string>
+    <string name="cat_name_shopping_list">ഷോപ്പിംഗ് ലിസ്റ്റ്</string>
+    <string name="cat_name_social_network">സോഷ്യൽ നെറ്റ്‌വർക്ക്</string>
+    <string name="cat_name_sports_health">കായികവും ആരോഗ്യവും</string>
+    <string name="cat_name_streaming_app">സ്ട്രീമിംഗ് ആപ്പ്</string>
+    <string name="cat_name_system">സിസ്റ്റം</string>
+    <string name="cat_name_task">ടാസ്ക്</string>
+    <string name="cat_name_text_editor">ടെക്സ്റ്റ് എഡിറ്റർ</string>
+    <string name="cat_name_theming">തീമിംഗ്</string>
+    <string name="cat_name_time">സമയം</string>
+    <string name="cat_name_tools">ഉപകരണങ്ങൾ</string>
+    <string name="cat_name_translation_dictionary">വിവർത്തനവും നിഘണ്ടുവും</string>
+    <string name="cat_name_unit_convertor">യൂണിറ്റ് കൺവെർട്ടർ</string>
+    <string name="cat_name_voice_video_chat">വോയ്സ് &amp; വീഡിയോ ചാറ്റ്</string>
+    <string name="cat_name_vpn">VPN &amp; പ്രോക്സി</string>
+    <string name="cat_name_wallet">വാലറ്റ്</string>
+    <string name="cat_name_wallpaper">വാൾപേപ്പർ</string>
+    <string name="cat_name_weather">കാലാവസ്ഥ</string>
+    <string name="cat_name_workout">വർക്കൗട്ട്</string>
+    <string name="cat_name_writing">എഴുത്ത്</string>
+    <string name="cat_name_productivity">ഉൽപ്പാദനക്ഷമത</string>
+    <string name="cat_name_open_source">ഓപ്പൺ സോഴ്സ്</string>
+    <string name="cat_name_trending">ട്രെൻഡിംഗ്</string>
+</resources>

@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Kunyumba</string>
+    <string name="games">Masewera</string>
+    <string name="apps">Mapulogalamu</string>
+    <string name="trending">Zokonda</string>
+    <string name="search">Sakani</string>
+    <string name="profile">Mbiri</string>
+    <string name="back">Kubwerera</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Sakani mapulogalamu &amp;amp; masewera</string>
+    <string name="search_github_repos">Sakani nkhokwe za GitHub…</string>
+    <string name="search_hint">Sakani mapulogalamu a Android pa GitHub</string>
+    <string name="no_results">Palibe zotsatira zomwe zapezeka</string>
+    <string name="clear">Zomveka</string>
+    <string name="voice_search">Kusaka ndi mawu</string>
+    <string name="filter">Sefa</string>
+    <string name="sort_by">Sanjani potengera</string>
+    <string name="updated">Zasinthidwa</string>
+    <string name="has_apk">Ili ndi APK</string>
+    <string name="reset">Bwezerani</string>
+    <string name="results_count">Zotsatira za %d</string>
+    <string name="any_language">Chilankhulo chilichonse</string>
+    <string name="any_stars">Nyenyezi zilizonse</string>
+    <string name="min_stars_format">%d+ nyenyezi</string>
+    <string name="best_match">Kufanana Kwabwino Kwambiri</string>
+    <string name="most_stars">Nyenyezi Zambiri</string>
+    <string name="most_forks">Mafoloko ambiri</string>
+    <string name="recently_updated_sort">Zasinthidwa Posachedwapa</string>
+    <string name="any_time">Nthawi iliyonse</string>
+    <string name="last_week">Sabata yatha</string>
+    <string name="last_month">Mwezi watha</string>
+    <string name="last_3_months">Miyezi 3 yapitayi</string>
+    <string name="last_year">Chaka chatha</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Zopangira inu</string>
+    <string name="top_free_apps">Mapulogalamu apamwamba aulere</string>
+    <string name="recently_updated">Zasinthidwa posachedwa</string>
+    <string name="see_more">Onani zambiri</string>
+    <string name="all_categories">Magulu onse</string>
+    <string name="more">Zambiri</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Masewera Owonetsedwa</string>
+    <string name="popular_games">Masewera Otchuka</string>
+    <string name="new_games">Masewera Atsopano</string>
+    <string name="no_games_found">Palibe masewera omwe apezeka</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Chizindikiro cha pulogalamu</string>
+    <string name="banner">Banner</string>
+    <string name="about">Za</string>
+    <string name="about_this_app">Za pulogalamuyi</string>
+    <string name="screenshots">Zithunzi</string>
+    <string name="screenshot">Chithunzithunzi</string>
+    <string name="stars">Nyenyezi</string>
+    <string name="forks">Mafoloko</string>
+    <string name="language">Chiyankhulo</string>
+    <string name="last_updated">Zasinthidwa komaliza</string>
+    <string name="updated_on">Zasinthidwa</string>
+    <string name="latest_release">Kutulutsidwa Kwaposachedwa</string>
+    <string name="whats_new">What\'s zatsopano</string>
+    <string name="readme">WERENGANI</string>
+    <string name="download">Tsitsani</string>
+    <string name="install">Ikani</string>
+    <string name="download_apk">Tsitsani APK</string>
+    <string name="view_release">Onani Kutulutsidwa</string>
+    <string name="view_on_github">Onani pa GitHub</string>
+    <string name="github">Chithunzi cha GitHub</string>
+    <string name="no_description">Palibe kumasulira komwe kulipo</string>
+    <string name="no_release_notes">Palibe zolemba zotulutsa</string>
+    <string name="archived">Zosungidwa zakale</string>
+
+    <!-- Tags -->
+    <string name="tag_new">CHATSOPANO</string>
+    <string name="tag_updated">ZAsinthidwa</string>
+    <string name="tag_archived">ZOKHALA</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Palibe mapulogalamu omwe apezeka</string>
+    <string name="no_repos_found">Palibe zosungira zomwe zapezeka</string>
+    <string name="rate_limit_error">Mtengo wadutsa. Chonde yesaninso nthawi ina.</string>
+    <string name="network_error">Zolakwika pa netiweki. Chonde onani kulumikizana kwanu.</string>
+    <string name="tap_to_retry">Dinani kuti muyesenso</string>
+    <string name="loading">Tikutsegula...</string>
+
+    <!-- Developer -->
+    <string name="repositories">Zosungirako</string>
+    <string name="repositories_count">Zithunzi za %d</string>
+    <string name="view_github_profile">Onani Mbiri ya GitHub</string>
+
+    <!-- Settings -->
+    <string name="settings">Zokonda</string>
+    <string name="github_token">GitHub Personal Access Token</string>
+    <string name="github_token_desc">Onjezani chizindikiro kuti muwonjezere malire a API kuchokera pa zopempha 60 mpaka 5000 pa ola limodzi.</string>
+    <string name="enter_token">Lowetsani chizindikiro chanu cha GitHub</string>
+    <string name="save_token">Sungani Chizindikiro</string>
+    <string name="clear_token">Choyera Chizindikiro</string>
+    <string name="create_token_on_github">Pangani Chizindikiro pa GitHub</string>
+    <string name="token_saved">Chizindikiro chasungidwa bwino</string>
+    <string name="token_removed">Chizindikiro chachotsedwa</string>
+    <string name="rate_limit_info_title">API Rate Limit</string>
+    <string name="rate_limit_info_desc">Popanda chizindikiro: zopempha 60/hour\nNdi chizindikiro: zopempha 5,000/ola</string>
+    <string name="how_to_create_token">Momwe mungapangire chizindikiro:</string>
+    <string name="token_instructions">1. Pitani ku Zikhazikiko za GitHub → Makonda a Developer\n2. Dinani \"Zizindikiro zolowera pawekha\" → \"Zizindikiro (zachikale)\"\n3. Dinani \"Pangani chizindikiro chatsopano\"\n4. Perekani dzina ndikusankha \"public_repo\" scope\n5. Dinani \"Pangani chizindikiro\" ndikuchikopera</string>
+    <string name="no_token_set">Palibe chizindikiro chokhazikitsidwa</string>
+    <string name="token_configured">Chizindikiro chakonzedwa</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Wopanga Mapulogalamu</string>
+    <string name="followers">Otsatira</string>
+    <string name="following">Kutsatira</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Kutsitsa…</string>
+    <string name="downloading_apk">Kutsitsa APK</string>
+    <string name="download_complete">Kutsitsa kwatha</string>
+    <string name="download_in_progress">Kutsitsa kuli mkati</string>
+    <string name="file_not_found">Fayilo yotsitsa sinapezeke</string>
+    <string name="install_error">Sitinathe kutsegula choyikira</string>
+    <string name="installing">Kuyika…</string>
+    <string name="open">Tsegulani</string>
+    <string name="cannot_open_app">Sitingatsegule pulogalamu</string>
+    <string name="queued">Ali pamzere…</string>
+    <string name="preparing">Kukonzekera...</string>
+    <string name="verifying">Kutsimikizira…</string>
+    <string name="storage_error">Cholakwika chosungira chachitika</string>
+    <string name="insufficient_storage">Palibe malo okwanira osungira</string>
+    <string name="verification_failed">Kutsimikizira fayilo kwalephera</string>
+    <string name="download_timeout">Kutsitsa kwatha</string>
+    <string name="retry">Yesaninso</string>
+    <string name="cancel">Letsani</string>
+    <string name="update">Kusintha</string>
+    <string name="update_available">Zosintha zilipo</string>
+    <string name="uninstall">Chotsani</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Lowani ndi GitHub</string>
+    <string name="sign_in_to_increase_limit">Lowani kuti muwonjezere malire a API</string>
+    <string name="connecting_to_github">Kulumikiza ku GitHub…</string>
+    <string name="enter_code_on_github">Lowetsani nambala iyi pa GitHub</string>
+    <string name="code_instructions">Tsegulani GitHub mu msakatuli wanu ndikulowetsa nambala yomwe ili pansipa kuti mulowe</string>
+    <string name="copy_code">Copy Kodi</string>
+    <string name="code_copied">Khodi idakopereredwa ku bolodi</string>
+    <string name="open_github">Tsegulani GitHub</string>
+    <string name="waiting_for_authorization">Tikuyembekezera chilolezo…</string>
+    <string name="signed_in_successfully">Mwalowa bwino!</string>
+    <string name="signed_in">Walowa</string>
+    <string name="signed_in_as">Adalowa ngati %s</string>
+    <string name="rate_limit_increased">Malire a API adakwera kufika pa zopempha 5,000 / ola</string>
+    <string name="sign_out">Tulukani</string>
+    <string name="signed_out">Watuluka</string>
+    <string name="failed_to_get_code">Zalephera kupeza khodi yololeza</string>
+    <string name="auth_expired">Chilolezo chatha. Chonde yesaninso.</string>
+    <string name="unknown_error">Cholakwika chosadziwika chachitika</string>
+    <string name="something_went_wrong">Chinachake chalakwika</string>
+    <string name="user">Chithunzi cha @user</string>
+    <string name="rate_limit_exceeded_title">Malire Awo Apyola</string>
+    <string name="rate_limit_exceeded_message">Inu\' mwapyola malire a GitHub API (zopempha 60/ola).\n\nLowani ndi GitHub kuti muonjezere malire anu kufika ku zopempha 5,000/ola kwaulere!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve adadutsa malire ovomerezeka (zopempha 5,000/ola). Chonde dikirani mphindi zingapo musanayesenso.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Perekani</string>
+    <string name="support_developer">Thandizani Wopanga</string>
+    <string name="donate_description">Ngati mupeza kuti pulogalamuyi ndi yothandiza, ganizirani kuthandizira chitukuko ndi ndalama zochepa.</string>
+    <string name="scan_qr_code">Jambulani Khodi ya QR Kuti Mulipire</string>
+    <string name="upi_qr_code">UPI QR kodi</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Koperani</string>
+    <string name="upi_id_copied">ID ya UPI idakopereredwa pa clipboard</string>
+    <string name="thank_you_message">Zikomo chifukwa cha thandizo lanu! ❤️</string>
+    <string name="pay_with_upi_app">Lipirani ndi UPI App</string>
+    <string name="no_upi_apps_found">Palibe mapulogalamu olipira a UPI omwe amapezeka pachipangizo chanu</string>
+    <string name="payment_app_icon">Chizindikiro cha pulogalamu yolipira</string>
+    <string name="pay">Lipirani</string>
+    <string name="cannot_open_payment_app">Sitingathe kutsegula pulogalamu yolipira</string>
+    <string name="buy_me_a_coffee">Ndigulireni Khofi</string>
+    <string name="support_buy_me_a_coffee">Thandizo pa Buy Me A Coffee</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Ma License a Open Source</string>
+    <string name="source_code">Gwero kodi</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Chithunzi cha %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Mapulogalamu Anga</string>
+    <string name="no_favorite_apps">Palibe mapulogalamu omwe mumakonda</string>
+    <string name="no_favorite_apps_hint">Dinani chizindikiro chamtima pa pulogalamu iliyonse kuti muwonjezere apa</string>
+    <string name="add_to_favorites">Onjezani ku zokonda</string>
+    <string name="remove_from_favorites">Chotsani pazokonda</string>
+    <string name="added_to_favorites">Zowonjezeredwa ku zokonda</string>
+    <string name="removed_from_favorites">Zachotsedwa pazokonda</string>
+    <string name="favorite_apps">Favorite Apps</string>
+    <string name="no_installed_apps">Palibe mapulogalamu oikidwa</string>
+    <string name="no_installed_apps_hint">Mapulogalamu omwe mumayika kuchokera pazokonda zanu aziwoneka apa</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Maonekedwe</string>
+    <string name="theme_system">Dongosolo</string>
+    <string name="theme_for_you">Zanu</string>
+    <string name="theme_dark">Chakuda</string>
+    <string name="theme_light">Kuwala</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Tsitsani Zokonda</string>
+    <string name="proxy">Woyimira</string>
+    <string name="mirror_proxy_description">Kwa mayiko kapena zigawo zomwe GitHub yatsekedwa, gwiritsani ntchito projekiti kuti mutsitse.</string>
+    <string name="enable_mirror_proxy">Yambitsani Mirror Proxy</string>
+    <string name="proxy_url_hint">Ulalo wa proxy (monga, https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Ma Proxies Odziwika</string>
+    <string name="multi_part_download">Kutsitsa kwamagawo angapo</string>
+    <string name="multi_part_description">Tsitsani mafayilo pogwiritsa ntchito maulumikizidwe angapo kuti muthamangitse mwachangu.</string>
+    <string name="enable_multi_part">Yambitsani Kutsitsa Kwamagawo Ambiri</string>
+    <string name="download_threads">Tsitsani Ulusi</string>
+    <string name="thread_count_hint">Makhalidwe apamwamba angawongolere liŵiro koma angagwiritse ntchito zinthu zambiri (1-32)</string>
+    <string name="download_settings_info">Woyimira wagalasi amasintha ma URL a GitHub kudzera pa seva yoyimira. Kutsitsa kwamagawo angapo kumagawaniza mafayilo kukhala ma chunks kuti mutsitse mofanana.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Sankhani Baibulo</string>
+    <string name="compatible">Zogwirizana</string>
+    <string name="incompatible">Zosagwirizana</string>
+    <string name="recommended">Analimbikitsa</string>
+    <string name="app_mismatch_title">Kusagwirizana kwa App?</string>
+    <string name="app_mismatch_message">RepoStore inafananiza chosungirachi ndi pulogalamu yoyikidwa: %1$s (%2$s).\n\nNgati iyi SI pulogalamu yomweyi, mutha kusankha kukhazikitsa APK kuchokera munkhokweyi.</string>
+    <string name="install_anyway">Ikani Komabe</string>
+    <string name="forget_mapping">Iwalani Mapu</string>
+    <string name="contributors">Othandizira</string>
+    <string name="no_apk_variants_available">Palibe zosintha za APK zomwe zilipo</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Zosankhidwa</string>
+    <!-- Categories -->
+    <string name="cat_name_all">Zonse</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">App Manager</string>
+    <string name="cat_name_app_store_updater">App Store &amp;amp; Updater</string>
+    <string name="cat_name_battery">Batiri</string>
+    <string name="cat_name_bookmark">Chizindikiro</string>
+    <string name="cat_name_browser">Msakatuli</string>
+    <string name="cat_name_calculator">Calculator</string>
+    <string name="cat_name_calendar_agenda">Kalendala &amp;amp; Agenda</string>
+    <string name="cat_name_clock">Koloko</string>
+    <string name="cat_name_cloud_storage">Kusungirako Mtambo &amp;amp; Kulunzanitsa Fayilo</string>
+    <string name="cat_name_connectivity">Kulumikizana</string>
+    <string name="cat_name_contact">Contact</string>
+    <string name="cat_name_development">Chitukuko</string>
+    <string name="cat_name_dns_hosts">DNS &amp;amp; Hosts</string>
+    <string name="cat_name_draw">Jambulani</string>
+    <string name="cat_name_ebook_reader">Ebook Reader</string>
+    <string name="cat_name_email">Imelo</string>
+    <string name="cat_name_file_encryption">Fayilo Encryption &amp;amp; Vault</string>
+    <string name="cat_name_file_transfer">Kusamutsa Fayilo</string>
+    <string name="cat_name_firewall">Zozimitsa moto</string>
+    <string name="cat_name_finance_manager">Finance Manager</string>
+    <string name="cat_name_flashlight">Tochi</string>
+    <string name="cat_name_forum">Forum</string>
+    <string name="cat_name_gallery">Galero</string>
+    <string name="cat_name_games">Masewera</string>
+    <string name="cat_name_graphics">Zithunzi</string>
+    <string name="cat_name_habit_tracker">Habit Tracker</string>
+    <string name="cat_name_icon_pack">Icon Pack</string>
+    <string name="cat_name_internet">Intaneti</string>
+    <string name="cat_name_inventory">Inventory</string>
+    <string name="cat_name_keyboard_ime">Kiyibodi &amp;amp; IME</string>
+    <string name="cat_name_launcher">Woyambitsa</string>
+    <string name="cat_name_local_media_player">Local Media Player</string>
+    <string name="cat_name_location_tracker">Location Tracker &amp;amp; Sharer</string>
+    <string name="cat_name_messaging">Kutumiza mauthenga</string>
+    <string name="cat_name_money">Ndalama</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Nyimbo &amp;amp; Audio</string>
+    <string name="cat_name_video_players">Osewera Makanema</string>
+    <string name="cat_name_music_practice">Chida Chochitira Nyimbo</string>
+    <string name="cat_name_navigation">Navigation</string>
+    <string name="cat_name_network_analyzer">Network Analyzer</string>
+    <string name="cat_name_news">Nkhani</string>
+    <string name="cat_name_note">Zindikirani</string>
+    <string name="cat_name_online_media_player">Online Media Player</string>
+    <string name="cat_name_pass_wallet">Pitani Wallet</string>
+    <string name="cat_name_fa">Mawu achinsinsi &amp;amp; 2FA</string>
+    <string name="cat_name_phone_sms">Foni &amp;amp; SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Public Transport</string>
+    <string name="cat_name_radio">Wailesi</string>
+    <string name="cat_name_reading">Kuwerenga</string>
+    <string name="cat_name_recipe_manager">Woyang\'anira Chinsinsi</string>
+    <string name="cat_name_remote_controller">Remote Controller</string>
+    <string name="cat_name_science_education">Sayansi &amp;amp; Maphunziro</string>
+    <string name="cat_name_security">Chitetezo</string>
+    <string name="cat_name_shopping_list">Mndandanda Wogula</string>
+    <string name="cat_name_social_network">Social Network</string>
+    <string name="cat_name_sports_health">Masewera &amp;amp; Zaumoyo</string>
+    <string name="cat_name_streaming_app">Streaming App</string>
+    <string name="cat_name_system">Dongosolo</string>
+    <string name="cat_name_task">Ntchito</string>
+    <string name="cat_name_text_editor">Text Editor</string>
+    <string name="cat_name_theming">Theming</string>
+    <string name="cat_name_time">Nthawi</string>
+    <string name="cat_name_tools">Zida</string>
+    <string name="cat_name_translation_dictionary">Kumasulira &amp;amp; Mtanthauzira mawu</string>
+    <string name="cat_name_unit_convertor">Unit Converter</string>
+    <string name="cat_name_voice_video_chat">Voice &amp;amp; Video Chat</string>
+    <string name="cat_name_vpn">VPN &amp;amp; Proxy</string>
+    <string name="cat_name_wallet">Wallet</string>
+    <string name="cat_name_wallpaper">Zithunzi</string>
+    <string name="cat_name_weather">Nyengo</string>
+    <string name="cat_name_workout">Kulimbitsa thupi</string>
+    <string name="cat_name_writing">Kulemba</string>
+    <string name="cat_name_productivity">Kuchita bwino</string>
+    <string name="cat_name_open_source">Open Source</string>
+    <string name="cat_name_trending">Zokonda</string></resources>

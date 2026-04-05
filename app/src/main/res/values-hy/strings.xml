@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Տուն</string>
+    <string name="games">Խաղեր</string>
+    <string name="apps">Հավելվածներ</string>
+    <string name="trending">Թրենդային</string>
+    <string name="search">Որոնում</string>
+    <string name="profile">Անձնագիր</string>
+    <string name="back">Ետ</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Որոնեք հավելվածներ և խաղեր</string>
+    <string name="search_github_repos">Որոնել GitHub պահեստները…</string>
+    <string name="search_hint">Որոնեք Android հավելվածներ GitHub-ում</string>
+    <string name="no_results">Ոչ մի արդյունք չի գտնվել</string>
+    <string name="clear">Պարզ</string>
+    <string name="voice_search">Ձայնային որոնում</string>
+    <string name="filter">Զտել</string>
+    <string name="sort_by">Դասավորել ըստ</string>
+    <string name="updated">Թարմացվել է</string>
+    <string name="has_apk">Ունի APK</string>
+    <string name="reset">Վերականգնել</string>
+    <string name="results_count">%d արդյունքները</string>
+    <string name="any_language">Ցանկացած լեզու</string>
+    <string name="any_stars">Ցանկացած աստղ</string>
+    <string name="min_stars_format">%d+ աստղեր</string>
+    <string name="best_match">Լավագույն հանդիպում</string>
+    <string name="most_stars">Աստղերի մեծ մասը</string>
+    <string name="most_forks">Forks-ի մեծ մասը</string>
+    <string name="recently_updated_sort">Վերջերս թարմացվել է</string>
+    <string name="any_time">Ցանկացած ժամանակ</string>
+    <string name="last_week">Անցյալ շաբաթ</string>
+    <string name="last_month">Անցյալ ամիս</string>
+    <string name="last_3_months">Վերջին 3 ամիսները</string>
+    <string name="last_year">Անցյալ տարի</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Առաջարկվում է ձեզ համար</string>
+    <string name="top_free_apps">Լավագույն անվճար հավելվածները</string>
+    <string name="recently_updated">Վերջերս թարմացվել է</string>
+    <string name="see_more">Տեսնել ավելին</string>
+    <string name="all_categories">Բոլոր կատեգորիաները</string>
+    <string name="more">Ավելին</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Առաջարկվող խաղեր</string>
+    <string name="popular_games">Հանրաճանաչ խաղեր</string>
+    <string name="new_games">Նոր խաղեր</string>
+    <string name="no_games_found">Խաղեր չեն գտնվել</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Հավելվածի պատկերակ</string>
+    <string name="banner">Բաններ</string>
+    <string name="about">Մոտ</string>
+    <string name="about_this_app">Այս հավելվածի մասին</string>
+    <string name="screenshots">Սքրինշոթներ</string>
+    <string name="screenshot">Սքրինշոթ</string>
+    <string name="stars">Աստղեր</string>
+    <string name="forks">Պատառաքաղներ</string>
+    <string name="language">Լեզու</string>
+    <string name="last_updated">Վերջին թարմացումը</string>
+    <string name="updated_on">Թարմացվել է</string>
+    <string name="latest_release">Վերջին թողարկումը</string>
+    <string name="whats_new">What\'s-ը նոր է</string>
+    <string name="readme">ԿԱՐԴԱԼ</string>
+    <string name="download">Բեռնել</string>
+    <string name="install">Տեղադրեք</string>
+    <string name="download_apk">Ներբեռնեք APK-ն</string>
+    <string name="view_release">Դիտել թողարկումը</string>
+    <string name="view_on_github">Դիտել GitHub-ում</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Նկարագրություն չկա</string>
+    <string name="no_release_notes">Թողարկման նշումներ չկան</string>
+    <string name="archived">Արխիվացված</string>
+
+    <!-- Tags -->
+    <string name="tag_new">ՆՈՐ</string>
+    <string name="tag_updated">ԹԱՐՄԱՑՎԱԾ</string>
+    <string name="tag_archived">ԱՐԽԻՎ</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Հավելվածներ չեն գտնվել</string>
+    <string name="no_repos_found">Պահեստներ չեն գտնվել</string>
+    <string name="rate_limit_error">Գնահատման սահմանաչափը գերազանցվել է: Խնդրում ենք փորձել ավելի ուշ:</string>
+    <string name="network_error">Ցանցի սխալ. Խնդրում ենք ստուգել ձեր կապը:</string>
+    <string name="tap_to_retry">Հպեք՝ նորից փորձելու համար</string>
+    <string name="loading">Բեռնվում է…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Պահեստարաններ</string>
+    <string name="repositories_count">%d պահեստներ</string>
+    <string name="view_github_profile">Դիտեք GitHub պրոֆիլը</string>
+
+    <!-- Settings -->
+    <string name="settings">Կարգավորումներ</string>
+    <string name="github_token">GitHub Անձնական մուտքի նշան</string>
+    <string name="github_token_desc">Ավելացրեք նշան՝ API-ի տոկոսադրույքի սահմանաչափը ժամում 60-ից մինչև 5000 հարցում ավելացնելու համար:</string>
+    <string name="enter_token">Մուտքագրեք ձեր GitHub նշանը</string>
+    <string name="save_token">Պահպանել նշանը</string>
+    <string name="clear_token">Մաքրել նշանը</string>
+    <string name="create_token_on_github">Ստեղծեք նշան GitHub-ում</string>
+    <string name="token_saved">Token-ը հաջողությամբ պահպանվեց</string>
+    <string name="token_removed">Նշանը հեռացվեց</string>
+    <string name="rate_limit_info_title">API տոկոսադրույքի սահմանաչափ</string>
+    <string name="rate_limit_info_desc">Առանց նշանի. 60 հարցում/ժամ\n նշանով. 5000 հարցում/ժամ</string>
+    <string name="how_to_create_token">Ինչպես ստեղծել նշան.</string>
+    <string name="token_instructions">1. Գնացեք GitHub Settings → Developer settings\n2: Սեղմեք \"Անձնական մուտքի նշաններ\" → \"Tokens (դասական)\"\n3: Սեղմեք \"Ստեղծել նոր նշան\"\n4: Անուն տվեք և ընտրեք \"public_repo\" scope\n5: Սեղմեք \"Ստեղծել նշան\" և պատճենեք այն</string>
+    <string name="no_token_set">Նշանների հավաքածու չկա</string>
+    <string name="token_configured">Նշան կազմաձևված է</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Մշակող</string>
+    <string name="followers">Հետևորդներ</string>
+    <string name="following">Հետևելով</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Ներբեռնվում է…</string>
+    <string name="downloading_apk">APK-ի ներբեռնում</string>
+    <string name="download_complete">Ներբեռնումն ավարտված է</string>
+    <string name="download_in_progress">Ներբեռնումն արդեն ընթացքի մեջ է</string>
+    <string name="file_not_found">Ներբեռնված ֆայլը չի ​​գտնվել</string>
+    <string name="install_error">Չհաջողվեց բացել տեղադրիչը</string>
+    <string name="installing">Տեղադրվում է…</string>
+    <string name="open">Բաց</string>
+    <string name="cannot_open_app">Հնարավոր չէ բացել հավելվածը</string>
+    <string name="queued">Հերթագրված…</string>
+    <string name="preparing">Պատրաստվում է…</string>
+    <string name="verifying">Հաստատվում է…</string>
+    <string name="storage_error">Պահպանման սխալ տեղի ունեցավ</string>
+    <string name="insufficient_storage">Բավարար պահեստային տարածք չկա</string>
+    <string name="verification_failed">Ֆայլի ստուգումը ձախողվեց</string>
+    <string name="download_timeout">Ներբեռնման ժամանակը սպառվել է</string>
+    <string name="retry">Կրկին փորձեք</string>
+    <string name="cancel">Չեղարկել</string>
+    <string name="update">Թարմացնել</string>
+    <string name="update_available">Թարմացումը հասանելի է</string>
+    <string name="uninstall">Տեղահանել</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Մուտք գործեք GitHub-ով</string>
+    <string name="sign_in_to_increase_limit">Մուտք գործեք՝ API-ի տոկոսադրույքի սահմանաչափը մեծացնելու համար</string>
+    <string name="connecting_to_github">Միանում է GitHub-ին…</string>
+    <string name="enter_code_on_github">Մուտքագրեք այս կոդը GitHub-ում</string>
+    <string name="code_instructions">Բացեք GitHub-ը ձեր բրաուզերում և մուտքագրեք ստորև նշված կոդը՝ մուտք գործելու համար</string>
+    <string name="copy_code">Պատճենել կոդը</string>
+    <string name="code_copied">Կոդը պատճենվեց clipboard-ում</string>
+    <string name="open_github">Բացեք GitHub</string>
+    <string name="waiting_for_authorization">Սպասում է թույլտվության…</string>
+    <string name="signed_in_successfully">Մուտք գործեք հաջողությամբ:</string>
+    <string name="signed_in">Մուտք գործեց</string>
+    <string name="signed_in_as">Մուտք եք գործել որպես %s</string>
+    <string name="rate_limit_increased">API-ի տոկոսադրույքի սահմանաչափը ավելացել է մինչև 5000 հարցում/ժամ</string>
+    <string name="sign_out">Դուրս գալ</string>
+    <string name="signed_out">Դուրս է եկել</string>
+    <string name="failed_to_get_code">Չհաջողվեց ստանալ թույլտվության կոդը</string>
+    <string name="auth_expired">Լիազորման ժամկետը լրացել է։ Խնդրում ենք կրկին փորձել:</string>
+    <string name="unknown_error">Անհայտ սխալ է տեղի ունեցել</string>
+    <string name="something_went_wrong">Սխալ առաջացավ</string>
+    <string name="user">@user</string>
+    <string name="rate_limit_exceeded_title">Գնահատման սահմանաչափը գերազանցվել է</string>
+    <string name="rate_limit_exceeded_message">Դուք \'ve գերազանցել եք GitHub API-ի արագության սահմանաչափը (60 հարցում/ժամ):</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve գերազանցել է վավերացված սակագնի սահմանաչափը (5000 հարցում/ժամ): Խնդրում ենք սպասել մի քանի րոպե, նախքան նորից փորձելը:</string>
+    
+    <!-- Donate -->
+    <string name="donate">Նվիրաբերել</string>
+    <string name="support_developer">Աջակցեք Մշակողին</string>
+    <string name="donate_description">Եթե ​​կարծում եք, որ այս հավելվածը օգտակար է, մտածեք զարգացմանն աջակցելու մասին փոքր նվիրատվությունով:</string>
+    <string name="scan_qr_code">Վճարելու համար սկանավորեք QR կոդը</string>
+    <string name="upi_qr_code">UPI QR կոդը</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Պատճենել</string>
+    <string name="upi_id_copied">UPI ID-ն պատճենվեց սեղմատախտակին</string>
+    <string name="thank_you_message">Շնորհակալություն ձեր աջակցության համար: ❤️</string>
+    <string name="pay_with_upi_app">Վճարեք UPI հավելվածով</string>
+    <string name="no_upi_apps_found">Ձեր սարքում UPI վճարման հավելվածներ չեն գտնվել</string>
+    <string name="payment_app_icon">Վճարային հավելվածի պատկերակ</string>
+    <string name="pay">Վճարել</string>
+    <string name="cannot_open_payment_app">Հնարավոր չէ բացել վճարման հավելվածը</string>
+    <string name="buy_me_a_coffee">Գնել ինձ սուրճ</string>
+    <string name="support_buy_me_a_coffee">Աջակցություն Buy Me A Coffe-ին</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Բաց կոդով լիցենզիաներ</string>
+    <string name="source_code">Աղբյուրի կոդը</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">%s տարբերակը</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Իմ հավելվածները</string>
+    <string name="no_favorite_apps">Սիրված հավելվածներ դեռ չկան</string>
+    <string name="no_favorite_apps_hint">Հպեք սրտի պատկերակին ցանկացած հավելվածում՝ այն այստեղ ավելացնելու համար</string>
+    <string name="add_to_favorites">Ավելացնել ընտրյալների մեջ</string>
+    <string name="remove_from_favorites">Հեռացնել ընտրյալներից</string>
+    <string name="added_to_favorites">Ավելացված է ընտրյալների մեջ</string>
+    <string name="removed_from_favorites">Հեռացված է ընտրյալներից</string>
+    <string name="favorite_apps">Սիրված հավելվածներ</string>
+    <string name="no_installed_apps">Տեղադրված հավելվածներ չկան</string>
+    <string name="no_installed_apps_hint">Հավելվածները, որոնք տեղադրում եք ձեր ընտրյալներից, կհայտնվեն այստեղ</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Արտաքին տեսք</string>
+    <string name="theme_system">Համակարգ</string>
+    <string name="theme_for_you">Քեզ համար</string>
+    <string name="theme_dark">Մութ</string>
+    <string name="theme_light">Լույս</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Ներբեռնեք կարգավորումները</string>
+    <string name="proxy">Վստահված անձ</string>
+    <string name="mirror_proxy_description">Երկրների կամ տարածաշրջանների համար, որտեղ GitHub-ն արգելափակված է, ներբեռնելու համար օգտագործեք պրոքսի:</string>
+    <string name="enable_mirror_proxy">Միացնել Mirror Proxy-ը</string>
+    <string name="proxy_url_hint">Վստահված անձի URL (օրինակ՝ https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Հանրաճանաչ վստահված անձինք</string>
+    <string name="multi_part_download">Բազմամասի ներբեռնում</string>
+    <string name="multi_part_description">Ներբեռնեք ֆայլեր՝ օգտագործելով բազմաթիվ կապեր՝ ավելի արագ արագության համար:</string>
+    <string name="enable_multi_part">Միացնել բազմակողմանի ներբեռնումը</string>
+    <string name="download_threads">Բեռնել Թեմաներ</string>
+    <string name="thread_count_hint">Ավելի բարձր արժեքները կարող են բարելավել արագությունը, բայց օգտագործել ավելի շատ ռեսուրսներ (1-32)</string>
+    <string name="download_settings_info">Mirror proxy-ը փոխակերպում է GitHub URL-ները պրոքսի սերվերի միջոցով: Բազմակի ներբեռնումը ֆայլերը բաժանում է մասերի` զուգահեռ ներբեռնելու համար:</string>
+    <string name="download_speed_format">%s/վ</string>
+    <string name="select_variant">Ընտրեք Տարբերակ</string>
+    <string name="compatible">Համատեղելի</string>
+    <string name="incompatible">Անհամատեղելի</string>
+    <string name="recommended">Առաջարկվում է</string>
+    <string name="app_mismatch_title">Հավելվածների անհամապատասխանությո՞ւնը:</string>
+    <string name="app_mismatch_message">RepoStore-ը համապատասխանեցրեց այս պահոցը տեղադրված հավելվածին. %1$s (%2$s):</string>
+    <string name="install_anyway">Տեղադրեք Ամեն դեպքում</string>
+    <string name="forget_mapping">Մոռացեք քարտեզագրումը</string>
+    <string name="contributors">Աջակցողներ</string>
+    <string name="no_apk_variants_available">APK տարբերակներ չկան</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Ընտրված է</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Բոլորը</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">Հավելվածի կառավարիչ</string>
+    <string name="cat_name_app_store_updater">App Store և Updater</string>
+    <string name="cat_name_battery">Մարտկոց</string>
+    <string name="cat_name_bookmark">Էջանիշ</string>
+    <string name="cat_name_browser">Բրաուզեր</string>
+    <string name="cat_name_calculator">Հաշվիչ</string>
+    <string name="cat_name_calendar_agenda">Օրացույց և օրակարգ</string>
+    <string name="cat_name_clock">Ժամացույց</string>
+    <string name="cat_name_cloud_storage">Cloud Storage &amp; File Sync</string>
+    <string name="cat_name_connectivity">Միացում</string>
+    <string name="cat_name_contact">Կապ</string>
+    <string name="cat_name_development">Զարգացում</string>
+    <string name="cat_name_dns_hosts">DNS և հյուրընկալողներ</string>
+    <string name="cat_name_draw">Ոչ ոքի</string>
+    <string name="cat_name_ebook_reader">Ebook Reader</string>
+    <string name="cat_name_email">Էլ</string>
+    <string name="cat_name_file_encryption">Ֆայլերի գաղտնագրում և պահոց</string>
+    <string name="cat_name_file_transfer">Ֆայլերի փոխանցում</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Ֆինանսների մենեջեր</string>
+    <string name="cat_name_flashlight">Լապտեր</string>
+    <string name="cat_name_forum">Ֆորում</string>
+    <string name="cat_name_gallery">Պատկերասրահ</string>
+    <string name="cat_name_games">Խաղեր</string>
+    <string name="cat_name_graphics">Գրաֆիկա</string>
+    <string name="cat_name_habit_tracker">Սովորությունների հետքեր</string>
+    <string name="cat_name_icon_pack">Icon Pack</string>
+    <string name="cat_name_internet">Ինտերնետ</string>
+    <string name="cat_name_inventory">Գույքագրում</string>
+    <string name="cat_name_keyboard_ime">Ստեղնաշար և IME</string>
+    <string name="cat_name_launcher">Գործարկիչ</string>
+    <string name="cat_name_local_media_player">Տեղական մեդիա նվագարկիչ</string>
+    <string name="cat_name_location_tracker">Տեղադրության հետագծում և համօգտագործում</string>
+    <string name="cat_name_messaging">Հաղորդագրություններ</string>
+    <string name="cat_name_money">Փող</string>
+    <string name="cat_name_multimedia">Մուլտիմեդիա</string>
+    <string name="cat_name_music_audio">Երաժշտություն և աուդիո</string>
+    <string name="cat_name_video_players">Վիդեո նվագարկիչներ</string>
+    <string name="cat_name_music_practice">Երաժշտության պրակտիկայի գործիք</string>
+    <string name="cat_name_navigation">Նավիգացիա</string>
+    <string name="cat_name_network_analyzer">Ցանցային անալիզատոր</string>
+    <string name="cat_name_news">Նորություններ</string>
+    <string name="cat_name_note">Նշում</string>
+    <string name="cat_name_online_media_player">Առցանց մեդիա նվագարկիչ</string>
+    <string name="cat_name_pass_wallet">Անցումային դրամապանակ</string>
+    <string name="cat_name_fa">Գաղտնաբառ և 2FA</string>
+    <string name="cat_name_phone_sms">Հեռախոս և SMS</string>
+    <string name="cat_name_podcast">Պոդքասթ</string>
+    <string name="cat_name_public_transport">Հասարակական տրանսպորտ</string>
+    <string name="cat_name_radio">Ռադիո</string>
+    <string name="cat_name_reading">Ընթերցանություն</string>
+    <string name="cat_name_recipe_manager">Recipe Manager</string>
+    <string name="cat_name_remote_controller">Հեռակառավարիչ</string>
+    <string name="cat_name_science_education">Գիտություն և կրթություն</string>
+    <string name="cat_name_security">Անվտանգություն</string>
+    <string name="cat_name_shopping_list">Գնումների ցուցակ</string>
+    <string name="cat_name_social_network">Սոցիալական ցանց</string>
+    <string name="cat_name_sports_health">Սպորտ և առողջություն</string>
+    <string name="cat_name_streaming_app">Հոսքային հավելված</string>
+    <string name="cat_name_system">Համակարգ</string>
+    <string name="cat_name_task">Առաջադրանք</string>
+    <string name="cat_name_text_editor">Տեքստի խմբագիր</string>
+    <string name="cat_name_theming">Թեմա</string>
+    <string name="cat_name_time">Ժամանակը</string>
+    <string name="cat_name_tools">Գործիքներ</string>
+    <string name="cat_name_translation_dictionary">Թարգմանություն և բառարան</string>
+    <string name="cat_name_unit_convertor">Միավորի փոխարկիչ</string>
+    <string name="cat_name_voice_video_chat">Ձայնային և վիդեո զրույց</string>
+    <string name="cat_name_vpn">VPN և վստահված անձ</string>
+    <string name="cat_name_wallet">Դրամապանակ</string>
+    <string name="cat_name_wallpaper">Պաստառ</string>
+    <string name="cat_name_weather">Եղանակ</string>
+    <string name="cat_name_workout">Մարզում</string>
+    <string name="cat_name_writing">Գրել</string>
+    <string name="cat_name_productivity">Արտադրողականություն</string>
+    <string name="cat_name_open_source">Բաց կոդով</string>
+    <string name="cat_name_trending">Թրենդային</string>
+</resources>

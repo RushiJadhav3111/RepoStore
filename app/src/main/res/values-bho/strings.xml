@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">घर</string>
+    <string name="games">खेल के खेलल जाला</string>
+    <string name="apps">ऐप के बा</string>
+    <string name="trending">ट्रेंड हो रहल बा</string>
+    <string name="search">तलाशी</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="back">पीछे</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">ऐप &amp;amp; गेम के खोज करीं</string>
+    <string name="search_github_repos">GitHub रिपोजिटरी के खोज करीं...</string>
+    <string name="search_hint">GitHub पर एंड्रॉयड ऐप के खोज करीं</string>
+    <string name="no_results">कवनो रिजल्ट ना मिलल</string>
+    <string name="clear">साफ</string>
+    <string name="voice_search">आवाज से खोजल जाला</string>
+    <string name="filter">छाननी के बा</string>
+    <string name="sort_by">के हिसाब से सॉर्ट करीं</string>
+    <string name="updated">अपडेट हो गइल बा</string>
+    <string name="has_apk">एपीके बा</string>
+    <string name="reset">रीसेट हो गइल बा</string>
+    <string name="results_count">%d के नतीजा बा</string>
+    <string name="any_language">कवनो भाषा के</string>
+    <string name="any_stars">कवनो सितारा होखे</string>
+    <string name="min_stars_format">%d+ के सितारा बा</string>
+    <string name="best_match">बेस्ट मैच के बा</string>
+    <string name="most_stars">सबसे स्टार के नाम बा</string>
+    <string name="most_forks">अधिकतर कांटा के बा</string>
+    <string name="recently_updated_sort">हाल ही में अपडेट भइल बा</string>
+    <string name="any_time">कवनो समय में</string>
+    <string name="last_week">पिछला हफ्ता पिछला हफ्ता</string>
+    <string name="last_month">पिछला महीना के बा</string>
+    <string name="last_3_months">पिछला 3 महीना के बा</string>
+    <string name="last_year">पिछला साल के भइल</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">रउरा खातिर सिफारिश कइल गइल बा</string>
+    <string name="top_free_apps">टॉप फ्री ऐप बा</string>
+    <string name="recently_updated">हाल ही में अपडेट भइल बा</string>
+    <string name="see_more">अउरी देखल जाव</string>
+    <string name="all_categories">सभ श्रेणी के बा</string>
+    <string name="more">अधिका</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">फीचर्ड गेम के बारे में बतावल गइल बा</string>
+    <string name="popular_games">लोकप्रिय खेल के बा</string>
+    <string name="new_games">नया खेल बा</string>
+    <string name="no_games_found">कवनो खेल ना मिलल</string>
+
+    <!-- App Details -->
+    <string name="app_icon">ऐप आइकन के बा</string>
+    <string name="banner">बैनर के बा</string>
+    <string name="about">बारे में</string>
+    <string name="about_this_app">एह ऐप के बारे में</string>
+    <string name="screenshots">स्क्रीनशॉट के बा</string>
+    <string name="screenshot">स्क्रीनशॉट के बा</string>
+    <string name="stars">सितारा लोग के बा</string>
+    <string name="forks">कांटा के बा</string>
+    <string name="language">भाखा</string>
+    <string name="last_updated">आखिरी बेर अपडेट भइल बा</string>
+    <string name="updated_on">पर अपडेट भइल बा</string>
+    <string name="latest_release">ताजा रिलीज भइल बा</string>
+    <string name="whats_new">What\'s नया बा</string>
+    <string name="readme">README के ​​बा</string>
+    <string name="download">डाउनलोड करीं</string>
+    <string name="install">स्थापित करऽ</string>
+    <string name="download_apk">एपीके डाउनलोड करीं</string>
+    <string name="view_release">रिलीज देखल जाव</string>
+    <string name="view_on_github">GitHub पर देखल जाव</string>
+    <string name="github">GitHub के बा</string>
+    <string name="no_description">कवनो विवरण उपलब्ध नइखे</string>
+    <string name="no_release_notes">कवनो रिलीज नोट नइखे</string>
+    <string name="archived">संग्रहीत कइल गइल बा</string>
+
+    <!-- Tags -->
+    <string name="tag_new">नया</string>
+    <string name="tag_updated">अपडेट कइल गइल बा</string>
+    <string name="tag_archived">संग्रहीत कइल गइल बा</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">कवनो ऐप ना मिलल</string>
+    <string name="no_repos_found">कवनो भंडार ना मिलल</string>
+    <string name="rate_limit_error">दर सीमा पार हो गइल. कृपया बाद में दोबारा कोशिश करीं।</string>
+    <string name="network_error">नेटवर्क में त्रुटि हो गइल बा. कृपया आपन कनेक्शन के जांच करीं।</string>
+    <string name="tap_to_retry">दोबारा कोशिश करे खातिर टैप करीं</string>
+    <string name="loading">लोड हो रहल बा...</string>
+
+    <!-- Developer -->
+    <string name="repositories">भंडार के बारे में बतावल गइल बा</string>
+    <string name="repositories_count">%d भंडार के बा</string>
+    <string name="view_github_profile">GitHub के प्रोफाइल देखल जाव</string>
+
+    <!-- Settings -->
+    <string name="settings">सेटिंग्स के बारे में बतावल गइल बा</string>
+    <string name="github_token">GitHub निजी पहुँच टोकन के बा</string>
+    <string name="github_token_desc">एपीआई दर सीमा के 60 से बढ़ा के 5000 अनुरोध प्रति घंटा करे खातिर टोकन जोड़ीं।</string>
+    <string name="enter_token">आपन GitHub टोकन दर्ज करीं</string>
+    <string name="save_token">टोकन के सेव करीं</string>
+    <string name="clear_token">टोकन के साफ कर दिहल जाव</string>
+    <string name="create_token_on_github">GitHub पर टोकन बनाईं</string>
+    <string name="token_saved">टोकन सफलतापूर्वक सेव हो गइल</string>
+    <string name="token_removed">टोकन हटा दिहल गइल</string>
+    <string name="rate_limit_info_title">एपीआई दर सीमा के बा</string>
+    <string name="rate_limit_info_desc">बिना टोकन के: 60 अनुरोध/घंटा\nटोकन के साथ: 5,000 अनुरोध/घंटा</string>
+    <string name="how_to_create_token">टोकन कइसे बनावल जाला:</string>
+    <string name="token_instructions">1. GitHub सेटिंग्स → डेवलपर सेटिंग्स\n2 पर जाईं। \"व्यक्तिगत पहुँच टोकन\" → \"टोकन (क्लासिक)\"\n3 पर क्लिक करीं। \"नया टोकन जनरेट करीं\"\n4 पर क्लिक करीं। एकरा के एगो नाम दीं आ \"public_repo\" scope\n5 चुनीं। \"टोकन जनरेट करीं\" पर क्लिक करीं आ एकर कॉपी करीं</string>
+    <string name="no_token_set">कवनो टोकन सेट नइखे</string>
+    <string name="token_configured">टोकन कॉन्फ़िगर हो गइल बा</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">डेवलपर के बा</string>
+    <string name="followers">फॉलोअर्स लोग के बा</string>
+    <string name="following">चेला</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">डाउनलोड हो रहल बा...</string>
+    <string name="downloading_apk">एपीके डाउनलोड हो रहल बा</string>
+    <string name="download_complete">डाउनलोड पूरा हो गइल बा</string>
+    <string name="download_in_progress">डाउनलोड पहिलहीं से चलत बा</string>
+    <string name="file_not_found">डाउनलोड भइल फाइल ना मिलल</string>
+    <string name="install_error">इंस्टॉलर ना खोल पावल</string>
+    <string name="installing">इंस्टॉल हो रहल बा...</string>
+    <string name="open">खुला</string>
+    <string name="cannot_open_app">ऐप ना खोलल जा सकेला</string>
+    <string name="queued">कतार में लागल बा...</string>
+    <string name="preparing">तइयारी कइल जा रहल बा...</string>
+    <string name="verifying">सत्यापन कइल जा रहल बा...</string>
+    <string name="storage_error">भंडारण में त्रुटि हो गइल</string>
+    <string name="insufficient_storage">भंडारण के जगह पर्याप्त नइखे</string>
+    <string name="verification_failed">फाइल सत्यापन असफल हो गइल</string>
+    <string name="download_timeout">डाउनलोड के समय खतम हो गइल बा</string>
+    <string name="retry">दोबारा कोशिश करीं</string>
+    <string name="cancel">मना कइ दीं</string>
+    <string name="update">अपडेट</string>
+    <string name="update_available">अपडेट उपलब्ध बा</string>
+    <string name="uninstall">अनइंस्टॉल करीं</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">GitHub के साथ साइन इन करीं</string>
+    <string name="sign_in_to_increase_limit">एपीआई दर सीमा बढ़ावे खातिर साइन इन करीं</string>
+    <string name="connecting_to_github">GitHub से जुड़ रहल बा...</string>
+    <string name="enter_code_on_github">GitHub पर ई कोड दर्ज करीं</string>
+    <string name="code_instructions">अपना ब्राउजर में GitHub खोलीं आ साइन इन करे खातिर नीचे दिहल कोड डालीं</string>
+    <string name="copy_code">कोड के कॉपी करीं</string>
+    <string name="code_copied">कोड क्लिपबोर्ड में कॉपी कइल गइल बा</string>
+    <string name="open_github">GitHub खोलल जाला</string>
+    <string name="waiting_for_authorization">प्राधिकरण के इंतजार बा...</string>
+    <string name="signed_in_successfully">सफलतापूर्वक साइन इन कइले बानी!</string>
+    <string name="signed_in">साइन इन कइले बानी</string>
+    <string name="signed_in_as">%s के रूप में साइन इन कइल गइल बा</string>
+    <string name="rate_limit_increased">एपीआई दर सीमा बढ़ा के 5,000 अनुरोध/घंटा कर दिहल गइल</string>
+    <string name="sign_out">साइन आउट करीं</string>
+    <string name="signed_out">साइन आउट हो गइल बा</string>
+    <string name="failed_to_get_code">प्राधिकरण कोड ना मिल पावल</string>
+    <string name="auth_expired">प्राधिकरण के अवधि खतम हो गइल. कृपया दोबारा कोशिश करीं।</string>
+    <string name="unknown_error">अज्ञात त्रुटि हो गइल</string>
+    <string name="something_went_wrong">कुछ गड़बड़ हो गइल</string>
+    <string name="user">@उपयोगकर्ता के बा</string>
+    <string name="rate_limit_exceeded_title">दर सीमा पार हो गइल</string>
+    <string name="rate_limit_exceeded_message">You\'ve GitHub API दर सीमा (60 अनुरोध/घंटा) से अधिक हो गइल बा।\n\nGitHub के साथ साइन इन करीं ताकि आपन सीमा 5,000 अनुरोध/घंटा तक बढ़ावल जा सके मुफ्त में!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve प्रमाणित दर सीमा (5,000 अनुरोध/घंटा) से अधिका हो गइल बा। कृपया दोबारा कोशिश करे से पहिले कुछ मिनट इंतजार करीं।</string>
+    
+    <!-- Donate -->
+    <string name="donate">दान कईल</string>
+    <string name="support_developer">डेवलपर के समर्थन करीं</string>
+    <string name="donate_description">अगर रउरा ई ऐप उपयोगी लागत बा त एगो छोट चंदा से एह विकास के समर्थन करे पर विचार करीं.</string>
+    <string name="scan_qr_code">भुगतान करे खातिर क्यूआर कोड स्कैन करीं</string>
+    <string name="upi_qr_code">यूपीआई क्यूआर कोड के बा</string>
+    <string name="upi_id">यूपीआई आईडी के बा</string>
+    <string name="copy">कॉपी कइल जा सकेला</string>
+    <string name="upi_id_copied">यूपीआई आईडी क्लिपबोर्ड में कॉपी कइल गइल</string>
+    <string name="thank_you_message">रउरा सभे के सहयोग खातिर धन्यवाद! ❤️ के बा</string>
+    <string name="pay_with_upi_app">यूपीआई ऐप से भुगतान करीं</string>
+    <string name="no_upi_apps_found">रउरा डिवाइस पर कवनो यूपीआई भुगतान ऐप ना मिलल</string>
+    <string name="payment_app_icon">भुगतान ऐप आइकन बा</string>
+    <string name="pay">भुगतान</string>
+    <string name="cannot_open_payment_app">भुगतान ऐप ना खोलल जा सकेला</string>
+    <string name="buy_me_a_coffee">हमरा के एगो कॉफी खरीदीं</string>
+    <string name="support_buy_me_a_coffee">बाइ मी ए कॉफी पर समर्थन बा</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">ओपन सोर्स लाइसेंस के बारे में बतावल गइल बा</string>
+    <string name="source_code">स्रोत कोड के बा</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s) के बा।</string>
+    <string name="download_starting">0%% के बा</string>
+    <string name="page_indicator">%1$d / %2$d के बा</string>
+    <string name="version_format">संस्करण %s के बा</string>
+    <string name="username_format">@%s के बा</string>
+    <string name="error_with_retry">%1$s\n\n%2$s के बा</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">हमार ऐप बा</string>
+    <string name="no_favorite_apps">अभी तक कवनो पसंदीदा ऐप नईखे</string>
+    <string name="no_favorite_apps_hint">कवनो ऐप प हार्ट आइकन प टैप क के ओकरा के इहाँ जोड़ल जा सकता</string>
+    <string name="add_to_favorites">पसंदीदा में जोड़ल जाव</string>
+    <string name="remove_from_favorites">पसंदीदा से हटा लीं</string>
+    <string name="added_to_favorites">पसंदीदा में जोड़ल गइल बा</string>
+    <string name="removed_from_favorites">पसंदीदा से हटा दिहल गइल बा</string>
+    <string name="favorite_apps">पसंदीदा ऐप बा</string>
+    <string name="no_installed_apps">कवनो इंस्टॉल ऐप ना होखे</string>
+    <string name="no_installed_apps_hint">रउरा अपना पसंदीदा से इंस्टॉल कइल ऐप एहिजा लउकी</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">भेख</string>
+    <string name="theme_system">प्रणाली</string>
+    <string name="theme_for_you">तहरा खातिर</string>
+    <string name="theme_dark">अन्हरिया</string>
+    <string name="theme_light">उजियार</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">डाउनलोड सेटिंग्स के बारे में बतावल गइल बा</string>
+    <string name="proxy">प्रॉक्सी के बा</string>
+    <string name="mirror_proxy_description">जवना देश भा क्षेत्र में GitHub ब्लॉक बा, डाउनलोड करे खातिर प्रॉक्सी के इस्तेमाल करीं।</string>
+    <string name="enable_mirror_proxy">मिरर प्रॉक्सी के सक्षम करीं</string>
+    <string name="proxy_url_hint">प्रॉक्सी यूआरएल (जइसे कि, https://gh-proxy.com/)</string>
+    <string name="popular_proxies">लोकप्रिय प्रॉक्सी के बारे में बतावल गइल बा</string>
+    <string name="multi_part_download">मल्टी-पार्ट डाउनलोड कइल जाला</string>
+    <string name="multi_part_description">तेज गति खातिर कई गो कनेक्शन के इस्तेमाल से फाइल डाउनलोड करीं।</string>
+    <string name="enable_multi_part">मल्टी-पार्ट डाउनलोड सक्षम करीं</string>
+    <string name="download_threads">थ्रेड डाउनलोड करीं</string>
+    <string name="thread_count_hint">अधिका मान से गति में सुधार हो सकेला बाकिर अधिका संसाधन के इस्तेमाल कइल जाला (1-32)</string>
+    <string name="download_settings_info">मिरर प्रॉक्सी एगो प्रॉक्सी सर्वर के माध्यम से GitHub यूआरएल सभ के रूपांतरित करे ला। मल्टी-पार्ट डाउनलोडिंग से समानांतर डाउनलोडिंग खातिर फाइल सभ के चंक्स में बाँटल जाला।</string>
+    <string name="download_speed_format">%s/s के बा</string>
+    <string name="select_variant">संस्करण के चयन करीं</string>
+    <string name="compatible">अनुकूल</string>
+    <string name="incompatible">असंगत बा</string>
+    <string name="recommended">अनुशंसित</string>
+    <string name="app_mismatch_title">ऐप बेमेल बा?</string>
+    <string name="app_mismatch_message">RepoStore एह रिपोजिटरी के एगो इंस्टॉल ऐप से मिलान कइले बा: %1$s (%2$s).\n\nअगर ई उहे ऐप ना ह, त रउआ वैसे भी एह रिपोजिटरी से APK इंस्टॉल करे के विकल्प चुन सकत बानी।</string>
+    <string name="install_anyway">वैसे भी इंस्टॉल करीं</string>
+    <string name="forget_mapping">मैपिंग के भूल जाइब</string>
+    <string name="contributors">योगदान देवे वाला लोग</string>
+    <string name="no_apk_variants_available">कवनो एपीके वेरिएंट उपलब्ध नइखे</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">चुनल गइल बा</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">कुल्हि</string>
+    <string name="cat_name_ai_chat">एआई चैट के बा</string>
+    <string name="cat_name_app_manager">ऐप मैनेजर के बा</string>
+    <string name="cat_name_app_store_updater">ऐप स्टोर अउर अपडेटर</string>
+    <string name="cat_name_battery">बैटरी</string>
+    <string name="cat_name_bookmark">बुकमार्क के नाम से जानल जाला</string>
+    <string name="cat_name_browser">ब्राउजर के बा</string>
+    <string name="cat_name_calculator">कैलकुलेटर के बा</string>
+    <string name="cat_name_calendar_agenda">कैलेंडर अउर एजेंडा</string>
+    <string name="cat_name_clock">घड़ी</string>
+    <string name="cat_name_cloud_storage">क्लाउड स्टोरेज अउर फाइल सिंक</string>
+    <string name="cat_name_connectivity">कनेक्टिविटी के बारे में बतावल गइल बा</string>
+    <string name="cat_name_contact">संपर्क</string>
+    <string name="cat_name_development">बिकास</string>
+    <string name="cat_name_dns_hosts">डीएनएस अउर होस्ट के बा</string>
+    <string name="cat_name_draw">खींचीं</string>
+    <string name="cat_name_ebook_reader">ईबुक रीडर के बा</string>
+    <string name="cat_name_email">ईमेल पर भेजल जा सकेला</string>
+    <string name="cat_name_file_encryption">फाइल एन्क्रिप्शन अउर तिजोरी</string>
+    <string name="cat_name_file_transfer">फाइल ट्रांसफर के बा</string>
+    <string name="cat_name_firewall">फायरवाल के बा</string>
+    <string name="cat_name_finance_manager">वित्त प्रबंधक के बा</string>
+    <string name="cat_name_flashlight">टॉर्च के रोशनी में बा</string>
+    <string name="cat_name_forum">मंच के बा</string>
+    <string name="cat_name_gallery">गैलरी में बा</string>
+    <string name="cat_name_games">खेल के खेलल जाला</string>
+    <string name="cat_name_graphics">ग्राफिक्स के बारे में बतावल गइल बा</string>
+    <string name="cat_name_habit_tracker">आदत ट्रैकर के बा</string>
+    <string name="cat_name_icon_pack">आइकन पैक के बा</string>
+    <string name="cat_name_internet">इंटरनेट के बा</string>
+    <string name="cat_name_inventory">सूची</string>
+    <string name="cat_name_keyboard_ime">कीबोर्ड अउर आईएमई</string>
+    <string name="cat_name_launcher">लांचर के नाम से जानल जाला</string>
+    <string name="cat_name_local_media_player">स्थानीय मीडिया प्लेयर के बा</string>
+    <string name="cat_name_location_tracker">लोकेशन ट्रैकर अउर शेयरर</string>
+    <string name="cat_name_messaging">संदेश भेजल जा सकेला</string>
+    <string name="cat_name_money">रुपिया</string>
+    <string name="cat_name_multimedia">मल्टीमीडिया के बा</string>
+    <string name="cat_name_music_audio">संगीत आ ऑडियो के बारे में बतावल गइल बा</string>
+    <string name="cat_name_video_players">वीडियो प्लेयर के बा</string>
+    <string name="cat_name_music_practice">संगीत के अभ्यास के साधन बा</string>
+    <string name="cat_name_navigation">नेविगेशन के बारे में बतावल गइल बा</string>
+    <string name="cat_name_network_analyzer">नेटवर्क विश्लेषक के बा</string>
+    <string name="cat_name_news">खबर</string>
+    <string name="cat_name_note">धेयान दीं</string>
+    <string name="cat_name_online_media_player">ऑनलाइन मीडिया प्लेयर के बा</string>
+    <string name="cat_name_pass_wallet">पास वॉलेट के बा</string>
+    <string name="cat_name_fa">पासवर्ड &amp; 2एफए के बा</string>
+    <string name="cat_name_phone_sms">फोन अउर एसएमएस</string>
+    <string name="cat_name_podcast">पॉडकास्ट</string>
+    <string name="cat_name_public_transport">सार्वजनिक परिवहन के बा</string>
+    <string name="cat_name_radio">रेडियो के बा</string>
+    <string name="cat_name_reading">पढ़ल रहल बानी</string>
+    <string name="cat_name_recipe_manager">रेसिपी मैनेजर के बा</string>
+    <string name="cat_name_remote_controller">रिमोट कंट्रोलर के बा</string>
+    <string name="cat_name_science_education">विज्ञान अउर शिक्षा के बारे में बतावल गइल बा</string>
+    <string name="cat_name_security">सुरक्षा</string>
+    <string name="cat_name_shopping_list">खरीदारी के सूची बा</string>
+    <string name="cat_name_social_network">सोशल नेटवर्क के बारे में बतावल गइल बा</string>
+    <string name="cat_name_sports_health">खेल अउर स्वास्थ्य के बारे में बतावल गइल बा</string>
+    <string name="cat_name_streaming_app">स्ट्रीमिंग ऐप के बा</string>
+    <string name="cat_name_system">प्रणाली</string>
+    <string name="cat_name_task">काम</string>
+    <string name="cat_name_text_editor">पाठ संपादक के बा</string>
+    <string name="cat_name_theming">थीमिंग के बारे में बतावल गइल बा</string>
+    <string name="cat_name_time">समय</string>
+    <string name="cat_name_tools">उपकरण</string>
+    <string name="cat_name_translation_dictionary">अनुवाद अउर शब्दकोश</string>
+    <string name="cat_name_unit_convertor">इकाई कनवर्टर के बा</string>
+    <string name="cat_name_voice_video_chat">आवाज अउर वीडियो चैट</string>
+    <string name="cat_name_vpn">वीपीएन अउर प्रॉक्सी</string>
+    <string name="cat_name_wallet">बटुआ</string>
+    <string name="cat_name_wallpaper">वॉलपेपर के बा</string>
+    <string name="cat_name_weather">मौसम</string>
+    <string name="cat_name_workout">कसरत</string>
+    <string name="cat_name_writing">लिखल</string>
+    <string name="cat_name_productivity">उत्पादकता के बारे में बतावल गइल बा</string>
+    <string name="cat_name_open_source">ओपन सोर्स के बा</string>
+    <string name="cat_name_trending">ट्रेंड हो रहल बा</string>
+</resources>

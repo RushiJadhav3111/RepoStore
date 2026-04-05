@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Balay</string>
+    <string name="games">Mga dula</string>
+    <string name="apps">Aplikasyon</string>
+    <string name="trending">Trending</string>
+    <string name="search">Pangitaa</string>
+    <string name="profile">Profile</string>
+    <string name="back">Balik</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Pangitaa ang mga app ug dula</string>
+    <string name="search_github_repos">Pangitaa ang mga repositoryo sa GitHub…</string>
+    <string name="search_hint">Pangitaa ang Android apps sa GitHub</string>
+    <string name="no_results">Walay resulta nga nakit-an</string>
+    <string name="clear">Klaro</string>
+    <string name="voice_search">Pagpangita sa tingog</string>
+    <string name="filter">Pagsala</string>
+    <string name="sort_by">Pagsunud sa</string>
+    <string name="updated">Gi-update</string>
+    <string name="has_apk">Adunay APK</string>
+    <string name="reset">I-reset</string>
+    <string name="results_count">%d resulta</string>
+    <string name="any_language">Bisan unsang pinulongan</string>
+    <string name="any_stars">Bisan unsang mga bituon</string>
+    <string name="min_stars_format">%d+ nga mga bituon</string>
+    <string name="best_match">Labing maayo nga duwa</string>
+    <string name="most_stars">Kadaghanan sa mga Bitoon</string>
+    <string name="most_forks">Kadaghanan sa Forks</string>
+    <string name="recently_updated_sort">Bag-o nga Gi-update</string>
+    <string name="any_time">Bisan unsang orasa</string>
+    <string name="last_week">Sa miaging semana</string>
+    <string name="last_month">Sa miaging bulan</string>
+    <string name="last_3_months">Niaging 3 ka bulan</string>
+    <string name="last_year">Sa miaging tuig</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Girekomenda alang kanimo</string>
+    <string name="top_free_apps">Nanguna nga libre nga mga app</string>
+    <string name="recently_updated">Bag-o lang gi-update</string>
+    <string name="see_more">Tan-awa pa</string>
+    <string name="all_categories">Tanang Kategorya</string>
+    <string name="more">Dugang pa</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Gipili nga mga Dula</string>
+    <string name="popular_games">Popular nga Dula</string>
+    <string name="new_games">Bag-ong Dula</string>
+    <string name="no_games_found">Walay dula nga nakit-an</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Icon sa app</string>
+    <string name="banner">Banner</string>
+    <string name="about">Mahitungod sa</string>
+    <string name="about_this_app">Mahitungod niini nga app</string>
+    <string name="screenshots">Mga screenshot</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="stars">Mga bituon</string>
+    <string name="forks">Mga tinidor</string>
+    <string name="language">Pinulongan</string>
+    <string name="last_updated">Katapusan nga gi-update</string>
+    <string name="updated_on">Gi-update sa</string>
+    <string name="latest_release">Pinakabag-o nga Pagpagawas</string>
+    <string name="whats_new">Unsa\'s bag-o</string>
+    <string name="readme">BASAHA KO</string>
+    <string name="download">Pag-download</string>
+    <string name="install">Pag-instalar</string>
+    <string name="download_apk">Pag-download sa APK</string>
+    <string name="view_release">Tan-awa ang Pagpagawas</string>
+    <string name="view_on_github">Tan-awa sa GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Walay deskripsyon nga magamit</string>
+    <string name="no_release_notes">Walay mga nota sa pagpagawas</string>
+    <string name="archived">Gi-archive</string>
+
+    <!-- Tags -->
+    <string name="tag_new">BAG-O</string>
+    <string name="tag_updated">UPDATED</string>
+    <string name="tag_archived">GI-ARCHIVE</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Walay apps nga nakit-an</string>
+    <string name="no_repos_found">Walay nakitang mga repository</string>
+    <string name="rate_limit_error">Milapas sa limitasyon sa rate. Palihug sulayi pag-usab unya.</string>
+    <string name="network_error">Sayop sa network. Palihug susiha ang imong koneksyon.</string>
+    <string name="tap_to_retry">I-tap aron sulayan pag-usab</string>
+    <string name="loading">Nagkarga…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Mga tipiganan</string>
+    <string name="repositories_count">%d nga mga repositoryo</string>
+    <string name="view_github_profile">Tan-awa ang GitHub Profile</string>
+
+    <!-- Settings -->
+    <string name="settings">Mga setting</string>
+    <string name="github_token">GitHub Personal nga Access Token</string>
+    <string name="github_token_desc">Pagdugang usa ka token aron madugangan ang limitasyon sa rate sa API gikan sa 60 hangtod 5000 nga mga hangyo matag oras.</string>
+    <string name="enter_token">Pagsulod sa imong GitHub token</string>
+    <string name="save_token">I-save ang Token</string>
+    <string name="clear_token">Tin-aw nga Token</string>
+    <string name="create_token_on_github">Paghimo Token sa GitHub</string>
+    <string name="token_saved">Malampuson nga na-save ang token</string>
+    <string name="token_removed">Gitangtang ang token</string>
+    <string name="rate_limit_info_title">Limit sa Rate sa API</string>
+    <string name="rate_limit_info_desc">Kung walay token: 60 ka hangyo/oras\nAdunay token: 5,000 ka hangyo/oras</string>
+    <string name="how_to_create_token">Unsaon paghimo ug token:</string>
+    <string name="token_instructions">1. Adto sa GitHub Settings → Developer settings\n2. I-klik ang \"Personal access tokens\" → \"Tokens (classic)\"\n3. I-klik ang \"Paghimo og bag-ong token\" \n4. Hatagi kini og ngalan ug pilia ang \"public_repo\" scope\n5. I-klik ang \"Pagmugna og token\" ug kopyaha kini</string>
+    <string name="no_token_set">Walay set nga token</string>
+    <string name="token_configured">Gi-configure ang token</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Developer</string>
+    <string name="followers">Mga sumusunod</string>
+    <string name="following">Nagsunod</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Nag-download…</string>
+    <string name="downloading_apk">Pag-download sa APK</string>
+    <string name="download_complete">Kumpleto ang pag-download</string>
+    <string name="download_in_progress">Nagpadayon na ang pag-download</string>
+    <string name="file_not_found">Wala makit-an ang na-download nga file</string>
+    <string name="install_error">Dili maablihan ang installer</string>
+    <string name="installing">Nag-instalar…</string>
+    <string name="open">Bukas</string>
+    <string name="cannot_open_app">Dili maablihan ang app</string>
+    <string name="queued">Gipila…</string>
+    <string name="preparing">Nangandam…</string>
+    <string name="verifying">Gipamatud-an…</string>
+    <string name="storage_error">Nahitabo ang sayup sa pagtipig</string>
+    <string name="insufficient_storage">Dili igo nga espasyo sa pagtipig</string>
+    <string name="verification_failed">Napakyas ang pag-verify sa file</string>
+    <string name="download_timeout">Na-time out ang pag-download</string>
+    <string name="retry">Sulayi pag-usab</string>
+    <string name="cancel">Pagkanselar</string>
+    <string name="update">Update</string>
+    <string name="update_available">Magamit ang update</string>
+    <string name="uninstall">I-uninstall</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Sign in gamit ang GitHub</string>
+    <string name="sign_in_to_increase_limit">Pag-sign in aron madugangan ang limitasyon sa rate sa API</string>
+    <string name="connecting_to_github">Pagkonektar sa GitHub…</string>
+    <string name="enter_code_on_github">Ibutang kini nga code sa GitHub</string>
+    <string name="code_instructions">Ablihi ang GitHub sa imong browser ug isulod ang code sa ubos aron maka-sign in</string>
+    <string name="copy_code">Kopyaha ang Code</string>
+    <string name="code_copied">Ang code gikopya sa clipboard</string>
+    <string name="open_github">Ablihi ang GitHub</string>
+    <string name="waiting_for_authorization">Naghulat alang sa pagtugot…</string>
+    <string name="signed_in_successfully">Malampuson nga naka-sign in!</string>
+    <string name="signed_in">Naka-sign in</string>
+    <string name="signed_in_as">Naka-sign in isip %s</string>
+    <string name="rate_limit_increased">Ang limitasyon sa rate sa API misaka ngadto sa 5,000 ka hangyo/oras</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="signed_out">Nag-sign out</string>
+    <string name="failed_to_get_code">Napakyas sa pagkuha sa authorization code</string>
+    <string name="auth_expired">Na-expire ang pagtugot. Palihug sulayi pag-usab.</string>
+    <string name="unknown_error">Nahitabo ang wala mailhi nga sayup</string>
+    <string name="something_went_wrong">Naay nahitabo</string>
+    <string name="user">@user</string>
+    <string name="rate_limit_exceeded_title">Milapas sa Limit sa Rate</string>
+    <string name="rate_limit_exceeded_message">Milapas ka sa GitHub API rate limit (60 hangyo/oras).</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve milapas sa authenticated rate limit (5,000 requests/hour). Palihug paghulat pipila ka minuto sa dili pa mosulay pag-usab.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Pagdonar</string>
+    <string name="support_developer">Suportahi ang Developer</string>
+    <string name="donate_description">Kung nakita nimo nga mapuslanon kini nga app, ikonsiderar ang pagsuporta sa pag-uswag gamit ang gamay nga donasyon.</string>
+    <string name="scan_qr_code">I-scan ang QR Code aron Makabayad</string>
+    <string name="upi_qr_code">UPI QR Code</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Kopyaha</string>
+    <string name="upi_id_copied">Ang UPI ID gikopya sa clipboard</string>
+    <string name="thank_you_message">Salamat sa imong suporta! ❤️</string>
+    <string name="pay_with_upi_app">Pagbayad gamit ang UPI App</string>
+    <string name="no_upi_apps_found">Wala’y nakit-an nga aplikasyon sa pagbayad sa UPI sa imong aparato</string>
+    <string name="payment_app_icon">Icon sa pagbayad app</string>
+    <string name="pay">Bayad</string>
+    <string name="cannot_open_payment_app">Dili maablihan ang app sa pagbayad</string>
+    <string name="buy_me_a_coffee">Palita Kog Kape</string>
+    <string name="support_buy_me_a_coffee">Suporta sa Buy Me A Coffee</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Mga Lisensya sa Open Source</string>
+    <string name="source_code">Source Code</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Bersyon %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Akong Apps</string>
+    <string name="no_favorite_apps">Wala pay paborito nga mga app</string>
+    <string name="no_favorite_apps_hint">I-tap ang icon sa kasingkasing sa bisan unsang app aron idugang kini dinhi</string>
+    <string name="add_to_favorites">Idugang sa mga paborito</string>
+    <string name="remove_from_favorites">Kuhaa gikan sa mga paborito</string>
+    <string name="added_to_favorites">Gidugang sa mga paborito</string>
+    <string name="removed_from_favorites">Gikuha gikan sa mga paborito</string>
+    <string name="favorite_apps">Paboritong Apps</string>
+    <string name="no_installed_apps">Walay na-install nga mga app</string>
+    <string name="no_installed_apps_hint">Ang mga app nga imong gi-install gikan sa imong mga paborito makita dinhi</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Panagway</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_for_you">Para Kanimo</string>
+    <string name="theme_dark">Ngitngit</string>
+    <string name="theme_light">Kahayag</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Pag-download sa Mga Setting</string>
+    <string name="proxy">proxy</string>
+    <string name="mirror_proxy_description">Alang sa mga nasud o rehiyon diin ang GitHub gibabagan, gamita ang proxy aron ma-download.</string>
+    <string name="enable_mirror_proxy">I-enable ang Mirror Proxy</string>
+    <string name="proxy_url_hint">Proxy URL (pananglitan, https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Popular nga mga Proxies</string>
+    <string name="multi_part_download">Daghang Bahin nga Pag-download</string>
+    <string name="multi_part_description">Pag-download sa mga file gamit ang daghang koneksyon alang sa mas paspas nga tulin.</string>
+    <string name="enable_multi_part">I-enable ang Multi-Part Download</string>
+    <string name="download_threads">Pag-download sa mga Thread</string>
+    <string name="thread_count_hint">Ang mas taas nga mga bili mahimong makapauswag sa katulin apan mogamit ug dugang nga kahinguhaan (1-32)</string>
+    <string name="download_settings_info">Mirror proxy nag-usab sa GitHub URLs pinaagi sa proxy server. Ang pag-download sa daghang bahin nagbahin sa mga file sa mga tipak alang sa parehas nga pag-download.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Pilia ang Bersyon</string>
+    <string name="compatible">Compatible</string>
+    <string name="incompatible">Dili magkauyon</string>
+    <string name="recommended">Girekomenda</string>
+    <string name="app_mismatch_title">Mismatch sa App?</string>
+    <string name="app_mismatch_message">Gipares sa RepoStore kini nga repository sa usa ka na-install nga app: %1$s (%2$s).</string>
+    <string name="install_anyway">Pag-instalar bisan unsa</string>
+    <string name="forget_mapping">Kalimti ang Mapping</string>
+    <string name="contributors">Mga kontribyutor</string>
+    <string name="no_apk_variants_available">Walay magamit nga mga variant sa APK</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Gipili</string>
+    <!-- Categories -->
+    <string name="cat_name_all">Tanan</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">App Manager</string>
+    <string name="cat_name_app_store_updater">App Store ug Updater</string>
+    <string name="cat_name_battery">Baterya</string>
+    <string name="cat_name_bookmark">Bookmark</string>
+    <string name="cat_name_browser">Browser</string>
+    <string name="cat_name_calculator">Calculator</string>
+    <string name="cat_name_calendar_agenda">Kalendaryo ug Agenda</string>
+    <string name="cat_name_clock">Relo</string>
+    <string name="cat_name_cloud_storage">Cloud Storage ug File Sync</string>
+    <string name="cat_name_connectivity">Pagkadugtong</string>
+    <string name="cat_name_contact">Kontaka</string>
+    <string name="cat_name_development">Pag-uswag</string>
+    <string name="cat_name_dns_hosts">DNS ug mga Host</string>
+    <string name="cat_name_draw">Pagdrowing</string>
+    <string name="cat_name_ebook_reader">Magbasa sa Ebook</string>
+    <string name="cat_name_email">Email</string>
+    <string name="cat_name_file_encryption">Pag-encrypt sa File ug Vault</string>
+    <string name="cat_name_file_transfer">Pagbalhin sa File</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Manager sa Panalapi</string>
+    <string name="cat_name_flashlight">Flashlight</string>
+    <string name="cat_name_forum">Forum</string>
+    <string name="cat_name_gallery">Gallery</string>
+    <string name="cat_name_games">Mga dula</string>
+    <string name="cat_name_graphics">Mga graphic</string>
+    <string name="cat_name_habit_tracker">Pagsubay sa Kinaiya</string>
+    <string name="cat_name_icon_pack">Icon Pack</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Imbentaryo</string>
+    <string name="cat_name_keyboard_ime">Keyboard ug IME</string>
+    <string name="cat_name_launcher">Launcher</string>
+    <string name="cat_name_local_media_player">Lokal nga Media Player</string>
+    <string name="cat_name_location_tracker">Lokasyon Tracker &amp;amp; Sharer</string>
+    <string name="cat_name_messaging">Pagmensahe</string>
+    <string name="cat_name_money">Salapi</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Musika ug Audio</string>
+    <string name="cat_name_video_players">Mga Video Player</string>
+    <string name="cat_name_music_practice">Himan sa Pagpraktis sa Musika</string>
+    <string name="cat_name_navigation">Nabigasyon</string>
+    <string name="cat_name_network_analyzer">Analyzer sa Network</string>
+    <string name="cat_name_news">Balita</string>
+    <string name="cat_name_note">Nota</string>
+    <string name="cat_name_online_media_player">Online nga Media Player</string>
+    <string name="cat_name_pass_wallet">Ipasa ang pitaka</string>
+    <string name="cat_name_fa">Password ug 2FA</string>
+    <string name="cat_name_phone_sms">Telepono ug SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Pampublikong Transportasyon</string>
+    <string name="cat_name_radio">Radyo</string>
+    <string name="cat_name_reading">Pagbasa</string>
+    <string name="cat_name_recipe_manager">Tagdumala sa Resipe</string>
+    <string name="cat_name_remote_controller">Remote Controller</string>
+    <string name="cat_name_science_education">Siyensiya ug Edukasyon</string>
+    <string name="cat_name_security">Seguridad</string>
+    <string name="cat_name_shopping_list">Listahan sa Pagpamalit</string>
+    <string name="cat_name_social_network">Social Network</string>
+    <string name="cat_name_sports_health">Sports &amp;amp; Panglawas</string>
+    <string name="cat_name_streaming_app">Streaming nga App</string>
+    <string name="cat_name_system">Sistema</string>
+    <string name="cat_name_task">Buluhaton</string>
+    <string name="cat_name_text_editor">Text Editor</string>
+    <string name="cat_name_theming">Tema</string>
+    <string name="cat_name_time">Panahon</string>
+    <string name="cat_name_tools">Mga galamiton</string>
+    <string name="cat_name_translation_dictionary">Paghubad ug Diksyonaryo</string>
+    <string name="cat_name_unit_convertor">Konverter sa Yunit</string>
+    <string name="cat_name_voice_video_chat">Tingog ug Video Chat</string>
+    <string name="cat_name_vpn">VPN ug Proxy</string>
+    <string name="cat_name_wallet">pitaka</string>
+    <string name="cat_name_wallpaper">Wallpaper</string>
+    <string name="cat_name_weather">Panahon</string>
+    <string name="cat_name_workout">Pag-ehersisyo</string>
+    <string name="cat_name_writing">Pagsulat</string>
+    <string name="cat_name_productivity">Pagkaproduktibo</string>
+    <string name="cat_name_open_source">Bukas nga Tinubdan</string>
+    <string name="cat_name_trending">Trending</string></resources>

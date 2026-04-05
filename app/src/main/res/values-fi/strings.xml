@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Kotiin</string>
+    <string name="games">Pelit</string>
+    <string name="apps">Sovellukset</string>
+    <string name="trending">Trendaavat</string>
+    <string name="search">Haku</string>
+    <string name="profile">Profiili</string>
+    <string name="back">Takaisin</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Hae sovelluksia ja pelejä</string>
+    <string name="search_github_repos">Hae GitHub-arkistoja…</string>
+    <string name="search_hint">Etsi Android-sovelluksia GitHub:stä</string>
+    <string name="no_results">Tuloksia ei löytynyt</string>
+    <string name="clear">Selkeä</string>
+    <string name="voice_search">Äänihaku</string>
+    <string name="filter">Suodattaa</string>
+    <string name="sort_by">Lajitteluperuste</string>
+    <string name="updated">Päivitetty</string>
+    <string name="has_apk">Sisältää APK:n</string>
+    <string name="reset">Nollaa</string>
+    <string name="results_count">%d tulokset</string>
+    <string name="any_language">Mikä tahansa kieli</string>
+    <string name="any_stars">Kaikki tähdet</string>
+    <string name="min_stars_format">%d+ tähdet</string>
+    <string name="best_match">Paras ottelu</string>
+    <string name="most_stars">Useimmat tähdet</string>
+    <string name="most_forks">Useimmat Forksista</string>
+    <string name="recently_updated_sort">Äskettäin päivitetty</string>
+    <string name="any_time">Milloin tahansa</string>
+    <string name="last_week">Viime viikolla</string>
+    <string name="last_month">Viime kuussa</string>
+    <string name="last_3_months">Viimeiset 3 kuukautta</string>
+    <string name="last_year">Viime vuonna</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Suositellaan sinulle</string>
+    <string name="top_free_apps">Suosituimmat ilmaiset sovellukset</string>
+    <string name="recently_updated">Äskettäin päivitetty</string>
+    <string name="see_more">Katso lisää</string>
+    <string name="all_categories">Kaikki luokat</string>
+    <string name="more">Lisää</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Suositellut pelit</string>
+    <string name="popular_games">Suosittuja pelejä</string>
+    <string name="new_games">Uusia pelejä</string>
+    <string name="no_games_found">Pelejä ei löytynyt</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Sovelluskuvake</string>
+    <string name="banner">Banneri</string>
+    <string name="about">Noin</string>
+    <string name="about_this_app">Tietoja tästä sovelluksesta</string>
+    <string name="screenshots">Kuvakaappaukset</string>
+    <string name="screenshot">Kuvakaappaus</string>
+    <string name="stars">Tähdet</string>
+    <string name="forks">Haarukat</string>
+    <string name="language">Kieli</string>
+    <string name="last_updated">Viimeksi päivitetty</string>
+    <string name="updated_on">Updated on</string>
+    <string name="latest_release">Viimeisin julkaisu</string>
+    <string name="whats_new">Mitä\' uutta</string>
+    <string name="readme">README</string>
+    <string name="download">Lataa</string>
+    <string name="install">Asentaa</string>
+    <string name="download_apk">Lataa APK</string>
+    <string name="view_release">Näytä julkaisu</string>
+    <string name="view_on_github">Katso GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Kuvausta ei ole saatavilla</string>
+    <string name="no_release_notes">Ei julkaisutietoja</string>
+    <string name="archived">Arkistoitu</string>
+
+    <!-- Tags -->
+    <string name="tag_new">UUSI</string>
+    <string name="tag_updated">PÄIVITETTY</string>
+    <string name="tag_archived">ARKISTOINTI</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Sovelluksia ei löytynyt</string>
+    <string name="no_repos_found">Tietovarastoja ei löytynyt</string>
+    <string name="rate_limit_error">Hintaraja ylitetty. Yritä myöhemmin uudelleen.</string>
+    <string name="network_error">Verkkovirhe. Tarkista yhteys.</string>
+    <string name="tap_to_retry">Yritä uudelleen napauttamalla</string>
+    <string name="loading">Ladataan…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Tietovarastot</string>
+    <string name="repositories_count">%d arkistot</string>
+    <string name="view_github_profile">Näytä GitHub-profiili</string>
+
+    <!-- Settings -->
+    <string name="settings">Asetukset</string>
+    <string name="github_token">GitHub Personal Access Token</string>
+    <string name="github_token_desc">Lisää tunnus lisätäksesi API-nopeusrajan 60:stä 5000 pyyntöön tunnissa.</string>
+    <string name="enter_token">Anna GitHub-tunnus</string>
+    <string name="save_token">Tallenna Token</string>
+    <string name="clear_token">Tyhjennä Token</string>
+    <string name="create_token_on_github">Luo tunnus GitHub:lle</string>
+    <string name="token_saved">Tunnus tallennettu onnistuneesti</string>
+    <string name="token_removed">Tunnus poistettu</string>
+    <string name="rate_limit_info_title">API Rate Limit</string>
+    <string name="rate_limit_info_desc">Ilman tunnusta: 60 pyyntöä/tunti\nTokenilla: 5 000 pyyntöä/tunti</string>
+    <string name="how_to_create_token">Tokenin luominen:</string>
+    <string name="token_instructions">1. Siirry kohtaan GitHub-asetukset → Kehittäjäasetukset\n2. Napsauta \"Henkilökohtaiset käyttöoikeudet\" → \"Tokens (klassinen)\"\n3. Napsauta \"Luo uusi tunnus\"\n4. Anna sille nimi ja valitse \"public_repo\" soveltamisala\n5. Napsauta \"Luo tunnus\" ja kopioi se</string>
+    <string name="no_token_set">Ei merkkiä asetettu</string>
+    <string name="token_configured">Tunnus määritetty</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Kehittäjä</string>
+    <string name="followers">Seuraajat</string>
+    <string name="following">Jälkeen</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Ladataan…</string>
+    <string name="downloading_apk">Ladataan APK:ta</string>
+    <string name="download_complete">Lataus valmis</string>
+    <string name="download_in_progress">Lataus on jo käynnissä</string>
+    <string name="file_not_found">Ladattua tiedostoa ei löydy</string>
+    <string name="install_error">Asennusohjelmaa ei voitu avata</string>
+    <string name="installing">Asennetaan…</string>
+    <string name="open">Avata</string>
+    <string name="cannot_open_app">Sovellusta ei voi avata</string>
+    <string name="queued">Jonossa…</string>
+    <string name="preparing">Valmistellaan…</string>
+    <string name="verifying">Vahvistetaan…</string>
+    <string name="storage_error">Tapahtui tallennusvirhe</string>
+    <string name="insufficient_storage">Ei tarpeeksi tallennustilaa</string>
+    <string name="verification_failed">Tiedoston vahvistus epäonnistui</string>
+    <string name="download_timeout">Lataus aikakatkaistiin</string>
+    <string name="retry">Yritä uudelleen</string>
+    <string name="cancel">Peruuttaa</string>
+    <string name="update">Päivittää</string>
+    <string name="update_available">Päivitys saatavilla</string>
+    <string name="uninstall">Poista asennus</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Kirjaudu sisään GitHub:llä</string>
+    <string name="sign_in_to_increase_limit">Kirjaudu sisään lisätäksesi API-nopeusrajaa</string>
+    <string name="connecting_to_github">Yhdistetään GitHub:ään…</string>
+    <string name="enter_code_on_github">Syötä tämä koodi GitHub:ään</string>
+    <string name="code_instructions">Avaa GitHub selaimessasi ja kirjaudu sisään antamalla alla oleva koodi</string>
+    <string name="copy_code">Kopioi koodi</string>
+    <string name="code_copied">Koodi kopioitu leikepöydälle</string>
+    <string name="open_github">Avaa GitHub</string>
+    <string name="waiting_for_authorization">Odotetaan valtuutusta…</string>
+    <string name="signed_in_successfully">Kirjautuminen onnistui!</string>
+    <string name="signed_in">Kirjautunut sisään</string>
+    <string name="signed_in_as">Kirjautunut sisään nimellä %s</string>
+    <string name="rate_limit_increased">API-nopeusrajoitus nostettiin 5 000 pyyntöön/tunti</string>
+    <string name="sign_out">Kirjaudu ulos</string>
+    <string name="signed_out">Kirjautunut ulos</string>
+    <string name="failed_to_get_code">Valtuutuskoodin hakeminen epäonnistui</string>
+    <string name="auth_expired">Valtuutus vanhentunut. Yritä uudelleen.</string>
+    <string name="unknown_error">Tapahtui tuntematon virhe</string>
+    <string name="something_went_wrong">Jotain meni pieleen</string>
+    <string name="user">\@-käyttäjä</string>
+    <string name="rate_limit_exceeded_title">Rate Limit ylitetty</string>
+    <string name="rate_limit_exceeded_message">Olet \' ylittänyt GitHub API:n nopeusrajan (60 pyyntöä/tunti).\n\nKirjaudu sisään GitHub:llä nostaaksesi rajasi 5 000 pyyntöön/tunti ilmaiseksi!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve ylitti todetun nopeusrajan (5 000 pyyntöä/tunti). Odota muutama minuutti ennen kuin yrität uudelleen.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Lahjoittaa</string>
+    <string name="support_developer">Tue kehittäjää</string>
+    <string name="donate_description">Jos pidät tästä sovelluksesta hyödyllisenä, harkitse kehittämisen tukemista pienellä lahjoituksella.</string>
+    <string name="scan_qr_code">Skannaa QR-koodi maksaaksesi</string>
+    <string name="upi_qr_code">UPI QR-koodi</string>
+    <string name="upi_id">UPI-tunnus</string>
+    <string name="copy">Kopioida</string>
+    <string name="upi_id_copied">UPI-tunnus kopioitu leikepöydälle</string>
+    <string name="thank_you_message">Kiitos tuestanne! ❤️</string>
+    <string name="pay_with_upi_app">Maksa UPI-sovelluksella</string>
+    <string name="no_upi_apps_found">Laitteeltasi ei löytynyt UPI-maksusovelluksia</string>
+    <string name="payment_app_icon">Maksusovelluksen kuvake</string>
+    <string name="pay">Maksaa</string>
+    <string name="cannot_open_payment_app">Maksusovellusta ei voi avata</string>
+    <string name="buy_me_a_coffee">Osta minulle kahvia</string>
+    <string name="support_buy_me_a_coffee">Osta minulle kahvia -tuki</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Avoimen lähdekoodin lisenssit</string>
+    <string name="source_code">Lähdekoodi</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Versio %s</string>
+    <string name="username_format">\@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Omat sovellukset</string>
+    <string name="no_favorite_apps">Ei vielä suosikkisovelluksia</string>
+    <string name="no_favorite_apps_hint">Napauta minkä tahansa sovelluksen sydänkuvaketta lisätäksesi sen tähän</string>
+    <string name="add_to_favorites">Lisää suosikkeihin</string>
+    <string name="remove_from_favorites">Poista suosikeista</string>
+    <string name="added_to_favorites">Lisätty suosikkeihin</string>
+    <string name="removed_from_favorites">Poistettu suosikeista</string>
+    <string name="favorite_apps">Suosikkisovellukset</string>
+    <string name="no_installed_apps">Ei asennettuja sovelluksia</string>
+    <string name="no_installed_apps_hint">Suosikeistasi asentamasi sovellukset näkyvät täällä</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Ulkonäkö</string>
+    <string name="theme_system">Järjestelmä</string>
+    <string name="theme_for_you">Sinulle</string>
+    <string name="theme_dark">Tumma</string>
+    <string name="theme_light">Kevyt</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Latausasetukset</string>
+    <string name="proxy">Välityspalvelin</string>
+    <string name="mirror_proxy_description">Käytä välityspalvelinta lataamiseen maissa tai alueilla, joissa GitHub on estetty.</string>
+    <string name="enable_mirror_proxy">Ota peilivälityspalvelin käyttöön</string>
+    <string name="proxy_url_hint">Välityspalvelimen URL-osoite (esim. https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Suositut välityspalvelimet</string>
+    <string name="multi_part_download">Moniosainen lataus</string>
+    <string name="multi_part_description">Lataa tiedostoja useilla yhteyksillä nopeamman nopeuden saavuttamiseksi.</string>
+    <string name="enable_multi_part">Ota moniosainen lataus käyttöön</string>
+    <string name="download_threads">Lataa ketjut</string>
+    <string name="thread_count_hint">Suuremmat arvot voivat parantaa nopeutta, mutta kuluttaa enemmän resursseja (1-32)</string>
+    <string name="download_settings_info">Peilivälityspalvelin muuttaa GitHub-URL-osoitteet välityspalvelimen kautta. Moniosainen lataus jakaa tiedostot osiin rinnakkaislatausta varten.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Valitse Versio</string>
+    <string name="compatible">Yhteensopiva</string>
+    <string name="incompatible">Yhteensopimaton</string>
+    <string name="recommended">Suositeltava</string>
+    <string name="app_mismatch_title">Sovellus ei täsmää?</string>
+    <string name="app_mismatch_message">RepoStore sovitti tämän arkiston asennettuun sovellukseen: %1$s (%2$s).\n\nIJos tämä EI ole sama sovellus, voit silti asentaa APK:n tästä arkistosta.</string>
+    <string name="install_anyway">Asenna joka tapauksessa</string>
+    <string name="forget_mapping">Unohda kartoitus</string>
+    <string name="contributors">Osallistujat</string>
+    <string name="no_apk_variants_available">APK-versioita ei ole saatavilla</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Valittu</string>
+    <!-- Categories -->
+    <string name="cat_name_all">Kaikki</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">App Manager</string>
+    <string name="cat_name_app_store_updater">App Store &amp;amp; Updater</string>
+    <string name="cat_name_battery">Akku</string>
+    <string name="cat_name_bookmark">Kirjanmerkki</string>
+    <string name="cat_name_browser">Selain</string>
+    <string name="cat_name_calculator">Laskin</string>
+    <string name="cat_name_calendar_agenda">Kalenteri &amp;amp; Agenda</string>
+    <string name="cat_name_clock">Kello</string>
+    <string name="cat_name_cloud_storage">Pilvitallennus ja tiedostojen synkronointi</string>
+    <string name="cat_name_connectivity">Yhteydet</string>
+    <string name="cat_name_contact">Ota yhteyttä</string>
+    <string name="cat_name_development">Kehitys</string>
+    <string name="cat_name_dns_hosts">DNS ja isännät</string>
+    <string name="cat_name_draw">Piirrä</string>
+    <string name="cat_name_ebook_reader">E-kirjan lukija</string>
+    <string name="cat_name_email">Sähköposti</string>
+    <string name="cat_name_file_encryption">Tiedoston salaus ja holvi</string>
+    <string name="cat_name_file_transfer">Tiedoston siirto</string>
+    <string name="cat_name_firewall">Palomuuri</string>
+    <string name="cat_name_finance_manager">Talouspäällikkö</string>
+    <string name="cat_name_flashlight">Taskulamppu</string>
+    <string name="cat_name_forum">foorumi</string>
+    <string name="cat_name_gallery">Galleria</string>
+    <string name="cat_name_games">Pelit</string>
+    <string name="cat_name_graphics">Grafiikka</string>
+    <string name="cat_name_habit_tracker">Habit Tracker</string>
+    <string name="cat_name_icon_pack">Ikonipaketti</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Varasto</string>
+    <string name="cat_name_keyboard_ime">Näppäimistö ja IME</string>
+    <string name="cat_name_launcher">Käynnistysohjelma</string>
+    <string name="cat_name_local_media_player">Paikallinen mediasoitin</string>
+    <string name="cat_name_location_tracker">Sijainnin seuranta ja jakaja</string>
+    <string name="cat_name_messaging">Viestit</string>
+    <string name="cat_name_money">Rahaa</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Musiikki &amp;amp; Audio</string>
+    <string name="cat_name_video_players">Videosoittimet</string>
+    <string name="cat_name_music_practice">Musiikin harjoitustyökalu</string>
+    <string name="cat_name_navigation">Navigointi</string>
+    <string name="cat_name_network_analyzer">Verkko-analysaattori</string>
+    <string name="cat_name_news">Uutiset</string>
+    <string name="cat_name_note">Huom</string>
+    <string name="cat_name_online_media_player">Online-mediasoitin</string>
+    <string name="cat_name_pass_wallet">Pass Wallet</string>
+    <string name="cat_name_fa">Salasana ja 2FA</string>
+    <string name="cat_name_phone_sms">Puhelin &amp;amp; SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Julkinen liikenne</string>
+    <string name="cat_name_radio">Radio</string>
+    <string name="cat_name_reading">Lukeminen</string>
+    <string name="cat_name_recipe_manager">Reseptipäällikkö</string>
+    <string name="cat_name_remote_controller">Kaukosäädin</string>
+    <string name="cat_name_science_education">Tiede ja koulutus</string>
+    <string name="cat_name_security">Turvallisuus</string>
+    <string name="cat_name_shopping_list">Ostoslista</string>
+    <string name="cat_name_social_network">Sosiaalinen verkosto</string>
+    <string name="cat_name_sports_health">Urheilu ja terveys</string>
+    <string name="cat_name_streaming_app">Suoratoistosovellus</string>
+    <string name="cat_name_system">Järjestelmä</string>
+    <string name="cat_name_task">Tehtävä</string>
+    <string name="cat_name_text_editor">Tekstieditori</string>
+    <string name="cat_name_theming">Theming</string>
+    <string name="cat_name_time">Aika</string>
+    <string name="cat_name_tools">Työkalut</string>
+    <string name="cat_name_translation_dictionary">Käännös ja sanakirja</string>
+    <string name="cat_name_unit_convertor">Yksikkömuunnin</string>
+    <string name="cat_name_voice_video_chat">Ääni- ja videokeskustelu</string>
+    <string name="cat_name_vpn">VPN ja välityspalvelin</string>
+    <string name="cat_name_wallet">Lompakko</string>
+    <string name="cat_name_wallpaper">Taustakuva</string>
+    <string name="cat_name_weather">Sää</string>
+    <string name="cat_name_workout">Harjoittelu</string>
+    <string name="cat_name_writing">Kirjoittaminen</string>
+    <string name="cat_name_productivity">Tuottavuus</string>
+    <string name="cat_name_open_source">Avoin lähdekoodi</string>
+    <string name="cat_name_trending">Trendaavat</string></resources>

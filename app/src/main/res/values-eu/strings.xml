@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Hasiera</string>
+    <string name="games">Jolasak</string>
+    <string name="apps">Aplikazioak</string>
+    <string name="trending">Joera</string>
+    <string name="search">Bilatu</string>
+    <string name="profile">Profila</string>
+    <string name="back">Itzuli</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Bilatu aplikazioak eta jokoak</string>
+    <string name="search_github_repos">Bilatu GitHub biltegietan...</string>
+    <string name="search_hint">Bilatu Android aplikazioak GitHub-n</string>
+    <string name="no_results">Ez da emaitzarik aurkitu</string>
+    <string name="clear">Garbi</string>
+    <string name="voice_search">Ahots bilaketa</string>
+    <string name="filter">Iragazkia</string>
+    <string name="sort_by">Ordenatu</string>
+    <string name="updated">Eguneratua</string>
+    <string name="has_apk">APK du</string>
+    <string name="reset">Berrezarri</string>
+    <string name="results_count">%d emaitzak</string>
+    <string name="any_language">Edozein hizkuntza</string>
+    <string name="any_stars">Edozein izar</string>
+    <string name="min_stars_format">%d+ izarrak</string>
+    <string name="best_match">Partidu onena</string>
+    <string name="most_stars">Izar gehienak</string>
+    <string name="most_forks">Sardexka gehienak</string>
+    <string name="recently_updated_sort">Berriki eguneratua</string>
+    <string name="any_time">Edozein momentutan</string>
+    <string name="last_week">Joan den astean</string>
+    <string name="last_month">Azken hilabetean</string>
+    <string name="last_3_months">Azken 3 hilabeteak</string>
+    <string name="last_year">Iaz</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Zuretzat gomendatua</string>
+    <string name="top_free_apps">Doako aplikazio nagusiak</string>
+    <string name="recently_updated">Berriki eguneratua</string>
+    <string name="see_more">Ikusi gehiago</string>
+    <string name="all_categories">Kategoria guztiak</string>
+    <string name="more">Gehiago</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Joko aipagarriak</string>
+    <string name="popular_games">Jolas Herrikoiak</string>
+    <string name="new_games">Joko berriak</string>
+    <string name="no_games_found">Ez da jokorik aurkitu</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Aplikazioaren ikonoa</string>
+    <string name="banner">Pankarta</string>
+    <string name="about">Buruz</string>
+    <string name="about_this_app">Aplikazio honi buruz</string>
+    <string name="screenshots">Pantaila-argazkiak</string>
+    <string name="screenshot">Pantaila-argazkia</string>
+    <string name="stars">Izarrak</string>
+    <string name="forks">Sardexkak</string>
+    <string name="language">Hizkuntza</string>
+    <string name="last_updated">Azken eguneratua</string>
+    <string name="updated_on">Egun eguneratua</string>
+    <string name="latest_release">Azken bertsioa</string>
+    <string name="whats_new">Zer berria da \'</string>
+    <string name="readme">IRAKURRI</string>
+    <string name="download">Deskargatu</string>
+    <string name="install">Instalatu</string>
+    <string name="download_apk">Deskargatu APK</string>
+    <string name="view_release">Ikusi oharra</string>
+    <string name="view_on_github">Ikusi GitHub-n</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Ez dago deskribapenik eskuragarri</string>
+    <string name="no_release_notes">Ez dago kaleratze oharrik</string>
+    <string name="archived">Artxibatuta</string>
+
+    <!-- Tags -->
+    <string name="tag_new">BERRIA</string>
+    <string name="tag_updated">EGUNERATU</string>
+    <string name="tag_archived">ARTXIBOA</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Ez da aplikaziorik aurkitu</string>
+    <string name="no_repos_found">Ez da biltegirik aurkitu</string>
+    <string name="rate_limit_error">Tarifaren muga gainditu da. Mesedez, saiatu berriro geroago.</string>
+    <string name="network_error">Sareko errorea. Mesedez, egiaztatu zure konexioa.</string>
+    <string name="tap_to_retry">Sakatu berriro saiatzeko</string>
+    <string name="loading">Kargatzen…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Biltegiak</string>
+    <string name="repositories_count">%d biltegiak</string>
+    <string name="view_github_profile">Ikusi GitHub profila</string>
+
+    <!-- Settings -->
+    <string name="settings">Ezarpenak</string>
+    <string name="github_token">GitHub Sarbide Token pertsonala</string>
+    <string name="github_token_desc">Gehitu token bat API tasaren muga orduko 60tik 5000 eskaerara handitzeko.</string>
+    <string name="enter_token">Sartu zure GitHub tokena</string>
+    <string name="save_token">Gorde tokena</string>
+    <string name="clear_token">Garbitu tokena</string>
+    <string name="create_token_on_github">Sortu tokena GitHub-en</string>
+    <string name="token_saved">Tokena behar bezala gorde da</string>
+    <string name="token_removed">Tokena kendu da</string>
+    <string name="rate_limit_info_title">API tasaren muga</string>
+    <string name="rate_limit_info_desc">Tokenrik gabe: 60 eskaera/orduko\nToken batekin: 5.000 eskaera/orduko</string>
+    <string name="how_to_create_token">Nola sortu token bat:</string>
+    <string name="token_instructions">1. Joan GitHub Ezarpenak → Garatzaileen ezarpenak\n2. Sakatu \"Sarbide pertsonaleko tokenak\" → \"Tokenak (klasikoak)\"\n3. Sakatu \"Sortu token berria\"\n4. Eman izena eta hautatu \"public_repo\" scope\n5. Sakatu \"Sortu tokena\" eta kopiatu</string>
+    <string name="no_token_set">Ez dago token multzorik</string>
+    <string name="token_configured">Tokena konfiguratuta</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Garatzailea</string>
+    <string name="followers">Jarraitzaileak</string>
+    <string name="following">Jarraian</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Deskargatzen…</string>
+    <string name="downloading_apk">APK deskargatzen</string>
+    <string name="download_complete">Deskarga osatuta</string>
+    <string name="download_in_progress">Deskargatu dagoeneko</string>
+    <string name="file_not_found">Deskargatutako fitxategia ez da aurkitu</string>
+    <string name="install_error">Ezin izan da instalatzailea ireki</string>
+    <string name="installing">Instalatzen…</string>
+    <string name="open">Ireki</string>
+    <string name="cannot_open_app">Ezin da aplikazioa ireki</string>
+    <string name="queued">Ilaran jarrita…</string>
+    <string name="preparing">Prestatzen…</string>
+    <string name="verifying">Egiaztatzen…</string>
+    <string name="storage_error">Biltegiratzeko errorea gertatu da</string>
+    <string name="insufficient_storage">Ez dago behar adina biltegiratzeko tokirik</string>
+    <string name="verification_failed">Ezin izan da fitxategia egiaztatu</string>
+    <string name="download_timeout">Deskargaren denbora-muga gainditu da</string>
+    <string name="retry">Saiatu berriro</string>
+    <string name="cancel">Utzi</string>
+    <string name="update">Eguneratu</string>
+    <string name="update_available">Eguneratzea eskuragarri</string>
+    <string name="uninstall">Desinstalatu</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Hasi saioa GitHub-rekin</string>
+    <string name="sign_in_to_increase_limit">Hasi saioa API tasa-muga handitzeko</string>
+    <string name="connecting_to_github">GitHub-era konektatzen…</string>
+    <string name="enter_code_on_github">Sartu kode hau GitHub-en</string>
+    <string name="code_instructions">Ireki GitHub arakatzailean eta sartu beheko kodea saioa hasteko</string>
+    <string name="copy_code">Kopiatu kodea</string>
+    <string name="code_copied">Kopiatu da kodea arbelean</string>
+    <string name="open_github">Ireki GitHub</string>
+    <string name="waiting_for_authorization">Baimenaren zain...</string>
+    <string name="signed_in_successfully">Behar bezala hasi da saioa!</string>
+    <string name="signed_in">Hasi saioa</string>
+    <string name="signed_in_as">%s gisa hasi da saioa</string>
+    <string name="rate_limit_increased">API tasa-muga 5.000 eskaera/orduko igo da</string>
+    <string name="sign_out">Amaitu saioa</string>
+    <string name="signed_out">Saioa amaituta</string>
+    <string name="failed_to_get_code">Ezin izan da lortu baimen-kodea</string>
+    <string name="auth_expired">Baimena iraungi da. Mesedez, saiatu berriro.</string>
+    <string name="unknown_error">Errore ezezaguna gertatu da</string>
+    <string name="something_went_wrong">Zerbait gaizki joan da</string>
+    <string name="user">@user</string>
+    <string name="rate_limit_exceeded_title">Tarifaren muga gainditu da</string>
+    <string name="rate_limit_exceeded_message">You\'ve GitHub API tarifa-muga gainditu du (60 eskaera/orduko).\n\nHasi saioa GitHub-rekin zure muga 5.000 eskaera/orduko doan handitzeko!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve autentifikatutako tarifa-muga gainditu du (5.000 eskaera/orduko). Mesedez, itxaron minutu batzuk berriro saiatu aurretik.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Dohaintza eman</string>
+    <string name="support_developer">Laguntza Garatzaileari</string>
+    <string name="donate_description">Aplikazio hau erabilgarria iruditzen bazaizu, kontuan hartu garapena dohaintza txiki batekin laguntzea.</string>
+    <string name="scan_qr_code">Eskaneatu QR kodea ordaintzeko</string>
+    <string name="upi_qr_code">UPI QR kodea</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Kopiatu</string>
+    <string name="upi_id_copied">UPI ID arbelean kopiatu da</string>
+    <string name="thank_you_message">Eskerrik asko zure laguntzagatik! ❤️</string>
+    <string name="pay_with_upi_app">Ordaindu UPI aplikazioarekin</string>
+    <string name="no_upi_apps_found">Ez da aurkitu UPI ordainketa-aplikaziorik zure gailuan</string>
+    <string name="payment_app_icon">Ordainketa aplikazioaren ikonoa</string>
+    <string name="pay">Ordaindu</string>
+    <string name="cannot_open_payment_app">Ezin da ireki ordainketa-aplikazioa</string>
+    <string name="buy_me_a_coffee">Erosi Kafe Bat</string>
+    <string name="support_buy_me_a_coffee">Buy Me A Coffee-n laguntza</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Kode irekiko lizentziak</string>
+    <string name="source_code">Iturburu kodea</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">%s bertsioa</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Nire aplikazioak</string>
+    <string name="no_favorite_apps">Oraindik ez dago gogoko aplikaziorik</string>
+    <string name="no_favorite_apps_hint">Sakatu edozein aplikaziotako bihotzaren ikonoa hemen gehitzeko</string>
+    <string name="add_to_favorites">Gehitu gogokoetara</string>
+    <string name="remove_from_favorites">Kendu gogokoetatik</string>
+    <string name="added_to_favorites">Gogokoetara gehitu da</string>
+    <string name="removed_from_favorites">Gogokoetatik kendu da</string>
+    <string name="favorite_apps">Gogoko aplikazioak</string>
+    <string name="no_installed_apps">Ez dago instalatutako aplikaziorik</string>
+    <string name="no_installed_apps_hint">Zure gogokoetatik instalatzen dituzun aplikazioak hemen agertuko dira</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Itxura</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_for_you">Zuretzat</string>
+    <string name="theme_dark">Iluna</string>
+    <string name="theme_light">Argia</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Deskargatu ezarpenak</string>
+    <string name="proxy">Proxy</string>
+    <string name="mirror_proxy_description">GitHub blokeatuta dagoen herrialde edo eskualdeetarako, erabili proxy bat deskargatzeko.</string>
+    <string name="enable_mirror_proxy">Gaitu Mirror Proxy</string>
+    <string name="proxy_url_hint">Proxy URLa (adibidez, https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Proxy ezagunak</string>
+    <string name="multi_part_download">Parte anitzeko deskarga</string>
+    <string name="multi_part_description">Deskargatu fitxategiak hainbat konexio erabiliz abiadura handiagoa lortzeko.</string>
+    <string name="enable_multi_part">Gaitu zati anitzeko deskarga</string>
+    <string name="download_threads">Deskargatu hariak</string>
+    <string name="thread_count_hint">Balio altuagoek abiadura hobetu dezakete baina baliabide gehiago erabili (1-32)</string>
+    <string name="download_settings_info">Ispilu proxy-ak GitHub URLak proxy zerbitzari baten bidez eraldatzen ditu. Zati anitzeko deskargak fitxategiak zatitan banatzen ditu deskarga paraleloan egiteko.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Hautatu Bertsioa</string>
+    <string name="compatible">Bateragarria</string>
+    <string name="incompatible">Bateraezina</string>
+    <string name="recommended">Gomendagarria</string>
+    <string name="app_mismatch_title">Aplikazioa ez dator bat?</string>
+    <string name="app_mismatch_message">RepoStore-ek biltegi hau instalatutako aplikazio batekin parekatu du: %1$s (%2$s).\n\nAplikazio bera EZ bada, biltegi honetatik APK instalatzea aukera dezakezu hala ere.</string>
+    <string name="install_anyway">Instalatu Dena den</string>
+    <string name="forget_mapping">Ahaztu mapak</string>
+    <string name="contributors">Laguntzaileak</string>
+    <string name="no_apk_variants_available">Ez dago APK aldaerarik eskuragarri</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Hautatuta</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Denak</string>
+    <string name="cat_name_ai_chat">AI Txata</string>
+    <string name="cat_name_app_manager">Aplikazioen kudeatzailea</string>
+    <string name="cat_name_app_store_updater">App Store eta eguneratzailea</string>
+    <string name="cat_name_battery">Bateria</string>
+    <string name="cat_name_bookmark">Laster-marka</string>
+    <string name="cat_name_browser">Arakatzailea</string>
+    <string name="cat_name_calculator">Kalkulagailua</string>
+    <string name="cat_name_calendar_agenda">Egutegia eta agenda</string>
+    <string name="cat_name_clock">Erlojua</string>
+    <string name="cat_name_cloud_storage">Hodeiko biltegiratzea eta fitxategien sinkronizazioa</string>
+    <string name="cat_name_connectivity">Konektibitatea</string>
+    <string name="cat_name_contact">Harremanetan jarri</string>
+    <string name="cat_name_development">Garapena</string>
+    <string name="cat_name_dns_hosts">DNS eta ostalariak</string>
+    <string name="cat_name_draw">Marraztu</string>
+    <string name="cat_name_ebook_reader">Ebook Reader</string>
+    <string name="cat_name_email">Posta elektronikoa</string>
+    <string name="cat_name_file_encryption">Fitxategien enkriptatzea eta ganga</string>
+    <string name="cat_name_file_transfer">Fitxategien transferentzia</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Finantza zuzendaria</string>
+    <string name="cat_name_flashlight">Linterna</string>
+    <string name="cat_name_forum">Foroa</string>
+    <string name="cat_name_gallery">Galeria</string>
+    <string name="cat_name_games">Jolasak</string>
+    <string name="cat_name_graphics">Grafikoak</string>
+    <string name="cat_name_habit_tracker">Ohituraren jarraipena</string>
+    <string name="cat_name_icon_pack">Ikono paketea</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Inbentarioa</string>
+    <string name="cat_name_keyboard_ime">Teklatua eta IME</string>
+    <string name="cat_name_launcher">Abiarazlea</string>
+    <string name="cat_name_local_media_player">Tokiko Media Player</string>
+    <string name="cat_name_location_tracker">Kokapenaren jarraipena eta partekatzailea</string>
+    <string name="cat_name_messaging">Mezularitza</string>
+    <string name="cat_name_money">Dirua</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Musika eta audioa</string>
+    <string name="cat_name_video_players">Bideo erreproduzitzaileak</string>
+    <string name="cat_name_music_practice">Musika praktikatzeko tresna</string>
+    <string name="cat_name_navigation">Nabigazioa</string>
+    <string name="cat_name_network_analyzer">Sare analizatzailea</string>
+    <string name="cat_name_news">Berriak</string>
+    <string name="cat_name_note">Oharra</string>
+    <string name="cat_name_online_media_player">Lineako multimedia erreproduzitzailea</string>
+    <string name="cat_name_pass_wallet">Pasa Wallet</string>
+    <string name="cat_name_fa">Pasahitza eta 2FA</string>
+    <string name="cat_name_phone_sms">Telefonoa eta SMSa</string>
+    <string name="cat_name_podcast">Podcasta</string>
+    <string name="cat_name_public_transport">Garraio publikoa</string>
+    <string name="cat_name_radio">Irratia</string>
+    <string name="cat_name_reading">Irakurketa</string>
+    <string name="cat_name_recipe_manager">Errezeta kudeatzailea</string>
+    <string name="cat_name_remote_controller">Urruneko kontrolagailua</string>
+    <string name="cat_name_science_education">Zientzia eta Hezkuntza</string>
+    <string name="cat_name_security">Segurtasuna</string>
+    <string name="cat_name_shopping_list">Erosketa Zerrenda</string>
+    <string name="cat_name_social_network">Sare Soziala</string>
+    <string name="cat_name_sports_health">Kirolak eta Osasuna</string>
+    <string name="cat_name_streaming_app">Streaming aplikazioa</string>
+    <string name="cat_name_system">Sistema</string>
+    <string name="cat_name_task">Zeregin</string>
+    <string name="cat_name_text_editor">Testu-editorea</string>
+    <string name="cat_name_theming">Gaikatzea</string>
+    <string name="cat_name_time">Denbora</string>
+    <string name="cat_name_tools">Tresnak</string>
+    <string name="cat_name_translation_dictionary">Itzulpena eta Hiztegia</string>
+    <string name="cat_name_unit_convertor">Unitate bihurgailua</string>
+    <string name="cat_name_voice_video_chat">Ahots eta Bideo Txata</string>
+    <string name="cat_name_vpn">VPN eta proxy</string>
+    <string name="cat_name_wallet">Diru-zorroa</string>
+    <string name="cat_name_wallpaper">Horma-papera</string>
+    <string name="cat_name_weather">Eguraldia</string>
+    <string name="cat_name_workout">Entrenamendua</string>
+    <string name="cat_name_writing">Idaztea</string>
+    <string name="cat_name_productivity">Produktibitatea</string>
+    <string name="cat_name_open_source">Kode irekia</string>
+    <string name="cat_name_trending">Joera</string>
+</resources>

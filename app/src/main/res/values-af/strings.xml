@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Tuis</string>
+    <string name="games">Speletjies</string>
+    <string name="apps">Toepassings</string>
+    <string name="trending">Trending</string>
+    <string name="search">Soek</string>
+    <string name="profile">Profiel</string>
+    <string name="back">Terug</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Soek programme en speletjies</string>
+    <string name="search_github_repos">Soek GitHub-bewaarplekke...</string>
+    <string name="search_hint">Soek vir Android-toepassings op GitHub</string>
+    <string name="no_results">Geen resultate gevind nie</string>
+    <string name="clear">Duidelik</string>
+    <string name="voice_search">Stemsoektog</string>
+    <string name="filter">Filter</string>
+    <string name="sort_by">Sorteer volgens</string>
+    <string name="updated">Opgedateer</string>
+    <string name="has_apk">Het APK</string>
+    <string name="reset">Stel terug</string>
+    <string name="results_count">%d resultate</string>
+    <string name="any_language">Enige taal</string>
+    <string name="any_stars">Enige sterre</string>
+    <string name="min_stars_format">%d+ sterre</string>
+    <string name="best_match">Beste Wedstryd</string>
+    <string name="most_stars">Meeste sterre</string>
+    <string name="most_forks">Meeste vurke</string>
+    <string name="recently_updated_sort">Onlangs opgedateer</string>
+    <string name="any_time">Enige tyd</string>
+    <string name="last_week">Verlede week</string>
+    <string name="last_month">Verlede maand</string>
+    <string name="last_3_months">Laaste 3 maande</string>
+    <string name="last_year">Verlede jaar</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Vir jou aanbeveel</string>
+    <string name="top_free_apps">Top gratis toepassings</string>
+    <string name="recently_updated">Onlangs opgedateer</string>
+    <string name="see_more">Sien meer</string>
+    <string name="all_categories">Alle kategorieë</string>
+    <string name="more">Meer</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Uitstalspeletjies</string>
+    <string name="popular_games">Gewilde speletjies</string>
+    <string name="new_games">Nuwe Speletjies</string>
+    <string name="no_games_found">Geen speletjies gevind nie</string>
+
+    <!-- App Details -->
+    <string name="app_icon">App-ikoon</string>
+    <string name="banner">Banier</string>
+    <string name="about">Oor</string>
+    <string name="about_this_app">Oor hierdie toepassing</string>
+    <string name="screenshots">Skermskote</string>
+    <string name="screenshot">Skermskoot</string>
+    <string name="stars">Sterre</string>
+    <string name="forks">Vurke</string>
+    <string name="language">Taal</string>
+    <string name="last_updated">Laas opgedateer</string>
+    <string name="updated_on">Opgedateer op</string>
+    <string name="latest_release">Jongste vrystelling</string>
+    <string name="whats_new">Wat \' is nuut</string>
+    <string name="readme">LEES MY</string>
+    <string name="download">Laai af</string>
+    <string name="install">Installeer</string>
+    <string name="download_apk">Laai APK af</string>
+    <string name="view_release">Bekyk vrystelling</string>
+    <string name="view_on_github">Kyk op GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Geen beskrywing beskikbaar nie</string>
+    <string name="no_release_notes">Geen vrystellingsnotas nie</string>
+    <string name="archived">Geargiveer</string>
+
+    <!-- Tags -->
+    <string name="tag_new">NUUT</string>
+    <string name="tag_updated">OPGEDATEER</string>
+    <string name="tag_archived">ARGIEF</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Geen programme gevind nie</string>
+    <string name="no_repos_found">Geen bewaarplekke gevind nie</string>
+    <string name="rate_limit_error">Tarieflimiet oorskry. Probeer asseblief later weer.</string>
+    <string name="network_error">Netwerkfout. Gaan asseblief jou verbinding na.</string>
+    <string name="tap_to_retry">Tik om weer te probeer</string>
+    <string name="loading">Laai tans …</string>
+
+    <!-- Developer -->
+    <string name="repositories">Bewaarplekke</string>
+    <string name="repositories_count">%d-bewaarplekke</string>
+    <string name="view_github_profile">Bekyk GitHub-profiel</string>
+
+    <!-- Settings -->
+    <string name="settings">Instellings</string>
+    <string name="github_token">GitHub Persoonlike Toegang Token</string>
+    <string name="github_token_desc">Voeg \'n teken by om die API-tempolimiet van 60 tot 5000 versoeke per uur te verhoog.</string>
+    <string name="enter_token">Voer jou GitHub-token in</string>
+    <string name="save_token">Stoor Token</string>
+    <string name="clear_token">Vee Token uit</string>
+    <string name="create_token_on_github">Skep Token op GitHub</string>
+    <string name="token_saved">Token is suksesvol gestoor</string>
+    <string name="token_removed">Token verwyder</string>
+    <string name="rate_limit_info_title">API-tarieflimiet</string>
+    <string name="rate_limit_info_desc">Sonder \'n teken: 60 versoeke/uur\nMet \'n teken: 5 000 versoeke/uur</string>
+    <string name="how_to_create_token">Hoe om \'n teken te skep:</string>
+    <string name="token_instructions">1. Gaan na GitHub-instellings → Ontwikkelaarinstellings\n2. Klik \"Persoonlike toegangtokens\" → \"Tokens (klassiek)\"\n3. Klik \"Genereer nuwe token\"\n4. Gee dit \'n naam en kies \"public_repo\" scope\n5. Klik \"Genereer token\" en kopieer dit</string>
+    <string name="no_token_set">Geen token stel nie</string>
+    <string name="token_configured">Token is opgestel</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Ontwikkelaar</string>
+    <string name="followers">Volgelinge</string>
+    <string name="following">Volgende</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Laai tans af …</string>
+    <string name="downloading_apk">Laai tans APK af</string>
+    <string name="download_complete">Aflaai voltooi</string>
+    <string name="download_in_progress">Aflaai reeds aan die gang</string>
+    <string name="file_not_found">Afgelaaide lêer nie gevind nie</string>
+    <string name="install_error">Kon nie installeerder oopmaak nie</string>
+    <string name="installing">Installeer tans …</string>
+    <string name="open">Maak oop</string>
+    <string name="cannot_open_app">Kan nie program oopmaak nie</string>
+    <string name="queued">In die ry …</string>
+    <string name="preparing">Berei tans voor …</string>
+    <string name="verifying">Verifieer tans …</string>
+    <string name="storage_error">Bergingsfout het voorgekom</string>
+    <string name="insufficient_storage">Nie genoeg stoorplek nie</string>
+    <string name="verification_failed">Lêerverifikasie het misluk</string>
+    <string name="download_timeout">Aflaai het uitgetel</string>
+    <string name="retry">Probeer weer</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="update">Dateer op</string>
+    <string name="update_available">Opdatering beskikbaar</string>
+    <string name="uninstall">Deïnstalleer</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Meld aan met GitHub</string>
+    <string name="sign_in_to_increase_limit">Meld aan om API-koerslimiet te verhoog</string>
+    <string name="connecting_to_github">Koppel tans aan GitHub …</string>
+    <string name="enter_code_on_github">Voer hierdie kode op GitHub in</string>
+    <string name="code_instructions">Maak GitHub in jou blaaier oop en voer die kode hieronder in om aan te meld</string>
+    <string name="copy_code">Kopieer kode</string>
+    <string name="code_copied">Kode na knipbord gekopieer</string>
+    <string name="open_github">Maak GitHub oop</string>
+    <string name="waiting_for_authorization">Wag tans vir magtiging …</string>
+    <string name="signed_in_successfully">Suksesvol aangemeld!</string>
+    <string name="signed_in">Aangemeld</string>
+    <string name="signed_in_as">Aangeteken as %s</string>
+    <string name="rate_limit_increased">API-tarieflimiet verhoog tot 5 000 versoeke/uur</string>
+    <string name="sign_out">Teken uit</string>
+    <string name="signed_out">Uitgemeld</string>
+    <string name="failed_to_get_code">Kon nie magtigingskode kry nie</string>
+    <string name="auth_expired">Magtiging het verval. Probeer asseblief weer.</string>
+    <string name="unknown_error">Onbekende fout het voorgekom</string>
+    <string name="something_went_wrong">Iets het verkeerd geloop</string>
+    <string name="user">@ gebruiker</string>
+    <string name="rate_limit_exceeded_title">Tarieflimiet oorskry</string>
+    <string name="rate_limit_exceeded_message">Jy\'ve het die GitHub API-koerslimiet (60 versoeke/uur) oorskry. \n\nMeld aan met GitHub om jou limiet gratis na 5 000 versoeke/uur te verhoog!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve het die gewaarmerkte tarieflimiet (5 000 versoeke/uur) oorskry. Wag asseblief \'n paar minute voor jy weer probeer.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Skenk</string>
+    <string name="support_developer">Ondersteun die ontwikkelaar</string>
+    <string name="donate_description">As jy hierdie toepassing nuttig vind, oorweeg dit om die ontwikkeling met \'n klein skenking te ondersteun.</string>
+    <string name="scan_qr_code">Skandeer QR-kode om te betaal</string>
+    <string name="upi_qr_code">UPI QR-kode</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Kopieer</string>
+    <string name="upi_id_copied">UPI ID na knipbord gekopieer</string>
+    <string name="thank_you_message">Dankie vir jou ondersteuning! ❤️</string>
+    <string name="pay_with_upi_app">Betaal met UPI App</string>
+    <string name="no_upi_apps_found">Geen UPI-betalingsprogramme op jou toestel gevind nie</string>
+    <string name="payment_app_icon">Betalingsprogram-ikoon</string>
+    <string name="pay">Betaal</string>
+    <string name="cannot_open_payment_app">Kan nie betaalprogram oopmaak nie</string>
+    <string name="buy_me_a_coffee">Koop vir my \'n koffie</string>
+    <string name="support_buy_me_a_coffee">Ondersteuning op Koop vir my \'n koffie</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Oopbron-lisensies</string>
+    <string name="source_code">Bronkode</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Weergawe %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">My toepassings</string>
+    <string name="no_favorite_apps">Nog geen gunstelingprogramme nie</string>
+    <string name="no_favorite_apps_hint">Tik die hartikoon op enige toepassing om dit hier by te voeg</string>
+    <string name="add_to_favorites">Voeg by gunstelinge</string>
+    <string name="remove_from_favorites">Verwyder uit gunstelinge</string>
+    <string name="added_to_favorites">By gunstelinge gevoeg</string>
+    <string name="removed_from_favorites">Uit gunstelinge verwyder</string>
+    <string name="favorite_apps">Gunsteling Apps</string>
+    <string name="no_installed_apps">Geen geïnstalleerde toepassings nie</string>
+    <string name="no_installed_apps_hint">Programme wat jy vanaf jou gunstelinge installeer, sal hier verskyn</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Voorkoms</string>
+    <string name="theme_system">Stelsel</string>
+    <string name="theme_for_you">Vir jou</string>
+    <string name="theme_dark">Donker</string>
+    <string name="theme_light">Lig</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Laai instellings af</string>
+    <string name="proxy">Volmag</string>
+    <string name="mirror_proxy_description">Vir lande of streke waar GitHub geblokkeer is, gebruik \'n instaanbediener om af te laai.</string>
+    <string name="enable_mirror_proxy">Aktiveer Mirror Proxy</string>
+    <string name="proxy_url_hint">Proxy-URL (bv. https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Gewilde gevolmagtigdes</string>
+    <string name="multi_part_download">Meervoudige aflaai</string>
+    <string name="multi_part_description">Laai lêers af met behulp van verskeie verbindings vir vinniger spoed.</string>
+    <string name="enable_multi_part">Aktiveer meervoudige aflaai</string>
+    <string name="download_threads">Laai Threads af</string>
+    <string name="thread_count_hint">Hoër waardes kan spoed verbeter, maar gebruik meer hulpbronne (1-32)</string>
+    <string name="download_settings_info">Mirror proxy transformeer GitHub URL\'s deur \'n instaanbediener. Meervoudige aflaai verdeel lêers in stukke vir parallel aflaai.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Kies Weergawe</string>
+    <string name="compatible">Versoenbaar</string>
+    <string name="incompatible">Onversoenbaar</string>
+    <string name="recommended">Aanbeveel</string>
+    <string name="app_mismatch_title">App klop nie?</string>
+    <string name="app_mismatch_message">RepoStore het hierdie bewaarplek by \'n geïnstalleerde toepassing pas: %1$s (%2$s).\n\n As dit NIE dieselfde toepassing is nie, kan jy in elk geval kies om die APK vanaf hierdie bewaarplek te installeer.</string>
+    <string name="install_anyway">Installeer in elk geval</string>
+    <string name="forget_mapping">Vergeet van kartering</string>
+    <string name="contributors">Bydraers</string>
+    <string name="no_apk_variants_available">Geen APK-variante beskikbaar nie</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Gekies</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Almal</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">Toepassingbestuurder</string>
+    <string name="cat_name_app_store_updater">App Store &amp; Updater</string>
+    <string name="cat_name_battery">Battery</string>
+    <string name="cat_name_bookmark">Boekmerk</string>
+    <string name="cat_name_browser">Blaaier</string>
+    <string name="cat_name_calculator">Sakrekenaar</string>
+    <string name="cat_name_calendar_agenda">Kalender &amp; Agenda</string>
+    <string name="cat_name_clock">Horlosie</string>
+    <string name="cat_name_cloud_storage">Wolkberging en lêersinkronisering</string>
+    <string name="cat_name_connectivity">Konnektiwiteit</string>
+    <string name="cat_name_contact">Kontak</string>
+    <string name="cat_name_development">Ontwikkeling</string>
+    <string name="cat_name_dns_hosts">DNS en gashere</string>
+    <string name="cat_name_draw">Teken</string>
+    <string name="cat_name_ebook_reader">E-boekleser</string>
+    <string name="cat_name_email">E-pos</string>
+    <string name="cat_name_file_encryption">Lêerkodering en kluis</string>
+    <string name="cat_name_file_transfer">Lêeroordrag</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Finansiële Bestuurder</string>
+    <string name="cat_name_flashlight">Flitslig</string>
+    <string name="cat_name_forum">Forum</string>
+    <string name="cat_name_gallery">Galery</string>
+    <string name="cat_name_games">Speletjies</string>
+    <string name="cat_name_graphics">Grafika</string>
+    <string name="cat_name_habit_tracker">Gewoonte-spoorsnyer</string>
+    <string name="cat_name_icon_pack">Ikoonpakket</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Voorraad</string>
+    <string name="cat_name_keyboard_ime">Sleutelbord en IME</string>
+    <string name="cat_name_launcher">Launcher</string>
+    <string name="cat_name_local_media_player">Plaaslike mediaspeler</string>
+    <string name="cat_name_location_tracker">Ligging Tracker &amp; Sharer</string>
+    <string name="cat_name_messaging">Boodskappe</string>
+    <string name="cat_name_money">Geld</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Musiek en oudio</string>
+    <string name="cat_name_video_players">Videospelers</string>
+    <string name="cat_name_music_practice">Musiek Oefen Gereedskap</string>
+    <string name="cat_name_navigation">Navigasie</string>
+    <string name="cat_name_network_analyzer">Netwerk ontleder</string>
+    <string name="cat_name_news">Nuus</string>
+    <string name="cat_name_note">Let wel</string>
+    <string name="cat_name_online_media_player">Aanlyn mediaspeler</string>
+    <string name="cat_name_pass_wallet">Slaag Wallet</string>
+    <string name="cat_name_fa">Wagwoord &amp; 2FA</string>
+    <string name="cat_name_phone_sms">Telefoon &amp; SMS</string>
+    <string name="cat_name_podcast">Poduitsending</string>
+    <string name="cat_name_public_transport">Openbare vervoer</string>
+    <string name="cat_name_radio">Radio</string>
+    <string name="cat_name_reading">Lees</string>
+    <string name="cat_name_recipe_manager">Resepbestuurder</string>
+    <string name="cat_name_remote_controller">Afstandbeheerder</string>
+    <string name="cat_name_science_education">Wetenskap en Onderwys</string>
+    <string name="cat_name_security">Sekuriteit</string>
+    <string name="cat_name_shopping_list">Inkopielys</string>
+    <string name="cat_name_social_network">Sosiale netwerk</string>
+    <string name="cat_name_sports_health">Sport &amp; Gesondheid</string>
+    <string name="cat_name_streaming_app">Stroom App</string>
+    <string name="cat_name_system">Stelsel</string>
+    <string name="cat_name_task">Taak</string>
+    <string name="cat_name_text_editor">Teksredakteur</string>
+    <string name="cat_name_theming">Temas</string>
+    <string name="cat_name_time">Tyd</string>
+    <string name="cat_name_tools">Gereedskap</string>
+    <string name="cat_name_translation_dictionary">Vertaling en woordeboek</string>
+    <string name="cat_name_unit_convertor">Eenheid-omskakelaar</string>
+    <string name="cat_name_voice_video_chat">Stem- en videoklets</string>
+    <string name="cat_name_vpn">VPN en proxy</string>
+    <string name="cat_name_wallet">Beursie</string>
+    <string name="cat_name_wallpaper">Muurpapier</string>
+    <string name="cat_name_weather">Weer</string>
+    <string name="cat_name_workout">Oefensessie</string>
+    <string name="cat_name_writing">Skryf</string>
+    <string name="cat_name_productivity">Produktiwiteit</string>
+    <string name="cat_name_open_source">Oopbron</string>
+    <string name="cat_name_trending">Trending</string>
+</resources>

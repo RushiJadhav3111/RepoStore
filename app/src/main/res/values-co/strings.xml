@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">A casa</string>
+    <string name="games">Ghjochi</string>
+    <string name="apps">Apps</string>
+    <string name="trending">Trending</string>
+    <string name="search">Ricerca</string>
+    <string name="profile">Prufilu</string>
+    <string name="back">Torna</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Cerca app è ghjochi</string>
+    <string name="search_github_repos">Cerca in repository GitHub...</string>
+    <string name="search_hint">Cerca l\'applicazioni Android nantu à GitHub</string>
+    <string name="no_results">Nisun risultatu trovu</string>
+    <string name="clear">Chjara</string>
+    <string name="voice_search">Ricerca di voce</string>
+    <string name="filter">Filtru</string>
+    <string name="sort_by">Ordina per</string>
+    <string name="updated">Aghjurnatu</string>
+    <string name="has_apk">Hà APK</string>
+    <string name="reset">Resettate</string>
+    <string name="results_count">%d risultati</string>
+    <string name="any_language">Qualchese lingua</string>
+    <string name="any_stars">Qualchese stelle</string>
+    <string name="min_stars_format">%d + stelle</string>
+    <string name="best_match">U megliu partitu</string>
+    <string name="most_stars">A maiò parte di Stelle</string>
+    <string name="most_forks">Most Forks</string>
+    <string name="recently_updated_sort">Aghjurnatu di pocu tempu</string>
+    <string name="any_time">Ogni tempu</string>
+    <string name="last_week">A settimana passata</string>
+    <string name="last_month">U mese passatu</string>
+    <string name="last_3_months">L\'ultimi 3 mesi</string>
+    <string name="last_year">L\'annu scorsu</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Consigliatu per voi</string>
+    <string name="top_free_apps">Top app gratuiti</string>
+    <string name="recently_updated">Aghjurnatu di pocu tempu</string>
+    <string name="see_more">Vede più</string>
+    <string name="all_categories">Tutte e categurie</string>
+    <string name="more">Più</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Ghjochi presentati</string>
+    <string name="popular_games">Ghjochi pupulari</string>
+    <string name="new_games">Ghjochi novi</string>
+    <string name="no_games_found">Nisun ghjocu trovu</string>
+
+    <!-- App Details -->
+    <string name="app_icon">icona App</string>
+    <string name="banner">Banner</string>
+    <string name="about">À propositu</string>
+    <string name="about_this_app">Circa sta app</string>
+    <string name="screenshots">Screenshots</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="stars">Stelle</string>
+    <string name="forks">Forchetti</string>
+    <string name="language">Lingua</string>
+    <string name="last_updated">Ultima aghjurnata</string>
+    <string name="updated_on">Aghjurnatu nantu à</string>
+    <string name="latest_release">Ultima versione</string>
+    <string name="whats_new">Chì \' hè novu</string>
+    <string name="readme">LEGGIMI</string>
+    <string name="download">Scaricate</string>
+    <string name="install">Installa</string>
+    <string name="download_apk">Scaricate l\'APK</string>
+    <string name="view_release">Vede a liberazione</string>
+    <string name="view_on_github">Vede nantu à GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Nisuna descrizzione dispunibule</string>
+    <string name="no_release_notes">Nisuna nota di liberazione</string>
+    <string name="archived">Archivatu</string>
+
+    <!-- Tags -->
+    <string name="tag_new">NEW</string>
+    <string name="tag_updated">AGGIORNATA</string>
+    <string name="tag_archived">ARCHIVE</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Nisuna app trovata</string>
+    <string name="no_repos_found">Nisun repository trovu</string>
+    <string name="rate_limit_error">U limitu di tariffu superatu. Per piacè pruvate di novu più tardi.</string>
+    <string name="network_error">Errore di rete. Per piacè verificate a vostra cunnessione.</string>
+    <string name="tap_to_retry">Tap per ripruvà</string>
+    <string name="loading">Caricamentu…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Repositories</string>
+    <string name="repositories_count">Repository %d</string>
+    <string name="view_github_profile">Vede u prufilu GitHub</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="github_token">GitHub Token d\'accessu persunale</string>
+    <string name="github_token_desc">Aghjunghjite un token per aumentà u limitu di a tarifa API da 60 à 5000 richieste per ora.</string>
+    <string name="enter_token">Inserite u vostru token GitHub</string>
+    <string name="save_token">Salvà Token</string>
+    <string name="clear_token">Clear Token</string>
+    <string name="create_token_on_github">Crea Token nantu à GitHub</string>
+    <string name="token_saved">Token salvatu bè</string>
+    <string name="token_removed">Token eliminatu</string>
+    <string name="rate_limit_info_title">API Rate Limit</string>
+    <string name="rate_limit_info_desc">Senza un token: 60 richieste / ora\nCù un token: 5,000 richieste / ora</string>
+    <string name="how_to_create_token">Cumu creà un token:</string>
+    <string name="token_instructions">1. Andà à GitHub Settings → Developer settings\n2. Cliccate \"Tokens d\'accessu persunale\" → \"Tokens (classic)\"\n3. Cliccate \"Genera un novu token\"\n4. Dà un nome è selezziunate \"public_repo\" scope\n5. Cliccate \"Generate token\" è copiate</string>
+    <string name="no_token_set">Nisun set di token</string>
+    <string name="token_configured">Token cunfiguratu</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Sviluppatore</string>
+    <string name="followers">Followers</string>
+    <string name="following">Dopu</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Scaricamentu…</string>
+    <string name="downloading_apk">Scaricamentu APK</string>
+    <string name="download_complete">Scaricamentu cumpletu</string>
+    <string name="download_in_progress">Scaricamentu digià in corso</string>
+    <string name="file_not_found">U schedariu telecaricatu ùn hè micca trovu</string>
+    <string name="install_error">Ùn pudia micca apre u installatore</string>
+    <string name="installing">Installazione…</string>
+    <string name="open">Apertu</string>
+    <string name="cannot_open_app">Ùn pò micca apre l\'app</string>
+    <string name="queued">In fila…</string>
+    <string name="preparing">Preparazione…</string>
+    <string name="verifying">Verificà…</string>
+    <string name="storage_error">Errore di almacenamiento hè accadutu</string>
+    <string name="insufficient_storage">Spaziu di almacenamentu micca abbastanza</string>
+    <string name="verification_failed">A verificazione di u schedariu hà fiascatu</string>
+    <string name="download_timeout">Download timed out</string>
+    <string name="retry">Riprova</string>
+    <string name="cancel">Cancella</string>
+    <string name="update">Actualizazione</string>
+    <string name="update_available">Actualizazione dispunibule</string>
+    <string name="uninstall">Disinstalla</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Accedi cù GitHub</string>
+    <string name="sign_in_to_increase_limit">Accedi per aumentà u limitu di a tarifa API</string>
+    <string name="connecting_to_github">Cunnessione à GitHub...</string>
+    <string name="enter_code_on_github">Inserite stu codice in GitHub</string>
+    <string name="code_instructions">Aprite GitHub in u vostru navigatore è entre u codice sottu per accede</string>
+    <string name="copy_code">Copia codice</string>
+    <string name="code_copied">Codice copiatu in u clipboard</string>
+    <string name="open_github">Apertura GitHub</string>
+    <string name="waiting_for_authorization">In attesa di l\'autorizazione...</string>
+    <string name="signed_in_successfully">Firmatu cun successu!</string>
+    <string name="signed_in">Firmatu</string>
+    <string name="signed_in_as">Firmatu cum\'è %s</string>
+    <string name="rate_limit_increased">U limitu di a tarifa API hè aumentatu à 5 000 richieste / ora</string>
+    <string name="sign_out">Sorte</string>
+    <string name="signed_out">Firmatu fora</string>
+    <string name="failed_to_get_code">Fiascu à ottene u codice d\'autorizazione</string>
+    <string name="auth_expired">L\'autorizazione hè scaduta. Per piacè pruvate di novu.</string>
+    <string name="unknown_error">Un errore scunnisciutu hè accadutu</string>
+    <string name="something_went_wrong">Qualcosa hè andatu male</string>
+    <string name="user">@user</string>
+    <string name="rate_limit_exceeded_title">Limite di Tariffa Superatu</string>
+    <string name="rate_limit_exceeded_message">You\'ve hà superatu u limitu di freccia di l\'API GitHub (60 richieste / ora).</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve hà superatu u limitu di tariffa autenticata (5,000 richieste / ora). Per piacè aspettate uni pochi di minuti prima di pruvà di novu.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Donate</string>
+    <string name="support_developer">Supportu u Sviluppatore</string>
+    <string name="donate_description">Se truvate sta app utile, cunzidira à sustene u sviluppu cù una piccula donazione.</string>
+    <string name="scan_qr_code">Scannà u codice QR per pagà</string>
+    <string name="upi_qr_code">UPI QR Code</string>
+    <string name="upi_id">ID UPI</string>
+    <string name="copy">Copia</string>
+    <string name="upi_id_copied">ID UPI copiatu in u clipboard</string>
+    <string name="thank_you_message">Grazie per u vostru sustegnu ! ❤️</string>
+    <string name="pay_with_upi_app">Paga cù l\'app UPI</string>
+    <string name="no_upi_apps_found">Nisuna app di pagamentu UPI truvata nantu à u vostru dispositivu</string>
+    <string name="payment_app_icon">Icona di l\'app di pagamentu</string>
+    <string name="pay">Paga</string>
+    <string name="cannot_open_payment_app">Ùn pò micca apre l\'app di pagamentu</string>
+    <string name="buy_me_a_coffee">Cumprami un caffè</string>
+    <string name="support_buy_me_a_coffee">Supportu nantu à Buy Me A Coffee</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Licenze Open Source</string>
+    <string name="source_code">Codice surghjente</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Versione %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">My Apps</string>
+    <string name="no_favorite_apps">Nisuna app preferita ancora</string>
+    <string name="no_favorite_apps_hint">Toccate l\'icona di cori in ogni app per aghjunghje quì</string>
+    <string name="add_to_favorites">Aghjunghjite à i preferiti</string>
+    <string name="remove_from_favorites">Eliminate da i preferiti</string>
+    <string name="added_to_favorites">Aggiuntu à i preferiti</string>
+    <string name="removed_from_favorites">Eliminatu da i preferiti</string>
+    <string name="favorite_apps">Apps preferiti</string>
+    <string name="no_installed_apps">Nisuna app installata</string>
+    <string name="no_installed_apps_hint">Apps chì installate da i vostri preferiti appariscenu quì</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Apparizione</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_for_you">Per tè</string>
+    <string name="theme_dark">Scuru</string>
+    <string name="theme_light">Luce</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Download Settings</string>
+    <string name="proxy">Proxy</string>
+    <string name="mirror_proxy_description">Per i paesi o regioni induve GitHub hè bluccatu, utilizate un proxy per scaricà.</string>
+    <string name="enable_mirror_proxy">Habilita Mirror Proxy</string>
+    <string name="proxy_url_hint">URL proxy (per esempiu, https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Proxies populari</string>
+    <string name="multi_part_download">Scaricatu in più parti</string>
+    <string name="multi_part_description">Scaricate i fugliali usendu parechje cunnessione per una velocità più veloce.</string>
+    <string name="enable_multi_part">Abilita u scaricamentu di più parti</string>
+    <string name="download_threads">Scaricate i Threads</string>
+    <string name="thread_count_hint">I valori più alti ponu migliurà a velocità ma utilizate più risorse (1-32)</string>
+    <string name="download_settings_info">Mirror proxy trasforma l\'URL GitHub attraversu un servitore proxy. U scaricamentu in più parti divide i schedari in pezzi per u scaricamentu parallelu.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Selezziunà Versione</string>
+    <string name="compatible">Compatibile</string>
+    <string name="incompatible">Incompatibile</string>
+    <string name="recommended">Cunsigliatu</string>
+    <string name="app_mismatch_title">App Mismatch?</string>
+    <string name="app_mismatch_message">RepoStore hà assuciatu stu repository à una app installata: %1$s (%2$s).\n\nISe questa ùn hè micca a stessa app, pudete sceglie di installà l\'APK da questu repository in ogni modu.</string>
+    <string name="install_anyway">Installa in ogni casu</string>
+    <string name="forget_mapping">Scurdate di Mapping</string>
+    <string name="contributors">Cuntributori</string>
+    <string name="no_apk_variants_available">Nisuna varianti APK dispunibili</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Sceltu</string>
+    <!-- Categories -->
+    <string name="cat_name_all">Tuttu</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">App Manager</string>
+    <string name="cat_name_app_store_updater">App Store &amp;amp; Updater</string>
+    <string name="cat_name_battery">Batteria</string>
+    <string name="cat_name_bookmark">Marcatu</string>
+    <string name="cat_name_browser">Browser</string>
+    <string name="cat_name_calculator">Calculatrice</string>
+    <string name="cat_name_calendar_agenda">Calendari &amp;amp; Agenda</string>
+    <string name="cat_name_clock">Clock</string>
+    <string name="cat_name_cloud_storage">Storage in nuvola è Sincronizazione di File</string>
+    <string name="cat_name_connectivity">Connettività</string>
+    <string name="cat_name_contact">Cuntattu</string>
+    <string name="cat_name_development">Sviluppu</string>
+    <string name="cat_name_dns_hosts">DNS &amp;amp; Hosts</string>
+    <string name="cat_name_draw">Disegna</string>
+    <string name="cat_name_ebook_reader">Ebook Reader</string>
+    <string name="cat_name_email">E-mail</string>
+    <string name="cat_name_file_encryption">Criptazione di schedari è Vault</string>
+    <string name="cat_name_file_transfer">Trasferimentu di u schedariu</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Manager finanziariu</string>
+    <string name="cat_name_flashlight">torcia</string>
+    <string name="cat_name_forum">Forum</string>
+    <string name="cat_name_gallery">Galeria</string>
+    <string name="cat_name_games">Ghjochi</string>
+    <string name="cat_name_graphics">Grafica</string>
+    <string name="cat_name_habit_tracker">Tracker d\'abitudine</string>
+    <string name="cat_name_icon_pack">Icon Pack</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Inventariu</string>
+    <string name="cat_name_keyboard_ime">Tastiera è IME</string>
+    <string name="cat_name_launcher">Lanciatore</string>
+    <string name="cat_name_local_media_player">Media Player locale</string>
+    <string name="cat_name_location_tracker">Location Tracker &amp;amp; Sharer</string>
+    <string name="cat_name_messaging">Missaghju</string>
+    <string name="cat_name_money">soldi</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Musica &amp;amp; Audio</string>
+    <string name="cat_name_video_players">Video Players</string>
+    <string name="cat_name_music_practice">Strumentu di pratica musicale</string>
+    <string name="cat_name_navigation">Navigazione</string>
+    <string name="cat_name_network_analyzer">Analizzatore di rete</string>
+    <string name="cat_name_news">News</string>
+    <string name="cat_name_note">Nota</string>
+    <string name="cat_name_online_media_player">Media Player in linea</string>
+    <string name="cat_name_pass_wallet">Passu Wallet</string>
+    <string name="cat_name_fa">Password &amp;amp; 2FA</string>
+    <string name="cat_name_phone_sms">Phone &amp;amp; SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Trasportu publicu</string>
+    <string name="cat_name_radio">Radio</string>
+    <string name="cat_name_reading">Lettura</string>
+    <string name="cat_name_recipe_manager">Manager di ricetta</string>
+    <string name="cat_name_remote_controller">Controller Remote</string>
+    <string name="cat_name_science_education">Scienza è Educazione</string>
+    <string name="cat_name_security">Sicurezza</string>
+    <string name="cat_name_shopping_list">Lista di shopping</string>
+    <string name="cat_name_social_network">Rete suciale</string>
+    <string name="cat_name_sports_health">Sport &amp;amp; Salute</string>
+    <string name="cat_name_streaming_app">App di streaming</string>
+    <string name="cat_name_system">Sistema</string>
+    <string name="cat_name_task">Task</string>
+    <string name="cat_name_text_editor">Editore di testu</string>
+    <string name="cat_name_theming">Theming</string>
+    <string name="cat_name_time">U tempu</string>
+    <string name="cat_name_tools">Strumenti</string>
+    <string name="cat_name_translation_dictionary">Traduzzione è dizziunariu</string>
+    <string name="cat_name_unit_convertor">Convertitore di unità</string>
+    <string name="cat_name_voice_video_chat">Voce &amp;amp; Video Chat</string>
+    <string name="cat_name_vpn">VPN &amp;amp; Proxy</string>
+    <string name="cat_name_wallet">Wallet</string>
+    <string name="cat_name_wallpaper">Wallpaper</string>
+    <string name="cat_name_weather">Tempu</string>
+    <string name="cat_name_workout">Andatu</string>
+    <string name="cat_name_writing">Scrittura</string>
+    <string name="cat_name_productivity">Produttività</string>
+    <string name="cat_name_open_source">Open Source</string>
+    <string name="cat_name_trending">Trending</string></resources>

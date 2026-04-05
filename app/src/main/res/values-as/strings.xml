@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">গৃহ</string>
+    <string name="games">খেলা-ধূলা</string>
+    <string name="apps">এপসমূহ</string>
+    <string name="trending">ট্ৰেণ্ডিং</string>
+    <string name="search">সন্ধান</string>
+    <string name="profile">ৰূপৰেখা</string>
+    <string name="back">পিছলৈ</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">এপ আৰু গেম সন্ধান কৰক</string>
+    <string name="search_github_repos">GitHub ভঁৰাল অনুসন্ধান...</string>
+    <string name="search_hint">GitHub ত Android এপসমূহৰ বাবে সন্ধান কৰক</string>
+    <string name="no_results">কোনো ফলাফল পোৱা নগ’ল</string>
+    <string name="clear">পৰিষ্কাৰ</string>
+    <string name="voice_search">কণ্ঠৰ সন্ধান</string>
+    <string name="filter">ফিল্টাৰ কৰক</string>
+    <string name="sort_by">দ্বাৰা সজাই থওক</string>
+    <string name="updated">আপডেট কৰা হৈছে</string>
+    <string name="has_apk">APK আছে</string>
+    <string name="reset">ৰিছেট কৰক</string>
+    <string name="results_count">%d ফলাফল</string>
+    <string name="any_language">যিকোনো ভাষা</string>
+    <string name="any_stars">যিকোনো তৰা</string>
+    <string name="min_stars_format">%d+ তৰা</string>
+    <string name="best_match">শ্ৰেষ্ঠ মেচ</string>
+    <string name="most_stars">বেছিভাগ তাৰকা</string>
+    <string name="most_forks">বেছিভাগ কাঁটাচামুচ</string>
+    <string name="recently_updated_sort">শেহতীয়াকৈ আপডেট কৰা হৈছে</string>
+    <string name="any_time">যিকোনো সময়তে</string>
+    <string name="last_week">যোৱা সপ্তাহত</string>
+    <string name="last_month">যোৱা মাহত</string>
+    <string name="last_3_months">যোৱা ৩ মাহ</string>
+    <string name="last_year">যোৱা বছৰ</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">আপোনাৰ বাবে পৰামৰ্শ দিয়া হৈছে</string>
+    <string name="top_free_apps">শীৰ্ষ বিনামূলীয়া এপ</string>
+    <string name="recently_updated">শেহতীয়াকৈ আপডেট কৰা হৈছে</string>
+    <string name="see_more">আৰু চাওক</string>
+    <string name="all_categories">সকলো শ্ৰেণী</string>
+    <string name="more">অধিক</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">বৈশিষ্ট্যযুক্ত গেমসমূহ</string>
+    <string name="popular_games">জনপ্ৰিয় গেম</string>
+    <string name="new_games">নতুন গেম</string>
+    <string name="no_games_found">কোনো খেল পোৱা নগ\'ল</string>
+
+    <!-- App Details -->
+    <string name="app_icon">এপ আইকন</string>
+    <string name="banner">বেনাৰ</string>
+    <string name="about">বিষয়ে</string>
+    <string name="about_this_app">এই এপটোৰ বিষয়ে</string>
+    <string name="screenshots">স্ক্ৰীণশ্বট</string>
+    <string name="screenshot">স্ক্ৰীণশ্বট</string>
+    <string name="stars">তাৰকা</string>
+    <string name="forks">কাঁটাচামুচ</string>
+    <string name="language">ভাষা</string>
+    <string name="last_updated">শেষবাৰৰ বাবে আপডেট কৰা হৈছে</string>
+    <string name="updated_on">আপডেট কৰা হৈছে</string>
+    <string name="latest_release">শেহতীয়া মুক্তি</string>
+    <string name="whats_new">What\'s নতুন</string>
+    <string name="readme">README</string>
+    <string name="download">ডাউনল’ড</string>
+    <string name="install">স্থাপন কৰা</string>
+    <string name="download_apk">APK ডাউনলোড কৰক</string>
+    <string name="view_release">মুক্তি চাওক</string>
+    <string name="view_on_github">GitHub ত চাওক</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">কোনো বিৱৰণ উপলব্ধ নহয়</string>
+    <string name="no_release_notes">কোনো মুক্তিৰ টোকা নাই</string>
+    <string name="archived">আৰ্কাইভ কৰা হৈছে</string>
+
+    <!-- Tags -->
+    <string name="tag_new">নতুন</string>
+    <string name="tag_updated">UPDATED কৰা হৈছে</string>
+    <string name="tag_archived">ARCHIVED কৰা হৈছে</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">কোনো এপ পোৱা নগ\'ল</string>
+    <string name="no_repos_found">কোনো ভঁৰাল পোৱা নগ\'ল</string>
+    <string name="rate_limit_error">হাৰৰ সীমা অতিক্ৰম কৰিলে। অনুগ্ৰহ কৰি পিছত পুনৰ চেষ্টা কৰক।</string>
+    <string name="network_error">নেটৱৰ্ক ত্ৰুটি। অনুগ্ৰহ কৰি আপোনাৰ সংযোগ পৰীক্ষা কৰক।</string>
+    <string name="tap_to_retry">পুনৰ চেষ্টা কৰিবলৈ টেপ কৰক</string>
+    <string name="loading">লোড হচ্ছে...</string>
+
+    <!-- Developer -->
+    <string name="repositories">ভঁৰালসমূহ</string>
+    <string name="repositories_count">%d ভঁৰালসমূহ</string>
+    <string name="view_github_profile">GitHub প্ৰফাইল চাওক</string>
+
+    <!-- Settings -->
+    <string name="settings">ছেটিংছ</string>
+    <string name="github_token">GitHub ব্যক্তিগত প্ৰৱেশ টোকেন</string>
+    <string name="github_token_desc">প্ৰতি ঘণ্টাত ৬০ৰ পৰা ৫০০০ অনুৰোধলৈ API হাৰৰ সীমা বৃদ্ধি কৰিবলৈ এটা টোকেন যোগ কৰক।</string>
+    <string name="enter_token">আপোনাৰ GitHub টোকেন সুমুৱাওক</string>
+    <string name="save_token">টোকেন সংৰক্ষণ কৰক</string>
+    <string name="clear_token">ক্লিয়াৰ টোকেন</string>
+    <string name="create_token_on_github">GitHub ত টোকেন সৃষ্টি কৰক</string>
+    <string name="token_saved">টোকেন সফলতাৰে সংৰক্ষণ কৰা হৈছে</string>
+    <string name="token_removed">টোকেন আঁতৰোৱা হৈছে</string>
+    <string name="rate_limit_info_title">এপিআই হাৰ সীমা</string>
+    <string name="rate_limit_info_desc">টোকেন অবিহনে: ৬০ অনুৰোধ/ঘণ্টা\nএটা টোকেনৰ সৈতে: ৫,০০০ অনুৰোধ/ঘণ্টা</string>
+    <string name="how_to_create_token">টোকেন কেনেকৈ সৃষ্টি কৰিব:</string>
+    <string name="token_instructions">1. GitHub সংহতিসমূহ → ডেভেলপাৰ সংহতিসমূহ\n2 লৈ যাওক। \"ব্যক্তিগত অভিগম টোকেনসমূহ\" → \"টোকেনসমূহ (ক্লাছিক)\"\n3 ক্লিক কৰক। \"নতুন টোকেন সৃষ্টি কৰক\"\n4 ক্লিক কৰক। ইয়াক এটা নাম দিয়ক আৰু \"public_repo\" scope\n5 নিৰ্ব্বাচন কৰক । \"টোকেন সৃষ্টি কৰক\" ক্লিক কৰক আৰু ইয়াক কপি কৰক</string>
+    <string name="no_token_set">কোনো টোকেন ছেট নাই</string>
+    <string name="token_configured">টোকেন বিন্যাস কৰা হৈছে</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">ডেভেলপাৰ</string>
+    <string name="followers">অনুগামীসকল</string>
+    <string name="following">নিম্নলিখিত</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">ডাউনলোড...</string>
+    <string name="downloading_apk">APK ডাউনলোড কৰি আছে</string>
+    <string name="download_complete">ডাউনলোড সম্পূৰ্ণ</string>
+    <string name="download_in_progress">ইতিমধ্যে ডাউনলোড চলি আছে</string>
+    <string name="file_not_found">ডাউনলোড কৰা ফাইল পোৱা নগ\'ল</string>
+    <string name="install_error">ইনষ্টলাৰ খোলিব পৰা নগ\'ল</string>
+    <string name="installing">ইনস্টল...</string>
+    <string name="open">খোলা</string>
+    <string name="cannot_open_app">এপ খুলিব নোৱাৰি</string>
+    <string name="queued">শাৰী পাতি...</string>
+    <string name="preparing">প্ৰস্তুতি...</string>
+    <string name="verifying">পৰীক্ষা কৰা হৈছে...</string>
+    <string name="storage_error">সংৰক্ষণ ত্ৰুটি ঘটিল</string>
+    <string name="insufficient_storage">পৰ্যাপ্ত সংৰক্ষণ স্থান নাই</string>
+    <string name="verification_failed">ফাইল সত্যাপন ব্যৰ্থ</string>
+    <string name="download_timeout">ডাউনলোডৰ সময় শেষ হৈ গৈছে</string>
+    <string name="retry">পুনৰ চেষ্টা কৰক</string>
+    <string name="cancel">বাতিল কৰক</string>
+    <string name="update">নবীকৰণ</string>
+    <string name="update_available">আপডেট উপলব্ধ</string>
+    <string name="uninstall">আনইনষ্টল কৰক</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">GitHub ৰ সৈতে চাইন ইন কৰক</string>
+    <string name="sign_in_to_increase_limit">API হাৰৰ সীমা বৃদ্ধি কৰিবলৈ চাইন ইন কৰক</string>
+    <string name="connecting_to_github">GitHub ৰ সৈতে সংযোগ কৰা হৈছে...</string>
+    <string name="enter_code_on_github">এই ক\'ড GitHub ত সুমুৱাওক</string>
+    <string name="code_instructions">আপোনাৰ ব্ৰাউজাৰত GitHub খোলক আৰু চাইন ইন কৰিবলৈ তলৰ ক\'ডটো দিয়ক</string>
+    <string name="copy_code">কপি ক\'ড</string>
+    <string name="code_copied">ক\'ড ক্লিপবৰ্ডলৈ কপি কৰা হৈছে</string>
+    <string name="open_github">GitHub খোলক</string>
+    <string name="waiting_for_authorization">অনুমোদনৰ বাবে অপেক্ষা কৰি আছে...</string>
+    <string name="signed_in_successfully">সফলতাৰে চাইন ইন কৰা হৈছে!</string>
+    <string name="signed_in">চাইন ইন কৰা হৈছে</string>
+    <string name="signed_in_as">%s হিচাপে চাইন ইন কৰা হৈছে</string>
+    <string name="rate_limit_increased">এপিআই হাৰৰ সীমা ৫,০০০ অনুৰোধ/ঘণ্টালৈ বৃদ্ধি কৰা হৈছে</string>
+    <string name="sign_out">চাইন আউট কৰক</string>
+    <string name="signed_out">চাইন আউট কৰিলে</string>
+    <string name="failed_to_get_code">অনুমোদন ক\'ড পোৱাত ব্যৰ্থ</string>
+    <string name="auth_expired">অনুমোদনৰ ম্যাদ উকলি গ’ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।</string>
+    <string name="unknown_error">অজ্ঞাত ভুল হৈছে</string>
+    <string name="something_went_wrong">কিবা এটা ভুল হ’ল</string>
+    <string name="user">@ব্যৱহাৰকাৰী</string>
+    <string name="rate_limit_exceeded_title">হাৰৰ সীমা অতিক্ৰম কৰা হৈছে</string>
+    <string name="rate_limit_exceeded_message">আপুনি GitHub API হাৰৰ সীমা (60 অনুৰোধ/ঘণ্টা) অতিক্ৰম কৰিছে।\n\nGitHub ৰ সৈতে চাইন ইন কৰক</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve প্ৰমাণীকৃত হাৰৰ সীমা (5,000 অনুৰোধ/ঘণ্টা) অতিক্ৰম কৰিলে। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰাৰ আগতে কেইমিনিটমান অপেক্ষা কৰক।</string>
+    
+    <!-- Donate -->
+    <string name="donate">দান কৰা</string>
+    <string name="support_developer">ডেভেলপাৰক সমৰ্থন কৰক</string>
+    <string name="donate_description">যদি আপুনি এই এপটো উপযোগী বুলি ভাবে, তেন্তে এটা সৰু অনুদানৰে উন্নয়নত সহায় কৰাৰ কথা চিন্তা কৰক।</string>
+    <string name="scan_qr_code">পেম কৰিবলৈ QR ক\'ড স্কেন কৰক</string>
+    <string name="upi_qr_code">ইউপিআই কিউআৰ ক\'ড</string>
+    <string name="upi_id">ইউপিআই আইডি</string>
+    <string name="copy">কপি কৰক</string>
+    <string name="upi_id_copied">ইউপিআই আইডি ক্লিপবৰ্ডলৈ কপি কৰা হৈছে</string>
+    <string name="thank_you_message">আপোনাৰ সহায়ৰ বাবে ধন্যবাদ! ❤️</string>
+    <string name="pay_with_upi_app">UPI App ৰ সৈতে ধন পৰিশোধ কৰক</string>
+    <string name="no_upi_apps_found">আপোনাৰ ডিভাইচত কোনো UPI পেমেণ্ট এপ পোৱা নাযায়</string>
+    <string name="payment_app_icon">পেমেন্ট এপ আইকন</string>
+    <string name="pay">পৰিশোধ কৰা</string>
+    <string name="cannot_open_payment_app">পেমেণ্ট এপ খুলিব নোৱাৰিব</string>
+    <string name="buy_me_a_coffee">মোক এ কফি কিনিব</string>
+    <string name="support_buy_me_a_coffee">বাই মি এ কফিৰ ওপৰত সমৰ্থন</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">মুক্ত উৎস অনুজ্ঞাসমূহ</string>
+    <string name="source_code">উৎস ক\'ড</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">০XYZ০ZYX</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">সংস্কৰণ %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">মোৰ Apps</string>
+    <string name="no_favorite_apps">এতিয়াও কোনো প্ৰিয় এপ নাই</string>
+    <string name="no_favorite_apps_hint">ইয়াত যোগ কৰিবলৈ যিকোনো এপত হাৰ্ট আইকনটো টেপ কৰক</string>
+    <string name="add_to_favorites">প্ৰিয়ত যোগ কৰক</string>
+    <string name="remove_from_favorites">প্ৰিয়ৰ পৰা আঁতৰাই পেলাওক</string>
+    <string name="added_to_favorites">প্ৰিয়ত যোগ কৰা হৈছে</string>
+    <string name="removed_from_favorites">প্ৰিয়ৰ পৰা আঁতৰোৱা হৈছে</string>
+    <string name="favorite_apps">প্ৰিয় এপসমূহ</string>
+    <string name="no_installed_apps">কোনো ইনষ্টল কৰা এপ নাই</string>
+    <string name="no_installed_apps_hint">আপোনাৰ প্ৰিয়ৰ পৰা ইনষ্টল কৰা এপসমূহ ইয়াত দেখা যাব</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">ৰূপ</string>
+    <string name="theme_system">পদ্ধতি</string>
+    <string name="theme_for_you">আপোনাৰ বাবে</string>
+    <string name="theme_dark">অন্ধকাৰ</string>
+    <string name="theme_light">পাতল</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">ডাউনলোড ছেটিংছ</string>
+    <string name="proxy">প্ৰক্সি</string>
+    <string name="mirror_proxy_description">GitHub ব্লক কৰা দেশ বা অঞ্চলৰ বাবে, ডাউনলোড কৰিবলৈ এটা প্ৰক্সি ব্যৱহাৰ কৰক।</string>
+    <string name="enable_mirror_proxy">মিৰ\'ৰ প্ৰক্সি সামৰ্থবান কৰক</string>
+    <string name="proxy_url_hint">প্ৰক্সি URL (যেনে, https://gh-proxy.com/)</string>
+    <string name="popular_proxies">জনপ্ৰিয় প্ৰক্সিসমূহ</string>
+    <string name="multi_part_download">বহু-অংশ ডাউনলোড</string>
+    <string name="multi_part_description">দ্ৰুত গতিৰ বাবে একাধিক সংযোগ ব্যৱহাৰ কৰি ফাইলসমূহ ডাউনলোড কৰক।</string>
+    <string name="enable_multi_part">বহু-অংশ ডাউনলোড সামৰ্থবান কৰক</string>
+    <string name="download_threads">ডাউনলোড থ্ৰেড</string>
+    <string name="thread_count_hint">উচ্চ মানসমূহে গতি উন্নত কৰিব পাৰে কিন্তু অধিক সম্পদ ব্যৱহাৰ কৰে (1-32)</string>
+    <string name="download_settings_info">মিৰ\'ৰ প্ৰক্সিয়ে এটা প্ৰক্সি চাৰ্ভাৰৰ যোগেদি GitHub URLসমূহ ৰূপান্তৰ কৰে। বহু-অংশ ডাউনলোডে সমান্তৰাল ডাউনলোডৰ বাবে ফাইলসমূহক টুকুৰাসমূহত বিভক্ত কৰে।</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">সংস্কৰণ নিৰ্ব্বাচন কৰক</string>
+    <string name="compatible">উপযুক্ত</string>
+    <string name="incompatible">অসঙ্গতিপূৰ্ণ</string>
+    <string name="recommended">পৰামৰ্শিত</string>
+    <string name="app_mismatch_title">এপ মিছমেচ?</string>
+    <string name="app_mismatch_message">RepoStore এই ভঁৰালটো এটা ইনষ্টল কৰা এপৰ সৈতে মিলাইছে: %1$s (%2$s).\n\nযদি এইটো একেটা এপ নহয়, আপুনি যিকোনো প্ৰকাৰে এই ভঁৰালৰ পৰা APK ইনষ্টল কৰিবলৈ বাছি ল\'ব পাৰে।</string>
+    <string name="install_anyway">যিয়েই নহওক ইনষ্টল কৰক</string>
+    <string name="forget_mapping">মেপিং পাহৰি যাওক</string>
+    <string name="contributors">অৱদানকাৰীসকল</string>
+    <string name="no_apk_variants_available">কোনো APK ভিন্নতা উপলব্ধ নহয়</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">নিৰ্বাচিত কৰা হৈছে</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">আটাইবোৰ</string>
+    <string name="cat_name_ai_chat">এ আই আড্ডা</string>
+    <string name="cat_name_app_manager">এপ মেনেজাৰ</string>
+    <string name="cat_name_app_store_updater">এপ ষ্ট\'ৰ আৰু আপডেটাৰ</string>
+    <string name="cat_name_battery">বেটাৰি</string>
+    <string name="cat_name_bookmark">বুকমাৰ্ক</string>
+    <string name="cat_name_browser">ব্ৰাউজাৰ</string>
+    <string name="cat_name_calculator">কেলকুলেটৰ</string>
+    <string name="cat_name_calendar_agenda">কেলেণ্ডাৰ আৰু এজেণ্ডা</string>
+    <string name="cat_name_clock">ঘড়ী</string>
+    <string name="cat_name_cloud_storage">ক্লাউড সংৰক্ষণ আৰু ফাইল ছিঙ্ক</string>
+    <string name="cat_name_connectivity">সংযোগ ক্ষমতা</string>
+    <string name="cat_name_contact">যোগাযোগ কৰক</string>
+    <string name="cat_name_development">বিকাশ</string>
+    <string name="cat_name_dns_hosts">DNS আৰু হ\'ষ্টসমূহ</string>
+    <string name="cat_name_draw">অঁকা</string>
+    <string name="cat_name_ebook_reader">ইবুক ৰিডাৰ</string>
+    <string name="cat_name_email">ইমেইল</string>
+    <string name="cat_name_file_encryption">ফাইল এনক্ৰিপচন আৰু ভল্ট</string>
+    <string name="cat_name_file_transfer">ফাইল স্থানান্তৰ</string>
+    <string name="cat_name_firewall">ফায়াৰৱাল</string>
+    <string name="cat_name_finance_manager">বিত্ত পৰিচালক</string>
+    <string name="cat_name_flashlight">টৰ্চলাইট</string>
+    <string name="cat_name_forum">মঞ্চ</string>
+    <string name="cat_name_gallery">গেলেৰী</string>
+    <string name="cat_name_games">খেলা-ধূলা</string>
+    <string name="cat_name_graphics">গ্রাফিক্স</string>
+    <string name="cat_name_habit_tracker">অভ্যাস ট্ৰেকাৰ</string>
+    <string name="cat_name_icon_pack">আইকন পেক</string>
+    <string name="cat_name_internet">ইণ্টাৰনেট</string>
+    <string name="cat_name_inventory">বস্তুৰ তালিকা</string>
+    <string name="cat_name_keyboard_ime">কিবৰ্ড আৰু আইএমই</string>
+    <string name="cat_name_launcher">লঞ্চাৰ</string>
+    <string name="cat_name_local_media_player">স্থানীয় মিডিয়া প্লেয়াৰ</string>
+    <string name="cat_name_location_tracker">স্থান ট্ৰেকাৰ আৰু শ্বেয়াৰাৰ</string>
+    <string name="cat_name_messaging">বাৰ্তা প্ৰেৰণ</string>
+    <string name="cat_name_money">ধন</string>
+    <string name="cat_name_multimedia">মাল্টিমিডিয়া</string>
+    <string name="cat_name_music_audio">সংগীত আৰু অডিঅ\'</string>
+    <string name="cat_name_video_players">ভিডিঅ\' প্লেয়াৰ</string>
+    <string name="cat_name_music_practice">সংগীত অনুশীলন সঁজুলি</string>
+    <string name="cat_name_navigation">নেভিগেচন</string>
+    <string name="cat_name_network_analyzer">নেটৱৰ্ক বিশ্লেষক</string>
+    <string name="cat_name_news">বাতৰি</string>
+    <string name="cat_name_note">টোকা</string>
+    <string name="cat_name_online_media_player">অনলাইন মিডিয়া প্লেয়াৰ</string>
+    <string name="cat_name_pass_wallet">পাছ ৱালেট</string>
+    <string name="cat_name_fa">পাছৱৰ্ড আৰু 2FA</string>
+    <string name="cat_name_phone_sms">ফোন আৰু এছএমএছ</string>
+    <string name="cat_name_podcast">প’ডকাষ্ট</string>
+    <string name="cat_name_public_transport">ৰাজহুৱা পৰিবহণ</string>
+    <string name="cat_name_radio">ৰেডিঅ\'</string>
+    <string name="cat_name_reading">পঢ়ি থকা</string>
+    <string name="cat_name_recipe_manager">ৰেচিপি মেনেজাৰ</string>
+    <string name="cat_name_remote_controller">ৰিম\'ট কন্ট্ৰ\'লাৰ</string>
+    <string name="cat_name_science_education">বিজ্ঞান আৰু শিক্ষা</string>
+    <string name="cat_name_security">সুৰক্ষা</string>
+    <string name="cat_name_shopping_list">শ্বপিং লিষ্ট</string>
+    <string name="cat_name_social_network">ছ\'চিয়েল নেটৱৰ্ক</string>
+    <string name="cat_name_sports_health">ক্ৰীড়া আৰু স্বাস্থ্য</string>
+    <string name="cat_name_streaming_app">ষ্ট্ৰীমিং এপ</string>
+    <string name="cat_name_system">পদ্ধতি</string>
+    <string name="cat_name_task">কাৰ্য</string>
+    <string name="cat_name_text_editor">লিখনী সম্পাদক</string>
+    <string name="cat_name_theming">থিমিং</string>
+    <string name="cat_name_time">সময়</string>
+    <string name="cat_name_tools">সঁজুলি</string>
+    <string name="cat_name_translation_dictionary">অনুবাদ আৰু অভিধান</string>
+    <string name="cat_name_unit_convertor">ইউনিট কনভাৰ্টাৰ</string>
+    <string name="cat_name_voice_video_chat">কণ্ঠ আৰু ভিডিঅ\' আড্ডা</string>
+    <string name="cat_name_vpn">ভিপিএন আৰু প্ৰক্সি</string>
+    <string name="cat_name_wallet">ধনৰ মোনা</string>
+    <string name="cat_name_wallpaper">ৱালপেপাৰ</string>
+    <string name="cat_name_weather">বতৰ</string>
+    <string name="cat_name_workout">ব্যায়াম কৰা</string>
+    <string name="cat_name_writing">লিখনি</string>
+    <string name="cat_name_productivity">উৎপাদনশীলতা</string>
+    <string name="cat_name_open_source">মুক্ত উৎস</string>
+    <string name="cat_name_trending">ট্ৰেণ্ডিং</string>
+</resources>

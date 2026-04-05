@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Hjem</string>
+    <string name="games">Spil</string>
+    <string name="apps">Apps</string>
+    <string name="trending">Trending</string>
+    <string name="search">Søge</string>
+    <string name="profile">Profil</string>
+    <string name="back">Tilbage</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Søg i apps og spil</string>
+    <string name="search_github_repos">Søg i GitHub-lagre...</string>
+    <string name="search_hint">Søg efter Android-apps på GitHub</string>
+    <string name="no_results">Ingen resultater fundet</string>
+    <string name="clear">Klar</string>
+    <string name="voice_search">Stemmesøgning</string>
+    <string name="filter">Filter</string>
+    <string name="sort_by">Sorter efter</string>
+    <string name="updated">Opdateret</string>
+    <string name="has_apk">Har APK</string>
+    <string name="reset">Nulstil</string>
+    <string name="results_count">%d resultater</string>
+    <string name="any_language">Ethvert sprog</string>
+    <string name="any_stars">Eventuelle stjerner</string>
+    <string name="min_stars_format">%d+ stjerner</string>
+    <string name="best_match">Bedste match</string>
+    <string name="most_stars">Flest stjerner</string>
+    <string name="most_forks">De fleste gafler</string>
+    <string name="recently_updated_sort">Nyligt opdateret</string>
+    <string name="any_time">Når som helst</string>
+    <string name="last_week">Sidste uge</string>
+    <string name="last_month">Sidste måned</string>
+    <string name="last_3_months">Sidste 3 måneder</string>
+    <string name="last_year">Sidste år</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Anbefales til dig</string>
+    <string name="top_free_apps">Top gratis apps</string>
+    <string name="recently_updated">For nylig opdateret</string>
+    <string name="see_more">Se mere</string>
+    <string name="all_categories">Alle kategorier</string>
+    <string name="more">Mere</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Udvalgte spil</string>
+    <string name="popular_games">Populære spil</string>
+    <string name="new_games">Nye spil</string>
+    <string name="no_games_found">Ingen spil fundet</string>
+
+    <!-- App Details -->
+    <string name="app_icon">App-ikon</string>
+    <string name="banner">Banner</string>
+    <string name="about">Om</string>
+    <string name="about_this_app">Om denne app</string>
+    <string name="screenshots">Skærmbilleder</string>
+    <string name="screenshot">Skærmbillede</string>
+    <string name="stars">Stjerner</string>
+    <string name="forks">Forgafler</string>
+    <string name="language">Sprog</string>
+    <string name="last_updated">Sidst opdateret</string>
+    <string name="updated_on">Opdateret den</string>
+    <string name="latest_release">Seneste udgivelse</string>
+    <string name="whats_new">Hvad \' er nyt</string>
+    <string name="readme">LÆS MIG</string>
+    <string name="download">Download</string>
+    <string name="install">Installere</string>
+    <string name="download_apk">Download APK</string>
+    <string name="view_release">Se udgivelse</string>
+    <string name="view_on_github">Se på GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Ingen beskrivelse tilgængelig</string>
+    <string name="no_release_notes">Ingen release notes</string>
+    <string name="archived">Arkiveret</string>
+
+    <!-- Tags -->
+    <string name="tag_new">NY</string>
+    <string name="tag_updated">OPDATERET</string>
+    <string name="tag_archived">ARKIVERING</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Ingen apps fundet</string>
+    <string name="no_repos_found">Ingen depoter fundet</string>
+    <string name="rate_limit_error">Satsgrænsen er overskredet. Prøv venligst igen senere.</string>
+    <string name="network_error">Netværksfejl. Tjek venligst din forbindelse.</string>
+    <string name="tap_to_retry">Tryk for at prøve igen</string>
+    <string name="loading">Indlæser...</string>
+
+    <!-- Developer -->
+    <string name="repositories">Depoter</string>
+    <string name="repositories_count">%d-depoter</string>
+    <string name="view_github_profile">Se GitHub-profil</string>
+
+    <!-- Settings -->
+    <string name="settings">Indstillinger</string>
+    <string name="github_token">GitHub personlig adgangstoken</string>
+    <string name="github_token_desc">Tilføj et token for at øge API-hastighedsgrænsen fra 60 til 5000 anmodninger i timen.</string>
+    <string name="enter_token">Indtast dit GitHub-token</string>
+    <string name="save_token">Gem token</string>
+    <string name="clear_token">Ryd token</string>
+    <string name="create_token_on_github">Opret token på GitHub</string>
+    <string name="token_saved">Token blev gemt</string>
+    <string name="token_removed">Token fjernet</string>
+    <string name="rate_limit_info_title">API-hastighedsgrænse</string>
+    <string name="rate_limit_info_desc">Uden token: 60 anmodninger/time\nMed token: 5.000 anmodninger/time</string>
+    <string name="how_to_create_token">Sådan opretter du et token:</string>
+    <string name="token_instructions">1. Gå til GitHub Indstillinger → Udviklerindstillinger\n2. Klik på \"Personlige adgangstokens\" → \"Tokens (klassisk)\"\n3. Klik på \"Generer nyt token\"\n4. Giv det et navn og vælg \"public_repo\" scope\n5. Klik på \"Generer token\" og kopier det</string>
+    <string name="no_token_set">Intet symbolsæt</string>
+    <string name="token_configured">Token konfigureret</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Udvikler</string>
+    <string name="followers">Tilhængere</string>
+    <string name="following">Følge</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Downloader...</string>
+    <string name="downloading_apk">Downloader APK</string>
+    <string name="download_complete">Download fuldført</string>
+    <string name="download_in_progress">Download er allerede i gang</string>
+    <string name="file_not_found">Den downloadede fil blev ikke fundet</string>
+    <string name="install_error">Installationsprogrammet kunne ikke åbnes</string>
+    <string name="installing">Installerer...</string>
+    <string name="open">Åben</string>
+    <string name="cannot_open_app">Kan ikke åbne app</string>
+    <string name="queued">I kø...</string>
+    <string name="preparing">Forbereder...</string>
+    <string name="verifying">Bekræfter...</string>
+    <string name="storage_error">Der opstod en lagringsfejl</string>
+    <string name="insufficient_storage">Ikke nok lagerplads</string>
+    <string name="verification_failed">Filbekræftelse mislykkedes</string>
+    <string name="download_timeout">Download timeout</string>
+    <string name="retry">Prøv igen</string>
+    <string name="cancel">Ophæve</string>
+    <string name="update">Opdatering</string>
+    <string name="update_available">Opdatering tilgængelig</string>
+    <string name="uninstall">Afinstaller</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Log ind med GitHub</string>
+    <string name="sign_in_to_increase_limit">Log ind for at øge API-hastighedsgrænsen</string>
+    <string name="connecting_to_github">Opretter forbindelse til GitHub...</string>
+    <string name="enter_code_on_github">Indtast denne kode på GitHub</string>
+    <string name="code_instructions">Åbn GitHub i din browser, og indtast koden nedenfor for at logge ind</string>
+    <string name="copy_code">Kopiér kode</string>
+    <string name="code_copied">Kode kopieret til udklipsholder</string>
+    <string name="open_github">Åbn GitHub</string>
+    <string name="waiting_for_authorization">Venter på godkendelse...</string>
+    <string name="signed_in_successfully">Log ind med succes!</string>
+    <string name="signed_in">Logget ind</string>
+    <string name="signed_in_as">Logget ind som %s</string>
+    <string name="rate_limit_increased">API-hastighedsgrænse øget til 5.000 anmodninger/time</string>
+    <string name="sign_out">Log ud</string>
+    <string name="signed_out">Logget ud</string>
+    <string name="failed_to_get_code">Kunne ikke hente autorisationskode</string>
+    <string name="auth_expired">Autorisationen er udløbet. Prøv venligst igen.</string>
+    <string name="unknown_error">Der opstod en ukendt fejl</string>
+    <string name="something_went_wrong">Noget gik galt</string>
+    <string name="user">@user</string>
+    <string name="rate_limit_exceeded_title">Satsgrænse overskredet</string>
+    <string name="rate_limit_exceeded_message">You\'ve overskred GitHub API-hastighedsgrænsen (60 anmodninger/time).\n\nLog ind med GitHub for at øge din grænse til 5.000 anmodninger/time gratis!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve overskred den godkendte hastighedsgrænse (5.000 anmodninger/time). Vent et par minutter, før du prøver igen.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Doner</string>
+    <string name="support_developer">Støt udvikleren</string>
+    <string name="donate_description">Hvis du finder denne app nyttig, så overvej at støtte udviklingen med en lille donation.</string>
+    <string name="scan_qr_code">Scan QR-koden for at betale</string>
+    <string name="upi_qr_code">UPI QR-kode</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Kopi</string>
+    <string name="upi_id_copied">UPI-id kopieret til udklipsholder</string>
+    <string name="thank_you_message">Tak for din støtte! ❤️</string>
+    <string name="pay_with_upi_app">Betal med UPI App</string>
+    <string name="no_upi_apps_found">Der blev ikke fundet nogen UPI-betalingsapps på din enhed</string>
+    <string name="payment_app_icon">Betalingsapp-ikon</string>
+    <string name="pay">Betale</string>
+    <string name="cannot_open_payment_app">Kan ikke åbne betalingsapp</string>
+    <string name="buy_me_a_coffee">Køb mig en kaffe</string>
+    <string name="support_buy_me_a_coffee">Support på Køb mig en kaffe</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Open Source-licenser</string>
+    <string name="source_code">Kildekode</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Version %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Mine apps</string>
+    <string name="no_favorite_apps">Ingen favoritapps endnu</string>
+    <string name="no_favorite_apps_hint">Tryk på hjerteikonet på en app for at tilføje det her</string>
+    <string name="add_to_favorites">Tilføj til favoritter</string>
+    <string name="remove_from_favorites">Fjern fra favoritter</string>
+    <string name="added_to_favorites">Tilføjet til favoritter</string>
+    <string name="removed_from_favorites">Fjernet fra favoritter</string>
+    <string name="favorite_apps">Yndlingsapps</string>
+    <string name="no_installed_apps">Ingen installerede apps</string>
+    <string name="no_installed_apps_hint">Apps, du installerer fra dine favoritter, vises her</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Udseende</string>
+    <string name="theme_system">System</string>
+    <string name="theme_for_you">Til dig</string>
+    <string name="theme_dark">Mørk</string>
+    <string name="theme_light">Lys</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Download indstillinger</string>
+    <string name="proxy">Fuldmagt</string>
+    <string name="mirror_proxy_description">For lande eller områder, hvor GitHub er blokeret, skal du bruge en proxy til at downloade.</string>
+    <string name="enable_mirror_proxy">Aktiver Mirror Proxy</string>
+    <string name="proxy_url_hint">Proxy-URL (f.eks. https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Populære fuldmagter</string>
+    <string name="multi_part_download">Download af flere dele</string>
+    <string name="multi_part_description">Download filer ved hjælp af flere forbindelser for hurtigere hastigheder.</string>
+    <string name="enable_multi_part">Aktiver download af flere dele</string>
+    <string name="download_threads">Download tråde</string>
+    <string name="thread_count_hint">Højere værdier kan forbedre hastigheden, men bruge flere ressourcer (1-32)</string>
+    <string name="download_settings_info">Mirror proxy transformerer GitHub URL\'er gennem en proxyserver. Multi-part download opdeler filer i bidder til parallel download.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Vælg Version</string>
+    <string name="compatible">Kompatibel</string>
+    <string name="incompatible">Uforenelig</string>
+    <string name="recommended">Anbefales</string>
+    <string name="app_mismatch_title">App uoverensstemmelse?</string>
+    <string name="app_mismatch_message">RepoStore matchede dette lager med en installeret app: %1$s (%2$s).\n\nHvis dette IKKE er den samme app, kan du alligevel vælge at installere APK\'en fra dette lager.</string>
+    <string name="install_anyway">Installer alligevel</string>
+    <string name="forget_mapping">Glem kortlægning</string>
+    <string name="contributors">Bidragydere</string>
+    <string name="no_apk_variants_available">Ingen tilgængelige APK-varianter</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Valgt</string>
+    <!-- Categories -->
+    <string name="cat_name_all">Alle</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">App Manager</string>
+    <string name="cat_name_app_store_updater">App Store &amp;amp; Updater</string>
+    <string name="cat_name_battery">Batteri</string>
+    <string name="cat_name_bookmark">Bogmærke</string>
+    <string name="cat_name_browser">Browser</string>
+    <string name="cat_name_calculator">Kalkulator</string>
+    <string name="cat_name_calendar_agenda">Kalender og dagsorden</string>
+    <string name="cat_name_clock">Ur</string>
+    <string name="cat_name_cloud_storage">Cloud Storage &amp;amp; File Sync</string>
+    <string name="cat_name_connectivity">Forbindelse</string>
+    <string name="cat_name_contact">Kontakte</string>
+    <string name="cat_name_development">Udvikling</string>
+    <string name="cat_name_dns_hosts">DNS og værter</string>
+    <string name="cat_name_draw">Tegne</string>
+    <string name="cat_name_ebook_reader">E-bogslæser</string>
+    <string name="cat_name_email">E-mail</string>
+    <string name="cat_name_file_encryption">Filkryptering &amp;amp; Vault</string>
+    <string name="cat_name_file_transfer">Filoverførsel</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Økonomichef</string>
+    <string name="cat_name_flashlight">Lommelygte</string>
+    <string name="cat_name_forum">Forum</string>
+    <string name="cat_name_gallery">Galleri</string>
+    <string name="cat_name_games">Spil</string>
+    <string name="cat_name_graphics">Grafik</string>
+    <string name="cat_name_habit_tracker">Vane Tracker</string>
+    <string name="cat_name_icon_pack">Ikonpakke</string>
+    <string name="cat_name_internet">Internettet</string>
+    <string name="cat_name_inventory">Inventar</string>
+    <string name="cat_name_keyboard_ime">Tastatur og IME</string>
+    <string name="cat_name_launcher">Launcher</string>
+    <string name="cat_name_local_media_player">Lokal medieafspiller</string>
+    <string name="cat_name_location_tracker">Location Tracker &amp;amp; Sharer</string>
+    <string name="cat_name_messaging">Beskeder</string>
+    <string name="cat_name_money">Penge</string>
+    <string name="cat_name_multimedia">Multimedier</string>
+    <string name="cat_name_music_audio">Musik &amp;amp; lyd</string>
+    <string name="cat_name_video_players">Video-afspillere</string>
+    <string name="cat_name_music_practice">Musikøvelsesværktøj</string>
+    <string name="cat_name_navigation">Navigation</string>
+    <string name="cat_name_network_analyzer">Netværksanalysator</string>
+    <string name="cat_name_news">Nyheder</string>
+    <string name="cat_name_note">Note</string>
+    <string name="cat_name_online_media_player">Online medieafspiller</string>
+    <string name="cat_name_pass_wallet">Pass Wallet</string>
+    <string name="cat_name_fa">Adgangskode &amp;amp; 2FA</string>
+    <string name="cat_name_phone_sms">Telefon &amp;amp; SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Offentlig transport</string>
+    <string name="cat_name_radio">Radio</string>
+    <string name="cat_name_reading">Læsning</string>
+    <string name="cat_name_recipe_manager">Opskriftsmanager</string>
+    <string name="cat_name_remote_controller">Fjernbetjening</string>
+    <string name="cat_name_science_education">Videnskab og uddannelse</string>
+    <string name="cat_name_security">Sikkerhed</string>
+    <string name="cat_name_shopping_list">Indkøbsliste</string>
+    <string name="cat_name_social_network">Socialt netværk</string>
+    <string name="cat_name_sports_health">Sport &amp;amp; Sundhed</string>
+    <string name="cat_name_streaming_app">Streaming app</string>
+    <string name="cat_name_system">System</string>
+    <string name="cat_name_task">Opgave</string>
+    <string name="cat_name_text_editor">Teksteditor</string>
+    <string name="cat_name_theming">Temaer</string>
+    <string name="cat_name_time">Tid</string>
+    <string name="cat_name_tools">Værktøjer</string>
+    <string name="cat_name_translation_dictionary">Oversættelse og ordbog</string>
+    <string name="cat_name_unit_convertor">Enhedsomformer</string>
+    <string name="cat_name_voice_video_chat">Stemme- og videochat</string>
+    <string name="cat_name_vpn">VPN og proxy</string>
+    <string name="cat_name_wallet">Tegnebog</string>
+    <string name="cat_name_wallpaper">Tapet</string>
+    <string name="cat_name_weather">Vejr</string>
+    <string name="cat_name_workout">Træning</string>
+    <string name="cat_name_writing">Skrivning</string>
+    <string name="cat_name_productivity">Produktivitet</string>
+    <string name="cat_name_open_source">Open Source</string>
+    <string name="cat_name_trending">Trending</string></resources>

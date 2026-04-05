@@ -1,0 +1,336 @@
+<resources>
+    <string name="app_name">Isitolo se-Repo</string>
+
+    <!-- Navigation -->
+    <string name="home">Ikhaya</string>
+    <string name="games">Imidlalo</string>
+    <string name="apps">Izinhlelo zokusebenza</string>
+    <string name="trending">Okuthrendayo</string>
+    <string name="search">Sesha</string>
+    <string name="profile">Iphrofayela</string>
+    <string name="back">Emuva</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Sesha izinhlelo zokusebenza nemidlalo</string>
+    <string name="search_github_repos">Sesha amakhosombe e-GitHub...</string>
+    <string name="search_hint">Sesha izinhlelo zokusebenza ze-Android ku-GitHub</string>
+    <string name="no_results">Ayikho imiphumela etholiwe</string>
+    <string name="clear">Kucace</string>
+    <string name="voice_search">Ukusesha ngezwi</string>
+    <string name="filter">Hlunga</string>
+    <string name="sort_by">Hlunga nge</string>
+    <string name="updated">Kubuyekeziwe</string>
+    <string name="has_apk">Ine-APK</string>
+    <string name="reset">Setha kabusha</string>
+    <string name="results_count">__%d imiphumela</string>
+    <string name="any_language">Noma yiluphi ulimi</string>
+    <string name="any_stars">Noma yiziphi izinkanyezi</string>
+    <string name="min_stars_format">%d + izinkanyezi</string>
+    <string name="best_match">Ukufana Okungcono Kakhulu</string>
+    <string name="most_stars">Izinkanyezi Eziningi</string>
+    <string name="most_forks">Iningi lamaFork</string>
+    <string name="recently_updated_sort">Okusanda kubuyekezwa</string>
+    <string name="any_time">Noma nini</string>
+    <string name="last_week">Evikini eledlule</string>
+    <string name="last_month">Ngenyanga edlule</string>
+    <string name="last_3_months">Izinyanga ezi-3 ezedlule</string>
+    <string name="last_year">Ngonyaka odlule</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Okunconyelwe wena</string>
+    <string name="top_free_apps">Izinhlelo zokusebenza zamahhala eziphezulu</string>
+    <string name="recently_updated">Okusanda kubuyekezwa</string>
+    <string name="see_more">Buka Okuningi</string>
+    <string name="all_categories">Zonke Izigaba</string>
+    <string name="more">Okuningi</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Imidlalo efakiwe</string>
+    <string name="popular_games">Imidlalo ethandwayo</string>
+    <string name="new_games">Imidlalo Emisha</string>
+    <string name="no_games_found">Ayikho imidlalo etholiwe</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Isithonjana sohlelo lokusebenza</string>
+    <string name="banner">Isibhengezo</string>
+    <string name="about">Mayelana</string>
+    <string name="about_this_app">Mayelana nalolu hlelo lokusebenza</string>
+    <string name="screenshots">Izithombe-skrini</string>
+    <string name="screenshot">Isithombe-skrini</string>
+    <string name="stars">Izinkanyezi</string>
+    <string name="forks">Izimfoloko</string>
+    <string name="language">Ulimi</string>
+    <string name="last_updated">Igcine ukubuyekezwa</string>
+    <string name="updated_on">Kubuyekezwe ngo</string>
+    <string name="latest_release">Ukukhishwa Kwakamuva</string>
+    <string name="whats_new">Yini entsha</string>
+    <string name="readme">FUNDA</string>
+    <string name="download">Landa</string>
+    <string name="install">Faka</string>
+    <string name="download_apk">Landa i-APK</string>
+    <string name="view_release">Buka Ukukhishwa</string>
+    <string name="view_on_github">Buka ku-GitHub</string>
+    <string name="github">I-GitHub</string>
+    <string name="no_description">Ayikho incazelo etholakalayo</string>
+    <string name="no_release_notes">Awekho amanothi okukhishwa</string>
+    <string name="archived">Kufakwe kungobo yomlando</string>
+
+    <!-- Tags -->
+    <string name="tag_new">OKUSHA</string>
+    <string name="tag_updated">KUBUYISIWE</string>
+    <string name="tag_archived">KUGCINWE KULONDOLOZI</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Azikho izinhlelo zokusebenza ezitholiwe</string>
+    <string name="no_repos_found">Awekho amaqoqo atholakele</string>
+    <string name="rate_limit_error">Umkhawulo wesilinganiso udluliwe. Sicela uzame futhi emuva kwesikhathi.</string>
+    <string name="network_error">Iphutha lenethiwekhi. Sicela uhlole ukuxhumana kwakho.</string>
+    <string name="tap_to_retry">Thepha ukuze uzame futhi</string>
+    <string name="loading">Iyalayisha...</string>
+
+    <!-- Developer -->
+    <string name="repositories">Amakhosombe</string>
+    <string name="repositories_count">__%d amakhosombe</string>
+    <string name="view_github_profile">Buka iphrofayela ye-GitHub</string>
+
+    <!-- Settings -->
+    <string name="settings">Izilungiselelo</string>
+    <string name="github_token">I-GitHub Personal Access Token</string>
+    <string name="github_token_desc">Engeza ithokheni ukuze ukhuphule umkhawulo wesilinganiso se-API ukusuka kuzicelo ezingama-60 kuye kwezingu-5000 ngehora.</string>
+    <string name="enter_token">Faka ithokheni yakho ye-GitHub</string>
+    <string name="save_token">Londoloza Ithokheni</string>
+    <string name="clear_token">Sula Uphawu</string>
+    <string name="create_token_on_github">Dala Ithokheni ku-GitHub</string>
+    <string name="token_saved">Ithokheni ilondolozwe ngempumelelo</string>
+    <string name="token_removed">Ithokheni isusiwe</string>
+    <string name="rate_limit_info_title">I-API Rate Limit</string>
+    <string name="rate_limit_info_desc">Ngaphandle kwethokheni: izicelo ezingama-60/ihora 
+ Ngethokheni: izicelo eziyi-5,000/ihora</string>
+    <string name="how_to_create_token">Indlela yokudala ithokheni:</string>
+    <string name="token_instructions">1. Iya kokuthi Izilungiselelo ze-GitHub → Izilungiselelo zikanjiniyela 
+ 2. Chofoza "Amathokheni okufinyelela komuntu siqu" → "Amathokheni (akudala)" 
+ 3. Chofoza okuthi "Khiqiza ithokheni entsha" 
+ 4. Inikeze igama bese ukhetha isikophu esithi "public_repo" 
+ 5. Chofoza "Kwenza ithokheni" .</string>
+    <string name="no_token_set">Awekho amathokheni asethiwe</string>
+    <string name="token_configured">Ithokheni ilungisiwe</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Unjiniyela</string>
+    <string name="followers">Abalandeli</string>
+    <string name="following">Ukulandela</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Iyalanda...</string>
+    <string name="downloading_apk">Ilanda i-APK</string>
+    <string name="download_complete">Ukulanda kuqediwe</string>
+    <string name="download_in_progress">Ukulanda sekuvele kuyaqhubeka</string>
+    <string name="file_not_found">Ifayela elilandiwe alitholakali</string>
+    <string name="install_error">Ayikwazanga ukuvula isifaki</string>
+    <string name="installing">Iyafaka...</string>
+    <string name="open">Vula</string>
+    <string name="cannot_open_app">Ayikwazi ukuvula uhlelo lokusebenza</string>
+    <string name="queued">Kufakwe kulayini...</string>
+    <string name="preparing">Iyalungiselela...</string>
+    <string name="verifying">Iyaqinisekisa...</string>
+    <string name="storage_error">Kwenzeke iphutha lesitoreji</string>
+    <string name="insufficient_storage">Asikho isikhala esanele sokulondoloza</string>
+    <string name="verification_failed">Ukuqinisekiswa kwefayela kuhlulekile</string>
+    <string name="download_timeout">Ukulanda kuphelelwe yisikhathi</string>
+    <string name="retry">Zama futhi</string>
+    <string name="cancel">Khansela</string>
+    <string name="update">Buyekeza</string>
+    <string name="update_available">Isibuyekezo siyatholakala</string>
+    <string name="uninstall">Khipha</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Ngena ngemvume nge-GitHub</string>
+    <string name="sign_in_to_increase_limit">Ngena ngemvume ukuze ukhuphule umkhawulo wesilinganiso se-API</string>
+    <string name="connecting_to_github">Ixhumeka ku-GitHub...</string>
+    <string name="enter_code_on_github">Faka le khodi ku-GitHub</string>
+    <string name="code_instructions">Vula i-GitHub esipheqululini sakho bese ufaka ikhodi engezansi ukuze ungene ngemvume</string>
+    <string name="copy_code">Kopisha Ikhodi</string>
+    <string name="code_copied">Ikhodi ikopishelwe ebhodini lokunamathisela</string>
+    <string name="open_github">Vula i-GitHub</string>
+    <string name="waiting_for_authorization">Ilinde ukugunyazwa...</string>
+    <string name="signed_in_successfully">Ungene ngemvume ngempumelelo!</string>
+    <string name="signed_in">Ungene ngemvume</string>
+    <string name="signed_in_as">Ungene ngemvume njengo- __%s</string>
+    <string name="rate_limit_increased">Umkhawulo wesilinganiso se-API ukhuphuke wafinyelela ku-5,000 izicelo/ihora</string>
+    <string name="sign_out">Phuma ngemvume</string>
+    <string name="signed_out">Uphumile</string>
+    <string name="failed_to_get_code">Yehlulekile ukuthola ikhodi yokugunyazwa</string>
+    <string name="auth_expired">Ukugunyazwa kuphelelwe yisikhathi. Sicela uzame futhi.</string>
+    <string name="unknown_error">Kwenzeke iphutha elingaziwa</string>
+    <string name="something_went_wrong">Kukhona into engahambanga kahle</string>
+    <string name="user">Umsebenzisi ongu- _____AT</string>
+    <string name="rate_limit_exceeded_title">Umkhawulo Wesilinganiso Weqiwe</string>
+    <string name="rate_limit_exceeded_message">Weqe umkhawulo wesilinganiso se-GitHub API (izicelo ezingu-60/ihora). 
+ 
+ Ngena ngemvume nge-GitHub ukuze ukhuphule umkhawulo wakho ube yizicelo ezingu-5,000/ihora mahhala!</string>
+    <string name="rate_limit_exceeded_signed_in">Weqe isilinganiso esiqinisekisiwe (izicelo ezingu-5,000/ihora). Sicela ulinde imizuzu embalwa ngaphambi kokuthi uzame futhi.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Nikela</string>
+    <string name="support_developer">Sekela Unjiniyela</string>
+    <string name="donate_description">Uma uthola lolu hlelo lokusebenza luwusizo, cabanga ukusekela intuthuko ngomnikelo omncane.</string>
+    <string name="scan_qr_code">Skena Ikhodi ye-QR ukuze Ukhokhe</string>
+    <string name="upi_qr_code">Ikhodi ye-QR ye-UPI</string>
+    <string name="upi_id">I-ID ye-UPI</string>
+    <string name="copy">Kopisha</string>
+    <string name="upi_id_copied">I-ID ye-UPI ikopishelwe ebhodini lokunamathisela</string>
+    <string name="thank_you_message">Siyabonga ngokusekela kwakho! ❤️</string>
+    <string name="pay_with_upi_app">Khokha nge-UPI App</string>
+    <string name="no_upi_apps_found">Azikho izinhlelo zokusebenza zokukhokha ze-UPI ezitholakele kudivayisi yakho</string>
+    <string name="payment_app_icon">Isithonjana sohlelo lokusebenza lokukhokha</string>
+    <string name="pay">Khokha</string>
+    <string name="cannot_open_payment_app">Ayikwazi ukuvula uhlelo lokusebenza lokukhokha</string>
+    <string name="buy_me_a_coffee">Ngithengele Ikhofi</string>
+    <string name="support_buy_me_a_coffee">Ukusekela kokuthi Ngithenge Ikhofi</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Amalayisense Omthombo Ovulekile</string>
+    <string name="source_code">Ikhodi Yomthombo</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s ( __%2$s / %3$s )</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / __%2$d</string>
+    <string name="version_format">Inguqulo __%s</string>
+    <string name="username_format">__@_%s</string>
+    <string name="error_with_retry">%1$s 
+ 
+ %2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Izinhlelo zami zokusebenza</string>
+    <string name="no_favorite_apps">Azikho izinhlelo zokusebenza eziyintandokazi okwamanje</string>
+    <string name="no_favorite_apps_hint">Thepha isithonjana senhliziyo kunoma yiluphi uhlelo lokusebenza ukuze ulungeze lapha</string>
+    <string name="add_to_favorites">Engeza ezintandokazini</string>
+    <string name="remove_from_favorites">Susa ezintandokazini</string>
+    <string name="added_to_favorites">Kwengezwe ezintandokazini</string>
+    <string name="removed_from_favorites">Kususiwe ezintandokazini</string>
+    <string name="favorite_apps">Izinhlelo zokusebenza eziyizintandokazi</string>
+    <string name="no_installed_apps">Azikho izinhlelo zokusebenza ezifakiwe</string>
+    <string name="no_installed_apps_hint">Izinhlelo zokusebenza ozifaka ezintandokazini zakho zizovela lapha</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Ukubukeka</string>
+    <string name="theme_system">Uhlelo</string>
+    <string name="theme_for_you">Kwakho</string>
+    <string name="theme_dark">Kumnyama</string>
+    <string name="theme_light">Ukukhanya</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Landa Izilungiselelo</string>
+    <string name="proxy">Ummeleli</string>
+    <string name="mirror_proxy_description">Emazweni noma izifunda lapho i-GitHub ivinjiwe khona, sebenzisa ummeleli ukuze ulande.</string>
+    <string name="enable_mirror_proxy">Nika amandla i-Mirror Proxy</string>
+    <string name="proxy_url_hint">I-URL yommeleli (isb., https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Ama-Proxies adumile</string>
+    <string name="multi_part_download">Ukulandwa Kwezingxenye Eziningi</string>
+    <string name="multi_part_description">Landa amafayela usebenzisa ukuxhumana okuningi ukuze uthole isivinini esisheshayo.</string>
+    <string name="enable_multi_part">Nika amandla Ukulanda Kwezingxenye Eziningi</string>
+    <string name="download_threads">Landa Imicu</string>
+    <string name="thread_count_hint">Amanani aphezulu angase athuthukise isivinini kodwa asebenzise izinsiza ezengeziwe (1-32)</string>
+    <string name="download_settings_info">I-Mirror proxy iguqula ama-URL e-GitHub ngeseva elibamba. Ukulanda okunezingxenye eziningi kuhlukanisa amafayela abe izingcezu ukuze alandwe ngokufanayo.</string>
+    <string name="download_speed_format">__%s /s</string>
+    <string name="select_variant">Khetha Inguqulo</string>
+    <string name="compatible">Iyahambisana</string>
+    <string name="incompatible">Akuhambisani</string>
+    <string name="recommended">Kunconyiwe</string>
+    <string name="app_mismatch_title">Ukungafani kohlelo lokusebenza?</string>
+    <string name="app_mismatch_message">I-RepoStore ifanise le nqolobane nohlelo lokusebenza olufakiwe: %1$s ( %2$s ). 
+ 
+ Uma lolu AKULONA uhlelo lokusebenza olufanayo, ungakhetha ukufaka i-APK kusuka kule ndawo noma kunjalo.</string>
+    <string name="install_anyway">Faka Noma kunjalo</string>
+    <string name="forget_mapping">Khohlwa imephu</string>
+    <string name="contributors">Abanikeli</string>
+    <string name="no_apk_variants_available">Akukho okuhlukile kwe-APK okutholakalayo</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Ikhethiwe</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Konke</string>
+    <string name="cat_name_ai_chat">Ingxoxo ye-AI</string>
+    <string name="cat_name_app_manager">Umphathi Wohlelo Lokusebenza</string>
+    <string name="cat_name_app_store_updater">Isitolo Sohlelo Lokusebenza Nesibuyekezi</string>
+    <string name="cat_name_battery">Ibhethri</string>
+    <string name="cat_name_bookmark">Ibhukhimakhi</string>
+    <string name="cat_name_browser">Isiphequluli</string>
+    <string name="cat_name_calculator">Isibali</string>
+    <string name="cat_name_calendar_agenda">Ikhalenda ne-Ajenda</string>
+    <string name="cat_name_clock">Iwashi</string>
+    <string name="cat_name_cloud_storage">Isitoreji Samafu Nokuvumelanisa Ifayela</string>
+    <string name="cat_name_connectivity">Ukuxhumana</string>
+    <string name="cat_name_contact">Oxhumana naye</string>
+    <string name="cat_name_development">Intuthuko</string>
+    <string name="cat_name_dns_hosts">I-DNS &amp; Abasingathi</string>
+    <string name="cat_name_draw">Dweba</string>
+    <string name="cat_name_ebook_reader">I-Ebook Reader</string>
+    <string name="cat_name_email">I-imeyili</string>
+    <string name="cat_name_file_encryption">Ukubethelwa Kwefayela &amp; I-Vault</string>
+    <string name="cat_name_file_transfer">Ukudluliswa Kwefayela</string>
+    <string name="cat_name_firewall">I-Firewall</string>
+    <string name="cat_name_finance_manager">Umphathi Wezezimali</string>
+    <string name="cat_name_flashlight">Ithoshi</string>
+    <string name="cat_name_forum">Inkundla</string>
+    <string name="cat_name_gallery">Igalari</string>
+    <string name="cat_name_games">Imidlalo</string>
+    <string name="cat_name_graphics">Izithombe</string>
+    <string name="cat_name_habit_tracker">I-Habit Tracker</string>
+    <string name="cat_name_icon_pack">Iphakethe lesithonjana</string>
+    <string name="cat_name_internet">I-inthanethi</string>
+    <string name="cat_name_inventory">Inventory</string>
+    <string name="cat_name_keyboard_ime">Ikhibhodi ne-IME</string>
+    <string name="cat_name_launcher">Isiqalisi</string>
+    <string name="cat_name_local_media_player">Isidlali Semidiya Yasendaweni</string>
+    <string name="cat_name_location_tracker">Indawo Tracker &amp; Sharer</string>
+    <string name="cat_name_messaging">Imiyalezo</string>
+    <string name="cat_name_money">Imali</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Umculo Nomsindo</string>
+    <string name="cat_name_video_players">Izidlali zevidiyo</string>
+    <string name="cat_name_music_practice">Ithuluzi Lokuzilolonga Lomculo</string>
+    <string name="cat_name_navigation">Ukuzulazula</string>
+    <string name="cat_name_network_analyzer">I-Network Analyzer</string>
+    <string name="cat_name_news">Izindaba</string>
+    <string name="cat_name_note">Qaphela</string>
+    <string name="cat_name_online_media_player">Isidlali semidiya esiku-inthanethi</string>
+    <string name="cat_name_pass_wallet">Dlula i-Wallet</string>
+    <string name="cat_name_fa">Iphasiwedi &amp; 2FA</string>
+    <string name="cat_name_phone_sms">Ifoni ne-SMS</string>
+    <string name="cat_name_podcast">Iphodikhasti</string>
+    <string name="cat_name_public_transport">Ezokuthutha zomphakathi</string>
+    <string name="cat_name_radio">Umsakazo</string>
+    <string name="cat_name_reading">Ukufunda</string>
+    <string name="cat_name_recipe_manager">Umphathi Weresiphi</string>
+    <string name="cat_name_remote_controller">Isilawuli kude</string>
+    <string name="cat_name_science_education">Isayensi Nezemfundo</string>
+    <string name="cat_name_security">Ezokuphepha</string>
+    <string name="cat_name_shopping_list">Uhlu Lokuthenga</string>
+    <string name="cat_name_social_network">Inethiwekhi Yokuxhumana</string>
+    <string name="cat_name_sports_health">Ezemidlalo Nezempilo</string>
+    <string name="cat_name_streaming_app">Uhlelo lokusebenza lokusakaza</string>
+    <string name="cat_name_system">Uhlelo</string>
+    <string name="cat_name_task">Umsebenzi</string>
+    <string name="cat_name_text_editor">Umhleli Wombhalo</string>
+    <string name="cat_name_theming">Itimu</string>
+    <string name="cat_name_time">Isikhathi</string>
+    <string name="cat_name_tools">Amathuluzi</string>
+    <string name="cat_name_translation_dictionary">Ukuhumusha nesichazamazwi</string>
+    <string name="cat_name_unit_convertor">Isiguquli seyunithi</string>
+    <string name="cat_name_voice_video_chat">Ingxoxo Yezwi Nevidiyo</string>
+    <string name="cat_name_vpn">I-VPN &amp; Ummeleli</string>
+    <string name="cat_name_wallet">Isikhwama semali</string>
+    <string name="cat_name_wallpaper">Iphephadonga</string>
+    <string name="cat_name_weather">Isimo sezulu</string>
+    <string name="cat_name_workout">Zivocavoce</string>
+    <string name="cat_name_writing">Ukubhala</string>
+    <string name="cat_name_productivity">Ukukhiqiza</string>
+    <string name="cat_name_open_source">Umthombo Ovulekile</string>
+    <string name="cat_name_trending">Okuthrendayo</string>
+</resources>

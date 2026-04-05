@@ -1,0 +1,336 @@
+<resources>
+    <string name="app_name">Repo Tienda</string>
+
+    <!-- Navigation -->
+    <string name="home">Wasi</string>
+    <string name="games">Pukllaykuna</string>
+    <string name="apps">Apps nisqakuna</string>
+    <string name="trending">Tendencia nisqapi</string>
+    <string name="search">Maskay</string>
+    <string name="profile">Runapa kaynin</string>
+    <string name="back">Qipaman</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Apps &amp; pukllaykunata maskay</string>
+    <string name="search_github_repos">GitHub waqaychasqakunata maskay...</string>
+    <string name="search_hint">Android ruwanakunata maskay GitHub kaqpi</string>
+    <string name="no_results">Mana ima tarikuykuna tarisqachu</string>
+    <string name="clear">Pichay</string>
+    <string name="voice_search">Kunkawan maskay</string>
+    <string name="filter">Filtro nisqa</string>
+    <string name="sort_by">Ordenar por</string>
+    <string name="updated">Kunanchasqa</string>
+    <string name="has_apk">Ha APK</string>
+    <string name="reset">Reset nisqa</string>
+    <string name="results_count">%d ruwasqakuna</string>
+    <string name="any_language">Ima simipas</string>
+    <string name="any_stars">Ima quyllurkunapas</string>
+    <string name="min_stars_format">%d + quyllurkuna</string>
+    <string name="best_match">Aswan allin tupachiy</string>
+    <string name="most_stars">Yaqa llapan Quyllurkuna</string>
+    <string name="most_forks">Yaqa llapan Horquillas</string>
+    <string name="recently_updated_sort">Kunanllaraq musuqyachisqa</string>
+    <string name="any_time">Ima pachapas</string>
+    <string name="last_week">Qayna semana</string>
+    <string name="last_month">Qayna killa</string>
+    <string name="last_3_months">Qhipa 3 killakuna</string>
+    <string name="last_year">Qayna wata</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Qampaq yuyaychasqa</string>
+    <string name="top_free_apps">Pata gratis apps nisqakuna</string>
+    <string name="recently_updated">Kunanllaraq musuqyachisqa</string>
+    <string name="see_more">Astawan qhaway</string>
+    <string name="all_categories">Tukuy Categorías nisqakuna</string>
+    <string name="more">Aswan</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Riqsisqa Pukllaykuna</string>
+    <string name="popular_games">Popular Pukllaykuna</string>
+    <string name="new_games">Musuq Pukllaykuna</string>
+    <string name="no_games_found">Mana pukllaykuna tarisqachu</string>
+
+    <!-- App Details -->
+    <string name="app_icon">App nisqa icono</string>
+    <string name="banner">Bandera</string>
+    <string name="about">Sobre</string>
+    <string name="about_this_app">Kay appmanta</string>
+    <string name="screenshots">Pantallakuna</string>
+    <string name="screenshot">Pantallamanta hurquy</string>
+    <string name="stars">Quyllurkuna</string>
+    <string name="forks">Horquillas</string>
+    <string name="language">Simi</string>
+    <string name="last_updated">Qhipa kaq musuqchasqa</string>
+    <string name="updated_on">Kunanchasqa p\'unchawpi</string>
+    <string name="latest_release">Qhipa Kacharisqa</string>
+    <string name="whats_new">Imataq musuq</string>
+    <string name="readme">ÑAWINCHAY</string>
+    <string name="download">Uraykachiy</string>
+    <string name="install">Churay</string>
+    <string name="download_apk">APK nisqamanta hurquy</string>
+    <string name="view_release">Qhaway Kacharisqa</string>
+    <string name="view_on_github">GitHub nisqapi qhaway</string>
+    <string name="github">GitHub nisqapi</string>
+    <string name="no_description">Mana ima willakuypas kanchu</string>
+    <string name="no_release_notes">Mana kacharinapaq qillqasqakuna</string>
+    <string name="archived">Waqaychasqa</string>
+
+    <!-- Tags -->
+    <string name="tag_new">MUSUQ</string>
+    <string name="tag_updated">ACTUALIZADO</string>
+    <string name="tag_archived">ARCHIVADO</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Mana ima appkuna tarisqachu</string>
+    <string name="no_repos_found">Mana waqaychasqakuna tarisqachu</string>
+    <string name="rate_limit_error">Tarifa límite nisqa pasasqa. Ama hina kaspa, qhipaman hukmanta kallpachakuy.</string>
+    <string name="network_error">Llika pantasqa. Ama hina kaspa, tinkisqaykita qhaway.</string>
+    <string name="tap_to_retry">Wakmanta kallpachakunaykipaq ñit’iy</string>
+    <string name="loading">Cargando...</string>
+
+    <!-- Developer -->
+    <string name="repositories">Waqaychasqakuna</string>
+    <string name="repositories_count">%d waqaychasqakuna</string>
+    <string name="view_github_profile">GitHub Perfilta qhaway</string>
+
+    <!-- Settings -->
+    <string name="settings">Ajustes nisqa</string>
+    <string name="github_token">GitHub Sapanchasqa Yaykuna Token</string>
+    <string name="github_token_desc">Huk token yapay API tarifa limite yapanapaq 60 kaqmanta 5000 mañakuykunaman sapa hora.</string>
+    <string name="enter_token">GitHub tokenniykiman yaykuy</string>
+    <string name="save_token">Token nisqa waqaychay</string>
+    <string name="clear_token">Token Ch\'uya</string>
+    <string name="create_token_on_github">GitHub nisqapi Token nisqa ruway</string>
+    <string name="token_saved">Token allinta waqaychasqa</string>
+    <string name="token_removed">Token hurqusqa</string>
+    <string name="rate_limit_info_title">API Tasa Límite nisqa</string>
+    <string name="rate_limit_info_desc">Mana tokenniyuq: 60 mañakuy/hora 
+ Huk tokenniyuq: 5.000 mañakuy/hora</string>
+    <string name="how_to_create_token">Imaynatataq huk tokenta rurana:</string>
+    <string name="token_instructions">1. Go to GitHub Settings → Developer settings 
+ 2. Click "Personal access tokens" → "Tokens (classic)" 
+ 3. Click "Generate new token" 
+ 4. Give it a name and select "public_repo" scope 
+ 5. Click "Generate token" and copy it</string>
+    <string name="no_token_set">Mana token churasqachu</string>
+    <string name="token_configured">Token nisqa wakichisqa</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Paqarichiq</string>
+    <string name="followers">Qatiqninkuna</string>
+    <string name="following">Qatiy</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Uraykachispa...</string>
+    <string name="downloading_apk">APK nisqamanta uraykachiy</string>
+    <string name="download_complete">Descarga completo</string>
+    <string name="download_in_progress">Descargaqa ruwakuchkanñam</string>
+    <string name="file_not_found">Uraykachisqa willañiqiqa manam tarisqachu</string>
+    <string name="install_error">Mana instaladorta kichayta atirqanchu</string>
+    <string name="installing">Instalacionpi...</string>
+    <string name="open">Kichasqa</string>
+    <string name="cannot_open_app">Mana app kichayta atinchu</string>
+    <string name="queued">Filapi churasqa...</string>
+    <string name="preparing">Wakichispa...</string>
+    <string name="verifying">Chiqaqchaspa...</string>
+    <string name="storage_error">Waqaychasqa pantaymi rikurirqa</string>
+    <string name="insufficient_storage">Mana suficiente waqaychay espaciochu</string>
+    <string name="verification_failed">Willañiqi chiqapchayqa manam atirqanchu</string>
+    <string name="download_timeout">Descargar tiempo tukusqa</string>
+    <string name="retry">Wakmanta kallpachakuy</string>
+    <string name="cancel">Sayachiy</string>
+    <string name="update">Kunanyachiy</string>
+    <string name="update_available">Kunanchay kan</string>
+    <string name="uninstall">Uninstall nisqa</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">GitHub nisqawan yaykuy</string>
+    <string name="sign_in_to_increase_limit">Yaykuy API tarifa limite yapanaykipaq</string>
+    <string name="connecting_to_github">GitHub nisqaman tinkispa...</string>
+    <string name="enter_code_on_github">Kay chikuta GitHub nisqapi qillqay</string>
+    <string name="code_instructions">GitHub kichay maskaqniykipi chaymanta uraypi codigota qillqay yaykunaykipaq</string>
+    <string name="copy_code">Copia Código nisqa</string>
+    <string name="code_copied">Codigo copiasqa portapapeles nisqaman</string>
+    <string name="open_github">GitHub nisqa kichay</string>
+    <string name="waiting_for_authorization">Autorizacionta suyaspa...</string>
+    <string name="signed_in_successfully">¡Allinta haykuy!</string>
+    <string name="signed_in">Yaykusqa</string>
+    <string name="signed_in_as">%s hina qillqasqa.</string>
+    <string name="rate_limit_increased">API tarifa límite 5.000 mañakuykunaman/horaman yapasqa</string>
+    <string name="sign_out">Lloqsiy</string>
+    <string name="signed_out">Firmasqa lluqsisqa</string>
+    <string name="failed_to_get_code">Autorización codigo nisqa mana chaskiyta atirqanchu</string>
+    <string name="auth_expired">Autorización nisqa tukusqaña. Ama hina kaspa, hukmanta kallpachakuy.</string>
+    <string name="unknown_error">Mana riqsisqa pantaymi rikurirqa</string>
+    <string name="something_went_wrong">Imapas mana allintam pasarqa</string>
+    <string name="user">@ runa</string>
+    <string name="rate_limit_exceeded_title">Límite de Tasa Pasado</string>
+    <string name="rate_limit_exceeded_message">GitHub API tarifa limite (60 mañakuy/hora) kaqmanta pasarqanki. 
+ 
+ GitHub kaqwan yaykuy 5.000 mañakuykunaman/horaman mana qullqipaq limiteykita yapanaykipaq!</string>
+    <string name="rate_limit_exceeded_signed_in">Chiqaqchasqa tarifa límite kaqmanta (5.000 mañakuykuna/hora) pasarqanki. Ama hina kaspa, iskay kimsa minutukunata suyay manaraq hukmanta kallpachakuchkaspa.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Quy</string>
+    <string name="support_developer">Paqarichiqta yanapay</string>
+    <string name="donate_description">Sichus kay app allin kaqta tarinki, yuyaykuy huk huch’uy qullqi quywan chay wiñachiyta yanapayta.</string>
+    <string name="scan_qr_code">Escanear Código QR paganaykipaq</string>
+    <string name="upi_qr_code">UPI QR Código</string>
+    <string name="upi_id">UPI ID nisqa</string>
+    <string name="copy">Copia</string>
+    <string name="upi_id_copied">UPI ID nisqa portapapeles nisqaman copiasqa</string>
+    <string name="thank_you_message">Gracias por su apoyo! ❤️</string>
+    <string name="pay_with_upi_app">UPI App nisqawan pagay</string>
+    <string name="no_upi_apps_found">Mana UPI qullqi quypaq ruwanakuna dispositivoykipi tarisqachu</string>
+    <string name="payment_app_icon">Pago app icono</string>
+    <string name="pay">Payllay</string>
+    <string name="cannot_open_payment_app">Mana qullqi quy app kichayta atinchu</string>
+    <string name="buy_me_a_coffee">Rantiway Huk Kaphiy</string>
+    <string name="support_buy_me_a_coffee">Yanapakuy Buy Me A Coffee nisqapi</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Kichasqa Pukyu Licenciakuna</string>
+    <string name="source_code">Pukyupa qillqasqan</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s ( %2$s / %3$s ) .</string>
+    <string name="download_starting">0%% .</string>
+    <string name="page_indicator">%1$d / %2$d .</string>
+    <string name="version_format">Versión %s nisqa.</string>
+    <string name="username_format">@ %s .</string>
+    <string name="error_with_retry">%1$s 
+ 
+ %2$s .</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Mi Apps nisqakuna</string>
+    <string name="no_favorite_apps">Manaraqmi munasqa appkunachu</string>
+    <string name="no_favorite_apps_hint">Ima app nisqapipas sunqu icono nisqapi ñitiy kaypi yapanaykipaq</string>
+    <string name="add_to_favorites">Munasqakunaman yapay</string>
+    <string name="remove_from_favorites">Munasqakunamanta hurquy</string>
+    <string name="added_to_favorites">Munasqakunaman yapasqa</string>
+    <string name="removed_from_favorites">Munasqakunamanta hurqusqa</string>
+    <string name="favorite_apps">Munasqa Apps nisqakuna</string>
+    <string name="no_installed_apps">Mana churasqa appkuna</string>
+    <string name="no_installed_apps_hint">Munasqaykikunamanta churasqayki appkuna kaypi rikurinqa</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Rikchaynin</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_for_you">Qampaq</string>
+    <string name="theme_dark">Tutayasqa</string>
+    <string name="theme_light">Kanchi</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Ajustes de descarga</string>
+    <string name="proxy">Proxy nisqa</string>
+    <string name="mirror_proxy_description">Llaqtakunapaq utaq suyukunapaq maypichus GitHub hark\'asqa kachkan, huk proxy llamk\'achiy uraykachinapaq.</string>
+    <string name="enable_mirror_proxy">Espejo Proxy nisqa atichiy</string>
+    <string name="proxy_url_hint">URL proxy kaqmanta (e.g., https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Proxies populares nisqakuna</string>
+    <string name="multi_part_download">Achka Parteyuq Descarga</string>
+    <string name="multi_part_description">Aswan utqaylla purinapaq achka tinkiykuna llamk\'achispa willañiqikunata uraykachiy.</string>
+    <string name="enable_multi_part">Achka rakiyuq uraykachiy atichiy</string>
+    <string name="download_threads">Hilos nisqakunata uraykachiy</string>
+    <string name="thread_count_hint">Aswan hatun chanikuna usqhayllata allinchanman ichaqa aswan recursokunata llamk\'achinku (1-32) .</string>
+    <string name="download_settings_info">Espejo proxy GitHub URLkunata huk proxy sirwiqwan tikran. Achka rakiyuq uraykachiyqa willañiqikunatam rakin, paralelo uraykachinapaq.</string>
+    <string name="download_speed_format">%s /s</string>
+    <string name="select_variant">Versión nisqapi akllay</string>
+    <string name="compatible">Tupaq</string>
+    <string name="incompatible">Mana tupaq</string>
+    <string name="recommended">Kunasqa</string>
+    <string name="app_mismatch_title">¿App mana tupachiychu?</string>
+    <string name="app_mismatch_message">RepoStore kay waqaychasqata huk churasqa ruwanawan tupachirqa: %1$s ( %2$s ). 
+ 
+ Sichus kay MANAM kikin appchu, akllayta atikunki kay waqaychasqamanta APK churayta imayna kaptinpas.</string>
+    <string name="install_anyway">Instalar Imayna kaptinpas</string>
+    <string name="forget_mapping">Qunqay Mapeo nisqamanta</string>
+    <string name="contributors">Yanapakuqkuna</string>
+    <string name="no_apk_variants_available">Mana APK variantekuna kanchu</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Akllasqa</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Llapan</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">App kamachiq</string>
+    <string name="cat_name_app_store_updater">App Store &amp; Kunanchaq</string>
+    <string name="cat_name_battery">Kallpa waqaychaq</string>
+    <string name="cat_name_bookmark">Marcador</string>
+    <string name="cat_name_browser">Navegador</string>
+    <string name="cat_name_calculator">Calculadora nisqa</string>
+    <string name="cat_name_calendar_agenda">Calendario &amp; Agenda nisqa</string>
+    <string name="cat_name_clock">Reloj</string>
+    <string name="cat_name_cloud_storage">Puyu Waqaychay &amp; Archivo Sincronización</string>
+    <string name="cat_name_connectivity">T’inkinakuy</string>
+    <string name="cat_name_contact">Tupaqmasi</string>
+    <string name="cat_name_development">Wiñay</string>
+    <string name="cat_name_dns_hosts">DNS &amp; Hosts nisqakuna</string>
+    <string name="cat_name_draw">Siqiy</string>
+    <string name="cat_name_ebook_reader">Ebook Ñawinchaq</string>
+    <string name="cat_name_email">Correo electrónico nisqa</string>
+    <string name="cat_name_file_encryption">Archivo Chifrado &amp; Vault nisqa</string>
+    <string name="cat_name_file_transfer">Willayta apachiy</string>
+    <string name="cat_name_firewall">Nina rawray</string>
+    <string name="cat_name_finance_manager">Qullqimanta kamachiq</string>
+    <string name="cat_name_flashlight">Linterna</string>
+    <string name="cat_name_forum">Foro nisqa</string>
+    <string name="cat_name_gallery">Galería</string>
+    <string name="cat_name_games">Pukllaykuna</string>
+    <string name="cat_name_graphics">Gráficos nisqa</string>
+    <string name="cat_name_habit_tracker">Habitos Tracker nisqa</string>
+    <string name="cat_name_icon_pack">Paquete de Iconos</string>
+    <string name="cat_name_internet">Internet nisqapi</string>
+    <string name="cat_name_inventory">Inventario</string>
+    <string name="cat_name_keyboard_ime">Teclado &amp; IME</string>
+    <string name="cat_name_launcher">Lanzador</string>
+    <string name="cat_name_local_media_player">Local Media Player nisqa</string>
+    <string name="cat_name_location_tracker">Maypi tarikusqan qatiq &amp; Compartir</string>
+    <string name="cat_name_messaging">Willakuykunata apachiy</string>
+    <string name="cat_name_money">Qullqi</string>
+    <string name="cat_name_multimedia">Multimedia nisqa willakuykunata</string>
+    <string name="cat_name_music_audio">Musiku &amp; Uyariy</string>
+    <string name="cat_name_video_players">Video Reproductorkuna</string>
+    <string name="cat_name_music_practice">Musiku Yanapanapaq Yanapakuy</string>
+    <string name="cat_name_navigation">Navegación nisqa</string>
+    <string name="cat_name_network_analyzer">Llika Analizador nisqa</string>
+    <string name="cat_name_news">Willaykuna</string>
+    <string name="cat_name_note">Uchuy willakuy</string>
+    <string name="cat_name_online_media_player">Internetpi Medios de Comunicación nisqa pukllaq</string>
+    <string name="cat_name_pass_wallet">Pasa Wallet</string>
+    <string name="cat_name_fa">Contraseña &amp; 2FA</string>
+    <string name="cat_name_phone_sms">Teléfono &amp; SMS nisqawan</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Transporte Público nisqa</string>
+    <string name="cat_name_radio">Radio</string>
+    <string name="cat_name_reading">Ñawinchay</string>
+    <string name="cat_name_recipe_manager">Recetakuna kamachiq</string>
+    <string name="cat_name_remote_controller">Karumanta kamachiq</string>
+    <string name="cat_name_science_education">Ciencia &amp; Educación nisqa</string>
+    <string name="cat_name_security">Harkay</string>
+    <string name="cat_name_shopping_list">Lista de Compras</string>
+    <string name="cat_name_social_network">Red Social nisqa</string>
+    <string name="cat_name_sports_health">Pukllay &amp; Salud</string>
+    <string name="cat_name_streaming_app">Streaming nisqa App</string>
+    <string name="cat_name_system">Sistema</string>
+    <string name="cat_name_task">Ruwana</string>
+    <string name="cat_name_text_editor">Texto Editor nisqa</string>
+    <string name="cat_name_theming">Tema nisqa</string>
+    <string name="cat_name_time">Hayka pacha</string>
+    <string name="cat_name_tools">Llamkanakuna</string>
+    <string name="cat_name_translation_dictionary">Traducción &amp; Diccionario</string>
+    <string name="cat_name_unit_convertor">Unidad Tikraq</string>
+    <string name="cat_name_voice_video_chat">Kunka &amp; Video Chat</string>
+    <string name="cat_name_vpn">VPN &amp; Proxy nisqa</string>
+    <string name="cat_name_wallet">Chuspa</string>
+    <string name="cat_name_wallpaper">Wallpaper</string>
+    <string name="cat_name_weather">Llapiya</string>
+    <string name="cat_name_workout">Llamkay</string>
+    <string name="cat_name_writing">Qillqay</string>
+    <string name="cat_name_productivity">Productividad nisqa</string>
+    <string name="cat_name_open_source">Kichasqa Pukyu</string>
+    <string name="cat_name_trending">Tendencia nisqapi</string>
+</resources>

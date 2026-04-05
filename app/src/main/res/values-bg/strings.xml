@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Начало</string>
+    <string name="games">игри</string>
+    <string name="apps">Приложения</string>
+    <string name="trending">Тенденция</string>
+    <string name="search">Търсене</string>
+    <string name="profile">Профил</string>
+    <string name="back">Назад</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Търсене на приложения и игри</string>
+    <string name="search_github_repos">Търсене в GitHub хранилища...</string>
+    <string name="search_hint">Търсете приложения за Android на GitHub</string>
+    <string name="no_results">Няма намерени резултати</string>
+    <string name="clear">ясно</string>
+    <string name="voice_search">Гласово търсене</string>
+    <string name="filter">Филтър</string>
+    <string name="sort_by">Сортирай по</string>
+    <string name="updated">Актуализиран</string>
+    <string name="has_apk">Има APK</string>
+    <string name="reset">Нулиране</string>
+    <string name="results_count">Резултати от %d</string>
+    <string name="any_language">Всеки език</string>
+    <string name="any_stars">Всякакви звезди</string>
+    <string name="min_stars_format">%d+ звезди</string>
+    <string name="best_match">Най-добър мач</string>
+    <string name="most_stars">Повечето звезди</string>
+    <string name="most_forks">Повечето Форкс</string>
+    <string name="recently_updated_sort">Наскоро актуализиран</string>
+    <string name="any_time">По всяко време</string>
+    <string name="last_week">Миналата седмица</string>
+    <string name="last_month">Миналия месец</string>
+    <string name="last_3_months">Последните 3 месеца</string>
+    <string name="last_year">Миналата година</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Препоръчва се за вас</string>
+    <string name="top_free_apps">Топ безплатни приложения</string>
+    <string name="recently_updated">Наскоро актуализиран</string>
+    <string name="see_more">Вижте повече</string>
+    <string name="all_categories">Всички категории</string>
+    <string name="more">повече</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Представени игри</string>
+    <string name="popular_games">Популярни игри</string>
+    <string name="new_games">Нови игри</string>
+    <string name="no_games_found">Няма намерени игри</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Икона на приложението</string>
+    <string name="banner">Банер</string>
+    <string name="about">За</string>
+    <string name="about_this_app">Относно това приложение</string>
+    <string name="screenshots">Екранни снимки</string>
+    <string name="screenshot">Екранна снимка</string>
+    <string name="stars">Звезди</string>
+    <string name="forks">Вилици</string>
+    <string name="language">език</string>
+    <string name="last_updated">Последна актуализация</string>
+    <string name="updated_on">Актуализиран на</string>
+    <string name="latest_release">Последна версия</string>
+    <string name="whats_new">Какво е новото \'</string>
+    <string name="readme">README</string>
+    <string name="download">Изтегляне</string>
+    <string name="install">Инсталирайте</string>
+    <string name="download_apk">Изтеглете APK</string>
+    <string name="view_release">Преглед на изданието</string>
+    <string name="view_on_github">Вижте на GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Няма налично описание</string>
+    <string name="no_release_notes">Няма бележки за изданието</string>
+    <string name="archived">Архивирано</string>
+
+    <!-- Tags -->
+    <string name="tag_new">НОВО</string>
+    <string name="tag_updated">АКТУАЛИЗИРАН</string>
+    <string name="tag_archived">АРХИВИРАН</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Няма намерени приложения</string>
+    <string name="no_repos_found">Няма намерени хранилища</string>
+    <string name="rate_limit_error">Лимитът на скоростта е надвишен. Моля, опитайте отново по-късно.</string>
+    <string name="network_error">Мрежова грешка. Моля, проверете връзката си.</string>
+    <string name="tap_to_retry">Докоснете за повторен опит</string>
+    <string name="loading">Зарежда се...</string>
+
+    <!-- Developer -->
+    <string name="repositories">Хранилища</string>
+    <string name="repositories_count">%d хранилища</string>
+    <string name="view_github_profile">Вижте GitHub профил</string>
+
+    <!-- Settings -->
+    <string name="settings">Настройки</string>
+    <string name="github_token">GitHub личен токен за достъп</string>
+    <string name="github_token_desc">Добавете токен, за да увеличите ограничението за честота на API от 60 на 5000 заявки на час.</string>
+    <string name="enter_token">Въведете вашия токен GitHub</string>
+    <string name="save_token">Запазване на токена</string>
+    <string name="clear_token">Изчистване на токена</string>
+    <string name="create_token_on_github">Създайте токен на GitHub</string>
+    <string name="token_saved">Токенът е запазен успешно</string>
+    <string name="token_removed">Токенът е премахнат</string>
+    <string name="rate_limit_info_title">Ограничение на скоростта на API</string>
+    <string name="rate_limit_info_desc">Без токен: 60 заявки/час\nС токен: 5000 заявки/час</string>
+    <string name="how_to_create_token">Как да създадете токен:</string>
+    <string name="token_instructions">1. Отидете на GitHub Настройки → Настройки за разработчици\n2. Щракнете върху \"Токени за личен достъп\" → \"Токени (класически)\"\n3. Щракнете върху \"Генериране на нов токен\"\n4. Дайте му име и изберете \"public_repo\" scope\n5. Кликнете върху \"Генериране на токен\" и го копирайте</string>
+    <string name="no_token_set">Няма зададен токен</string>
+    <string name="token_configured">Токенът е конфигуриран</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Разработчик</string>
+    <string name="followers">Последователи</string>
+    <string name="following">Следване</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Изтегля се...</string>
+    <string name="downloading_apk">Изтегля се APK</string>
+    <string name="download_complete">Изтеглянето завърши</string>
+    <string name="download_in_progress">Изтеглянето вече е в ход</string>
+    <string name="file_not_found">Изтегленият файл не е намерен</string>
+    <string name="install_error">Инсталационната програма не можа да се отвори</string>
+    <string name="installing">Инсталиране...</string>
+    <string name="open">отворено</string>
+    <string name="cannot_open_app">Приложението не може да се отвори</string>
+    <string name="queued">На опашка...</string>
+    <string name="preparing">Подготвя се...</string>
+    <string name="verifying">Проверка...</string>
+    <string name="storage_error">Възникна грешка в съхранението</string>
+    <string name="insufficient_storage">Няма достатъчно място за съхранение</string>
+    <string name="verification_failed">Проверката на файла е неуспешна</string>
+    <string name="download_timeout">Времето за изтегляне изтече</string>
+    <string name="retry">Опитайте отново</string>
+    <string name="cancel">Отказ</string>
+    <string name="update">Актуализация</string>
+    <string name="update_available">Налична актуализация</string>
+    <string name="uninstall">Деинсталиране</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Влезте с GitHub</string>
+    <string name="sign_in_to_increase_limit">Влезте, за да увеличите ограничението за честота на API</string>
+    <string name="connecting_to_github">Свързване с GitHub...</string>
+    <string name="enter_code_on_github">Въведете този код на GitHub</string>
+    <string name="code_instructions">Отворете GitHub във вашия браузър и въведете кода по-долу, за да влезете</string>
+    <string name="copy_code">Копиране на код</string>
+    <string name="code_copied">Кодът е копиран в клипборда</string>
+    <string name="open_github">Отворете GitHub</string>
+    <string name="waiting_for_authorization">Изчаква се разрешение...</string>
+    <string name="signed_in_successfully">Влезте успешно!</string>
+    <string name="signed_in">Влезли сте</string>
+    <string name="signed_in_as">Влезли сте като %s</string>
+    <string name="rate_limit_increased">Лимитът за скорост на API е увеличен до 5000 заявки/час</string>
+    <string name="sign_out">Излезте</string>
+    <string name="signed_out">Излязъл</string>
+    <string name="failed_to_get_code">Неуспешно получаване на код за оторизация</string>
+    <string name="auth_expired">Разрешението е изтекло. Моля, опитайте отново.</string>
+    <string name="unknown_error">Възникна неизвестна грешка</string>
+    <string name="something_went_wrong">Нещо се обърка</string>
+    <string name="user">@потребител</string>
+    <string name="rate_limit_exceeded_title">Лимитът на скоростта е превишен</string>
+    <string name="rate_limit_exceeded_message">Вие\'превишихте лимита за честота на API GitHub (60 заявки/час).\n\nВлезте с GitHub, за да увеличите лимита си до 5000 заявки/час безплатно!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve превишихте лимита за удостоверена скорост (5000 заявки/час). Моля, изчакайте няколко минути, преди да опитате отново.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Дарете</string>
+    <string name="support_developer">Подкрепете Разработчика</string>
+    <string name="donate_description">Ако намирате това приложение за полезно, помислете дали да подкрепите разработката с малко дарение.</string>
+    <string name="scan_qr_code">Сканирайте QR кода, за да платите</string>
+    <string name="upi_qr_code">UPI QR код</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">копие</string>
+    <string name="upi_id_copied">UPI ID е копиран в клипборда</string>
+    <string name="thank_you_message">Благодаря ви за подкрепата! ❤️</string>
+    <string name="pay_with_upi_app">Платете с приложението UPI</string>
+    <string name="no_upi_apps_found">На вашето устройство не са намерени приложения за плащане с UPI</string>
+    <string name="payment_app_icon">Икона на приложението за плащане</string>
+    <string name="pay">Плащане</string>
+    <string name="cannot_open_payment_app">Приложението за плащане не може да се отвори</string>
+    <string name="buy_me_a_coffee">Купи ми кафе</string>
+    <string name="support_buy_me_a_coffee">Подкрепа за Купете ми кафе</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Лицензи за отворен код</string>
+    <string name="source_code">Изходен код</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Версия %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Моите приложения</string>
+    <string name="no_favorite_apps">Все още няма любими приложения</string>
+    <string name="no_favorite_apps_hint">Докоснете иконата на сърце в което и да е приложение, за да го добавите тук</string>
+    <string name="add_to_favorites">Добавяне към любими</string>
+    <string name="remove_from_favorites">Премахване от любими</string>
+    <string name="added_to_favorites">Добавен към любими</string>
+    <string name="removed_from_favorites">Премахнато от любимите</string>
+    <string name="favorite_apps">Любими приложения</string>
+    <string name="no_installed_apps">Няма инсталирани приложения</string>
+    <string name="no_installed_apps_hint">Приложенията, които инсталирате от любимите си, ще се показват тук</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Външен вид</string>
+    <string name="theme_system">система</string>
+    <string name="theme_for_you">За теб</string>
+    <string name="theme_dark">Тъмно</string>
+    <string name="theme_light">светлина</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Настройки за изтегляне</string>
+    <string name="proxy">Прокси</string>
+    <string name="mirror_proxy_description">За държави или региони, където GitHub е блокиран, използвайте прокси за изтегляне.</string>
+    <string name="enable_mirror_proxy">Активиране на огледален прокси</string>
+    <string name="proxy_url_hint">Прокси URL адрес (напр. https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Популярни проксита</string>
+    <string name="multi_part_download">Изтегляне на няколко части</string>
+    <string name="multi_part_description">Изтегляйте файлове, като използвате множество връзки за по-бързи скорости.</string>
+    <string name="enable_multi_part">Активирайте изтеглянето на няколко части</string>
+    <string name="download_threads">Изтегляне на теми</string>
+    <string name="thread_count_hint">По-високите стойности може да подобрят скоростта, но да използват повече ресурси (1-32)</string>
+    <string name="download_settings_info">Mirror proxy трансформира GitHub URL чрез прокси сървър. Изтеглянето на няколко части разделя файловете на части за паралелно изтегляне.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Изберете Версия</string>
+    <string name="compatible">Съвместим</string>
+    <string name="incompatible">Несъвместим</string>
+    <string name="recommended">Препоръчва се</string>
+    <string name="app_mismatch_title">Несъответствие на приложението?</string>
+    <string name="app_mismatch_message">RepoStore съпостави това хранилище с инсталирано приложение: %1$s (%2$s).\n\nIАко това НЕ е същото приложение, можете така или иначе да изберете да инсталирате APK от това хранилище.</string>
+    <string name="install_anyway">Инсталирайте все пак</string>
+    <string name="forget_mapping">Забравете картографирането</string>
+    <string name="contributors">Сътрудници</string>
+    <string name="no_apk_variants_available">Няма налични APK варианти</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Избрано</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Всички</string>
+    <string name="cat_name_ai_chat">AI Чат</string>
+    <string name="cat_name_app_manager">Мениджър на приложения</string>
+    <string name="cat_name_app_store_updater">Магазин за приложения и програма за актуализация</string>
+    <string name="cat_name_battery">Батерия</string>
+    <string name="cat_name_bookmark">Отметка</string>
+    <string name="cat_name_browser">Браузър</string>
+    <string name="cat_name_calculator">Калкулатор</string>
+    <string name="cat_name_calendar_agenda">Календар и дневен ред</string>
+    <string name="cat_name_clock">Часовник</string>
+    <string name="cat_name_cloud_storage">Облачно съхранение и синхронизиране на файлове</string>
+    <string name="cat_name_connectivity">Свързаност</string>
+    <string name="cat_name_contact">Контакт</string>
+    <string name="cat_name_development">развитие</string>
+    <string name="cat_name_dns_hosts">DNS и хостове</string>
+    <string name="cat_name_draw">Начертайте</string>
+    <string name="cat_name_ebook_reader">Четец на електронни книги</string>
+    <string name="cat_name_email">Имейл</string>
+    <string name="cat_name_file_encryption">Шифроване на файлове и хранилище</string>
+    <string name="cat_name_file_transfer">Прехвърляне на файлове</string>
+    <string name="cat_name_firewall">Защитна стена</string>
+    <string name="cat_name_finance_manager">Финансов мениджър</string>
+    <string name="cat_name_flashlight">Фенерче</string>
+    <string name="cat_name_forum">Форум</string>
+    <string name="cat_name_gallery">Галерия</string>
+    <string name="cat_name_games">игри</string>
+    <string name="cat_name_graphics">Графика</string>
+    <string name="cat_name_habit_tracker">Проследяване на навици</string>
+    <string name="cat_name_icon_pack">Пакет с икони</string>
+    <string name="cat_name_internet">Интернет</string>
+    <string name="cat_name_inventory">Инвентаризация</string>
+    <string name="cat_name_keyboard_ime">Клавиатура и IME</string>
+    <string name="cat_name_launcher">Стартер</string>
+    <string name="cat_name_local_media_player">Локален медиен плейър</string>
+    <string name="cat_name_location_tracker">Проследяване и споделяне на местоположение</string>
+    <string name="cat_name_messaging">Съобщения</string>
+    <string name="cat_name_money">Пари</string>
+    <string name="cat_name_multimedia">Мултимедия</string>
+    <string name="cat_name_music_audio">Музика и аудио</string>
+    <string name="cat_name_video_players">Видео плейъри</string>
+    <string name="cat_name_music_practice">Инструмент за музикална практика</string>
+    <string name="cat_name_navigation">Навигация</string>
+    <string name="cat_name_network_analyzer">Мрежов анализатор</string>
+    <string name="cat_name_news">Новини</string>
+    <string name="cat_name_note">Забележка</string>
+    <string name="cat_name_online_media_player">Онлайн мултимедиен плейър</string>
+    <string name="cat_name_pass_wallet">Pass Wallet</string>
+    <string name="cat_name_fa">Парола и 2FA</string>
+    <string name="cat_name_phone_sms">Телефон и SMS</string>
+    <string name="cat_name_podcast">Подкаст</string>
+    <string name="cat_name_public_transport">Обществен транспорт</string>
+    <string name="cat_name_radio">Радио</string>
+    <string name="cat_name_reading">Четене</string>
+    <string name="cat_name_recipe_manager">Мениджър на рецепти</string>
+    <string name="cat_name_remote_controller">Дистанционно управление</string>
+    <string name="cat_name_science_education">Наука и образование</string>
+    <string name="cat_name_security">сигурност</string>
+    <string name="cat_name_shopping_list">Списък за пазаруване</string>
+    <string name="cat_name_social_network">Социална мрежа</string>
+    <string name="cat_name_sports_health">Спорт и здраве</string>
+    <string name="cat_name_streaming_app">Приложение за поточно предаване</string>
+    <string name="cat_name_system">система</string>
+    <string name="cat_name_task">Задача</string>
+    <string name="cat_name_text_editor">Текстов редактор</string>
+    <string name="cat_name_theming">Тематизиране</string>
+    <string name="cat_name_time">време</string>
+    <string name="cat_name_tools">Инструменти</string>
+    <string name="cat_name_translation_dictionary">Превод и речник</string>
+    <string name="cat_name_unit_convertor">Преобразувател на единици</string>
+    <string name="cat_name_voice_video_chat">Гласов и видео чат</string>
+    <string name="cat_name_vpn">VPN и прокси</string>
+    <string name="cat_name_wallet">Портфейл</string>
+    <string name="cat_name_wallpaper">Тапет</string>
+    <string name="cat_name_weather">Времето</string>
+    <string name="cat_name_workout">Тренировка</string>
+    <string name="cat_name_writing">Писане</string>
+    <string name="cat_name_productivity">Производителност</string>
+    <string name="cat_name_open_source">Отворен код</string>
+    <string name="cat_name_trending">Тенденция</string>
+</resources>

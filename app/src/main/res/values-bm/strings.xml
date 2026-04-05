@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">So</string>
+    <string name="games">Tulonkɛw</string>
+    <string name="apps">Aplikasiw</string>
+    <string name="trending">Fɛn min bɛ taa ɲɛ</string>
+    <string name="search">Ɲini</string>
+    <string name="profile">Porofili</string>
+    <string name="back">Kɔ</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Apps &amp;amp; games ɲinini</string>
+    <string name="search_github_repos">GitHub marayɔrɔw ɲini...</string>
+    <string name="search_hint">Android porogaramuw ɲini GitHub kan</string>
+    <string name="no_results">O jaabi si ma Sɔrɔ</string>
+    <string name="clear">Jɛman</string>
+    <string name="voice_search">Kumakan ɲinini</string>
+    <string name="filter">Filɛri</string>
+    <string name="sort_by">Sort ka kɛɲɛ ni</string>
+    <string name="updated">A kɛra fɛn kura ye</string>
+    <string name="has_apk">A ye APK sɔrɔ</string>
+    <string name="reset">Segin-ka-bɔnye kɛ</string>
+    <string name="results_count">%d ka jaabiw</string>
+    <string name="any_language">Kan o kan</string>
+    <string name="any_stars">Dolow o dolow</string>
+    <string name="min_stars_format">%d+ dolow</string>
+    <string name="best_match">Match min ka fisa ni tɔw bɛɛ ye</string>
+    <string name="most_stars">Dolow fanba</string>
+    <string name="most_forks">Foroko fanba</string>
+    <string name="recently_updated_sort">Kɔsa in na, a Lakurayali</string>
+    <string name="any_time">Waati o waati</string>
+    <string name="last_week">Dɔgɔkun tɛmɛnen</string>
+    <string name="last_month">Kalo tɛmɛnen</string>
+    <string name="last_3_months">Kalo 3 tɛmɛnenw</string>
+    <string name="last_year">Salon</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">A bɛ ladilikan di aw ma</string>
+    <string name="top_free_apps">Top apps fuw</string>
+    <string name="recently_updated">Kɔsa in na, fɛn kura donna a la</string>
+    <string name="see_more">Aw ye kunnafoni wɛrɛw lajɛ</string>
+    <string name="all_categories">Categories bɛɛ</string>
+    <string name="more">Caman</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Tulon minnu bɛ jira</string>
+    <string name="popular_games">Tulon minnu bɛ fɔ kosɛbɛ</string>
+    <string name="new_games">Tulon kura</string>
+    <string name="no_games_found">Tulon si ma Sɔrɔ</string>
+
+    <!-- App Details -->
+    <string name="app_icon">App taamasiyɛn</string>
+    <string name="banner">Pankarti</string>
+    <string name="about">Kan</string>
+    <string name="about_this_app">Nin appli in ko la</string>
+    <string name="screenshots">Screenshots (Ekran ja minnu bɛ yen</string>
+    <string name="screenshot">Écran ja min bɛ kɛ</string>
+    <string name="stars">Dolow</string>
+    <string name="forks">Foroko dɔw</string>
+    <string name="language">Kan</string>
+    <string name="last_updated">Last updated</string>
+    <string name="updated_on">Updated on</string>
+    <string name="latest_release">Latest Release (Bamako laban).</string>
+    <string name="whats_new">What\'s kura ye</string>
+    <string name="readme">KALANSENW SR YR</string>
+    <string name="download">Ka telesarize</string>
+    <string name="install">Ka sigi</string>
+    <string name="download_apk">Télécharger APK</string>
+    <string name="view_release">A ye Release lajɛ</string>
+    <string name="view_on_github">A filɛ GitHub kan</string>
+    <string name="github">GitHub ye</string>
+    <string name="no_description">Ɲɛfɔli si tɛ yen</string>
+    <string name="no_release_notes">Labɔli sɛbɛnw tɛ yen</string>
+    <string name="archived">A bɛ sɛbɛn kɔnɔ</string>
+
+    <!-- Tags -->
+    <string name="tag_new">KURA</string>
+    <string name="tag_updated">ƝƐNABƆLI ƝƐNABƆLI</string>
+    <string name="tag_archived">ARCHIVE MIN BƐ SƆRƆ</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Application si ma sɔrɔ</string>
+    <string name="no_repos_found">Fɛnmarayɔrɔ si ma Sɔrɔ</string>
+    <string name="rate_limit_error">Rate dan tɛmɛna. Aw ye aw jija ka segin ka a lajɛ kɔfɛ.</string>
+    <string name="network_error">Réseau fili ye. Aw ye aw ka jɛgɛnsira lajɛ.</string>
+    <string name="tap_to_retry">I bolo digi walisa k’a lajɛ kokura</string>
+    <string name="loading">Loading...</string>
+
+    <!-- Developer -->
+    <string name="repositories">Fɛnmarayɔrɔw</string>
+    <string name="repositories_count">%d marayɔrɔw</string>
+    <string name="view_github_profile">GitHub ka Profil lajɛ</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings (Labɛnw)</string>
+    <string name="github_token">GitHub Mɔgɔ yɛrɛ ka don taamasiyɛn</string>
+    <string name="github_token_desc">Aw bɛ token dɔ fara a kan walasa ka dɔ fara API hakɛ dan kan ka bɔ ɲinini 60 na ka se 5000 ma lɛrɛ kelen kɔnɔ.</string>
+    <string name="enter_token">Aw ye aw ka GitHub token don</string>
+    <string name="save_token">Save Token ye</string>
+    <string name="clear_token">Token jɛlen</string>
+    <string name="create_token_on_github">Token dabɔ GitHub kan</string>
+    <string name="token_saved">Token ye a mara ka ɲɛ</string>
+    <string name="token_removed">Token bɔra a la</string>
+    <string name="rate_limit_info_title">API Rate Dantigɛli</string>
+    <string name="rate_limit_info_desc">Ni taamasiyɛn tɛ: ɲinini 60/lɛrɛ\nNi taamasiyɛn tɛ: ɲinini 5000/lɛrɛ</string>
+    <string name="how_to_create_token">Token dɔ dabɔcogo:</string>
+    <string name="token_instructions">1. Taga GitHub Settings → Developpeur settings\n2 kan. \"Mɔgɔ yɛrɛ ka don taamasiyɛnw\" → \"Taamasiyɛnw (klasiki)\"\n3 digi. \"Token kura dilan\"\n4 digi. Tɔgɔ di a ma ani ka \"public_repo\" scope\n5 sugandi. \"Generate token\" digi k\'a kopi kɛ</string>
+    <string name="no_token_set">Token set si tɛ yen</string>
+    <string name="token_configured">Token labɛnna</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Ɲɛfɔlikɛla</string>
+    <string name="followers">A nɔfɛmɔgɔw</string>
+    <string name="following">Ɲɛfɛta</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Téléchargement...</string>
+    <string name="downloading_apk">APK telesarse</string>
+    <string name="download_complete">Télécharger complet</string>
+    <string name="download_in_progress">Télécharger bɛ sen na kaban</string>
+    <string name="file_not_found">Filen telesarselen ma sɔrɔ</string>
+    <string name="install_error">A ma se ka installer da wuli</string>
+    <string name="installing">Ka sigi sen kan...</string>
+    <string name="open">Ka dayɛlɛ</string>
+    <string name="cannot_open_app">Se tɛ ka app da wuli</string>
+    <string name="queued">Layidu talen...</string>
+    <string name="preparing">Labɛnni kɛli...</string>
+    <string name="verifying">Sɛgɛsɛgɛli kɛli...</string>
+    <string name="storage_error">Storage fili kɛra</string>
+    <string name="insufficient_storage">Fɛn marayɔrɔ bɛrɛ tɛ yen</string>
+    <string name="verification_failed">Filen sɛgɛsɛgɛli ma ɲɛ</string>
+    <string name="download_timeout">Télécharger waati tɛmɛna</string>
+    <string name="retry">Aw ye a lajɛ kokura</string>
+    <string name="cancel">ka dankari</string>
+    <string name="update">Ka lakuraya</string>
+    <string name="update_available">Update bɛ sɔrɔ</string>
+    <string name="uninstall">Aw bɛ a bɔ a la</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Aw ye don ni GitHub ye</string>
+    <string name="sign_in_to_increase_limit">Aw bɛ don a kɔnɔ walasa ka dɔ fara API hakɛ dan kan</string>
+    <string name="connecting_to_github">A bɛ tali kɛ GitHub la...</string>
+    <string name="enter_code_on_github">Aw bɛ nin kode in don GitHub kan</string>
+    <string name="code_instructions">GitHub da wuli i ka navigatɛri kɔnɔ ani ka kode sɛbɛn min bɛ duguma walasa ka don</string>
+    <string name="copy_code">Kopi Kopi</string>
+    <string name="code_copied">Kode kopilen don ka kɛ clipboard kɔnɔ</string>
+    <string name="open_github">GitHub da wuli</string>
+    <string name="waiting_for_authorization">A bɛ makɔnɔni na ka yamaruya sɔrɔ...</string>
+    <string name="signed_in_successfully">A donna a kɔnɔ ka ɲɛ!</string>
+    <string name="signed_in">A bolonɔ bilala a kɔnɔ</string>
+    <string name="signed_in_as">A bolonɔ bilala a kɔnɔ ko %s</string>
+    <string name="rate_limit_increased">API hakɛ dan cayara ka se ɲinini 5000 ma/lɛrɛ kɔnɔ</string>
+    <string name="sign_out">Aw ye aw tɔgɔ sɛbɛn ka bɔ yen</string>
+    <string name="signed_out">A bolonɔ bilala ka bɔ</string>
+    <string name="failed_to_get_code">A ma se ka yamaruya kode sɔrɔ</string>
+    <string name="auth_expired">Lasegin waati tɛmɛna. Aw ye aw jija ka segin a kan.</string>
+    <string name="unknown_error">Misali dɔnbali kɛra</string>
+    <string name="something_went_wrong">Fɛn dɔ ma ɲɛ</string>
+    <string name="user">@Baarakɛla</string>
+    <string name="rate_limit_exceeded_title">Rate Limit Tɛmɛna</string>
+    <string name="rate_limit_exceeded_message">I\' ye GitHub API hakɛ dan tɛmɛ (60 ɲinini/lɛrɛ).\n\nI don ni GitHub ye walasa ka dɔ fara i ka dan kan ka se 5000 ɲinini/lɛrɛ ma fu!</string>
+    <string name="rate_limit_exceeded_signed_in">I\'ve tɛmɛna hakɛ dantigɛlen kan (5000 ɲinini/lɛrɛ). Aw bɛ miniti damadɔw makɔnɔ sani aw ka segin ka a lajɛ.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Ka saraka bɔ</string>
+    <string name="support_developer">Dɛmɛ don Developpeur la</string>
+    <string name="donate_description">N’i ​​y’a ye ko nin appli in nafa ka bon, i k’a lajɛ ka dɛmɛ don o yiriwali la ni bolomafara fitinin ye.</string>
+    <string name="scan_qr_code">Scan QR Code ka sara</string>
+    <string name="upi_qr_code">UPI QR Code</string>
+    <string name="upi_id">UPI ID ye</string>
+    <string name="copy">Kopi kɛ</string>
+    <string name="upi_id_copied">UPI ID kopilen don ka kɛ clipboard kɔnɔ</string>
+    <string name="thank_you_message">Aw ni ce aw ka dɛmɛ na! ❤️ ye</string>
+    <string name="pay_with_upi_app">Sara ni UPI App ye</string>
+    <string name="no_upi_apps_found">UPI sarali porogaramu si ma sɔrɔ i ka minɛn kɔnɔ</string>
+    <string name="payment_app_icon">Sarali app taamasiyɛn</string>
+    <string name="pay">Sara</string>
+    <string name="cannot_open_payment_app">Se tɛ ka sarali app da wuli</string>
+    <string name="buy_me_a_coffee">San Ne Ka Kafe</string>
+    <string name="support_buy_me_a_coffee">Dɛmɛ don Buy Me A Coffee kan</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Open Source Lasegin-ka-bɔnyew</string>
+    <string name="source_code">Source Code (Sɔrɔyɔrɔ Kode).</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s) Bamako, Mali.</string>
+    <string name="download_starting">0%% ye</string>
+    <string name="page_indicator">%1$d / %2$d ye fɛn ye min bɛ se ka kɛ</string>
+    <string name="version_format">A bɔcogo %s</string>
+    <string name="username_format">@%s ye fɛn ye min bɛ se ka kɛ</string>
+    <string name="error_with_retry">%1$s\n\n%2$s. Bamako, Mali</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">N ka Apps</string>
+    <string name="no_favorite_apps">Application kanulen si tɛ yen fɔlɔ</string>
+    <string name="no_favorite_apps_hint">Dusukun taamasiyɛn digi porogramu o porogramu kan walisa k’a fara a kan yan</string>
+    <string name="add_to_favorites">Aw bɛ fara a ka fɛn kanulenw kan</string>
+    <string name="remove_from_favorites">Aw bɛ a bɔ fɛnw na minnu ka di i ye kosɛbɛ</string>
+    <string name="added_to_favorites">A farala a diyanyekow kan</string>
+    <string name="removed_from_favorites">A bɔra fɛn kanulenw na</string>
+    <string name="favorite_apps">Apps minnu ka di kosɛbɛ</string>
+    <string name="no_installed_apps">Application installé (porogaramu) si tɛ yen</string>
+    <string name="no_installed_apps_hint">I bɛ porogramu minnu sigi ka bɔ i diyanyekow la, olu bɛna jira yan</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Yecogo</string>
+    <string name="theme_system">Sisitɛmu</string>
+    <string name="theme_for_you">I ta</string>
+    <string name="theme_dark">Dibi</string>
+    <string name="theme_light">Yeelen</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Télécharger Settings (Télécharger Settings).</string>
+    <string name="proxy">Proxy (Proxy) ye</string>
+    <string name="mirror_proxy_description">Jamana walima mara minnu na GitHub balilen don, baara kɛ ni proxy ye walasa ka telesarse.</string>
+    <string name="enable_mirror_proxy">Miro Proxy (Mirror Proxy) baara</string>
+    <string name="proxy_url_hint">Proxy URL (misali la, https://gh-proxy.com/) .</string>
+    <string name="popular_proxies">Proxy minnu bɛ fɔ kosɛbɛ</string>
+    <string name="multi_part_download">Téléchargement multi-Part</string>
+    <string name="multi_part_description">Filenw telesarse ni ɲɔgɔndan caman ye walasa ka teliya teliya.</string>
+    <string name="enable_multi_part">A ka baara kɛ ni Multi-Part Download ye</string>
+    <string name="download_threads">Télécharger Threads (Télécharger Threads).</string>
+    <string name="thread_count_hint">Nafa minnu ka bon, olu bɛ se ka teliya ɲɛ nka u bɛ baara kɛ ni nafolo caman ye (1-32) .</string>
+    <string name="download_settings_info">Mirror proxy bɛ GitHub URLw sɛmɛntiya proxy server fɛ. Téléchargement multi-parte bɛ filew tila tila tila-tila ye walasa ka telesarse parallèle.</string>
+    <string name="download_speed_format">%s/s ye</string>
+    <string name="select_variant">Version (Version) sugandi</string>
+    <string name="compatible">Min bɛ bɛn ni ɲɔgɔn ye</string>
+    <string name="incompatible">A tɛ bɛn ɲɔgɔn ma</string>
+    <string name="recommended">Lakofɔlen</string>
+    <string name="app_mismatch_title">App Mismatch ye?</string>
+    <string name="app_mismatch_message">RepoStore ye nin marayɔrɔ in bɛn ni porogaramu dɔ ye min sigilen don: %1$s (%2$s).\n\nNi nin TƐ porogaramu kelen ye, i bɛ se ka APK in sigi ka bɔ nin yɔrɔ in na cogo o cogo.</string>
+    <string name="install_anyway">Install Anyway (A cogo o cogo</string>
+    <string name="forget_mapping">Aw ka ɲinɛ Karta (Mapping) kɔ</string>
+    <string name="contributors">Dɛmɛbagaw</string>
+    <string name="no_apk_variants_available">APK suguya si tɛ yen</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Sugandili kɛra</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Bɛɛ</string>
+    <string name="cat_name_ai_chat">AI ka baro</string>
+    <string name="cat_name_app_manager">App Manager (Aplikasi ɲɛminɛbaga).</string>
+    <string name="cat_name_app_store_updater">App Store &amp; Updater ye</string>
+    <string name="cat_name_battery">Batiri</string>
+    <string name="cat_name_bookmark">Kitabu-sɛbɛn</string>
+    <string name="cat_name_browser">Navigateur (navigateur).</string>
+    <string name="cat_name_calculator">Jatebɔlan</string>
+    <string name="cat_name_calendar_agenda">Kalandriya &amp; Agenda (Agenda) ye</string>
+    <string name="cat_name_clock">Mɔnturu</string>
+    <string name="cat_name_cloud_storage">Sankaba marali &amp; File Sync</string>
+    <string name="cat_name_connectivity">Jɛɲɔgɔnya</string>
+    <string name="cat_name_contact">Ka wele</string>
+    <string name="cat_name_development">Yiriwali</string>
+    <string name="cat_name_dns_hosts">DNS &amp; Jatigilatigiw</string>
+    <string name="cat_name_draw">Ka desɛn</string>
+    <string name="cat_name_ebook_reader">Ebook Kalanbaga</string>
+    <string name="cat_name_email">Email (Email) ci</string>
+    <string name="cat_name_file_encryption">Filenw sirili &amp; Vault</string>
+    <string name="cat_name_file_transfer">Filenw jiginni</string>
+    <string name="cat_name_firewall">Firewall (Tasuma-fanga-yɔrɔ).</string>
+    <string name="cat_name_finance_manager">Nafolo ɲɛmɔgɔ</string>
+    <string name="cat_name_flashlight">Lampe de lampe</string>
+    <string name="cat_name_forum">Forobaciyɛn</string>
+    <string name="cat_name_gallery">Galeri (Galeri) kɔnɔ</string>
+    <string name="cat_name_games">Tulonkɛw</string>
+    <string name="cat_name_graphics">Graphiques (ja) minnu bɛ yen</string>
+    <string name="cat_name_habit_tracker">Habit Tracker (Degunw nɔfɛtaamakɛla).</string>
+    <string name="cat_name_icon_pack">Icon Pack (Icon Pack) ye</string>
+    <string name="cat_name_internet">Ɛntɛrinɛti kan</string>
+    <string name="cat_name_inventory">Jatebɔ</string>
+    <string name="cat_name_keyboard_ime">Klaviyeti &amp; IME</string>
+    <string name="cat_name_launcher">Lanceur (Lanceur) ye</string>
+    <string name="cat_name_local_media_player">Sigida kunnafonidilaw ka fɔlikɛlan</string>
+    <string name="cat_name_location_tracker">Yɔrɔ Tracker &amp; Sharer</string>
+    <string name="cat_name_messaging">Cikanw cicogo</string>
+    <string name="cat_name_money">Wari</string>
+    <string name="cat_name_multimedia">Multimédia ( kunnafonidilan caman)</string>
+    <string name="cat_name_music_audio">Misikili &amp; Lamɛnni</string>
+    <string name="cat_name_video_players">Wideyow fɔbagaw</string>
+    <string name="cat_name_music_practice">Misikili dege baarakɛminɛn</string>
+    <string name="cat_name_navigation">Navigation (navigasiyɔn) (navigation).</string>
+    <string name="cat_name_network_analyzer">Réseau Analyzer (Sɛgɛsɛgɛlikɛlan) min bɛ wele ko Réseau</string>
+    <string name="cat_name_news">Kunnafoniw</string>
+    <string name="cat_name_note">Nɔti</string>
+    <string name="cat_name_online_media_player">Ɛntɛrinɛti kan Media Player</string>
+    <string name="cat_name_pass_wallet">Passe Portefeuille</string>
+    <string name="cat_name_fa">Password &amp; 2FA</string>
+    <string name="cat_name_phone_sms">Telefɔni &amp; SMS</string>
+    <string name="cat_name_podcast">Kan talen</string>
+    <string name="cat_name_public_transport">Foroba bolifɛnw</string>
+    <string name="cat_name_radio">Arajo</string>
+    <string name="cat_name_reading">Gafekalan</string>
+    <string name="cat_name_recipe_manager">Recipe ɲɛmɔgɔ</string>
+    <string name="cat_name_remote_controller">Yɔrɔjan kunnafoni-di-minɛn (Contrôleur à distance).</string>
+    <string name="cat_name_science_education">Dɔnniya &amp; Kalan</string>
+    <string name="cat_name_security">Lakana</string>
+    <string name="cat_name_shopping_list">Sannifeere Lisiti</string>
+    <string name="cat_name_social_network">Réseau Social</string>
+    <string name="cat_name_sports_health">Spor &amp; Kɛnɛya</string>
+    <string name="cat_name_streaming_app">Streaming (Application) min bɛ wele ko Streaming</string>
+    <string name="cat_name_system">Sisitɛmu</string>
+    <string name="cat_name_task">Baara</string>
+    <string name="cat_name_text_editor">Sɛbɛnw Labɛnbaga</string>
+    <string name="cat_name_theming">Barokunw</string>
+    <string name="cat_name_time">Waati</string>
+    <string name="cat_name_tools">Minɛnw</string>
+    <string name="cat_name_translation_dictionary">Bamanankan bamanankan &amp; Daɲɛgafe</string>
+    <string name="cat_name_unit_convertor">Unit Converter (yɔrɔ caman tigɛli).</string>
+    <string name="cat_name_voice_video_chat">Kumakan &amp; Wideyo Baro</string>
+    <string name="cat_name_vpn">VPN &amp; Proxy ye</string>
+    <string name="cat_name_wallet">Bee</string>
+    <string name="cat_name_wallpaper">Wallpaper</string>
+    <string name="cat_name_weather">Waati</string>
+    <string name="cat_name_workout">Ka labɛn</string>
+    <string name="cat_name_writing">Sɛbɛnni</string>
+    <string name="cat_name_productivity">Baarakɛcogo ɲuman</string>
+    <string name="cat_name_open_source">Open Source (Sɔrɔyɔrɔ dafalen).</string>
+    <string name="cat_name_trending">Fɛn min bɛ taa ɲɛ</string>
+</resources>

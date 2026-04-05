@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Aƒeme</string>
+    <string name="games">Fefewo</string>
+    <string name="apps">Dɔwɔɖoɖowo</string>
+    <string name="trending">Nusiwo le ŋgɔ yim</string>
+    <string name="search">Di</string>
+    <string name="profile">Ŋuti nya</string>
+    <string name="back">Megbe</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Di apps &amp;amp; fefewo</string>
+    <string name="search_github_repos">Di GitHub ƒe nudzraɖoƒewo...</string>
+    <string name="search_hint">Di Android dɔwɔɖoɖowo le GitHub dzi</string>
+    <string name="no_results">Womekpɔ emetsonu aɖeke o</string>
+    <string name="clear">Me kᴐ</string>
+    <string name="voice_search">Gbe me didi</string>
+    <string name="filter">Filter</string>
+    <string name="sort_by">Ðo wo ɖe ɖoɖo nu</string>
+    <string name="updated">Wowɔ asitɔtrɔ le eŋu</string>
+    <string name="has_apk">APK le esi</string>
+    <string name="reset">Gbugbɔ ɖoe</string>
+    <string name="results_count">%d ƒe emetsonuwo</string>
+    <string name="any_language">Gbe ɖesiaɖe</string>
+    <string name="any_stars">Ɣletivi ɖesiaɖe</string>
+    <string name="min_stars_format">%d+ ɣletiviwo</string>
+    <string name="best_match">Match Nyuitɔ Kekeake</string>
+    <string name="most_stars">Ɣletivi akpa gãtɔ</string>
+    <string name="most_forks">Fork akpa gãtɔ</string>
+    <string name="recently_updated_sort">Wotrɔ asi le eŋu Nyitsɔ laa</string>
+    <string name="any_time">Ɣesiaɣi</string>
+    <string name="last_week">Kwasiɖa si va yi me</string>
+    <string name="last_month">Ɣleti si va yi me</string>
+    <string name="last_3_months">Ɣleti 3 siwo va yi</string>
+    <string name="last_year">Le ƒe si va yi me</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Wokafui na wò</string>
+    <string name="top_free_apps">Top femaxee dɔwɔnuwo</string>
+    <string name="recently_updated">Wotrɔ asi le eŋu nyitsɔ laa</string>
+    <string name="see_more">Kpɔ nu geɖe</string>
+    <string name="all_categories">Ƒomewo Katã</string>
+    <string name="more">Gawu</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Fefe siwo woɖena fiana</string>
+    <string name="popular_games">Fefe Xɔŋkɔwo</string>
+    <string name="new_games">Fefe Yeyewo</string>
+    <string name="no_games_found">Womekpɔ fefe aɖeke o</string>
+
+    <!-- App Details -->
+    <string name="app_icon">App ƒe dzesi</string>
+    <string name="banner">Aflaga</string>
+    <string name="about">Ku ɖe</string>
+    <string name="about_this_app">Le dɔwɔnu sia ŋu</string>
+    <string name="screenshots">Screenshots ƒe nɔnɔmetatawo</string>
+    <string name="screenshot">Screenshot ƒe nɔnɔmetata</string>
+    <string name="stars">Ɣletiviwo</string>
+    <string name="forks">Fɔklɔwo</string>
+    <string name="language">Gbegbᴐgblᴐ</string>
+    <string name="last_updated">Wotrɔ asi le eŋu zi mamlɛtɔ</string>
+    <string name="updated_on">Wowɔ yeyee le</string>
+    <string name="latest_release">Nu yeyetɔ si woɖe ɖe go</string>
+    <string name="whats_new">Nuka\'s yeye</string>
+    <string name="readme">XLẼ ME</string>
+    <string name="download">Hee ɖa anyi</string>
+    <string name="install">Ɖoe anyi</string>
+    <string name="download_apk">Wɔ APK ƒe kɔpi</string>
+    <string name="view_release">Kpɔ Nyatakaka si Woɖe Ðe Go</string>
+    <string name="view_on_github">Kpɔe le GitHub dzi</string>
+    <string name="github">GitHub ƒe xexlẽme</string>
+    <string name="no_description">Numeɖeɖe aɖeke meli o</string>
+    <string name="no_release_notes">Womeɖe asi le eŋu ƒe nuŋlɔɖi aɖeke o</string>
+    <string name="archived">Wodzrae ɖo ɖe nudzraɖoƒe</string>
+
+    <!-- Tags -->
+    <string name="tag_new">YƐYE</string>
+    <string name="tag_updated">WOÐO NU YEYE</string>
+    <string name="tag_archived">NUSIWO WOÐO ÐE NUŊLƆÐI ME</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Womekpɔ dɔwɔnu aɖeke o</string>
+    <string name="no_repos_found">Womekpɔ nudzraɖoƒe aɖeke o</string>
+    <string name="rate_limit_error">Wowu seɖoƒe si woɖo na ga home si woaxe. Taflatse gadze agbagba ake emegbe.</string>
+    <string name="network_error">Network ƒe vodada. Taflatse lé ŋku ɖe wò kadodoa ŋu.</string>
+    <string name="tap_to_retry">Zi edzi be nàgadze agbagba ake</string>
+    <string name="loading">Wole agba tsɔm...</string>
+
+    <!-- Developer -->
+    <string name="repositories">Nudzraɖoƒewo</string>
+    <string name="repositories_count">%d nudzraɖoƒewo</string>
+    <string name="view_github_profile">Kpɔ GitHub ƒe nɔnɔmetata</string>
+
+    <!-- Settings -->
+    <string name="settings">Ðoɖowo</string>
+    <string name="github_token">GitHub Ame ŋutɔ ƒe Mɔɖeɖe ƒe Dzesi</string>
+    <string name="github_token_desc">Tsɔ dzesi aɖe kpee be nàdzi API ƒe agbɔsɔsɔme ƒe seɖoƒe ɖe edzi tso biabia 60 va ɖo 5000 le gaƒoƒo ɖeka me.</string>
+    <string name="enter_token">Ŋlɔ wò GitHub dzesi</string>
+    <string name="save_token">Dzra Token ɖo</string>
+    <string name="clear_token">Dzesi si me kɔ</string>
+    <string name="create_token_on_github">Wɔ Token le GitHub dzi</string>
+    <string name="token_saved">Token dzra ɖo dzidzedzetɔe</string>
+    <string name="token_removed">Woɖe dzesi la ɖa</string>
+    <string name="rate_limit_info_title">API ƒe Agbɔsɔsɔme Seɖoƒe</string>
+    <string name="rate_limit_info_desc">Dzesi manɔmee: 60 biabia/gaƒoƒo\nNe dzesi le: 5,000 biabia/gaƒoƒo</string>
+    <string name="how_to_create_token">Alesi woawɔ dzesi:</string>
+    <string name="token_instructions">1. Yi GitHub ƒe Ðoɖowo → Dɔwɔla ƒe ɖoɖowo\n2. Zi \"Ame ŋutɔ ƒe mɔɖeɖe ƒe dzesiwo\" → \"Dzesiwo (klasik)\"\n3. Zi \"Dze dzesi yeye\"\n4 dzi." Na ŋkɔe eye natia \"public_repo\" scope\n5. Zi \"Dze dzesi\" dzi eye nàwɔ eƒe kɔpi</string>
+    <string name="no_token_set">Token set aɖeke meli o</string>
+    <string name="token_configured">Token si woɖo ɖi</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Dɔwɔla</string>
+    <string name="followers">Yomedzelawo</string>
+    <string name="following">Le eyome</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Wole eƒe kɔpi wɔm...</string>
+    <string name="downloading_apk">APK ƒe kɔpi wɔwɔ</string>
+    <string name="download_complete">Download bliboe</string>
+    <string name="download_in_progress">Tsɔe le edzi yim xoxo</string>
+    <string name="file_not_found">Womekpɔ faɛl si woɖe ɖe go o</string>
+    <string name="install_error">Mete ŋu ʋu installer o</string>
+    <string name="installing">Wole...</string>
+    <string name="open">Ʋu</string>
+    <string name="cannot_open_app">Mate ŋu aʋu app o</string>
+    <string name="queued">Woɖo fli ɖe fli me...</string>
+    <string name="preparing">Dzadzraɖo ɖe...</string>
+    <string name="verifying">Wole kpe ɖom edzi be...</string>
+    <string name="storage_error">Nudzraɖoƒe ƒe vodada dzɔ</string>
+    <string name="insufficient_storage">Nudzraɖoƒe si mesɔ gbɔ o</string>
+    <string name="verification_failed">Faɛl ƒe kpeɖodzinana do kpo nu</string>
+    <string name="download_timeout">Download ƒe ɣeyiɣia wu enu</string>
+    <string name="retry">Gadze agbagba ake</string>
+    <string name="cancel">Te fli ɖe eme</string>
+    <string name="update">Doe ɖe ŋgᴐ</string>
+    <string name="update_available">Update li</string>
+    <string name="uninstall">Ðee ɖa</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">De asi ete kple GitHub</string>
+    <string name="sign_in_to_increase_limit">De asi ete be nàdzi API ƒe agbɔsɔsɔme ƒe seɖoƒe ɖe edzi</string>
+    <string name="connecting_to_github">Kadodo kple GitHub...</string>
+    <string name="enter_code_on_github">Ŋlɔ kɔda sia ɖe GitHub dzi</string>
+    <string name="code_instructions">Ʋu GitHub le wò web-browser me eye nàŋlɔ code si le ete be nàge ɖe eme</string>
+    <string name="copy_code">Kɔpi Kɔpi</string>
+    <string name="code_copied">Kɔda si wogbugbɔ ŋlɔ ɖe clipboard dzi</string>
+    <string name="open_github">Ʋu GitHub ƒe ʋuʋu</string>
+    <string name="waiting_for_authorization">Wole mɔɖeɖe lalam...</string>
+    <string name="signed_in_successfully">Wode asi ete dzidzedzetɔe!</string>
+    <string name="signed_in">Wode asi ete</string>
+    <string name="signed_in_as">Wode asi ete abe %s ene</string>
+    <string name="rate_limit_increased">API ƒe seɖoƒe dzi ɖe edzi va ɖo biabia 5,000/gaƒoƒo</string>
+    <string name="sign_out">De asi ete</string>
+    <string name="signed_out">Wode asi ete</string>
+    <string name="failed_to_get_code">Do kpo mɔɖeɖe ƒe kɔpi xɔxɔ</string>
+    <string name="auth_expired">Mɔɖeɖea wu enu. Taflatse gadze agbagba ake.</string>
+    <string name="unknown_error">Vodada si womenya o dzɔ</string>
+    <string name="something_went_wrong">Nane gblẽ</string>
+    <string name="user">@Zãla</string>
+    <string name="rate_limit_exceeded_title">Wowu Seɖoƒe si Woɖo le Agbɔsɔsɔme Ŋu</string>
+    <string name="rate_limit_exceeded_message">Wò\'e wu GitHub API ƒe agbɔsɔsɔme ƒe seɖoƒe (biabia 60/gaƒoƒo).\n\nGe ɖe eme kple GitHub be nàdzi wò seɖoƒe ɖe edzi va ɖo biabia 5,000/gaƒoƒo femaxee!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve wu ga home si woɖo kpee (5,000 biabia/gaƒoƒo). Taflatse lala miniti ʋɛ aɖewo hafi nàgadze agbagba ake.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Na nu</string>
+    <string name="support_developer">Do alɔ Dɔwɔla la</string>
+    <string name="donate_description">Ne èkpɔe be dɔwɔnu sia ɖea vi la, bu eŋu kpɔ be yeado alɔ ŋgɔyiyia kple nudzɔdzɔ sue aɖe hã.</string>
+    <string name="scan_qr_code">Scan QR Code be Nàxe Fe</string>
+    <string name="upi_qr_code">UPI ƒe QR-dzesi</string>
+    <string name="upi_id">UPI ƒe ID</string>
+    <string name="copy">Kpɔ eƒe kɔpi</string>
+    <string name="upi_id_copied">UPI ID si wogbugbɔ ŋlɔ ɖe clipboard dzi</string>
+    <string name="thank_you_message">Akpe na mi ɖe miaƒe kpekpeɖeŋu ta! ❤️ ƒe nya</string>
+    <string name="pay_with_upi_app">Fe kple UPI App</string>
+    <string name="no_upi_apps_found">Womekpɔ UPI fexexe ƒe dɔwɔnu aɖeke le wò mɔ̃a dzi o</string>
+    <string name="payment_app_icon">Fexexe ƒe dɔwɔnu ƒe dzesi</string>
+    <string name="pay">Xe fe</string>
+    <string name="cannot_open_payment_app">Mate ŋu aʋu fexexe ƒe dɔwɔnu o</string>
+    <string name="buy_me_a_coffee">Ƒle Kɔfi Aɖe nam</string>
+    <string name="support_buy_me_a_coffee">Kpekpeɖeŋu le Buy Me A Coffee ŋu</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Mɔɖegbalẽ Siwo Woʋu Tsoƒe</string>
+    <string name="source_code">Dzɔtsoƒe ƒe Se</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s) Ƒe 1999 ƒe ɣleti gbãtɔ me.</string>
+    <string name="download_starting">0%% ƒe xexlẽme</string>
+    <string name="page_indicator">%1$d / %2$d ƒe ƒuƒoƒo</string>
+    <string name="version_format">Eƒe tɔtrɔ yeye %s</string>
+    <string name="username_format">@%s ƒe xexlẽme</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Nye Dɔwɔɖoɖowo</string>
+    <string name="no_favorite_apps">Dɔdamɔnu siwo melɔ̃na wu aɖeke meli haɖe o</string>
+    <string name="no_favorite_apps_hint">Zi dzi ƒe dzesi dzi le dɔwɔnu ɖesiaɖe dzi be nàtsɔe akpe ɖe afisia</string>
+    <string name="add_to_favorites">Tsɔe kpe ɖe nusiwo nèlɔ̃ ŋu</string>
+    <string name="remove_from_favorites">Ðee ɖa le nusiwo nèlɔ̃na wu me</string>
+    <string name="added_to_favorites">Wotsɔe kpe ɖe nusiwo wolɔ̃na wu ŋu</string>
+    <string name="removed_from_favorites">Woɖee ɖa le nusiwo wolɔ̃na wu me</string>
+    <string name="favorite_apps">Dɔdamɔnu Siwo Melɔ̃na Wu</string>
+    <string name="no_installed_apps">Dɔdamɔnu aɖeke meli si woda ɖe wò kɔmpiuta dzi o</string>
+    <string name="no_installed_apps_hint">Dɔdamɔnu siwo nèda ɖe wò kɔmpiuta dzi tso esiwo nèlɔ̃na wu me la adze le afisia</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Dzedzeme</string>
+    <string name="theme_system">Mɔnu</string>
+    <string name="theme_for_you">Na wò</string>
+    <string name="theme_dark">Nyrɔ</string>
+    <string name="theme_light">Kekeli</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Kɔpi ƒe Ðoɖowo</string>
+    <string name="proxy">Teƒenɔla</string>
+    <string name="mirror_proxy_description">Le dukɔ alo nuto siwo me woxe mɔ na GitHub le gome la, zã proxy nàtsɔ awɔ kɔpi.</string>
+    <string name="enable_mirror_proxy">Na Ahuhɔ̃e Teƒenɔla nawɔ dɔ</string>
+    <string name="proxy_url_hint">Teƒenɔla ƒe URL (e.g., https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Amewo Teƒenɔla Xɔŋkɔwo</string>
+    <string name="multi_part_download">Akpa Geɖewo ƒe Download</string>
+    <string name="multi_part_description">Wɔ faɛlwo ƒe kɔpi to kadodo geɖe zazã me be nàte ŋu aƒu du kabakaba wu.</string>
+    <string name="enable_multi_part">Na Akpa Geɖewo ƒe Download nawɔ dɔ</string>
+    <string name="download_threads">Tsɔ Kawo ƒe Kɔpi</string>
+    <string name="thread_count_hint">Asixɔxɔ siwo kɔ wu ate ŋu ana duƒuƒu nanyo ɖe edzi gake woazã nunɔamesi geɖe wu (1-32) .</string>
+    <string name="download_settings_info">Ahuhɔ̃e teƒenɔla trɔa GitHub URLwo to teƒenɔla ƒe dɔwɔƒe dzi. Akpa geɖe ƒe kɔpiwɔwɔ ma faɛlwo ɖe akpa vovovowo me hena kɔpiwɔwɔ si sɔ kple wo nɔewo.</string>
+    <string name="download_speed_format">%s/wo ƒe xexlẽme</string>
+    <string name="select_variant">Tia Version</string>
+    <string name="compatible">Sɔ ɖe edzi</string>
+    <string name="incompatible">Nusi mewɔ ɖeka kple wo nɔewo o</string>
+    <string name="recommended">Doe ɖa</string>
+    <string name="app_mismatch_title">App ƒe Masɔmasɔ?</string>
+    <string name="app_mismatch_message">RepoStore tsɔ nudzraɖoƒe sia sɔ kple dɔwɔnu si woda ɖe eme: %1$s (%2$s).\n\nNe esia MENYE dɔwɔnu ɖeka ma ke o la, àte ŋu atiae be yeaɖo APK la tso nudzraɖoƒe sia le mɔ sia mɔ nu.</string>
+    <string name="install_anyway">Install Anyway</string>
+    <string name="forget_mapping">Ŋlɔ Anyigbatatawo Be</string>
+    <string name="contributors">Nudzɔlawo</string>
+    <string name="no_apk_variants_available">APK ƒe tɔtrɔ aɖeke meli o</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Wotiae</string>
+    <!-- Categories -->
+    <string name="cat_name_all">Katã</string>
+    <string name="cat_name_ai_chat">AI Dzeɖoɖo</string>
+    <string name="cat_name_app_manager">App Manager ƒe Dɔdzikpɔla</string>
+    <string name="cat_name_app_store_updater">App Store &amp;amp; Updater ƒe Dɔwɔƒe</string>
+    <string name="cat_name_battery">Batri</string>
+    <string name="cat_name_bookmark">Dzesidede dzesi</string>
+    <string name="cat_name_browser">Browser ƒe dɔwɔnu</string>
+    <string name="cat_name_calculator">Akɔntabubumɔ̃</string>
+    <string name="cat_name_calendar_agenda">Ɣletigbalẽ &amp;amp; Ðoɖowɔɖi</string>
+    <string name="cat_name_clock">Gaƒoɖokui</string>
+    <string name="cat_name_cloud_storage">Alilikpo me Nudzraɖoƒe &amp;amp; Faɛlwo ƒe Ðekawɔwɔ</string>
+    <string name="cat_name_connectivity">Kadodo ƒe kadodo</string>
+    <string name="cat_name_contact">Kadodo</string>
+    <string name="cat_name_development">Ŋgᴐyiyi</string>
+    <string name="cat_name_dns_hosts">DNS &amp;amp; Amedzroxɔlawo</string>
+    <string name="cat_name_draw">Ta nu</string>
+    <string name="cat_name_ebook_reader">Ebook Xlẽla</string>
+    <string name="cat_name_email">Email dzi</string>
+    <string name="cat_name_file_encryption">Failwo ƒe Nya ɣaɣlawo &amp;amp; Vault</string>
+    <string name="cat_name_file_transfer">Faɛlwo ƒe Ðoɖowɔwɔ</string>
+    <string name="cat_name_firewall">Dzodoƒe ƒe gli</string>
+    <string name="cat_name_finance_manager">Ganyawo Dzikpɔla</string>
+    <string name="cat_name_flashlight">Tomekaɖi ƒe akaɖi</string>
+    <string name="cat_name_forum">Nyamedzroƒe</string>
+    <string name="cat_name_gallery">Nukpɔƒe</string>
+    <string name="cat_name_games">Fefewo</string>
+    <string name="cat_name_graphics">Nɔnɔmetatawo</string>
+    <string name="cat_name_habit_tracker">Numamewo Dzikpɔla</string>
+    <string name="cat_name_icon_pack">Nɔnɔmetatawo ƒe Agbalẽvi</string>
+    <string name="cat_name_internet">Internet dzi</string>
+    <string name="cat_name_inventory">Nunɔamesiwo ƒe agbalẽ</string>
+    <string name="cat_name_keyboard_ime">Keyboard &amp;amp; IME ƒe ƒuƒoƒo</string>
+    <string name="cat_name_launcher">Launcher</string>
+    <string name="cat_name_local_media_player">Nutoa Me Nyadzɔdzɔgblɔmɔ̃</string>
+    <string name="cat_name_location_tracker">Teƒea ƒe Mɔfiala &amp;amp; Mamãla</string>
+    <string name="cat_name_messaging">Gbedasɛwo ɖoɖo ɖe amewo</string>
+    <string name="cat_name_money">Ga</string>
+    <string name="cat_name_multimedia">Nyatakakamɔnu geɖewo</string>
+    <string name="cat_name_music_audio">Hadzidzi &amp;amp; Odio</string>
+    <string name="cat_name_video_players">Videoƒomɔ̃wo</string>
+    <string name="cat_name_music_practice">Hadzidzi Ŋuti Nusɔsrɔ̃ Dɔwɔnu</string>
+    <string name="cat_name_navigation">Tɔdziʋuɖoɖo</string>
+    <string name="cat_name_network_analyzer">Network Analyzer ƒe Dɔwɔnu</string>
+    <string name="cat_name_news">Nyadzɔdzɔ</string>
+    <string name="cat_name_note">Ɖo ŋku edzi</string>
+    <string name="cat_name_online_media_player">Internet Dzi Nyadzɔdzɔgblɔmɔ̃</string>
+    <string name="cat_name_pass_wallet">Pass Gakotoku</string>
+    <string name="cat_name_fa">Nyagbe ɣaɣla &amp;amp; 2FA</string>
+    <string name="cat_name_phone_sms">Telefon &amp;amp; SMS dzi</string>
+    <string name="cat_name_podcast">Na</string>
+    <string name="cat_name_public_transport">Dutoƒo Ʋuɖoɖo</string>
+    <string name="cat_name_radio">Radio dzi</string>
+    <string name="cat_name_reading">Nuxexlẽ</string>
+    <string name="cat_name_recipe_manager">Nuɖaɖa Ŋuti Ðoɖowo Dzikpɔla</string>
+    <string name="cat_name_remote_controller">Adzɔge Dzikpɔla</string>
+    <string name="cat_name_science_education">Dzɔdzɔmeŋutinunya &amp;amp; Sukudede</string>
+    <string name="cat_name_security">Dedienɔnɔ</string>
+    <string name="cat_name_shopping_list">Nuƒleƒewo ƒe Ŋkɔwo</string>
+    <string name="cat_name_social_network">Hadomegbenɔnɔ Ŋuti Nyatakakadzraɖoƒe</string>
+    <string name="cat_name_sports_health">Kamedefefewo &amp;amp; Lãmesẽnyawo</string>
+    <string name="cat_name_streaming_app">Streaming ƒe Dɔwɔnu</string>
+    <string name="cat_name_system">Mɔnu</string>
+    <string name="cat_name_task">Dɔ</string>
+    <string name="cat_name_text_editor">Nuŋɔŋlɔwo Ŋuti Nuŋlɔla</string>
+    <string name="cat_name_theming">Tanyawo gbɔgblɔ</string>
+    <string name="cat_name_time">Ɣeyiɣi</string>
+    <string name="cat_name_tools">Dɔwɔnuwo</string>
+    <string name="cat_name_translation_dictionary">Gbegɔmeɖeɖe &amp;amp; Nyagɔmeɖegbalẽ</string>
+    <string name="cat_name_unit_convertor">Unit ƒe Trɔla</string>
+    <string name="cat_name_voice_video_chat">Gbe &amp;amp; Video Dzeɖoɖo</string>
+    <string name="cat_name_vpn">VPN &amp;amp; Teƒenɔla</string>
+    <string name="cat_name_wallet">Gakotoku</string>
+    <string name="cat_name_wallpaper">Wallpaper</string>
+    <string name="cat_name_weather">Ya me</string>
+    <string name="cat_name_workout">De kame</string>
+    <string name="cat_name_writing">Nuŋɔŋlɔ</string>
+    <string name="cat_name_productivity">Dɔwɔwɔ nyuie</string>
+    <string name="cat_name_open_source">Dzɔtsoƒe si Woʋu</string>
+    <string name="cat_name_trending">Nusiwo le ŋgɔ yim</string></resources>

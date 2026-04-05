@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Ev</string>
+    <string name="games">Oyunlar</string>
+    <string name="apps">Proqramlar</string>
+    <string name="trending">Trend</string>
+    <string name="search">Axtar</string>
+    <string name="profile">Profil</string>
+    <string name="back">Geri</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Proqramlar və oyunlar axtarın</string>
+    <string name="search_github_repos">GitHub depolarını axtarın...</string>
+    <string name="search_hint">GitHub-də Android proqramlarını axtarın</string>
+    <string name="no_results">Heç bir nəticə tapılmadı</string>
+    <string name="clear">Təmiz</string>
+    <string name="voice_search">Səsli axtarış</string>
+    <string name="filter">Filtr</string>
+    <string name="sort_by">Sırala</string>
+    <string name="updated">Yenilənib</string>
+    <string name="has_apk">APK var</string>
+    <string name="reset">Sıfırlayın</string>
+    <string name="results_count">%d nəticələri</string>
+    <string name="any_language">İstənilən dil</string>
+    <string name="any_stars">İstənilən ulduz</string>
+    <string name="min_stars_format">%d+ ulduzları</string>
+    <string name="best_match">Ən yaxşı matç</string>
+    <string name="most_stars">Ən Ulduzlar</string>
+    <string name="most_forks">Ən çox çəngəllər</string>
+    <string name="recently_updated_sort">Bu yaxınlarda Yenilənib</string>
+    <string name="any_time">İstənilən vaxt</string>
+    <string name="last_week">Keçən həftə</string>
+    <string name="last_month">Keçən ay</string>
+    <string name="last_3_months">Son 3 ay</string>
+    <string name="last_year">Keçən il</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Sizin üçün tövsiyə olunur</string>
+    <string name="top_free_apps">Populyar pulsuz proqramlar</string>
+    <string name="recently_updated">Bu yaxınlarda yeniləndi</string>
+    <string name="see_more">Daha çox baxın</string>
+    <string name="all_categories">Bütün Kateqoriyalar</string>
+    <string name="more">Daha çox</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Seçilmiş Oyunlar</string>
+    <string name="popular_games">Populyar Oyunlar</string>
+    <string name="new_games">Yeni Oyunlar</string>
+    <string name="no_games_found">Heç bir oyun tapılmadı</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Proqram ikonu</string>
+    <string name="banner">Banner</string>
+    <string name="about">Haqqında</string>
+    <string name="about_this_app">Bu proqram haqqında</string>
+    <string name="screenshots">Ekran görüntüləri</string>
+    <string name="screenshot">Ekran görüntüsü</string>
+    <string name="stars">Ulduzlar</string>
+    <string name="forks">Çəngəllər</string>
+    <string name="language">Dil</string>
+    <string name="last_updated">Son yeniləmə</string>
+    <string name="updated_on">Yenilənib</string>
+    <string name="latest_release">Son Buraxılış</string>
+    <string name="whats_new">What\'s yeni</string>
+    <string name="readme">OXUYUN</string>
+    <string name="download">Yüklə</string>
+    <string name="install">Quraşdırın</string>
+    <string name="download_apk">APK yükləyin</string>
+    <string name="view_release">Buraxılışa baxın</string>
+    <string name="view_on_github">GitHub-də baxın</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Təsvir mövcud deyil</string>
+    <string name="no_release_notes">Buraxılış qeydləri yoxdur</string>
+    <string name="archived">Arxivləşdirilib</string>
+
+    <!-- Tags -->
+    <string name="tag_new">YENİ</string>
+    <string name="tag_updated">YENİLƏNİB</string>
+    <string name="tag_archived">ARXİV OLUNUB</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Heç bir proqram tapılmadı</string>
+    <string name="no_repos_found">Heç bir depo tapılmadı</string>
+    <string name="rate_limit_error">Məzənnə limiti keçildi. Lütfən, sonra yenidən cəhd edin.</string>
+    <string name="network_error">Şəbəkə xətası. Bağlantınızı yoxlayın.</string>
+    <string name="tap_to_retry">Yenidən cəhd etmək üçün toxunun</string>
+    <string name="loading">Yüklənir...</string>
+
+    <!-- Developer -->
+    <string name="repositories">Anbarlar</string>
+    <string name="repositories_count">%d depoları</string>
+    <string name="view_github_profile">GitHub Profilinə baxın</string>
+
+    <!-- Settings -->
+    <string name="settings">Parametrlər</string>
+    <string name="github_token">GitHub Şəxsi Giriş Tokeni</string>
+    <string name="github_token_desc">API dərəcəsi limitini saatda 60-dan 5000 sorğuya qədər artırmaq üçün işarə əlavə edin.</string>
+    <string name="enter_token">GitHub nişanınızı daxil edin</string>
+    <string name="save_token">Tokeni saxla</string>
+    <string name="clear_token">Tokeni təmizləyin</string>
+    <string name="create_token_on_github">GitHub-də Token yaradın</string>
+    <string name="token_saved">Token uğurla yadda saxlanıldı</string>
+    <string name="token_removed">Token silindi</string>
+    <string name="rate_limit_info_title">API Rate Limit</string>
+    <string name="rate_limit_info_desc">Nişansız: 60 sorğu/saat\nToken ilə: 5,000 sorğu/saat</string>
+    <string name="how_to_create_token">Token necə yaradılır:</string>
+    <string name="token_instructions">1. GitHub Parametrləri → Tərtibatçı parametrləri\n2 bölməsinə keçin. \"Şəxsi giriş nişanları\" → \"Tokenlər (klassik)\"\n3 klikləyin. \"Yeni token yaradın\" \n4 klikləyin. Ona ad verin və \"public_repo\" scope\n5 seçin. \"Token yaradın\" üzərinə klikləyin və onu kopyalayın</string>
+    <string name="no_token_set">Token dəsti yoxdur</string>
+    <string name="token_configured">Token konfiqurasiya edildi</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Tərtibatçı</string>
+    <string name="followers">İzləyicilər</string>
+    <string name="following">İzləyir</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Endirilir...</string>
+    <string name="downloading_apk">APK endirilir</string>
+    <string name="download_complete">Yükləmə tamamlandı</string>
+    <string name="download_in_progress">Artıq endirmə davam edir</string>
+    <string name="file_not_found">Endirilmiş fayl tapılmadı</string>
+    <string name="install_error">Quraşdırıcını açmaq mümkün olmadı</string>
+    <string name="installing">Quraşdırılır...</string>
+    <string name="open">Açıq</string>
+    <string name="cannot_open_app">Proqramı açmaq mümkün deyil</string>
+    <string name="queued">Növbədə…</string>
+    <string name="preparing">Hazırlanır...</string>
+    <string name="verifying">Doğrulanır...</string>
+    <string name="storage_error">Yaddaş xətası baş verdi</string>
+    <string name="insufficient_storage">Kifayət qədər yaddaş yeri yoxdur</string>
+    <string name="verification_failed">Faylın doğrulanması uğursuz oldu</string>
+    <string name="download_timeout">Endirmə vaxtı bitdi</string>
+    <string name="retry">Yenidən cəhd edin</string>
+    <string name="cancel">Ləğv et</string>
+    <string name="update">Yeniləyin</string>
+    <string name="update_available">Yeniləmə mövcuddur</string>
+    <string name="uninstall">Silin</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">GitHub ilə daxil olun</string>
+    <string name="sign_in_to_increase_limit">API dərəcəsi limitini artırmaq üçün daxil olun</string>
+    <string name="connecting_to_github">GitHub-ə qoşulur...</string>
+    <string name="enter_code_on_github">Bu kodu GitHub-ə daxil edin</string>
+    <string name="code_instructions">Brauzerinizdə GitHub-i açın və daxil olmaq üçün aşağıdakı kodu daxil edin</string>
+    <string name="copy_code">Kodu kopyalayın</string>
+    <string name="code_copied">Kod buferə kopyalandı</string>
+    <string name="open_github">GitHub-i açın</string>
+    <string name="waiting_for_authorization">İcazə gözlənilir...</string>
+    <string name="signed_in_successfully">Uğurla daxil oldunuz!</string>
+    <string name="signed_in">Daxil oldu</string>
+    <string name="signed_in_as">%s kimi daxil olub</string>
+    <string name="rate_limit_increased">API tarif həddi 5000 sorğu/saata yüksəldi</string>
+    <string name="sign_out">Çıxış</string>
+    <string name="signed_out">Çıxıldı</string>
+    <string name="failed_to_get_code">Avtorizasiya kodunu əldə etmək alınmadı</string>
+    <string name="auth_expired">Avtorizasiya müddəti bitdi. Yenidən cəhd edin.</string>
+    <string name="unknown_error">Naməlum xəta baş verdi</string>
+    <string name="something_went_wrong">Nəsə xəta baş verdi</string>
+    <string name="user">@ istifadəçisi</string>
+    <string name="rate_limit_exceeded_title">Məzənnə Limiti keçdi</string>
+    <string name="rate_limit_exceeded_message">Siz \'ve GitHub API tarif limitini (60 sorğu/saat) keçdiniz. \n\n Limitinizi 5000 sorğu/saata qədər pulsuz artırmaq üçün GitHub ilə daxil olun!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve təsdiqlənmiş tarif limitini (5000 sorğu/saat) keçdi. Yenidən cəhd etməzdən əvvəl bir neçə dəqiqə gözləyin.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Bağışlayın</string>
+    <string name="support_developer">Tərtibatçıya dəstək olun</string>
+    <string name="donate_description">Bu proqramı faydalı hesab edirsinizsə, kiçik bir ianə ilə inkişafı dəstəkləməyi düşünün.</string>
+    <string name="scan_qr_code">Ödəmək üçün QR kodunu skan edin</string>
+    <string name="upi_qr_code">UPI QR kodu</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Kopyalayın</string>
+    <string name="upi_id_copied">UPI ID buferə kopyalandı</string>
+    <string name="thank_you_message">Dəstəyiniz üçün təşəkkür edirik! ❤️</string>
+    <string name="pay_with_upi_app">UPI Tətbiqi ilə ödəyin</string>
+    <string name="no_upi_apps_found">Cihazınızda heç bir UPI ödəniş tətbiqi tapılmadı</string>
+    <string name="payment_app_icon">Ödəniş proqramı ikonu</string>
+    <string name="pay">Ödəmək</string>
+    <string name="cannot_open_payment_app">Ödəniş tətbiqini açmaq mümkün deyil</string>
+    <string name="buy_me_a_coffee">Mənə Qəhvə Al</string>
+    <string name="support_buy_me_a_coffee">Mənə Qəhvə Almağa Dəstək</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Açıq Mənbə Lisenziyaları</string>
+    <string name="source_code">Mənbə kodu</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">%s versiyası</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Proqramlarım</string>
+    <string name="no_favorite_apps">Hələ sevimli proqram yoxdur</string>
+    <string name="no_favorite_apps_hint">Onu buraya əlavə etmək üçün istənilən tətbiqdə ürək işarəsinə toxunun</string>
+    <string name="add_to_favorites">Sevimlilərə əlavə edin</string>
+    <string name="remove_from_favorites">Sevimlilərdən silin</string>
+    <string name="added_to_favorites">Sevimlilərə əlavə edildi</string>
+    <string name="removed_from_favorites">Sevimlilərdən silindi</string>
+    <string name="favorite_apps">Sevimli Proqramlar</string>
+    <string name="no_installed_apps">Quraşdırılmış proqram yoxdur</string>
+    <string name="no_installed_apps_hint">Sevimlilərinizdən quraşdırdığınız proqramlar burada görünəcək</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Görünüş</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_for_you">Sizin üçün</string>
+    <string name="theme_dark">Qaranlıq</string>
+    <string name="theme_light">İşıq</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Parametrləri endirin</string>
+    <string name="proxy">Proksi</string>
+    <string name="mirror_proxy_description">GitHub-in bloklandığı ölkələr və ya regionlar üçün endirmək üçün proksidən istifadə edin.</string>
+    <string name="enable_mirror_proxy">Güzgü Proksini aktivləşdirin</string>
+    <string name="proxy_url_hint">Proksi URL (məsələn, https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Populyar Proksilər</string>
+    <string name="multi_part_download">Çox hissəli yükləmə</string>
+    <string name="multi_part_description">Daha sürətli sürət üçün çoxlu bağlantılardan istifadə edərək faylları endirin.</string>
+    <string name="enable_multi_part">Çox hissəli yükləməni aktivləşdirin</string>
+    <string name="download_threads">Mövzuları yükləyin</string>
+    <string name="thread_count_hint">Daha yüksək dəyərlər sürəti artıra bilər, lakin daha çox resurs istifadə edə bilər (1-32)</string>
+    <string name="download_settings_info">Güzgü proksi GitHub URL-lərini proksi server vasitəsilə çevirir. Çox hissəli yükləmə faylları paralel yükləmə üçün parçalara ayırır.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Versiya seçin</string>
+    <string name="compatible">Uyğundur</string>
+    <string name="incompatible">Uyğun deyil</string>
+    <string name="recommended">Tövsiyə olunur</string>
+    <string name="app_mismatch_title">Tətbiq Uyğunsuzluğu?</string>
+    <string name="app_mismatch_message">RepoStore bu repozitoriyanı quraşdırılmış tətbiqə uyğunlaşdırdı: %1$s (%2$s).\n\nƏgər bu eyni proqram deyilsə, istənilən halda bu repozitoriyadan APK quraşdırmağı seçə bilərsiniz.</string>
+    <string name="install_anyway">Hər halda quraşdırın</string>
+    <string name="forget_mapping">Xəritəçəkməni unut</string>
+    <string name="contributors">Töhfəçilər</string>
+    <string name="no_apk_variants_available">Heç bir APK variantı mövcud deyil</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Seçildi</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Hamısı</string>
+    <string name="cat_name_ai_chat">AI söhbəti</string>
+    <string name="cat_name_app_manager">Proqram meneceri</string>
+    <string name="cat_name_app_store_updater">Tətbiq Mağazası və Yeniləyici</string>
+    <string name="cat_name_battery">Batareya</string>
+    <string name="cat_name_bookmark">Əlfəcin</string>
+    <string name="cat_name_browser">Brauzer</string>
+    <string name="cat_name_calculator">Kalkulyator</string>
+    <string name="cat_name_calendar_agenda">Təqvim və Gündəm</string>
+    <string name="cat_name_clock">Saat</string>
+    <string name="cat_name_cloud_storage">Bulud Saxlama və Fayl Sinxronizasiyası</string>
+    <string name="cat_name_connectivity">Bağlantı</string>
+    <string name="cat_name_contact">Əlaqə</string>
+    <string name="cat_name_development">İnkişaf</string>
+    <string name="cat_name_dns_hosts">DNS və Hostlar</string>
+    <string name="cat_name_draw">çəkmək</string>
+    <string name="cat_name_ebook_reader">Elektron kitab oxuyucu</string>
+    <string name="cat_name_email">E-poçt</string>
+    <string name="cat_name_file_encryption">Fayl Şifrələmə və Vault</string>
+    <string name="cat_name_file_transfer">Fayl Transferi</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Maliyyə Meneceri</string>
+    <string name="cat_name_flashlight">Fənər</string>
+    <string name="cat_name_forum">Forum</string>
+    <string name="cat_name_gallery">Qalereya</string>
+    <string name="cat_name_games">Oyunlar</string>
+    <string name="cat_name_graphics">Qrafika</string>
+    <string name="cat_name_habit_tracker">Habit Tracker</string>
+    <string name="cat_name_icon_pack">Icon Pack</string>
+    <string name="cat_name_internet">İnternet</string>
+    <string name="cat_name_inventory">İnventar</string>
+    <string name="cat_name_keyboard_ime">Klaviatura və IME</string>
+    <string name="cat_name_launcher">Başlatıcı</string>
+    <string name="cat_name_local_media_player">Yerli media pleyeri</string>
+    <string name="cat_name_location_tracker">Məkan İzləyicisi və Paylaşıcı</string>
+    <string name="cat_name_messaging">Mesajlaşma</string>
+    <string name="cat_name_money">pul</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Musiqi və Audio</string>
+    <string name="cat_name_video_players">Video pleyerlər</string>
+    <string name="cat_name_music_practice">Musiqi Təcrübəsi Aləti</string>
+    <string name="cat_name_navigation">Naviqasiya</string>
+    <string name="cat_name_network_analyzer">Şəbəkə analizatoru</string>
+    <string name="cat_name_news">Xəbərlər</string>
+    <string name="cat_name_note">Qeyd</string>
+    <string name="cat_name_online_media_player">Onlayn media pleyer</string>
+    <string name="cat_name_pass_wallet">Pulqabı keçir</string>
+    <string name="cat_name_fa">Parol və 2FA</string>
+    <string name="cat_name_phone_sms">Telefon və SMS</string>
+    <string name="cat_name_podcast">Podkast</string>
+    <string name="cat_name_public_transport">İctimai Nəqliyyat</string>
+    <string name="cat_name_radio">Radio</string>
+    <string name="cat_name_reading">Oxumaq</string>
+    <string name="cat_name_recipe_manager">Resept Meneceri</string>
+    <string name="cat_name_remote_controller">Uzaqdan İdarəetmə</string>
+    <string name="cat_name_science_education">Elm və Təhsil</string>
+    <string name="cat_name_security">Təhlükəsizlik</string>
+    <string name="cat_name_shopping_list">Alış-veriş siyahısı</string>
+    <string name="cat_name_social_network">Sosial şəbəkə</string>
+    <string name="cat_name_sports_health">İdman və Sağlamlıq</string>
+    <string name="cat_name_streaming_app">Axın Tətbiqi</string>
+    <string name="cat_name_system">Sistem</string>
+    <string name="cat_name_task">Tapşırıq</string>
+    <string name="cat_name_text_editor">Mətn redaktoru</string>
+    <string name="cat_name_theming">Mövzular</string>
+    <string name="cat_name_time">Vaxt</string>
+    <string name="cat_name_tools">Alətlər</string>
+    <string name="cat_name_translation_dictionary">Tərcümə və Lüğət</string>
+    <string name="cat_name_unit_convertor">Vahid çeviricisi</string>
+    <string name="cat_name_voice_video_chat">Səsli və Video Söhbət</string>
+    <string name="cat_name_vpn">VPN və Proksi</string>
+    <string name="cat_name_wallet">Pul kisəsi</string>
+    <string name="cat_name_wallpaper">Divar kağızı</string>
+    <string name="cat_name_weather">Hava</string>
+    <string name="cat_name_workout">Məşq</string>
+    <string name="cat_name_writing">yazı</string>
+    <string name="cat_name_productivity">Məhsuldarlıq</string>
+    <string name="cat_name_open_source">Açıq Mənbə</string>
+    <string name="cat_name_trending">Trend</string>
+</resources>

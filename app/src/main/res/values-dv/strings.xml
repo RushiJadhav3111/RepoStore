@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">ގެ</string>
+    <string name="games">ގޭމްސް</string>
+    <string name="apps">އެޕްސް</string>
+    <string name="trending">ޓްރެންޑިންގ</string>
+    <string name="search">ހޯދުން</string>
+    <string name="profile">ޕްރޮފައިލް</string>
+    <string name="back">ފަހަތް</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">އެޕްސް &amp;amp; ގޭމްސް ހޯދުން</string>
+    <string name="search_github_repos">GitHub ރިޕޮޒިޓަރީތައް ހޯދުން...</string>
+    <string name="search_hint">GitHub އިން އެންޑްރޮއިޑް އެޕްތައް ހޯދާށެވެ</string>
+    <string name="no_results">އެއްވެސް ނަތީޖާއެއް ނުފެނެއެވެ</string>
+    <string name="clear">ސާފުކޮށް</string>
+    <string name="voice_search">އަޑުން ހޯދުން</string>
+    <string name="filter">ފިލްޓަރ ކޮށްލާށެވެ</string>
+    <string name="sort_by">ތަރުތީބުކުރުން</string>
+    <string name="updated">އަޕްޑޭޓް ކުރެވިއްޖެއެވެ</string>
+    <string name="has_apk">އޭޕީކޭ ހުރެއެވެ</string>
+    <string name="reset">ރީސެޓް ކުރުން</string>
+    <string name="results_count">%d ގެ ނަތީޖާއެވެ</string>
+    <string name="any_language">ކޮންމެ ބަހެއް</string>
+    <string name="any_stars">އެއްވެސް ތަރިއެކެވެ</string>
+    <string name="min_stars_format">%d+ ތަރިތަކެވެ</string>
+    <string name="best_match">އެންމެ މޮޅު މެޗު</string>
+    <string name="most_stars">މޯސްޓް ސްޓާރސް</string>
+    <string name="most_forks">ގިނަ ފޯކްސް</string>
+    <string name="recently_updated_sort">ދާދިފަހުން އަޕްޑޭޓް ކުރެވުނެވެ</string>
+    <string name="any_time">ކޮންމެ ވަގުތެއްގައެވެ</string>
+    <string name="last_week">މިދިޔަ ހަފްތާގައެވެ</string>
+    <string name="last_month">މިދިޔަ މަހު...</string>
+    <string name="last_3_months">މިދިޔަ 3 މަސްދުވަހު</string>
+    <string name="last_year">މިދިޔަ އަހަރު...</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">ތިޔަބޭފުޅުންނަށް ރެކޮމެންޑް ކުރެވިފައި</string>
+    <string name="top_free_apps">ޓޮޕް ފްރީ އެޕްސް</string>
+    <string name="recently_updated">ދާދިފަހުން އަޕްޑޭޓް ކޮށްފި އެވެ</string>
+    <string name="see_more">އިތުރަށް ބަލާށެވެ</string>
+    <string name="all_categories">ހުރިހާ ކެޓަގަރީއެއް</string>
+    <string name="more">އިތުރަށް</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">ފީޗާ ގޭމްސް</string>
+    <string name="popular_games">މަޝްހޫރު ގޭމްސް</string>
+    <string name="new_games">އައު ގޭމްސް</string>
+    <string name="no_games_found">އެއްވެސް ގޭމެއް ނުފެނެއެވެ</string>
+
+    <!-- App Details -->
+    <string name="app_icon">އެޕް އައިކޮން</string>
+    <string name="banner">ބެނާ އެވެ</string>
+    <string name="about">ގުޅިގެން</string>
+    <string name="about_this_app">މި އެޕް އާއި ބެހޭގޮތުން</string>
+    <string name="screenshots">ސްކްރީންޝޮޓްތަކެވެ</string>
+    <string name="screenshot">ސްކްރީންޝޮޓް</string>
+    <string name="stars">ތަރިންނެވެ</string>
+    <string name="forks">ފޯކްސް އެވެ</string>
+    <string name="language">ބަސް</string>
+    <string name="last_updated">އެންމެ ފަހުން އަޕްޑޭޓް ކުރިއެވެ</string>
+    <string name="updated_on">އަޕްޑޭޓް ކޮށްފައިވަނީ އޮން...</string>
+    <string name="latest_release">އެންމެ ފަހުގެ ރިލީޒް</string>
+    <string name="whats_new">ވަޓްއެކްސްވައިޒެޑް0ޒައިއެކްސްސް އާ</string>
+    <string name="readme">ރީޑްމީ</string>
+    <string name="download">ޑައުންލޯޑް</string>
+    <string name="install">އެޅުން</string>
+    <string name="download_apk">އޭޕީކޭ ޑައުންލޯޑް ކޮށްލައްވާށެވެ</string>
+    <string name="view_release">ރިލީޒް ބަލާށެވެ</string>
+    <string name="view_on_github">GitHub އިން ބަލާށެވެ</string>
+    <string name="github">GitHub އެވެ</string>
+    <string name="no_description">އެއްވެސް ބަޔާނެއް ނުލިބެއެވެ</string>
+    <string name="no_release_notes">ރިލީޒް ނޯޓެއް ނެތެވެ</string>
+    <string name="archived">އަރުޝީފް ކުރެވިފައިވެއެވެ</string>
+
+    <!-- Tags -->
+    <string name="tag_new">އާ</string>
+    <string name="tag_updated">އަޕްޑޭޓް ކޮށްފިއެވެ</string>
+    <string name="tag_archived">އަރުޝީފް ކުރެވިފައިވެއެވެ</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">އެއްވެސް އެޕްއެއް ނުފެނެއެވެ</string>
+    <string name="no_repos_found">އެއްވެސް ރިޕޮޒިޓަރީއެއް ނުފެނެއެވެ</string>
+    <string name="rate_limit_error">ރޭޓް ލިމިޓް ފަހަނައަޅައި ދިޔައީ. ފަހުން އަނެއްކާވެސް މަސައްކަތް ކުރައްވާށެވެ.</string>
+    <string name="network_error">ނެޓްވޯކް އެރަރ. ކަނެކްޝަން ޗެކް ކުރައްވާށެވެ.</string>
+    <string name="tap_to_retry">އަލުން މަސައްކަތް ކުރަން ޓެޕް ކުރާށެވެ</string>
+    <string name="loading">ލޯޑިންގ...</string>
+
+    <!-- Developer -->
+    <string name="repositories">ރިޕޮޒިޓަރީތަކެވެ</string>
+    <string name="repositories_count">%d ރިޕޮޒިޓަރީތަކެވެ</string>
+    <string name="view_github_profile">GitHub ޕްރޮފައިލް ބައްލަވާށެވެ</string>
+
+    <!-- Settings -->
+    <string name="settings">ސެޓިންގސް</string>
+    <string name="github_token">GitHub ޕާސަނަލް އެކްސެސް ޓޯކަން</string>
+    <string name="github_token_desc">އެޕީއައި ރޭޓް ލިމިޓް ގަޑިއަކު 60 އިން 5000 އަށް ރިކުއެސްޓް އިތުރު ކުރުމަށް ޓޯކަން އެއް އިތުރުކުރުން.</string>
+    <string name="enter_token">ތިބާގެ GitHub ޓޯކަން ލިޔެލާށެވެ</string>
+    <string name="save_token">ސޭވް ޓޯކަން</string>
+    <string name="clear_token">ކްލިއަރ ޓޯކަން</string>
+    <string name="create_token_on_github">GitHub ގައި ޓޯކަން އުފެއްދުން</string>
+    <string name="token_saved">ޓޯކަން ކާމިޔާބުކަމާއެކު ސޭވް ކުރެވުނެވެ</string>
+    <string name="token_removed">ޓޯކަން ނައްތާލާފައި</string>
+    <string name="rate_limit_info_title">އެޕީއައި ރޭޓް ލިމިޓް</string>
+    <string name="rate_limit_info_desc">ޓޯކަން ނެތި: 60 ރިކުއެސްޓް/ގަޑިއިރު\nޓޯކަން އާއި އެކު: 5،000 ރިކުއެސްޓް/ގަޑިއިރު</string>
+    <string name="how_to_create_token">ޓޯކަން އުފައްދާނެ ގޮތް:</string>
+    <string name="token_instructions">1. GitHub ސެޓިންގސް → ޑިވެލޮޕަރ ސެޓިންގސް\n2 އަށް ދާށެވެ. \"ޕާސަނަލް އެކްސެސް ޓޯކަންސް\" → \"ޓޯކަންސް (ކްލާސިކް)\"\n3 އަށް ފިތާލާށެވެ. \"އާ ޓޯކަން އުފެއްދުން\"\n4 އަށް ފިތާލާށެވެ. އެއަށް ނަމެއް ދީފައި \"public_repo\" scope\n5 ހޮވާށެވެ. \"ޖެނެރޭޓް ޓޯކަން\" އަށް ފިތާލުމަށްފަހު ކޮޕީ ކޮށްލާށެވެ</string>
+    <string name="no_token_set">ޓޯކަން ސެޓެއް ނެތެވެ</string>
+    <string name="token_configured">ޓޯކަން ކޮންފިގްރޭޓް ކުރެވިއްޖެއެވެ</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">ޑިވެލޮޕަރެވެ</string>
+    <string name="followers">ފޮލޯވަރުން</string>
+    <string name="following">ކަމަކާ ގުޅިގެން</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">ޑައުންލޯޑް ކުރަމުން...</string>
+    <string name="downloading_apk">އޭޕީކޭ ޑައުންލޯޑް ކުރަނީ</string>
+    <string name="download_complete">ޑައުންލޯޑް ފުރިހަމަވެއްޖެއެވެ</string>
+    <string name="download_in_progress">ޑައުންލޯޑް މިހާރުވެސް ކުރިއަށް އެބަދެއެވެ</string>
+    <string name="file_not_found">ޑައުންލޯޑް ކުރި ފައިލް ނުފެނެއެވެ</string>
+    <string name="install_error">އިންސްޓޯލަރ ހުޅުވޭ ގޮތެއް ނުވިއެވެ</string>
+    <string name="installing">އިންސްޓޯލް ކުރަމުން...</string>
+    <string name="open">ހުޅުވުން</string>
+    <string name="cannot_open_app">އެޕް ހުޅުވޭކަށް ނެތެވެ</string>
+    <string name="queued">ކިއުގައި ތިބި...</string>
+    <string name="preparing">ތައްޔާރުވަމުން...</string>
+    <string name="verifying">ވަރިހަމަ ކުރަމުން...</string>
+    <string name="storage_error">ސްޓޯރޭޖް އެރަރ އެއް ދިމާވިއެވެ</string>
+    <string name="insufficient_storage">އެކަށީގެންވާ ވަރަށް ސްޓޯރޭޖް ޖާގައެއް ނުލިބެއެވެ</string>
+    <string name="verification_failed">ފައިލް ވެރިފިކޭޝަން ފެއިލްވެއްޖެއެވެ</string>
+    <string name="download_timeout">ޑައުންލޯޑް ޓައިމް އައުޓް ވެއްޖެއެވެ</string>
+    <string name="retry">އަލުން މަސައްކަތް ކުރާށެވެ</string>
+    <string name="cancel">ކެންސަލް</string>
+    <string name="update">އަޕްޑޭޓް</string>
+    <string name="update_available">އަޕްޑޭޓް ލިބެން ހުރެއެވެ</string>
+    <string name="uninstall">އަންއިންސްޓޯލް ކޮށްލާށެވެ</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">GitHub އިން ސައިން އިން ވާށެވެ</string>
+    <string name="sign_in_to_increase_limit">އެޕީއައި ރޭޓް ލިމިޓް އިތުރު ކުރުމަށް ސައިން އިން ކުރާށެވެ</string>
+    <string name="connecting_to_github">GitHub އާއި ގުޅެމުން...</string>
+    <string name="enter_code_on_github">މި ކޯޑް GitHub ގައި ލިޔެލާށެވެ</string>
+    <string name="code_instructions">ބްރައުޒާގައި GitHub ހުޅުވާލުމަށްފަހު ތިރީގައިވާ ކޯޑް ޖަހައިގެން ސައިން އިން ކޮށްލާށެވެ</string>
+    <string name="copy_code">ކޮޕީ ކޯޑް</string>
+    <string name="code_copied">ކްލިޕްބޯޑަށް ކޮޕީކޮށްފައިވާ ކޯޑް</string>
+    <string name="open_github">GitHub ހުޅުވާލާށެވެ</string>
+    <string name="waiting_for_authorization">ހުއްދައަށް އިންތިޒާރު ކުރަމުން...</string>
+    <string name="signed_in_successfully">ކާމިޔާބުކަމާއެކު ސޮއިކޮށްފި!</string>
+    <string name="signed_in">ސޮއިކޮށްފައި</string>
+    <string name="signed_in_as">ސައިން އިން ކޮށްފައިވަނީ %s ގެ ނަމުގައެވެ</string>
+    <string name="rate_limit_increased">އެޕީއައި ރޭޓް ލިމިޓް 5،000 ރިކުއެސްޓް/ގަޑިއިރު އަށް އިތުރުކޮށްފި އެވެ</string>
+    <string name="sign_out">ސައިން އައުޓް</string>
+    <string name="signed_out">ސޮއިކޮށްފި އެވެ</string>
+    <string name="failed_to_get_code">އޮތޯރައިޒޭޝަން ކޯޑް ނުލިބުނީ</string>
+    <string name="auth_expired">ހުއްދަގެ މުއްދަތު ހަމަވެއްޖެއެވެ. އަނެއްކާވެސް މަސައްކަތް ކުރައްވާށެވެ.</string>
+    <string name="unknown_error">ނޭނގޭ ގޯހެއް ދިމާވިއެވެ</string>
+    <string name="something_went_wrong">ކަމެއް ގޯސްވީއެވެ</string>
+    <string name="user">@ޔޫޒަރ އެވެ</string>
+    <string name="rate_limit_exceeded_title">ރޭޓް ލިމިޓް ފަހަނައަޅައި ގޮސްފިއެވެ</string>
+    <string name="rate_limit_exceeded_message">You\'ve GitHub API ރޭޓް ލިމިޓް (60 ރިކުއެސްޓް/ގަޑިއިރު) ފަހަނައަޅައި ގޮސްފިއެވެ.\n\nGitHub އިން ސައިން އިން ކޮށްގެން ހިލޭ 5،000 ރިކުއެސްޓް/ގަޑިއިރުގެ ލިމިޓް އިތުރުކުރުން!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve އިން އޮތެންޓިކޭޓް ކުރެވިފައިވާ ރޭޓް ލިމިޓް (5،000 ރިކުއެސްޓް/ގަޑިއިރު) އަށް ވުރެ މަތިވެއްޖެއެވެ. އަލުން މަސައްކަތް ކުރުމުގެ ކުރިން ދެތިން މިނެޓް މަޑުކޮށްލައްވާށެވެ.</string>
+    
+    <!-- Donate -->
+    <string name="donate">ހަދިޔާކުރުން</string>
+    <string name="support_developer">ޑިވެލޮޕަރަށް ސަޕޯޓް ކުރާށެވެ</string>
+    <string name="donate_description">މި އެޕް ބޭނުންތެރި ކަމަށް ފެނިއްޖެނަމަ ކުޑަ ހަދިޔާއަކުން ތަރައްގީއަށް އެހީތެރިވުމަށް ވިސްނާށެވެ.</string>
+    <string name="scan_qr_code">ސްކޭން ކިއުއާރު ކޯޑް ޓު ޕޭ</string>
+    <string name="upi_qr_code">ޔޫޕީއައި ކިއުއާރު ކޯޑް</string>
+    <string name="upi_id">ޔޫޕީއައި އައިޑީ</string>
+    <string name="copy">ކޮޕީ</string>
+    <string name="upi_id_copied">ޔޫޕީއައި އައިޑީ ކްލިޕްބޯޑަށް ކޮޕީކޮށްފައި</string>
+    <string name="thank_you_message">ތިޔަ ދެއްވި އެއްބާރުލުމަށް ޝުކުރިއްޔާ! ❤️</string>
+    <string name="pay_with_upi_app">ޔޫޕީއައި އެޕް އިން ފައިސާ ދައްކާށެވެ</string>
+    <string name="no_upi_apps_found">ޑިވައިސްގައި ޔޫޕީއައި ޕޭމަންޓް އެޕްތަކެއް ނުފެނެއެވެ</string>
+    <string name="payment_app_icon">ޕޭމަންޓް އެޕް އައިކޮން</string>
+    <string name="pay">ފައިސާ ދެއްކުން</string>
+    <string name="cannot_open_payment_app">ޕޭމަންޓް އެޕް ހުޅުވޭކަށް ނެތެވެ</string>
+    <string name="buy_me_a_coffee">ބައި މީ އަ ކޮފީ</string>
+    <string name="support_buy_me_a_coffee">ބައި މީ އަ ކޮފީ އަށް ސަޕޯޓް ދިނުން</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">އޮޕަން ސޯސް ލައިސަންސް</string>
+    <string name="source_code">ސޯސް ކޯޑް</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">އެކްސްވައިޒެޑް0ޒައިއެކްސް (އެކްސްވައިޒެޑް1ޒައިއެކްސް/އެކްސްވައިޒެޑް2ޒައިއެކްސް) %1$s %2$s %3$s</string>
+    <string name="download_starting">0%% އެވެ</string>
+    <string name="page_indicator">%1$d / %2$d އެވެ</string>
+    <string name="version_format">ވަރޝަން %s އެވެ</string>
+    <string name="username_format">@%s އެވެ</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">މައި އެޕްސް</string>
+    <string name="no_favorite_apps">އަދި ފޭވަރިޓް އެޕްތަކެއް ނެތެވެ</string>
+    <string name="no_favorite_apps_hint">މިތަނަށް އެޑް ކުރުމަށް ކޮންމެ އެޕްއެއްގައި ވެސް ހިތުގެ އައިކޮން އަށް ފިތާލާށެވެ</string>
+    <string name="add_to_favorites">ފޭވަރިޓްސް އަށް އެޑް ކުރާށެވެ</string>
+    <string name="remove_from_favorites">ފޭވަރިޓްސް އިން ނައްތާލާށެވެ</string>
+    <string name="added_to_favorites">ފޭވަރިޓްސް އަށް އިތުރުކޮށްފިއެވެ</string>
+    <string name="removed_from_favorites">ފޭވަރިޓްސް އިން ނަގާފައި</string>
+    <string name="favorite_apps">ފޭވަރިޓް އެޕްސް</string>
+    <string name="no_installed_apps">އިންސްޓޯލް ކޮށްފައިވާ އެޕްތަކެއް ނެތެވެ</string>
+    <string name="no_installed_apps_hint">ފޭވަރިޓްސް އިން އިންސްޓޯލް ކުރާ އެޕްތައް މިތަނުން ފެންނާނެއެވެ</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">މަލަމަތި</string>
+    <string name="theme_system">ސިސްޓަމް</string>
+    <string name="theme_for_you">ތިބާއަށް</string>
+    <string name="theme_dark">އަނދިރި</string>
+    <string name="theme_light">އަލި</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">ޑައުންލޯޑް ސެޓިންގސް</string>
+    <string name="proxy">ޕްރޮކްސީ އެވެ</string>
+    <string name="mirror_proxy_description">GitHub ބްލޮކްކޮށްފައިވާ ޤައުމުތަކަށް ނުވަތަ ސަރަޙައްދުތަކަށް، ޑައުންލޯޑް ކުރުމަށް ޕްރޮކްސީ ބޭނުން ކުރާށެވެ.</string>
+    <string name="enable_mirror_proxy">މިރޯ ޕްރޮކްސީ އެނެބަލް ކުރާށެވެ</string>
+    <string name="proxy_url_hint">ޕްރޮކްސީ ޔޫއާރްއެލް (އެބަހީ، https://gh-proxy.com/)</string>
+    <string name="popular_proxies">މަޝްހޫރު ޕްރޮކްސީތަކެވެ</string>
+    <string name="multi_part_download">މަލްޓި ޕާޓް ޑައުންލޯޑް</string>
+    <string name="multi_part_description">ބާރު ސްޕީޑެއްގައި ގިނަ ކަނެކްޝަންތަކެއް ބޭނުންކޮށްގެން ފައިލްތައް ޑައުންލޯޑް ކުރުން.</string>
+    <string name="enable_multi_part">މަލްޓި ޕާޓް ޑައުންލޯޑް އެނެބަލް ކުރުން</string>
+    <string name="download_threads">ޑައުންލޯޑް ތްރެޑްސް</string>
+    <string name="thread_count_hint">މަތީ އަގުތަކުން ސްޕީޑް ރަނގަޅުވެދާނެ ނަމަވެސް އިތުރު ވަސީލަތްތައް ބޭނުންކުރެވިދާނެ (1-32)</string>
+    <string name="download_settings_info">މިރޯ ޕްރޮކްސީ ޕްރޮކްސީ ސަރވަރ މެދުވެރިކޮށް GitHub ޔޫއާރްއެލްތައް ޓްރާންސްފޯމް ކުރެއެވެ. މަލްޓި ޕާޓް ޑައުންލޯޑް ކުރުމުން ޕެރެލަލް ޑައުންލޯޑް ކުރުމަށްޓަކައި ފައިލްތައް ޗަންކްތަކަށް ބަހާލައެވެ.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">ވަރޝަން ހޮވާށެވެ</string>
+    <string name="compatible">ގުޅޭ</string>
+    <string name="incompatible">އިންކޮމްޕެޓިބަލް</string>
+    <string name="recommended">ލަފާދެވިފައިވުން</string>
+    <string name="app_mismatch_title">އެޕް މިސްމެޗް ހެއްޔެވެ؟</string>
+    <string name="app_mismatch_message">RepoStore އިން މި ރިޕޮޒިޓަރީ އިންސްޓޯލް ކޮށްފައިވާ އެޕަކާ މެޗް ކުރިއެވެ: %1$s (%2$s).\n\nމިއީ އެއް އެޕް ނޫންނަމަ، ކޮންމެ ގޮތެއްވިޔަސް މި ރިޕޮޒިޓަރީން އޭޕީކޭ އިންސްޓޯލް ކުރަން އިޚްތިޔާރު ކުރެވިދާނެއެވެ.</string>
+    <string name="install_anyway">ކޮންމެ ގޮތެއްވިޔަސް އިންސްޓޯލް ކުރާށެވެ</string>
+    <string name="forget_mapping">މެޕިންގ ހަނދާން ނައްތާލާށެވެ</string>
+    <string name="contributors">ކޮންޓްރިބިއުޓަރުން</string>
+    <string name="no_apk_variants_available">އޭޕީކޭ ވައްތަރެއް ނެތެވެ</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">ހޮވިއްޖެއެވެ</string>
+    <!-- Categories -->
+    <string name="cat_name_all">ހުރިހާ</string>
+    <string name="cat_name_ai_chat">އައި ޗެޓް</string>
+    <string name="cat_name_app_manager">އެޕް މެނޭޖަރ އެވެ</string>
+    <string name="cat_name_app_store_updater">އެޕް ސްޓޯރ އެންޑް އަޕްޑޭޓަރ</string>
+    <string name="cat_name_battery">ބެޓަރީ</string>
+    <string name="cat_name_bookmark">ބުކްމާކް ކުރާށެވެ</string>
+    <string name="cat_name_browser">ބްރައުޒާ އެވެ</string>
+    <string name="cat_name_calculator">ކެލްކިއުލޭޓަރ</string>
+    <string name="cat_name_calendar_agenda">ކެލެންޑަރ އެންޑް އެޖެންޑާ</string>
+    <string name="cat_name_clock">ގަޑި</string>
+    <string name="cat_name_cloud_storage">ކްލައުޑް ސްޓޯރޭޖް އެންޑް ފައިލް ސިންކް</string>
+    <string name="cat_name_connectivity">ކަނެކްޓިވިޓީ</string>
+    <string name="cat_name_contact">ކޮންޓެކްޓް</string>
+    <string name="cat_name_development">ތަރައްޤީ</string>
+    <string name="cat_name_dns_hosts">ޑީއެންއެސް އެންޑް ހޯސްޓްސް</string>
+    <string name="cat_name_draw">ކުރެހުން</string>
+    <string name="cat_name_ebook_reader">އީބުކް ރީޑަރ އެވެ</string>
+    <string name="cat_name_email">އީމެއިލް</string>
+    <string name="cat_name_file_encryption">ފައިލް އެންކްރިޕްޝަން އެންޑް ވޯލްޓް</string>
+    <string name="cat_name_file_transfer">ފައިލް ޓްރާންސްފާ ކުރުން</string>
+    <string name="cat_name_firewall">ފަޔަރވޯލް އެވެ</string>
+    <string name="cat_name_finance_manager">ފައިނޭންސް މެނޭޖަރެވެ</string>
+    <string name="cat_name_flashlight">ޓޯޗްލައިޓް އެވެ</string>
+    <string name="cat_name_forum">ފޯރަމް</string>
+    <string name="cat_name_gallery">ގެލެރީ</string>
+    <string name="cat_name_games">ގޭމްސް</string>
+    <string name="cat_name_graphics">ގްރެފިކްސް އެވެ</string>
+    <string name="cat_name_habit_tracker">ހެބިޓް ޓްރެކަރ އެވެ</string>
+    <string name="cat_name_icon_pack">އައިކޮން ޕެކް އެވެ</string>
+    <string name="cat_name_internet">އިންޓަރނެޓް</string>
+    <string name="cat_name_inventory">އިންވެންޓްރީ</string>
+    <string name="cat_name_keyboard_ime">ކީބޯޑް އެންޑް އައިއެމްއީ</string>
+    <string name="cat_name_launcher">ލޯންޗަރެވެ</string>
+    <string name="cat_name_local_media_player">ލޯކަލް މީޑިއާ ޕްލޭޔަރ އެވެ</string>
+    <string name="cat_name_location_tracker">ލޮކޭޝަން ޓްރެކަރ އެންޑް ޝެއަރ</string>
+    <string name="cat_name_messaging">މެސެޖިންގ</string>
+    <string name="cat_name_money">ފައިސާ</string>
+    <string name="cat_name_multimedia">މަލްޓިމީޑިއާ އެވެ</string>
+    <string name="cat_name_music_audio">މިއުޒިކް އެންޑް އޯޑިއޯ</string>
+    <string name="cat_name_video_players">ވީޑިއޯ ޕްލޭޔަރސް</string>
+    <string name="cat_name_music_practice">މިއުޒިކް ޕްރެކްޓިސް ޓޫލް</string>
+    <string name="cat_name_navigation">ނޭވިގޭޝަން</string>
+    <string name="cat_name_network_analyzer">ނެޓްވޯކް އެނަލައިޒަރ އެވެ</string>
+    <string name="cat_name_news">ހަބަރުތައް</string>
+    <string name="cat_name_note">ނޯޓް</string>
+    <string name="cat_name_online_media_player">އޮންލައިން މީޑިއާ ޕްލޭޔަރ</string>
+    <string name="cat_name_pass_wallet">ޕާސް ވޮލެޓް</string>
+    <string name="cat_name_fa">ޕާސްވޯޑް &amp;amp; 2އެފްއޭ</string>
+    <string name="cat_name_phone_sms">ފޯނު &amp;amp; އެސްއެމްއެސް</string>
+    <string name="cat_name_podcast">ޕޮޑްކާސްޓް</string>
+    <string name="cat_name_public_transport">ޕަބްލިކް ޓްރާންސްޕޯޓް</string>
+    <string name="cat_name_radio">ރޭޑިއޯ އެވެ</string>
+    <string name="cat_name_reading">ކިޔުން</string>
+    <string name="cat_name_recipe_manager">ރެސިޕީ މެނޭޖަރ އެވެ</string>
+    <string name="cat_name_remote_controller">ރިމޯޓް ކޮންޓްރޯލަރ އެވެ</string>
+    <string name="cat_name_science_education">ސައިންސް އެންޑް އެޑިއުކޭޝަން</string>
+    <string name="cat_name_security">ރައްކާތެރިކަން</string>
+    <string name="cat_name_shopping_list">ޝޮޕިންގ ލިސްޓް</string>
+    <string name="cat_name_social_network">ސޯޝަލް ނެޓްވޯކް</string>
+    <string name="cat_name_sports_health">ސްޕޯޓްސް އެންޑް ހެލްތު</string>
+    <string name="cat_name_streaming_app">ސްޓްރީމިންގ އެޕް</string>
+    <string name="cat_name_system">ސިސްޓަމް</string>
+    <string name="cat_name_task">މަސައްކަތެއް</string>
+    <string name="cat_name_text_editor">ޓެކްސްޓް އެޑިޓަރެވެ</string>
+    <string name="cat_name_theming">ތީމިންގ</string>
+    <string name="cat_name_time">ވަގުތު</string>
+    <string name="cat_name_tools">ސާމާނުތައް</string>
+    <string name="cat_name_translation_dictionary">ތަރުޖަމާ އަދި ބަސްފޮތް</string>
+    <string name="cat_name_unit_convertor">ޔުނިޓް ކޮންވަރޓަރ</string>
+    <string name="cat_name_voice_video_chat">އަޑު އަދި ވީޑިއޯ ޗެޓް</string>
+    <string name="cat_name_vpn">ވީޕީއެން އެންޑް ޕްރޮކްސީ</string>
+    <string name="cat_name_wallet">ވޮލެޓް</string>
+    <string name="cat_name_wallpaper">ވޯލްޕޭޕަރ އެވެ</string>
+    <string name="cat_name_weather">މޫސުން</string>
+    <string name="cat_name_workout">ކަސްރަތުކުރުން</string>
+    <string name="cat_name_writing">ލިޔުން</string>
+    <string name="cat_name_productivity">އުފެއްދުންތެރިކަން</string>
+    <string name="cat_name_open_source">އޮޕަން ސޯސް އެވެ</string>
+    <string name="cat_name_trending">ޓްރެންޑިންގ</string></resources>

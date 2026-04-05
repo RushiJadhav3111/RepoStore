@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Dom</string>
+    <string name="games">Igre</string>
+    <string name="apps">aplikacije</string>
+    <string name="trending">U trendu</string>
+    <string name="search">Traži</string>
+    <string name="profile">Profil</string>
+    <string name="back">Nazad</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Pretražite aplikacije i igre</string>
+    <string name="search_github_repos">Pretražite GitHub spremišta…</string>
+    <string name="search_hint">Potražite Android aplikacije na GitHub</string>
+    <string name="no_results">Nema pronađenih rezultata</string>
+    <string name="clear">Jasno</string>
+    <string name="voice_search">Glasovna pretraga</string>
+    <string name="filter">Filter</string>
+    <string name="sort_by">Sortiraj po</string>
+    <string name="updated">Ažurirano</string>
+    <string name="has_apk">Ima APK</string>
+    <string name="reset">Reset</string>
+    <string name="results_count">Rezultati %d</string>
+    <string name="any_language">Bilo koji jezik</string>
+    <string name="any_stars">Bilo koje zvijezde</string>
+    <string name="min_stars_format">%d+ zvjezdice</string>
+    <string name="best_match">Best Match</string>
+    <string name="most_stars">Most Stars</string>
+    <string name="most_forks">Većina Forks</string>
+    <string name="recently_updated_sort">Nedavno ažurirano</string>
+    <string name="any_time">Bilo kada</string>
+    <string name="last_week">Prošle sedmice</string>
+    <string name="last_month">Prošli mjesec</string>
+    <string name="last_3_months">Zadnja 3 mjeseca</string>
+    <string name="last_year">Prošle godine</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Preporučeno za vas</string>
+    <string name="top_free_apps">Najbolje besplatne aplikacije</string>
+    <string name="recently_updated">Nedavno ažurirano</string>
+    <string name="see_more">Vidi više</string>
+    <string name="all_categories">Sve kategorije</string>
+    <string name="more">Više</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Istaknute igre</string>
+    <string name="popular_games">Popular igre</string>
+    <string name="new_games">Nove igre</string>
+    <string name="no_games_found">Nema pronađenih igara</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Ikona aplikacije</string>
+    <string name="banner">Baner</string>
+    <string name="about">O</string>
+    <string name="about_this_app">O ovoj aplikaciji</string>
+    <string name="screenshots">Screenshots</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="stars">Zvezdice</string>
+    <string name="forks">Forks</string>
+    <string name="language">Jezik</string>
+    <string name="last_updated">Posljednje ažurirano</string>
+    <string name="updated_on">Ažurirano na</string>
+    <string name="latest_release">Najnovije izdanje</string>
+    <string name="whats_new">Šta\'s novo</string>
+    <string name="readme">PROČITAJTE ME</string>
+    <string name="download">Preuzmi</string>
+    <string name="install">Instaliraj</string>
+    <string name="download_apk">Preuzmite APK</string>
+    <string name="view_release">Pogledaj izdanje</string>
+    <string name="view_on_github">Pogledajte na GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Nema dostupnog opisa</string>
+    <string name="no_release_notes">Nema napomena o izdanju</string>
+    <string name="archived">Arhivirano</string>
+
+    <!-- Tags -->
+    <string name="tag_new">NOVO</string>
+    <string name="tag_updated">UPDATED</string>
+    <string name="tag_archived">ARHIVIRANO</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Nije pronađena nijedna aplikacija</string>
+    <string name="no_repos_found">Nema pronađenih spremišta</string>
+    <string name="rate_limit_error">Ograničenje stope je prekoračeno. Molimo pokušajte ponovo kasnije.</string>
+    <string name="network_error">Mrežna greška. Provjerite svoju vezu.</string>
+    <string name="tap_to_retry">Dodirnite za ponovni pokušaj</string>
+    <string name="loading">Učitavanje…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Spremišta</string>
+    <string name="repositories_count">%d spremišta</string>
+    <string name="view_github_profile">Pogledaj profil GitHub</string>
+
+    <!-- Settings -->
+    <string name="settings">Postavke</string>
+    <string name="github_token">GitHub Personal Access Token</string>
+    <string name="github_token_desc">Dodajte token da povećate ograničenje brzine API-ja sa 60 na 5000 zahtjeva na sat.</string>
+    <string name="enter_token">Unesite svoj token GitHub</string>
+    <string name="save_token">Save Token</string>
+    <string name="clear_token">Clear Token</string>
+    <string name="create_token_on_github">Kreirajte token na GitHub</string>
+    <string name="token_saved">Token je uspješno sačuvan</string>
+    <string name="token_removed">Token je uklonjen</string>
+    <string name="rate_limit_info_title">API Rate Limit</string>
+    <string name="rate_limit_info_desc">Bez tokena: 60 zahtjeva/sat\nSa tokenom: 5000 zahtjeva/sat</string>
+    <string name="how_to_create_token">Kako kreirati token:</string>
+    <string name="token_instructions">1. Idite na Postavke GitHub → Postavke programera\n2. Kliknite na \"Tokeni za lični pristup\" → \"Tokeni (klasični)\"\n3. Kliknite na \"Generiraj novi token\"\n4. Dajte mu ime i odaberite \"public_repo\" opseg\n5. Kliknite na \"Generiraj token\" i kopirajte ga</string>
+    <string name="no_token_set">Nije postavljen token</string>
+    <string name="token_configured">Token konfiguriran</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Developer</string>
+    <string name="followers">Followers</string>
+    <string name="following">Praćenje</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Preuzimanje…</string>
+    <string name="downloading_apk">Preuzimanje APK-a</string>
+    <string name="download_complete">Preuzimanje je završeno</string>
+    <string name="download_in_progress">Preuzimanje je već u toku</string>
+    <string name="file_not_found">Preuzeta datoteka nije pronađena</string>
+    <string name="install_error">Nije moguće otvoriti instalater</string>
+    <string name="installing">Instaliranje…</string>
+    <string name="open">Otvori</string>
+    <string name="cannot_open_app">Nije moguće otvoriti aplikaciju</string>
+    <string name="queued">U redu…</string>
+    <string name="preparing">Priprema…</string>
+    <string name="verifying">Provjera…</string>
+    <string name="storage_error">Došlo je do greške u pohrani</string>
+    <string name="insufficient_storage">Nema dovoljno prostora za pohranu</string>
+    <string name="verification_failed">Provjera datoteke nije uspjela</string>
+    <string name="download_timeout">Isteklo je vrijeme za preuzimanje</string>
+    <string name="retry">Pokušaj ponovo</string>
+    <string name="cancel">Otkaži</string>
+    <string name="update">Ažuriraj</string>
+    <string name="update_available">Dostupno je ažuriranje</string>
+    <string name="uninstall">Deinstaliraj</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Prijavite se sa GitHub</string>
+    <string name="sign_in_to_increase_limit">Prijavite se da povećate ograničenje brzine API-ja</string>
+    <string name="connecting_to_github">Povezivanje na GitHub…</string>
+    <string name="enter_code_on_github">Unesite ovaj kod na GitHub</string>
+    <string name="code_instructions">Otvorite GitHub u svom pretraživaču i unesite kod ispod da se prijavite</string>
+    <string name="copy_code">Kopiraj kod</string>
+    <string name="code_copied">Kôd je kopiran u međuspremnik</string>
+    <string name="open_github">Otvorite GitHub</string>
+    <string name="waiting_for_authorization">Čeka se autorizacija…</string>
+    <string name="signed_in_successfully">Uspješno ste prijavljeni!</string>
+    <string name="signed_in">Prijavljeni</string>
+    <string name="signed_in_as">Prijavljen kao %s</string>
+    <string name="rate_limit_increased">Ograničenje API brzine je povećano na 5.000 zahtjeva/sat</string>
+    <string name="sign_out">Odjava</string>
+    <string name="signed_out">Odjavljen</string>
+    <string name="failed_to_get_code">Dobijanje koda za autorizaciju nije uspjelo</string>
+    <string name="auth_expired">Autorizacija je istekla. Molimo pokušajte ponovo.</string>
+    <string name="unknown_error">Došlo je do nepoznate greške</string>
+    <string name="something_went_wrong">Nešto je pošlo po zlu</string>
+    <string name="user">@user</string>
+    <string name="rate_limit_exceeded_title">Ograničenje brzine je prekoračeno</string>
+    <string name="rate_limit_exceeded_message">You\'ve je premašio GitHub API ograničenje brzine (60 zahtjeva/sat).\n\nPrijavite se sa GitHub da povećate svoje ograničenje na 5,000 zahtjeva/sat besplatno!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve je premašio ograničenje autentificirane brzine (5.000 zahtjeva/sat). Molimo pričekajte nekoliko minuta prije nego što pokušate ponovo.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Donirajte</string>
+    <string name="support_developer">Podržite programera</string>
+    <string name="donate_description">Ako smatrate da je ova aplikacija korisna, razmislite o podršci razvoju malom donacijom.</string>
+    <string name="scan_qr_code">Skenirajte QR kod za plaćanje</string>
+    <string name="upi_qr_code">UPI QR kod</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Kopiraj</string>
+    <string name="upi_id_copied">UPI ID je kopiran u međuspremnik</string>
+    <string name="thank_you_message">Hvala vam na podršci! ❤️</string>
+    <string name="pay_with_upi_app">Platite UPI aplikacijom</string>
+    <string name="no_upi_apps_found">Na vašem uređaju nije pronađena nijedna UPI aplikacija za plaćanje</string>
+    <string name="payment_app_icon">Ikona aplikacije za plaćanje</string>
+    <string name="pay">Plati</string>
+    <string name="cannot_open_payment_app">Nije moguće otvoriti aplikaciju za plaćanje</string>
+    <string name="buy_me_a_coffee">Kupi mi kafu</string>
+    <string name="support_buy_me_a_coffee">Podrška za Buy Me A Coffee</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Licence otvorenog koda</string>
+    <string name="source_code">Izvorni kod</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Verzija %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Moje aplikacije</string>
+    <string name="no_favorite_apps">Još nema omiljenih aplikacija</string>
+    <string name="no_favorite_apps_hint">Dodirnite ikonu srca na bilo kojoj aplikaciji da je dodate ovdje</string>
+    <string name="add_to_favorites">Dodaj u favorite</string>
+    <string name="remove_from_favorites">Ukloni iz favorita</string>
+    <string name="added_to_favorites">Dodano u favorite</string>
+    <string name="removed_from_favorites">Uklonjeno iz favorita</string>
+    <string name="favorite_apps">Omiljene aplikacije</string>
+    <string name="no_installed_apps">Nema instaliranih aplikacija</string>
+    <string name="no_installed_apps_hint">Ovdje će se pojaviti aplikacije koje instalirate iz omiljenih</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Izgled</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_for_you">Za Vas</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Postavke preuzimanja</string>
+    <string name="proxy">Proxy</string>
+    <string name="mirror_proxy_description">Za zemlje ili regije u kojima je GitHub blokiran, koristite proxy za preuzimanje.</string>
+    <string name="enable_mirror_proxy">Omogući Mirror Proxy</string>
+    <string name="proxy_url_hint">URL proxyja (npr. https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Popularni proksiji</string>
+    <string name="multi_part_download">Višedijelno preuzimanje</string>
+    <string name="multi_part_description">Preuzmite datoteke koristeći više veza za veće brzine.</string>
+    <string name="enable_multi_part">Omogućite preuzimanje više dijelova</string>
+    <string name="download_threads">Preuzmite teme</string>
+    <string name="thread_count_hint">Više vrijednosti mogu poboljšati brzinu, ali koristiti više resursa (1-32)</string>
+    <string name="download_settings_info">Mirror proxy transformiše GitHub URL-ove preko proxy servera. Višedijelno preuzimanje dijeli datoteke u komade za paralelno preuzimanje.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Odaberite Verzija</string>
+    <string name="compatible">Kompatibilan</string>
+    <string name="incompatible">Nekompatibilno</string>
+    <string name="recommended">Preporučeno</string>
+    <string name="app_mismatch_title">App Mismatch?</string>
+    <string name="app_mismatch_message">RepoStore je upario ovo spremište s instaliranom aplikacijom: %1$s (%2$s).\n\nAko ovo NIJE ista aplikacija, možete odabrati da instalirate APK iz ovog spremišta u svakom slučaju.</string>
+    <string name="install_anyway">Instaliraj svejedno</string>
+    <string name="forget_mapping">Zaboravite mapiranje</string>
+    <string name="contributors">Saradnici</string>
+    <string name="no_apk_variants_available">Nema dostupnih APK varijanti</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Odabrano</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Sve</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">App Manager</string>
+    <string name="cat_name_app_store_updater">App Store &amp; Updater</string>
+    <string name="cat_name_battery">Baterija</string>
+    <string name="cat_name_bookmark">Bookmark</string>
+    <string name="cat_name_browser">Browser</string>
+    <string name="cat_name_calculator">Kalkulator</string>
+    <string name="cat_name_calendar_agenda">Kalendar i dnevni red</string>
+    <string name="cat_name_clock">Sat</string>
+    <string name="cat_name_cloud_storage">Cloud Storage &amp; File Sync</string>
+    <string name="cat_name_connectivity">Povezivanje</string>
+    <string name="cat_name_contact">Kontakt</string>
+    <string name="cat_name_development">Razvoj</string>
+    <string name="cat_name_dns_hosts">DNS &amp; Hostovi</string>
+    <string name="cat_name_draw">Draw</string>
+    <string name="cat_name_ebook_reader">Ebook Reader</string>
+    <string name="cat_name_email">Email</string>
+    <string name="cat_name_file_encryption">Šifriranje datoteka i trezor</string>
+    <string name="cat_name_file_transfer">File Transfer</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Menadžer finansija</string>
+    <string name="cat_name_flashlight">Lampa</string>
+    <string name="cat_name_forum">Forum</string>
+    <string name="cat_name_gallery">Galerija</string>
+    <string name="cat_name_games">Igre</string>
+    <string name="cat_name_graphics">Grafika</string>
+    <string name="cat_name_habit_tracker">Habit Tracker</string>
+    <string name="cat_name_icon_pack">Icon Pack</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Inventar</string>
+    <string name="cat_name_keyboard_ime">Tastatura i IME</string>
+    <string name="cat_name_launcher">Launcher</string>
+    <string name="cat_name_local_media_player">Lokalni Media Player</string>
+    <string name="cat_name_location_tracker">Tracker &amp; Sharer lokacije</string>
+    <string name="cat_name_messaging">Razmjena poruka</string>
+    <string name="cat_name_money">Novac</string>
+    <string name="cat_name_multimedia">Multimedija</string>
+    <string name="cat_name_music_audio">Muzika i audio</string>
+    <string name="cat_name_video_players">Video plejeri</string>
+    <string name="cat_name_music_practice">Alat za muzičku praksu</string>
+    <string name="cat_name_navigation">Navigacija</string>
+    <string name="cat_name_network_analyzer">Network Analyzer</string>
+    <string name="cat_name_news">Vijesti</string>
+    <string name="cat_name_note">Napomena</string>
+    <string name="cat_name_online_media_player">Online Media Player</string>
+    <string name="cat_name_pass_wallet">Pass Wallet</string>
+    <string name="cat_name_fa">Lozinka i 2FA</string>
+    <string name="cat_name_phone_sms">Telefon &amp; SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Javni prevoz</string>
+    <string name="cat_name_radio">Radio</string>
+    <string name="cat_name_reading">Čitanje</string>
+    <string name="cat_name_recipe_manager">Recipe Manager</string>
+    <string name="cat_name_remote_controller">Daljinski upravljač</string>
+    <string name="cat_name_science_education">Nauka i obrazovanje</string>
+    <string name="cat_name_security">Sigurnost</string>
+    <string name="cat_name_shopping_list">Lista za kupovinu</string>
+    <string name="cat_name_social_network">Društvena mreža</string>
+    <string name="cat_name_sports_health">Sport i zdravlje</string>
+    <string name="cat_name_streaming_app">Streaming App</string>
+    <string name="cat_name_system">Sistem</string>
+    <string name="cat_name_task">Zadatak</string>
+    <string name="cat_name_text_editor">Text Editor</string>
+    <string name="cat_name_theming">Tematizacija</string>
+    <string name="cat_name_time">Vrijeme</string>
+    <string name="cat_name_tools">Alati</string>
+    <string name="cat_name_translation_dictionary">Prijevod i rječnik</string>
+    <string name="cat_name_unit_convertor">Unit Convertor</string>
+    <string name="cat_name_voice_video_chat">Glasovni i video ćaskanje</string>
+    <string name="cat_name_vpn">VPN &amp; Proxy</string>
+    <string name="cat_name_wallet">Novčanik</string>
+    <string name="cat_name_wallpaper">Pozadina</string>
+    <string name="cat_name_weather">Vrijeme</string>
+    <string name="cat_name_workout">Vježba</string>
+    <string name="cat_name_writing">Pisanje</string>
+    <string name="cat_name_productivity">Produktivnost</string>
+    <string name="cat_name_open_source">Open Source</string>
+    <string name="cat_name_trending">U trendu</string>
+</resources>

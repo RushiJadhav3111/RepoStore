@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Kodu</string>
+    <string name="games">Mängud</string>
+    <string name="apps">Rakendused</string>
+    <string name="trending">Trendikas</string>
+    <string name="search">Otsi</string>
+    <string name="profile">Profiil</string>
+    <string name="back">Tagasi</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Otsige rakendusi ja mänge</string>
+    <string name="search_github_repos">Otsi GitHub hoidlatest…</string>
+    <string name="search_hint">Otsige Androidi rakendusi saidil GitHub</string>
+    <string name="no_results">Tulemusi ei leitud</string>
+    <string name="clear">Selge</string>
+    <string name="voice_search">Häälotsing</string>
+    <string name="filter">Filter</string>
+    <string name="sort_by">Sorteeri</string>
+    <string name="updated">Uuendatud</string>
+    <string name="has_apk">Sellel on APK</string>
+    <string name="reset">Lähtesta</string>
+    <string name="results_count">%d tulemused</string>
+    <string name="any_language">Mis tahes keel</string>
+    <string name="any_stars">Mis tahes tähed</string>
+    <string name="min_stars_format">%d+ tähed</string>
+    <string name="best_match">Parim matš</string>
+    <string name="most_stars">Enamik tähti</string>
+    <string name="most_forks">Enamik Forksi</string>
+    <string name="recently_updated_sort">Hiljuti värskendatud</string>
+    <string name="any_time">Igal ajal</string>
+    <string name="last_week">Eelmisel nädalal</string>
+    <string name="last_month">Eelmisel kuul</string>
+    <string name="last_3_months">Viimased 3 kuud</string>
+    <string name="last_year">Eelmisel aastal</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Soovitatav teile</string>
+    <string name="top_free_apps">Populaarseimad tasuta rakendused</string>
+    <string name="recently_updated">Hiljuti värskendatud</string>
+    <string name="see_more">Vaata rohkem</string>
+    <string name="all_categories">Kõik kategooriad</string>
+    <string name="more">Rohkem</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Esiletõstetud mängud</string>
+    <string name="popular_games">Populaarsed mängud</string>
+    <string name="new_games">Uued Mängud</string>
+    <string name="no_games_found">Ühtegi mängu ei leitud</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Rakenduse ikoon</string>
+    <string name="banner">Bänner</string>
+    <string name="about">Umbes</string>
+    <string name="about_this_app">Teave selle rakenduse kohta</string>
+    <string name="screenshots">Ekraanipildid</string>
+    <string name="screenshot">Ekraanipilt</string>
+    <string name="stars">Tähed</string>
+    <string name="forks">Kahvlid</string>
+    <string name="language">Keel</string>
+    <string name="last_updated">Viimati värskendatud</string>
+    <string name="updated_on">Värskendatud</string>
+    <string name="latest_release">Viimane väljalase</string>
+    <string name="whats_new">What\'s uus</string>
+    <string name="readme">LOE ME</string>
+    <string name="download">Laadi alla</string>
+    <string name="install">Installige</string>
+    <string name="download_apk">Laadige alla APK</string>
+    <string name="view_release">Kuva väljalase</string>
+    <string name="view_on_github">Vaadake GitHub-il</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Kirjeldus puudub</string>
+    <string name="no_release_notes">Väljalaskemärkmeid pole</string>
+    <string name="archived">Arhiveeritud</string>
+
+    <!-- Tags -->
+    <string name="tag_new">UUS</string>
+    <string name="tag_updated">VÄRSKENDATUD</string>
+    <string name="tag_archived">ARHIVEERITUD</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Rakendusi ei leitud</string>
+    <string name="no_repos_found">Hoidlaid ei leitud</string>
+    <string name="rate_limit_error">Hinnapiirang ületatud. Proovige hiljem uuesti.</string>
+    <string name="network_error">Võrgu viga. Kontrollige ühendust.</string>
+    <string name="tap_to_retry">Puudutage uuesti proovimiseks</string>
+    <string name="loading">Laadimine…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Hoidlad</string>
+    <string name="repositories_count">%d hoidlad</string>
+    <string name="view_github_profile">Kuva GitHub profiil</string>
+
+    <!-- Settings -->
+    <string name="settings">Seaded</string>
+    <string name="github_token">GitHub isiklik juurdepääsumärk</string>
+    <string name="github_token_desc">Lisage tunnus, et suurendada API kiiruse piirangut 60-lt 5000 päringule tunnis.</string>
+    <string name="enter_token">Sisestage oma GitHub tunnus</string>
+    <string name="save_token">Salvesta märk</string>
+    <string name="clear_token">Tühjenda Token</string>
+    <string name="create_token_on_github">Looge märk GitHub-is</string>
+    <string name="token_saved">Token salvestati edukalt</string>
+    <string name="token_removed">Token eemaldatud</string>
+    <string name="rate_limit_info_title">API määra piirang</string>
+    <string name="rate_limit_info_desc">Ilma märgita: 60 päringut tunnis\nTokeniga: 5000 päringut tunnis</string>
+    <string name="how_to_create_token">Kuidas luua märgi:</string>
+    <string name="token_instructions">1. Avage GitHub seaded → Arendaja seaded\n2. Klõpsake valikutel \"Isiklikud juurdepääsumärgid\" → \"Tokens (klassikaline)\"\n3. Klõpsake käsul \"Loo uus tunnus\"\n4. Andke sellele nimi ja valige \"public_repo\" ulatus\n5. Klõpsake käsul \"Loo tunnus\" ja kopeerige see</string>
+    <string name="no_token_set">Märki pole seatud</string>
+    <string name="token_configured">Token on konfigureeritud</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Arendaja</string>
+    <string name="followers">Jälgijad</string>
+    <string name="following">Jälgides</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Allalaadimine…</string>
+    <string name="downloading_apk">APK allalaadimine</string>
+    <string name="download_complete">Allalaadimine on lõpetatud</string>
+    <string name="download_in_progress">Allalaadimine on juba pooleli</string>
+    <string name="file_not_found">Allalaaditud faili ei leitud</string>
+    <string name="install_error">Installerit ei saanud avada</string>
+    <string name="installing">Installimine…</string>
+    <string name="open">Avatud</string>
+    <string name="cannot_open_app">Rakendust ei saa avada</string>
+    <string name="queued">Järjekorras…</string>
+    <string name="preparing">Ettevalmistus…</string>
+    <string name="verifying">Kinnitamine…</string>
+    <string name="storage_error">Ilmnes salvestusviga</string>
+    <string name="insufficient_storage">Pole piisavalt salvestusruumi</string>
+    <string name="verification_failed">Faili kinnitamine ebaõnnestus</string>
+    <string name="download_timeout">Allalaadimine aegus</string>
+    <string name="retry">Proovi uuesti</string>
+    <string name="cancel">Tühista</string>
+    <string name="update">Värskenda</string>
+    <string name="update_available">Värskendus saadaval</string>
+    <string name="uninstall">Desinstallige</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Logige sisse GitHub-iga</string>
+    <string name="sign_in_to_increase_limit">API määra limiidi suurendamiseks logige sisse</string>
+    <string name="connecting_to_github">Ühendamine seadmega GitHub…</string>
+    <string name="enter_code_on_github">Sisestage see kood saidile GitHub</string>
+    <string name="code_instructions">Avage oma brauseris GitHub ja sisestage sisselogimiseks allolev kood</string>
+    <string name="copy_code">Kopeeri kood</string>
+    <string name="code_copied">Kood kopeeriti lõikelauale</string>
+    <string name="open_github">Avage GitHub</string>
+    <string name="waiting_for_authorization">Volituse ootel…</string>
+    <string name="signed_in_successfully">Sisselogimine õnnestus!</string>
+    <string name="signed_in">Sisse logitud</string>
+    <string name="signed_in_as">Sisse logitud kui %s</string>
+    <string name="rate_limit_increased">API kiiruse limiit suurendati 5000 päringuni tunnis</string>
+    <string name="sign_out">Logi välja</string>
+    <string name="signed_out">Välja logitud</string>
+    <string name="failed_to_get_code">Autoriseerimiskoodi hankimine ebaõnnestus</string>
+    <string name="auth_expired">Volitus aegus. Palun proovi uuesti.</string>
+    <string name="unknown_error">Ilmnes tundmatu viga</string>
+    <string name="something_went_wrong">Midagi läks valesti</string>
+    <string name="user">@kasutaja</string>
+    <string name="rate_limit_exceeded_title">Rate Limit on ületatud</string>
+    <string name="rate_limit_exceeded_message">Olete \' ületanud GitHub API kiiruse limiidi (60 päringut tunnis).\n\nLogige sisse kontoga GitHub, et suurendada oma limiiti 5000 päringuni tunnis tasuta!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve ületas autentitud kiiruse piirangu (5000 päringut tunnis). Enne uuesti proovimist oodake mõni minut.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Anneta</string>
+    <string name="support_developer">Toetage arendajat</string>
+    <string name="donate_description">Kui leiate, et see rakendus on kasulik, kaaluge arenduse toetamist väikese annetusega.</string>
+    <string name="scan_qr_code">Maksmiseks skannige QR-kood</string>
+    <string name="upi_qr_code">UPI QR-kood</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="copy">Kopeeri</string>
+    <string name="upi_id_copied">UPI ID on lõikelauale kopeeritud</string>
+    <string name="thank_you_message">Täname teid toetuse eest! ❤️</string>
+    <string name="pay_with_upi_app">Makske UPI rakendusega</string>
+    <string name="no_upi_apps_found">Teie seadmest ei leitud ühtegi UPI makserakendust</string>
+    <string name="payment_app_icon">Makserakenduse ikoon</string>
+    <string name="pay">Maksa</string>
+    <string name="cannot_open_payment_app">Makserakendust ei saa avada</string>
+    <string name="buy_me_a_coffee">Osta mulle kohvi</string>
+    <string name="support_buy_me_a_coffee">Ostke mulle kohvi tugi</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Avatud lähtekoodiga litsentsid</string>
+    <string name="source_code">Lähtekood</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s / %3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Versioon %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Minu rakendused</string>
+    <string name="no_favorite_apps">Lemmikrakendusi pole veel</string>
+    <string name="no_favorite_apps_hint">Puudutage mis tahes rakenduse südameikooni, et see siia lisada</string>
+    <string name="add_to_favorites">Lisa lemmikute hulka</string>
+    <string name="remove_from_favorites">Eemalda lemmikutest</string>
+    <string name="added_to_favorites">Lisatud lemmikute hulka</string>
+    <string name="removed_from_favorites">Lemmikutest eemaldatud</string>
+    <string name="favorite_apps">Lemmikrakendused</string>
+    <string name="no_installed_apps">Pole installitud rakendusi</string>
+    <string name="no_installed_apps_hint">Siin kuvatakse oma lemmikutest installitud rakendused</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Välimus</string>
+    <string name="theme_system">Süsteem</string>
+    <string name="theme_for_you">Sinu jaoks</string>
+    <string name="theme_dark">Tume</string>
+    <string name="theme_light">Valgus</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Seadete allalaadimine</string>
+    <string name="proxy">Puhverserver</string>
+    <string name="mirror_proxy_description">Riikide või piirkondade puhul, kus GitHub on blokeeritud, kasutage allalaadimiseks puhverserverit.</string>
+    <string name="enable_mirror_proxy">Luba peegli puhverserver</string>
+    <string name="proxy_url_hint">Puhverserveri URL (nt https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Populaarsed puhverserverid</string>
+    <string name="multi_part_download">Mitmeosaline allalaadimine</string>
+    <string name="multi_part_description">Kiirema kiiruse saavutamiseks laadige faile alla mitme ühenduse abil.</string>
+    <string name="enable_multi_part">Mitmeosalise allalaadimise lubamine</string>
+    <string name="download_threads">Laadige lõimed alla</string>
+    <string name="thread_count_hint">Kõrgemad väärtused võivad kiirendada, kuid kulutada rohkem ressursse (1–32)</string>
+    <string name="download_settings_info">Peegelpuhverserver muudab GitHub URL-id puhverserveri kaudu. Mitmeosaline allalaadimine jagab failid paralleelseks allalaadimiseks tükkideks.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Valige Versioon</string>
+    <string name="compatible">Ühilduv</string>
+    <string name="incompatible">Kokkusobimatu</string>
+    <string name="recommended">Soovitatav</string>
+    <string name="app_mismatch_title">Rakendus ei sobi?</string>
+    <string name="app_mismatch_message">RepoStore sobitas selle hoidla installitud rakendusega: %1$s (%2$s).\n\nIKui see EI OLE sama rakendus, saate APK sellest hoidlast siiski installida.</string>
+    <string name="install_anyway">Installi ikkagi</string>
+    <string name="forget_mapping">Unustage kaardistamine</string>
+    <string name="contributors">Kaastöölised</string>
+    <string name="no_apk_variants_available">APK variante pole saadaval</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Valitud</string>
+    <!-- Categories -->
+    <string name="cat_name_all">Kõik</string>
+    <string name="cat_name_ai_chat">AI vestlus</string>
+    <string name="cat_name_app_manager">Rakenduste haldur</string>
+    <string name="cat_name_app_store_updater">App Store &amp;amp; Updater</string>
+    <string name="cat_name_battery">Aku</string>
+    <string name="cat_name_bookmark">Järjehoidja</string>
+    <string name="cat_name_browser">Brauser</string>
+    <string name="cat_name_calculator">Kalkulaator</string>
+    <string name="cat_name_calendar_agenda">Kalender ja päevakava</string>
+    <string name="cat_name_clock">Kell</string>
+    <string name="cat_name_cloud_storage">Pilvesalvestus ja failide sünkroonimine</string>
+    <string name="cat_name_connectivity">Ühenduvus</string>
+    <string name="cat_name_contact">Võtke ühendust</string>
+    <string name="cat_name_development">Areng</string>
+    <string name="cat_name_dns_hosts">DNS ja hostid</string>
+    <string name="cat_name_draw">Joonista</string>
+    <string name="cat_name_ebook_reader">E-raamatute lugeja</string>
+    <string name="cat_name_email">Meil</string>
+    <string name="cat_name_file_encryption">Failide krüpteerimine ja hoiuruum</string>
+    <string name="cat_name_file_transfer">Failiedastus</string>
+    <string name="cat_name_firewall">Tulemüür</string>
+    <string name="cat_name_finance_manager">Finantsjuht</string>
+    <string name="cat_name_flashlight">Taskulamp</string>
+    <string name="cat_name_forum">Foorum</string>
+    <string name="cat_name_gallery">Galerii</string>
+    <string name="cat_name_games">Mängud</string>
+    <string name="cat_name_graphics">Graafika</string>
+    <string name="cat_name_habit_tracker">Harjumuste jälgija</string>
+    <string name="cat_name_icon_pack">Ikoonide pakett</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Inventuur</string>
+    <string name="cat_name_keyboard_ime">Klaviatuur ja IME</string>
+    <string name="cat_name_launcher">Käivitaja</string>
+    <string name="cat_name_local_media_player">Kohalik meediamängija</string>
+    <string name="cat_name_location_tracker">Asukoha jälgija ja jagaja</string>
+    <string name="cat_name_messaging">Sõnumid</string>
+    <string name="cat_name_money">Raha</string>
+    <string name="cat_name_multimedia">Multimeedia</string>
+    <string name="cat_name_music_audio">Muusika ja heli</string>
+    <string name="cat_name_video_players">Videopleierid</string>
+    <string name="cat_name_music_practice">Muusika harjutamise tööriist</string>
+    <string name="cat_name_navigation">Navigeerimine</string>
+    <string name="cat_name_network_analyzer">Võrguanalüsaator</string>
+    <string name="cat_name_news">Uudised</string>
+    <string name="cat_name_note">Märkus</string>
+    <string name="cat_name_online_media_player">Online Media Player</string>
+    <string name="cat_name_pass_wallet">Pass Wallet</string>
+    <string name="cat_name_fa">Parool ja 2FA</string>
+    <string name="cat_name_phone_sms">Telefon ja SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Ühistransport</string>
+    <string name="cat_name_radio">Raadio</string>
+    <string name="cat_name_reading">Lugemine</string>
+    <string name="cat_name_recipe_manager">Retseptihaldur</string>
+    <string name="cat_name_remote_controller">Kaugjuhtimispult</string>
+    <string name="cat_name_science_education">Teadus ja haridus</string>
+    <string name="cat_name_security">Turvalisus</string>
+    <string name="cat_name_shopping_list">Ostunimekiri</string>
+    <string name="cat_name_social_network">Sotsiaalne võrgustik</string>
+    <string name="cat_name_sports_health">Sport ja tervis</string>
+    <string name="cat_name_streaming_app">Voogesitusrakendus</string>
+    <string name="cat_name_system">Süsteem</string>
+    <string name="cat_name_task">Ülesanne</string>
+    <string name="cat_name_text_editor">Tekstiredaktor</string>
+    <string name="cat_name_theming">Theming</string>
+    <string name="cat_name_time">Aeg</string>
+    <string name="cat_name_tools">Tööriistad</string>
+    <string name="cat_name_translation_dictionary">Tõlge ja sõnaraamat</string>
+    <string name="cat_name_unit_convertor">Ühiku teisendaja</string>
+    <string name="cat_name_voice_video_chat">Hääl- ja videovestlus</string>
+    <string name="cat_name_vpn">VPN ja puhverserver</string>
+    <string name="cat_name_wallet">Rahakott</string>
+    <string name="cat_name_wallpaper">Tapeet</string>
+    <string name="cat_name_weather">Ilm</string>
+    <string name="cat_name_workout">Treening</string>
+    <string name="cat_name_writing">Kirjutamine</string>
+    <string name="cat_name_productivity">Tootlikkus</string>
+    <string name="cat_name_open_source">Avatud lähtekoodiga</string>
+    <string name="cat_name_trending">Trendikas</string></resources>

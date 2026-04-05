@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Uta</string>
+    <string name="games">Anatañanaka</string>
+    <string name="apps">Apps ukanak uñt’ayaña</string>
+    <string name="trending">Tendencia ukat juk’ampinaka</string>
+    <string name="search">Thaqhata</string>
+    <string name="profile">Pirfila</string>
+    <string name="back">Qhipa</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Apps &amp;amp; anatt’awinaka thaqhaña</string>
+    <string name="search_github_repos">GitHub ukan imañ utanakap thaqhaña...</string>
+    <string name="search_hint">Android apps ukanak GitHub ukan thaqhapxam</string>
+    <string name="no_results">Janiw kuna askis jikxataskiti</string>
+    <string name="clear">Qhana</string>
+    <string name="voice_search">Aru thaqhaña</string>
+    <string name="filter">Filtro ukaxa mä juk’a pachanakwa lurasi</string>
+    <string name="sort_by">Ukhamatwa uñakipt’añama</string>
+    <string name="updated">Jichha pacha</string>
+    <string name="has_apk">Ukax APK</string>
+    <string name="reset">Ukax mä juk’a pachanakanwa</string>
+    <string name="results_count">%d ukax mä juk’a pachanakanwa</string>
+    <string name="any_language">Kuna arusa</string>
+    <string name="any_stars">Kuna warawaranakas utji</string>
+    <string name="min_stars_format">%d+ warawaranaka</string>
+    <string name="best_match">Suma Uñt’ayawi</string>
+    <string name="most_stars">Jilapart Warawaranaka</string>
+    <string name="most_forks">Jilapart Tenedoranaka</string>
+    <string name="recently_updated_sort">Jichhakiw Uñakipt’ata</string>
+    <string name="any_time">Kuna pachasa</string>
+    <string name="last_week">Qhipa semananxa</string>
+    <string name="last_month">Qhipa phaxsinxa</string>
+    <string name="last_3_months">Qhipa 3 phaxsinakawa</string>
+    <string name="last_year">Nayra maraxa</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Jumatakiw iwxt’ata</string>
+    <string name="top_free_apps">Top gratis ukax apps ukanakaw utji</string>
+    <string name="recently_updated">Jichhakiw machaqar tukuyata</string>
+    <string name="see_more">Juk’amp uñjañäni</string>
+    <string name="all_categories">Taqi Categorías ukanaka</string>
+    <string name="more">Juk\'ampi</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Uñacht’ayat Anatañanak</string>
+    <string name="popular_games">Wali uñt’at Anatañanak</string>
+    <string name="new_games">Machaq Anatañanak</string>
+    <string name="no_games_found">Janiw kuna anatt’añanakas jikxataskänti</string>
+
+    <!-- App Details -->
+    <string name="app_icon">App ukax mä icono ukhamawa</string>
+    <string name="banner">Bandera ukax mä jach’a uñacht’äwiwa</string>
+    <string name="about">Ukxata</string>
+    <string name="about_this_app">Aka app tuqitxa</string>
+    <string name="screenshots">Pantalla uñacht’awinaka</string>
+    <string name="screenshot">Pantalla uñacht’ayaña</string>
+    <string name="stars">Warawaranaka</string>
+    <string name="forks">Tenedoranaka</string>
+    <string name="language">Aru</string>
+    <string name="last_updated">Qhipa uñakipata</string>
+    <string name="updated_on">Ukax mä juk’a pachanakanwa</string>
+    <string name="latest_release">Qhipa Uñt’ayawi</string>
+    <string name="whats_new">Kunas\'s machaq</string>
+    <string name="readme">UÑT’AYAÑATAKI</string>
+    <string name="download">Apaqaña</string>
+    <string name="install">Uchaña</string>
+    <string name="download_apk">APK ukar apkatañamawa</string>
+    <string name="view_release">Uñxatt’añataki Liberación</string>
+    <string name="view_on_github">GitHub ukan uñakipt’aña</string>
+    <string name="github">GitHub ukax mä juk’a pachanakanwa</string>
+    <string name="no_description">Janiw mä qhanañchäwix utjkiti</string>
+    <string name="no_release_notes">Janiw kuna notas de liberación ukanakas utjkiti</string>
+    <string name="archived">Archivat uñt’ayata</string>
+
+    <!-- Tags -->
+    <string name="tag_new">MACHAQA</string>
+    <string name="tag_updated">UÑT’AYAÑATAKI</string>
+    <string name="tag_archived">ARCHIVADO UKHAMARAKI</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Janiw kuna apps ukanakas jikxataskiti</string>
+    <string name="no_repos_found">Janiw kuna imañ utanakas jikxataskiti</string>
+    <string name="rate_limit_error">Límite de tasa ukax jilxattawayiwa. Mä juk’a pachatxa mayampi yant’apxañani.</string>
+    <string name="network_error">Red ukan pantjasiwipa. Ukhamaraki, uka conexión uñakipt’añamawa.</string>
+    <string name="tap_to_retry">Ukat wasitat yantʼañatakejj chʼetjjtayañamawa</string>
+    <string name="loading">Ukax mä...</string>
+
+    <!-- Developer -->
+    <string name="repositories">Uka imañ utanaka</string>
+    <string name="repositories_count">%d ukax imañ utanakawa</string>
+    <string name="view_github_profile">Uñxatt’añataki GitHub Perfil</string>
+
+    <!-- Settings -->
+    <string name="settings">Ukax mä juk’a pachanakanwa</string>
+    <string name="github_token">GitHub Token de Acceso Personal ukax mä jach’a uñacht’äwiwa</string>
+    <string name="github_token_desc">Mä token yapxataña, API tasa límite 60 ukat 5000 mayiwinak sapa hora jilxatayañataki.</string>
+    <string name="enter_token">Uka GitHub token ukar mantañamawa</string>
+    <string name="save_token">Token ukax qhispiyatawa</string>
+    <string name="clear_token">Qhana Token ukax mä juk’a pachanakanwa</string>
+    <string name="create_token_on_github">GitHub ukan Token luraña</string>
+    <string name="token_saved">Token ukax wali suma qhispiyatawa</string>
+    <string name="token_removed">Token ukax apsutawa</string>
+    <string name="rate_limit_info_title">API Tasa Límite ukax mä juk’a pachanakanwa</string>
+    <string name="rate_limit_info_desc">Jani chimpumpi: 60 mayiwi/hora\nMä chimpumpi: 5.000 mayiwi/hora</string>
+    <string name="how_to_create_token">Kunjamas mä token luraña:</string>
+    <string name="token_instructions">1. GitHub Uñakipaña → Desarrollador uñakipaña\n2. \"Personal acceso tokens\" → \"Tokens (clásicos)\"\n3 ukxaru ch’iqt’aña. \"Machaq token luraña\"\n4 ukxaru ch\'iqt\'aña. Mä suti churañamawa ukatxa \"public_repo\" scope\n5 ukxa ajlliñamawa. \"Generate token\" ukxaru ch\'iqt\'aña ukatxa copiaña</string>
+    <string name="no_token_set">Janiw token set ukax utjkiti</string>
+    <string name="token_configured">Token ukax wakicht’atawa</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Uñstayiri</string>
+    <string name="followers">Arkirinaka</string>
+    <string name="following">Ukxaru</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Ukax mä...</string>
+    <string name="downloading_apk">APK ukar apkatañataki</string>
+    <string name="download_complete">Descargar ukax tukuyatawa</string>
+    <string name="download_in_progress">Descarga ukax niyaw lurasiski</string>
+    <string name="file_not_found">Archivo apkatat janiw jikxataskiti</string>
+    <string name="install_error">Janiw instalador jist’arañjamakiti</string>
+    <string name="installing">Instalación ukax...</string>
+    <string name="open">Jist\'arata</string>
+    <string name="cannot_open_app">Janiw app jist’arañjamakiti</string>
+    <string name="queued">Fila ukanx...</string>
+    <string name="preparing">Wakichaña...</string>
+    <string name="verifying">Uñakipt’añataki...</string>
+    <string name="storage_error">Almacenamiento pantjasiwix utjawayi</string>
+    <string name="insufficient_storage">Janiw mä chiqax imañatakix wakiskiti</string>
+    <string name="verification_failed">Archivo chiqanchawipax janiw phuqhaskiti</string>
+    <string name="download_timeout">Descargar tiempojj tukusjjewa</string>
+    <string name="retry">Wasitat yantʼañamawa</string>
+    <string name="cancel">Kansilaña</string>
+    <string name="update">Jichhakiptayaña</string>
+    <string name="update_available">Update ukax utjiwa</string>
+    <string name="uninstall">Ukax mä juk’a pachanakanwa</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">GitHub ukampiw mantasma</string>
+    <string name="sign_in_to_increase_limit">API tasa límite ukar jilxatayañatakiw mantasma</string>
+    <string name="connecting_to_github">GitHub ukampi chikt’ata...</string>
+    <string name="enter_code_on_github">Aka codigox GitHub ukan qillqt’atawa</string>
+    <string name="code_instructions">GitHub ukax navegador ukan jist’aratawa ukatx aka amparamp qillqt’at código ukar mantañamawa</string>
+    <string name="copy_code">Código Copiar ukax mä juk’a pachanakanwa</string>
+    <string name="code_copied">Código ukax portapapeles ukar copiatawa</string>
+    <string name="open_github">Jisk’a GitHub</string>
+    <string name="waiting_for_authorization">Autorización suyt’aña...</string>
+    <string name="signed_in_successfully">¡Sumakiw qillqt’asiwayta!</string>
+    <string name="signed_in">Ukax qillqt’atawa</string>
+    <string name="signed_in_as">Ukax %s ukham qillqt’atawa</string>
+    <string name="rate_limit_increased">API tarifa límite ukax 5.000 mayiwinak/hora ukar jilxattawayi</string>
+    <string name="sign_out">Uñt’ayasiñataki</string>
+    <string name="signed_out">Ukax firmatäxiwa</string>
+    <string name="failed_to_get_code">Janiw código de autorización ukax utjkiti</string>
+    <string name="auth_expired">Autorización ukax tukusxiwa. Ukhamaraki, mayampi yant’apxañani.</string>
+    <string name="unknown_error">Jan uñt’at pantjasiwiw utjawayi</string>
+    <string name="something_went_wrong">Kunas jan waliruw puriwayi</string>
+    <string name="user">@Usuario ukax mä juk’a pachanakanwa</string>
+    <string name="rate_limit_exceeded_title">Límite de Tasa ukax juk’ampiwa</string>
+    <string name="rate_limit_exceeded_message">Jumax\'e GitHub API tarifa límite (60 mayiwi/hora) ukat sipanx juk’ampiwa.\n\nGitHub ukampiw mantam, ukhamat 5.000 mayiwi/hora inakiw límite ukar jilxatayañataki!</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve ukax límite de tarifa autenticado ukat sipanx juk’ampiwa (5.000 mayiwinaka/hora). Mä qawqha minutonak suyt’añamawa, janïr mayamp yant’kasa.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Khuyapayaña</string>
+    <string name="support_developer">Desarrollador ukar yanapt’aña</string>
+    <string name="donate_description">Aka app ukax askïspa ukhax mä jisk’a qullqimp desarrollo ukar yanapt’añ amtañamawa.</string>
+    <string name="scan_qr_code">Código QR ukar escanear Payllañataki</string>
+    <string name="upi_qr_code">UPI QR Código</string>
+    <string name="upi_id">UPI ukax mä ID ukhamawa</string>
+    <string name="copy">Copia luraña</string>
+    <string name="upi_id_copied">UPI ID ukax portapapeles ukar copiatawa</string>
+    <string name="thank_you_message">¡Yanapt\'apxatamat yuspajarapxsma! ❤️</string>
+    <string name="pay_with_upi_app">UPI App ukampiw payllañax wakisi</string>
+    <string name="no_upi_apps_found">Janiw UPI payllañ apps ukanakax dispositivo ukan jikxataskiti</string>
+    <string name="payment_app_icon">Payllawi app ukax mä icono ukhamawa</string>
+    <string name="pay">Payllaña</string>
+    <string name="cannot_open_payment_app">Janiw payllañ app jist’arañjamakiti</string>
+    <string name="buy_me_a_coffee">Nayatakix Mä Café Alasipxam</string>
+    <string name="support_buy_me_a_coffee">Buy Me A Coffee ukan yanapt’awipa</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Licencias de Fuente Abierta ukanaka</string>
+    <string name="source_code">Código Fuente</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s) ukax mä juk’a pachanakanwa.</string>
+    <string name="download_starting">0%% ukax mä juk’a pachanakanwa</string>
+    <string name="page_indicator">Ukax mä juk’a pachanakanwa %1$d %2$d</string>
+    <string name="version_format">Versión %s ukax mä juk’a pachanakanwa</string>
+    <string name="username_format">@%s ukax mä juk’a pachanakanwa</string>
+    <string name="error_with_retry">%1$s\n\n%2$s ukat juk’ampinaka</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Nayan Apps ukanakaja</string>
+    <string name="no_favorite_apps">Janiw kuna apps favoritos ukanakas utjkiti</string>
+    <string name="no_favorite_apps_hint">Kawkïr app ukan chuyma chimpupar ch’iqt’am aka chiqan yapxatañataki</string>
+    <string name="add_to_favorites">Favoritos ukar yapxataña</string>
+    <string name="remove_from_favorites">Favoritos ukanakat apsuña</string>
+    <string name="added_to_favorites">Favoritos ukar yapxatatawa</string>
+    <string name="removed_from_favorites">Favoritos ukanakat apsutawa</string>
+    <string name="favorite_apps">Favorito Apps ukax mä jach’a uñacht’äwiwa</string>
+    <string name="no_installed_apps">Janiw kuna apps ukanakas instalatäkiti</string>
+    <string name="no_installed_apps_hint">Apps ukanakax munat ukanakat instalat ukanakax akan uñstani</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Aparinsya</string>
+    <string name="theme_system">Sistima</string>
+    <string name="theme_for_you">Jumataki</string>
+    <string name="theme_dark">Ch\'amaka</string>
+    <string name="theme_light">Qhana</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Uñakipt’añataki Configuración</string>
+    <string name="proxy">Proxy ukax mä juk’a pachanakanwa</string>
+    <string name="mirror_proxy_description">Markanakataki jan ukax suyunakataki kawkhantix GitHub jark’atäki ukatakix mä proxy apnaqañaw apkatañataki.</string>
+    <string name="enable_mirror_proxy">Proxy Espejo ukar ch’amanchaña</string>
+    <string name="proxy_url_hint">URL proxy (jan ukax, https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Uñt’at Proxies ukanaka</string>
+    <string name="multi_part_download">Walja chiqanakan apkataña</string>
+    <string name="multi_part_description">Walja conexiones apnaqasa archivonakax juk’amp jank’ak apsuñataki.</string>
+    <string name="enable_multi_part">Walja chiqanakan apsuñax ch’amanchatawa</string>
+    <string name="download_threads">Ukax Threads ukanakaw utji</string>
+    <string name="thread_count_hint">Jach’a valores ukanakax jank’akiw juk’amp sumaptaspa ukampis juk’amp yänak apnaqañapawa (1-32) .</string>
+    <string name="download_settings_info">Mirror proxy ukax GitHub URLs ukarux mä proxy servidor tuqiw mayjt’ayi. Walja chiqanakan apkatañax archivonakax chimpunakaruw jaljasi paralelo apkatañataki.</string>
+    <string name="download_speed_format">%s/s ukax mä juk’a pachanakanwa</string>
+    <string name="select_variant">Versión ukar ajlliñamawa</string>
+    <string name="compatible">Kikipt\'iri</string>
+    <string name="incompatible">Jan walt’ayata</string>
+    <string name="recommended">Amuyt\'ayata</string>
+    <string name="app_mismatch_title">App ukax jan walt’ayatawa?</string>
+    <string name="app_mismatch_message">RepoStore ukax aka imañ utarux mä instalat app ukamp chikancht’asi: %1$s (%2$s).\n\nUkax JANIW pachpa app ukhamäkchi ukhax APK ukax aka imañ utatx kunjamakitix ukhamakiw uskt’añax wakisispa.</string>
+    <string name="install_anyway">Instalación Kunjamakitix</string>
+    <string name="forget_mapping">Mapeo lurañat armasim</string>
+    <string name="contributors">Yanapt’irinaka</string>
+    <string name="no_apk_variants_available">Janiw APK variantes ukanakax utjkiti</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Ajllitanaka</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Taqini</string>
+    <string name="cat_name_ai_chat">AI Chat ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_app_manager">App Manager ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_app_store_updater">App Store &amp; Updater ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_battery">Watiriya</string>
+    <string name="cat_name_bookmark">Ukax mä chimpuwa</string>
+    <string name="cat_name_browser">Navegador ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_calculator">Calculadora ukaxa mä juk’a pachanakwa lurasi</string>
+    <string name="cat_name_calendar_agenda">Calendario &amp; Agenda ukat juk’ampinaka</string>
+    <string name="cat_name_clock">Riluju</string>
+    <string name="cat_name_cloud_storage">Cloud Almacenamiento &amp; Archivo Sincronización</string>
+    <string name="cat_name_connectivity">Conectividad ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_contact">Kuntaktu</string>
+    <string name="cat_name_development">Sartawi</string>
+    <string name="cat_name_dns_hosts">DNS &amp; Hosts ukanak uñt’ayaña</string>
+    <string name="cat_name_draw">Jamuqaña</string>
+    <string name="cat_name_ebook_reader">Ebook Uñakipiri</string>
+    <string name="cat_name_email">Correo electrónico tuqi</string>
+    <string name="cat_name_file_encryption">Archivo Encriptación &amp; Bóveda ukampi</string>
+    <string name="cat_name_file_transfer">Archivo Transferencia ukaxa</string>
+    <string name="cat_name_firewall">Firewall ukax mä jach’a uñacht’äwiwa</string>
+    <string name="cat_name_finance_manager">Qullqi tuqit irpiri</string>
+    <string name="cat_name_flashlight">Linterna ukat linterna</string>
+    <string name="cat_name_forum">Foro ukax mä jach’a tantachäwiwa</string>
+    <string name="cat_name_gallery">Galería ukan uñacht’ayata</string>
+    <string name="cat_name_games">Anatañanaka</string>
+    <string name="cat_name_graphics">Gráficos ukanaka</string>
+    <string name="cat_name_habit_tracker">Habitos Tracker ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_icon_pack">Icon Pack ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_internet">Internet tuqi</string>
+    <string name="cat_name_inventory">Katuyawi</string>
+    <string name="cat_name_keyboard_ime">Teclado &amp; IME ukat juk’ampinaka</string>
+    <string name="cat_name_launcher">Lanzador ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_local_media_player">Local Media Player ukax mä jach’a uñacht’äwiwa</string>
+    <string name="cat_name_location_tracker">Ukax Tracker &amp; Sharer ukankiwa</string>
+    <string name="cat_name_messaging">Yatiyawinak yatiyaña</string>
+    <string name="cat_name_money">Qulli</string>
+    <string name="cat_name_multimedia">Multimedia ukaxa mä juk’a pachanakwa lurasi</string>
+    <string name="cat_name_music_audio">Musica &amp; Audio ukanak uñt’ayaña</string>
+    <string name="cat_name_video_players">Video Reproductoranaka</string>
+    <string name="cat_name_music_practice">Musica tuqit Yatxatañataki Herramienta</string>
+    <string name="cat_name_navigation">Navegación ukax wali askiwa</string>
+    <string name="cat_name_network_analyzer">Red Analizador ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_news">Yatiyawinaka</string>
+    <string name="cat_name_note">Qillqata</string>
+    <string name="cat_name_online_media_player">Reproductor de Medios de Comunicación en Línea ukax mä jach’a uñacht’äwiwa</string>
+    <string name="cat_name_pass_wallet">Pasaje Wallet ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_fa">Contraseña &amp; 2FA ​​ukampi</string>
+    <string name="cat_name_phone_sms">Teléfono &amp; SMS ukanak uñt’ayaña</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Transporte Público ukaxa</string>
+    <string name="cat_name_radio">Radio tuqi</string>
+    <string name="cat_name_reading">Ullaña</string>
+    <string name="cat_name_recipe_manager">Receta apnaqiri</string>
+    <string name="cat_name_remote_controller">Jayankir Controlador ukaxa</string>
+    <string name="cat_name_science_education">Ciencia &amp; Educación ukanak uñt’ayaña</string>
+    <string name="cat_name_security">Jark\'aqawi</string>
+    <string name="cat_name_shopping_list">Aljasiñ Lista</string>
+    <string name="cat_name_social_network">Red Social ukax mä jach’a uñacht’äwiwa</string>
+    <string name="cat_name_sports_health">Deportes &amp; K’umar jakañ tuqita</string>
+    <string name="cat_name_streaming_app">Streaming ukax mä App</string>
+    <string name="cat_name_system">Sistima</string>
+    <string name="cat_name_task">Tariya</string>
+    <string name="cat_name_text_editor">Texto Editor ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_theming">Tema uñt’ayaña</string>
+    <string name="cat_name_time">Pacha</string>
+    <string name="cat_name_tools">Iraminta</string>
+    <string name="cat_name_translation_dictionary">Jaqukipaña &amp; Diccionario</string>
+    <string name="cat_name_unit_convertor">Unidad Jaqukipaña</string>
+    <string name="cat_name_voice_video_chat">Voz &amp; Video Chat ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_vpn">VPN &amp; Proxy ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_wallet">Willitira</string>
+    <string name="cat_name_wallpaper">Wallpaper ukax mä juk’a pachanakanwa</string>
+    <string name="cat_name_weather">Pacha</string>
+    <string name="cat_name_workout">Wakiyaña</string>
+    <string name="cat_name_writing">Qillqa</string>
+    <string name="cat_name_productivity">Productividad uka tuqita</string>
+    <string name="cat_name_open_source">Jisk’a jamuqanaka</string>
+    <string name="cat_name_trending">Tendencia ukat juk’ampinaka</string>
+</resources>

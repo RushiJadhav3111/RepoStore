@@ -1,0 +1,336 @@
+<resources>
+    <string name="app_name">Duka la Repo</string>
+
+    <!-- Navigation -->
+    <string name="home">Nyumbani</string>
+    <string name="games">Michezo</string>
+    <string name="apps">Programu</string>
+    <string name="trending">Zinazovuma</string>
+    <string name="search">Tafuta</string>
+    <string name="profile">Wasifu</string>
+    <string name="back">Nyuma</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Tafuta programu na michezo</string>
+    <string name="search_github_repos">Tafuta hazina za GitHub...</string>
+    <string name="search_hint">Tafuta programu za Android kwenye GitHub</string>
+    <string name="no_results">Hakuna matokeo yaliyopatikana</string>
+    <string name="clear">Wazi</string>
+    <string name="voice_search">Tafuta kwa sauti</string>
+    <string name="filter">Chuja</string>
+    <string name="sort_by">Panga kwa</string>
+    <string name="updated">Imesasishwa</string>
+    <string name="has_apk">Ina APK</string>
+    <string name="reset">Weka upya</string>
+    <string name="results_count">__%d matokeo</string>
+    <string name="any_language">Lugha yoyote</string>
+    <string name="any_stars">Nyota zozote</string>
+    <string name="min_stars_format">%d + nyota</string>
+    <string name="best_match">Mechi Bora</string>
+    <string name="most_stars">Nyota nyingi</string>
+    <string name="most_forks">Uma nyingi</string>
+    <string name="recently_updated_sort">Iliyosasishwa Hivi Karibuni</string>
+    <string name="any_time">Wakati wowote</string>
+    <string name="last_week">Wiki iliyopita</string>
+    <string name="last_month">Mwezi uliopita</string>
+    <string name="last_3_months">Miezi 3 iliyopita</string>
+    <string name="last_year">Mwaka jana</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Imependekezwa kwa ajili yako</string>
+    <string name="top_free_apps">Programu maarufu zisizolipishwa</string>
+    <string name="recently_updated">Imesasishwa hivi majuzi</string>
+    <string name="see_more">Tazama zaidi</string>
+    <string name="all_categories">Kategoria Zote</string>
+    <string name="more">Zaidi</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Michezo Iliyoangaziwa</string>
+    <string name="popular_games">Michezo Maarufu</string>
+    <string name="new_games">Michezo Mpya</string>
+    <string name="no_games_found">Hakuna michezo iliyopatikana</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Aikoni ya programu</string>
+    <string name="banner">Bango</string>
+    <string name="about">Kuhusu</string>
+    <string name="about_this_app">Kuhusu programu hii</string>
+    <string name="screenshots">Picha za skrini</string>
+    <string name="screenshot">Picha ya skrini</string>
+    <string name="stars">Nyota</string>
+    <string name="forks">Uma</string>
+    <string name="language">Lugha</string>
+    <string name="last_updated">Ilisasishwa mwisho</string>
+    <string name="updated_on">Ilisasishwa</string>
+    <string name="latest_release">Toleo la Hivi Punde</string>
+    <string name="whats_new">Nini kipya</string>
+    <string name="readme">SOMA</string>
+    <string name="download">Pakua</string>
+    <string name="install">Sakinisha</string>
+    <string name="download_apk">Pakua APK</string>
+    <string name="view_release">Tazama Toleo</string>
+    <string name="view_on_github">Tazama kwenye GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Hakuna maelezo yanayopatikana</string>
+    <string name="no_release_notes">Hakuna maelezo kuhusu toleo</string>
+    <string name="archived">Imehifadhiwa</string>
+
+    <!-- Tags -->
+    <string name="tag_new">MPYA</string>
+    <string name="tag_updated">IMESASISHA</string>
+    <string name="tag_archived">IMEWEKA NDANI</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Hakuna programu zilizopatikana</string>
+    <string name="no_repos_found">Hakuna hazina zilizopatikana</string>
+    <string name="rate_limit_error">Kiwango cha juu cha bei kimepitwa. Tafadhali jaribu tena baadaye.</string>
+    <string name="network_error">Hitilafu ya mtandao. Tafadhali angalia muunganisho wako.</string>
+    <string name="tap_to_retry">Gusa ili kujaribu tena</string>
+    <string name="loading">Inapakia...</string>
+
+    <!-- Developer -->
+    <string name="repositories">hazina</string>
+    <string name="repositories_count">%d hazina</string>
+    <string name="view_github_profile">Tazama Wasifu wa GitHub</string>
+
+    <!-- Settings -->
+    <string name="settings">Mipangilio</string>
+    <string name="github_token">Ishara ya Ufikiaji wa Kibinafsi ya GitHub</string>
+    <string name="github_token_desc">Ongeza tokeni ili kuongeza kikomo cha kiwango cha API kutoka maombi 60 hadi 5000 kwa saa.</string>
+    <string name="enter_token">Ingiza tokeni yako ya GitHub</string>
+    <string name="save_token">Hifadhi Tokeni</string>
+    <string name="clear_token">Tokeni wazi</string>
+    <string name="create_token_on_github">Unda Tokeni kwenye GitHub</string>
+    <string name="token_saved">Ishara imehifadhiwa</string>
+    <string name="token_removed">Ishara imeondolewa</string>
+    <string name="rate_limit_info_title">Kikomo cha Kiwango cha API</string>
+    <string name="rate_limit_info_desc">Bila tokeni: maombi 60/saa 
+ Na ishara: maombi 5,000/saa</string>
+    <string name="how_to_create_token">Jinsi ya kuunda ishara:</string>
+    <string name="token_instructions">1. Nenda kwenye Mipangilio ya GitHub → Mipangilio ya Msanidi 
+ 2. Bofya "Tokeni za ufikiaji wa kibinafsi" → "Tokeni (za kawaida)" 
+ 3. Bofya "Zalisha tokeni mpya" 
+ 4. Ipe jina na uchague upeo wa "public_repo" 
+ 5. Bofya" na uinakili tokeni</string>
+    <string name="no_token_set">Hakuna ishara iliyowekwa</string>
+    <string name="token_configured">Tokeni imesanidiwa</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Msanidi</string>
+    <string name="followers">Wafuasi</string>
+    <string name="following">Kufuatia</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Inapakua...</string>
+    <string name="downloading_apk">Inapakua APK</string>
+    <string name="download_complete">Upakuaji umekamilika</string>
+    <string name="download_in_progress">Upakuaji tayari unaendelea</string>
+    <string name="file_not_found">Faili iliyopakuliwa haijapatikana</string>
+    <string name="install_error">Haikuweza kufungua kisakinishi</string>
+    <string name="installing">Inasakinisha...</string>
+    <string name="open">Fungua</string>
+    <string name="cannot_open_app">Haiwezi kufungua programu</string>
+    <string name="queued">Imewekwa kwenye foleni...</string>
+    <string name="preparing">Inatayarisha...</string>
+    <string name="verifying">Inathibitisha...</string>
+    <string name="storage_error">Hitilafu ya hifadhi imetokea</string>
+    <string name="insufficient_storage">Hakuna nafasi ya kutosha ya kuhifadhi</string>
+    <string name="verification_failed">Uthibitishaji wa faili haukufaulu</string>
+    <string name="download_timeout">Upakuaji umekwisha</string>
+    <string name="retry">Jaribu tena</string>
+    <string name="cancel">Ghairi</string>
+    <string name="update">Sasisha</string>
+    <string name="update_available">Sasisho linapatikana</string>
+    <string name="uninstall">Sanidua</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Ingia ukitumia GitHub</string>
+    <string name="sign_in_to_increase_limit">Ingia ili kuongeza kiwango cha juu cha API</string>
+    <string name="connecting_to_github">Inaunganisha kwa GitHub...</string>
+    <string name="enter_code_on_github">Weka nambari hii kwenye GitHub</string>
+    <string name="code_instructions">Fungua GitHub kwenye kivinjari chako na uweke msimbo ulio hapa chini ili uingie</string>
+    <string name="copy_code">Nakili Kanuni</string>
+    <string name="code_copied">Msimbo umenakiliwa kwenye ubao wa kunakili</string>
+    <string name="open_github">Fungua GitHub</string>
+    <string name="waiting_for_authorization">Inasubiri idhini...</string>
+    <string name="signed_in_successfully">Umeingia katika akaunti!</string>
+    <string name="signed_in">Umeingia</string>
+    <string name="signed_in_as">Umeingia kama %s</string>
+    <string name="rate_limit_increased">Kiwango cha juu cha kiwango cha API kiliongezeka hadi maombi 5,000 kwa saa</string>
+    <string name="sign_out">Ondoka</string>
+    <string name="signed_out">Umeondoka</string>
+    <string name="failed_to_get_code">Imeshindwa kupata msimbo wa uidhinishaji</string>
+    <string name="auth_expired">Uidhinishaji umekwisha. Tafadhali jaribu tena.</string>
+    <string name="unknown_error">Hitilafu isiyojulikana imetokea</string>
+    <string name="something_went_wrong">Hitilafu fulani imetokea</string>
+    <string name="user">Mtumiaji @</string>
+    <string name="rate_limit_exceeded_title">Kiwango Kikomo Kimezidi</string>
+    <string name="rate_limit_exceeded_message">Umevuka kiwango cha juu cha kiwango cha API ya GitHub (maombi 60/saa). 
+ 
+ Ingia ukitumia GitHub ili kuongeza kikomo chako hadi maombi 5,000/saa bila malipo!</string>
+    <string name="rate_limit_exceeded_signed_in">Umezidisha kiwango cha juu kilichoidhinishwa (maombi 5,000 kwa saa). Tafadhali subiri dakika chache kabla ya kujaribu tena.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Changia</string>
+    <string name="support_developer">Saidia Msanidi Programu</string>
+    <string name="donate_description">Ukiona programu hii ni muhimu, zingatia kusaidia maendeleo kwa mchango mdogo.</string>
+    <string name="scan_qr_code">Changanua Msimbo wa QR ili Kulipa</string>
+    <string name="upi_qr_code">Msimbo wa QR wa UPI</string>
+    <string name="upi_id">Kitambulisho cha UPI</string>
+    <string name="copy">Nakili</string>
+    <string name="upi_id_copied">Kitambulisho cha UPI kimenakiliwa kwenye ubao wa kunakili</string>
+    <string name="thank_you_message">Asante kwa msaada wako! ❤️</string>
+    <string name="pay_with_upi_app">Lipa ukitumia Programu ya UPI</string>
+    <string name="no_upi_apps_found">Hakuna programu za malipo za UPI zilizopatikana kwenye kifaa chako</string>
+    <string name="payment_app_icon">Aikoni ya programu ya malipo</string>
+    <string name="pay">Lipa</string>
+    <string name="cannot_open_payment_app">Haiwezi kufungua programu ya malipo</string>
+    <string name="buy_me_a_coffee">Ninunulie Kahawa</string>
+    <string name="support_buy_me_a_coffee">Msaada juu ya Ninunue Kahawa</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Leseni za Chanzo Huria</string>
+    <string name="source_code">Msimbo wa Chanzo</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s ( %2$s / %3$s )</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Toleo %s</string>
+    <string name="username_format">@ %s</string>
+    <string name="error_with_retry">%1$s 
+ 
+ %2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Programu Zangu</string>
+    <string name="no_favorite_apps">Bado hakuna programu uzipendazo</string>
+    <string name="no_favorite_apps_hint">Gusa aikoni ya moyo kwenye programu yoyote ili kuiongeza hapa</string>
+    <string name="add_to_favorites">Ongeza kwa vipendwa</string>
+    <string name="remove_from_favorites">Ondoa kutoka kwa vipendwa</string>
+    <string name="added_to_favorites">Imeongezwa kwa vipendwa</string>
+    <string name="removed_from_favorites">Imeondolewa kwenye vipendwa</string>
+    <string name="favorite_apps">Programu Unazozipenda</string>
+    <string name="no_installed_apps">Hakuna programu zilizosakinishwa</string>
+    <string name="no_installed_apps_hint">Programu unazosakinisha kutoka kwa vipendwa vyako vitaonekana hapa</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Muonekano</string>
+    <string name="theme_system">Mfumo</string>
+    <string name="theme_for_you">Kwa ajili yako</string>
+    <string name="theme_dark">Giza</string>
+    <string name="theme_light">Mwanga</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Pakua Mipangilio</string>
+    <string name="proxy">Wakala</string>
+    <string name="mirror_proxy_description">Kwa nchi au maeneo ambapo GitHub imezuiwa, tumia seva mbadala kupakua.</string>
+    <string name="enable_mirror_proxy">Washa Wakala wa Mirror</string>
+    <string name="proxy_url_hint">URL ya seva mbadala (k.m., https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Wakala Maarufu</string>
+    <string name="multi_part_download">Upakuaji wa Sehemu Nyingi</string>
+    <string name="multi_part_description">Pakua faili kwa kutumia miunganisho mingi kwa kasi ya haraka.</string>
+    <string name="enable_multi_part">Washa Upakuaji wa Sehemu Nyingi</string>
+    <string name="download_threads">Pakua Nyuzi</string>
+    <string name="thread_count_hint">Thamani za juu zaidi zinaweza kuboresha kasi lakini zikatumia nyenzo zaidi (1-32)</string>
+    <string name="download_settings_info">Wakala wa kioo hubadilisha URL za GitHub kupitia seva mbadala. Upakuaji wa sehemu nyingi hugawanya faili katika vipande kwa upakuaji sambamba.</string>
+    <string name="download_speed_format">%s / sekunde</string>
+    <string name="select_variant">Chagua Toleo</string>
+    <string name="compatible">Sambamba</string>
+    <string name="incompatible">Haioani</string>
+    <string name="recommended">Imependekezwa</string>
+    <string name="app_mismatch_title">Programu Hailingani?</string>
+    <string name="app_mismatch_message">RepoStore ililinganisha hazina hii na programu iliyosakinishwa: %1$s ( %2$s ). 
+ 
+ Ikiwa hii SIYO programu sawa, unaweza kuchagua kusakinisha APK kutoka kwenye hazina hii hata hivyo.</string>
+    <string name="install_anyway">Sakinisha Hata hivyo</string>
+    <string name="forget_mapping">Kusahau Ramani</string>
+    <string name="contributors">Wachangiaji</string>
+    <string name="no_apk_variants_available">Hakuna vibadala vya APK vinavyopatikana</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Imechaguliwa</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Wote</string>
+    <string name="cat_name_ai_chat">Gumzo la AI</string>
+    <string name="cat_name_app_manager">Meneja wa Programu</string>
+    <string name="cat_name_app_store_updater">Duka la Programu na Kisasishaji</string>
+    <string name="cat_name_battery">Betri</string>
+    <string name="cat_name_bookmark">Alamisho</string>
+    <string name="cat_name_browser">Kivinjari</string>
+    <string name="cat_name_calculator">Kikokotoo</string>
+    <string name="cat_name_calendar_agenda">Kalenda na Ajenda</string>
+    <string name="cat_name_clock">Saa</string>
+    <string name="cat_name_cloud_storage">Hifadhi ya Wingu na Usawazishaji wa Faili</string>
+    <string name="cat_name_connectivity">Muunganisho</string>
+    <string name="cat_name_contact">Wasiliana</string>
+    <string name="cat_name_development">Maendeleo</string>
+    <string name="cat_name_dns_hosts">DNS &amp; Wapangishi</string>
+    <string name="cat_name_draw">Chora</string>
+    <string name="cat_name_ebook_reader">Kisomaji Ebook</string>
+    <string name="cat_name_email">Barua pepe</string>
+    <string name="cat_name_file_encryption">Usimbaji wa Faili &amp; Vault</string>
+    <string name="cat_name_file_transfer">Uhamisho wa Faili</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Meneja wa Fedha</string>
+    <string name="cat_name_flashlight">Tochi</string>
+    <string name="cat_name_forum">Jukwaa</string>
+    <string name="cat_name_gallery">Matunzio</string>
+    <string name="cat_name_games">Michezo</string>
+    <string name="cat_name_graphics">Michoro</string>
+    <string name="cat_name_habit_tracker">Mfuatiliaji wa Tabia</string>
+    <string name="cat_name_icon_pack">Kifurushi cha ikoni</string>
+    <string name="cat_name_internet">Mtandao</string>
+    <string name="cat_name_inventory">Malipo</string>
+    <string name="cat_name_keyboard_ime">Kibodi na IME</string>
+    <string name="cat_name_launcher">Kizindua</string>
+    <string name="cat_name_local_media_player">Kicheza Media cha Ndani</string>
+    <string name="cat_name_location_tracker">Kifuatilia Mahali na Kishiriki</string>
+    <string name="cat_name_messaging">Kutuma ujumbe</string>
+    <string name="cat_name_money">Pesa</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Muziki na Sauti</string>
+    <string name="cat_name_video_players">Vicheza Video</string>
+    <string name="cat_name_music_practice">Zana ya Mazoezi ya Muziki</string>
+    <string name="cat_name_navigation">Urambazaji</string>
+    <string name="cat_name_network_analyzer">Kichambuzi cha Mtandao</string>
+    <string name="cat_name_news">Habari</string>
+    <string name="cat_name_note">Kumbuka</string>
+    <string name="cat_name_online_media_player">Kicheza Media cha Mtandaoni</string>
+    <string name="cat_name_pass_wallet">Pitia Wallet</string>
+    <string name="cat_name_fa">Nenosiri na 2FA</string>
+    <string name="cat_name_phone_sms">Simu na SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Usafiri wa Umma</string>
+    <string name="cat_name_radio">Redio</string>
+    <string name="cat_name_reading">Kusoma</string>
+    <string name="cat_name_recipe_manager">Meneja wa Mapishi</string>
+    <string name="cat_name_remote_controller">Kidhibiti cha Mbali</string>
+    <string name="cat_name_science_education">Sayansi na Elimu</string>
+    <string name="cat_name_security">Usalama</string>
+    <string name="cat_name_shopping_list">Orodha ya Ununuzi</string>
+    <string name="cat_name_social_network">Mtandao wa Kijamii</string>
+    <string name="cat_name_sports_health">Michezo na Afya</string>
+    <string name="cat_name_streaming_app">Programu ya Kutiririsha</string>
+    <string name="cat_name_system">Mfumo</string>
+    <string name="cat_name_task">Kazi</string>
+    <string name="cat_name_text_editor">Mhariri wa maandishi</string>
+    <string name="cat_name_theming">Mandhari</string>
+    <string name="cat_name_time">Muda</string>
+    <string name="cat_name_tools">Zana</string>
+    <string name="cat_name_translation_dictionary">Tafsiri na Kamusi</string>
+    <string name="cat_name_unit_convertor">Kibadilishaji cha kitengo</string>
+    <string name="cat_name_voice_video_chat">Gumzo la Sauti na Video</string>
+    <string name="cat_name_vpn">VPN na Wakala</string>
+    <string name="cat_name_wallet">Mkoba</string>
+    <string name="cat_name_wallpaper">Ukuta</string>
+    <string name="cat_name_weather">Hali ya hewa</string>
+    <string name="cat_name_workout">Mazoezi</string>
+    <string name="cat_name_writing">Kuandika</string>
+    <string name="cat_name_productivity">Tija</string>
+    <string name="cat_name_open_source">Chanzo Huria</string>
+    <string name="cat_name_trending">Zinazovuma</string>
+</resources>

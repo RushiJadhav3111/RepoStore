@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Startseite</string>
+    <string name="games">Spiele</string>
+    <string name="apps">Apps</string>
+    <string name="trending">Im Trend</string>
+    <string name="search">Suchen</string>
+    <string name="profile">Profil</string>
+    <string name="back">Zurück</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Apps &amp; Spiele suchen</string>
+    <string name="search_github_repos">GitHub-Repositories suchen…</string>
+    <string name="search_hint">Suche nach Android-Apps auf GitHub</string>
+    <string name="no_results">Keine Ergebnisse gefunden</string>
+    <string name="clear">Löschen</string>
+    <string name="voice_search">Sprachsuche</string>
+    <string name="filter">Filter</string>
+    <string name="sort_by">Sortieren nach</string>
+    <string name="updated">Aktualisiert</string>
+    <string name="has_apk">Hat APK</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="results_count">%d Ergebnisse</string>
+    <string name="any_language">Beliebige Sprache</string>
+    <string name="any_stars">Beliebige Sterne</string>
+    <string name="min_stars_format">%d+ Sterne</string>
+    <string name="best_match">Bester Treffer</string>
+    <string name="most_stars">Meiste Sterne</string>
+    <string name="most_forks">Meiste Forks</string>
+    <string name="recently_updated_sort">Kürzlich aktualisiert</string>
+    <string name="any_time">Jederzeit</string>
+    <string name="last_week">Letzte Woche</string>
+    <string name="last_month">Letzter Monat</string>
+    <string name="last_3_months">Letzte 3 Monate</string>
+    <string name="last_year">Letztes Jahr</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Für dich empfohlen</string>
+    <string name="top_free_apps">Top kostenlose Apps</string>
+    <string name="recently_updated">Kürzlich aktualisiert</string>
+    <string name="see_more">Mehr ansehen</string>
+    <string name="all_categories">Alle Kategorien</string>
+    <string name="more">Mehr</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Ausgewählte Spiele</string>
+    <string name="popular_games">Beliebte Spiele</string>
+    <string name="new_games">Neue Spiele</string>
+    <string name="no_games_found">Keine Spiele gefunden</string>
+
+    <!-- App Details -->
+    <string name="app_icon">App-Symbol</string>
+    <string name="banner">Banner</string>
+    <string name="about">Über</string>
+    <string name="about_this_app">Über diese App</string>
+    <string name="screenshots">Screenshots</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="stars">Sterne</string>
+    <string name="forks">Forks</string>
+    <string name="language">Sprache</string>
+    <string name="last_updated">Zuletzt aktualisiert</string>
+    <string name="updated_on">Aktualisiert am</string>
+    <string name="latest_release">Neueste Version</string>
+    <string name="whats_new">Was ist neu</string>
+    <string name="readme">README</string>
+    <string name="download">Herunterladen</string>
+    <string name="install">Installieren</string>
+    <string name="download_apk">APK herunterladen</string>
+    <string name="view_release">Version anzeigen</string>
+    <string name="view_on_github">Auf GitHub ansehen</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Keine Beschreibung verfügbar</string>
+    <string name="no_release_notes">Keine Versionshinweise</string>
+    <string name="archived">Archiviert</string>
+
+    <!-- Tags -->
+    <string name="tag_new">NEU</string>
+    <string name="tag_updated">AKTUALISIERT</string>
+    <string name="tag_archived">ARCHIVIERT</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Keine Apps gefunden</string>
+    <string name="no_repos_found">Keine Repositories gefunden</string>
+    <string name="rate_limit_error">Ratenlimit überschritten. Bitte versuche es später noch einmal.</string>
+    <string name="network_error">Netzwerkfehler. Bitte überprüfe deine Verbindung.</string>
+    <string name="tap_to_retry">Tippen, um es erneut zu versuchen</string>
+    <string name="loading">Wird geladen…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Repositories</string>
+    <string name="repositories_count">%d Repositories</string>
+    <string name="view_github_profile">GitHub-Profil ansehen</string>
+
+    <!-- Settings -->
+    <string name="settings">Einstellungen</string>
+    <string name="github_token">GitHub Personal Access Token</string>
+    <string name="github_token_desc">Füge einen Token hinzu, um das API-Ratenlimit von 60 auf 5000 Anfragen pro Stunde zu erhöhen.</string>
+    <string name="enter_token">Gib deinen GitHub-Token ein</string>
+    <string name="save_token">Token speichern</string>
+    <string name="clear_token">Token löschen</string>
+    <string name="create_token_on_github">Token auf GitHub erstellen</string>
+    <string name="token_saved">Token erfolgreich gespeichert</string>
+    <string name="token_removed">Token entfernt</string>
+    <string name="rate_limit_info_title">API-Ratenlimit</string>
+    <string name="rate_limit_info_desc">Ohne Token: 60 Anfragen/Stunde\nMit Token: 5.000 Anfragen/Stunde</string>
+    <string name="how_to_create_token">So erstellst du einen Token:</string>
+    <string name="token_instructions">1. Gehe zu GitHub Settings → Developer settings\n2. Klicke auf "Personal access tokens" → "Tokens (classic)"\n3. Klicke auf "Generate new token"\n4. Gib ihm einen Namen und wähle den Bereich "public_repo"\n5. Klicke auf "Generate token" und kopiere ihn</string>
+    <string name="no_token_set">Kein Token gesetzt</string>
+    <string name="token_configured">Token konfiguriert</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Entwickler</string>
+    <string name="followers">Follower</string>
+    <string name="following">Folge ich</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Wird heruntergeladen…</string>
+    <string name="downloading_apk">APK wird heruntergeladen</string>
+    <string name="download_complete">Download abgeschlossen</string>
+    <string name="download_in_progress">Download läuft bereits</string>
+    <string name="file_not_found">Heruntergeladene Datei nicht gefunden</string>
+    <string name="install_error">Installationsprogramm konnte nicht geöffnet werden</string>
+    <string name="installing">Wird installiert…</string>
+    <string name="open">Öffnen</string>
+    <string name="cannot_open_app">App kann nicht geöffnet werden</string>
+    <string name="queued">In Warteschlange…</string>
+    <string name="preparing">Vorbereiten…</string>
+    <string name="verifying">Überprüfen…</string>
+    <string name="storage_error">Speicherfehler aufgetreten</string>
+    <string name="insufficient_storage">Nicht genügend Speicherplatz</string>
+    <string name="verification_failed">Dateiverifizierung fehlgeschlagen</string>
+    <string name="download_timeout">Download abgelaufen</string>
+    <string name="retry">Erneut versuchen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="update">Aktualisieren</string>
+    <string name="update_available">Update verfügbar</string>
+    <string name="uninstall">Deinstallieren</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Mit GitHub anmelden</string>
+    <string name="sign_in_to_increase_limit">Anmelden, um das API-Ratenlimit zu erhöhen</string>
+    <string name="connecting_to_github">Verbindung zu GitHub wird hergestellt…</string>
+    <string name="enter_code_on_github">Gib diesen Code auf GitHub ein</string>
+    <string name="code_instructions">Öffne GitHub in deinem Browser und gib den folgenden Code ein, um dich anzumelden</string>
+    <string name="copy_code">Code kopieren</string>
+    <string name="code_copied">Code in die Zwischenablage kopiert</string>
+    <string name="open_github">GitHub öffnen</string>
+    <string name="waiting_for_authorization">Warten auf Autorisierung…</string>
+    <string name="signed_in_successfully">Erfolgreich angemeldet!</string>
+    <string name="signed_in">Angemeldet</string>
+    <string name="signed_in_as">Angemeldet als %s</string>
+    <string name="rate_limit_increased">API-Ratenlimit auf 5.000 Anfragen/Stunde erhöht</string>
+    <string name="sign_out">Abmelden</string>
+    <string name="signed_out">Abgemeldet</string>
+    <string name="failed_to_get_code">Autorisierungscode konnte nicht abgerufen werden</string>
+    <string name="auth_expired">Autorisierung abgelaufen. Bitte versuche es erneut.</string>
+    <string name="unknown_error">Unbekannter Fehler aufgetreten</string>
+    <string name="something_went_wrong">Etwas ist schiefgelaufen</string>
+    <string name="user">@user</string>
+    <string name="rate_limit_exceeded_title">Ratenlimit überschritten</string>
+    <string name="rate_limit_exceeded_message">Du hast das GitHub-API-Ratenlimit überschritten (60 Anfragen/Stunde).\n\nMelde dich mit GitHub an, um dein Limit auf 5.000 Anfragen/Stunde kostenlos zu erhöhen!</string>
+    <string name="rate_limit_exceeded_signed_in">Du hast das authentifizierte Ratenlimit überschritten (5.000 Anfragen/Stunde). Bitte warte einige Minuten, bevor du es erneut versuchst.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Spenden</string>
+    <string name="support_developer">Entwickler unterstützen</string>
+    <string name="donate_description">Wenn du diese App nützlich findest, spende gerne einen kleinen Betrag, um die Entwicklung zu unterstützen.</string>
+    <string name="scan_qr_code">QR-Code scannen, um zu bezahlen</string>
+    <string name="upi_qr_code">UPI QR-Code</string>
+    <string name="upi_id">UPI-ID</string>
+    <string name="copy">Kopieren</string>
+    <string name="upi_id_copied">UPI-ID in die Zwischenablage kopiert</string>
+    <string name="thank_you_message">Vielen Dank für deine Unterstützung! ❤️</string>
+    <string name="pay_with_upi_app">Mit UPI-App bezahlen</string>
+    <string name="no_upi_apps_found">Keine UPI-Zahlungsapps auf deinem Gerät gefunden</string>
+    <string name="payment_app_icon">Zahlungsapp-Symbol</string>
+    <string name="pay">Bezahlen</string>
+    <string name="cannot_open_payment_app">Zahlungsapp kann nicht geöffnet werden</string>
+    <string name="buy_me_a_coffee">Buy Me A Coffee</string>
+    <string name="support_buy_me_a_coffee">Auf Buy Me A Coffee unterstützen</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Open-Source-Lizenzen</string>
+    <string name="source_code">Quellcode</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Version %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Meine Apps</string>
+    <string name="no_favorite_apps">Bisher keine favorisierten Apps</string>
+    <string name="no_favorite_apps_hint">Tippe auf das Herz-Symbol in einer App, um sie hier hinzuzufügen</string>
+    <string name="add_to_favorites">Zu den Favoriten hinzufügen</string>
+    <string name="remove_from_favorites">Aus den Favoriten entfernen</string>
+    <string name="added_to_favorites">Zu den Favoriten hinzugefügt</string>
+    <string name="removed_from_favorites">Aus den Favoriten entfernt</string>
+    <string name="favorite_apps">Favorisierte Apps</string>
+    <string name="no_installed_apps">Keine installierten Apps</string>
+    <string name="no_installed_apps_hint">Apps, die du aus deinen Favoriten installierst, werden hier angezeigt</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Erscheinungsbild</string>
+    <string name="theme_system">System</string>
+    <string name="theme_for_you">Für dich</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="theme_light">Hell</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Download-Einstellungen</string>
+    <string name="proxy">Proxy</string>
+    <string name="mirror_proxy_description">Für Länder/Regionen, in denen GitHub blockiert ist, verwende einen Proxy, um Inhalte herunterzuladen.</string>
+    <string name="enable_mirror_proxy">Mirror-Proxy aktivieren</string>
+    <string name="proxy_url_hint">Proxy-URL (z. B. https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Beliebte Proxys</string>
+    <string name="multi_part_download">Mehrteiliger Download</string>
+    <string name="multi_part_description">Dateien mit mehreren Verbindungen herunterladen, um die Geschwindigkeit zu erhöhen.</string>
+    <string name="enable_multi_part">Mehrteiligen Download aktivieren</string>
+    <string name="download_threads">Download-Threads</string>
+    <string name="thread_count_hint">Höhere Werte können die Geschwindigkeit verbessern, nutzen jedoch mehr Ressourcen (1-32)</string>
+    <string name="download_settings_info">Mirror-Proxy transformiert GitHub-URLs über einen Proxy-Server. Mehrteiliges Herunterladen teilt Dateien in Teile für parallele Downloads auf.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Version auswählen</string>
+    <string name="compatible">Kompatibel</string>
+    <string name="incompatible">Inkompatibel</string>
+    <string name="recommended">Empfohlen</string>
+    <string name="app_mismatch_title">App stimmt nicht überein?</string>
+    <string name="app_mismatch_message">RepoStore hat dieses Repository einer installierten App zugeordnet: %1$s (%2$s).\n\nWenn dies NICHT dieselbe App ist, kannst du das APK aus diesem Repository trotzdem installieren.</string>
+    <string name="install_anyway">Trotzdem installieren</string>
+    <string name="forget_mapping">Zuordnung vergessen</string>
+    <string name="contributors">Mitwirkende</string>
+    <string name="no_apk_variants_available">Keine APK-Varianten verfügbar</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Ausgewählt</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Alle</string>
+    <string name="cat_name_ai_chat">KI-Chat</string>
+    <string name="cat_name_app_manager">App-Manager</string>
+    <string name="cat_name_app_store_updater">App Store und Updater</string>
+    <string name="cat_name_battery">Batterie</string>
+    <string name="cat_name_bookmark">Lesezeichen</string>
+    <string name="cat_name_browser">Browser</string>
+    <string name="cat_name_calculator">Kalkulator</string>
+    <string name="cat_name_calendar_agenda">Kalender und Agenda</string>
+    <string name="cat_name_clock">Uhr</string>
+    <string name="cat_name_cloud_storage">Cloud-Speicher und Dateisynchronisierung</string>
+    <string name="cat_name_connectivity">Konnektivität</string>
+    <string name="cat_name_contact">Kontakt</string>
+    <string name="cat_name_development">Entwicklung</string>
+    <string name="cat_name_dns_hosts">DNS und Hosts</string>
+    <string name="cat_name_draw">Ziehen</string>
+    <string name="cat_name_ebook_reader">E-Book-Reader</string>
+    <string name="cat_name_email">E-Mail</string>
+    <string name="cat_name_file_encryption">Dateiverschlüsselung und Tresor</string>
+    <string name="cat_name_file_transfer">Dateiübertragung</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Finanzmanager</string>
+    <string name="cat_name_flashlight">Taschenlampe</string>
+    <string name="cat_name_forum">Forum</string>
+    <string name="cat_name_gallery">Galerie</string>
+    <string name="cat_name_games">Spiele</string>
+    <string name="cat_name_graphics">Grafik</string>
+    <string name="cat_name_habit_tracker">Gewohnheits-Tracker</string>
+    <string name="cat_name_icon_pack">Icon-Paket</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Inventar</string>
+    <string name="cat_name_keyboard_ime">Tastatur und IME</string>
+    <string name="cat_name_launcher">Launcher</string>
+    <string name="cat_name_local_media_player">Lokaler Mediaplayer</string>
+    <string name="cat_name_location_tracker">Standortverfolgung und -freigabe</string>
+    <string name="cat_name_messaging">Nachrichten</string>
+    <string name="cat_name_money">Geld</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Musik &amp; Audio</string>
+    <string name="cat_name_video_players">Videoplayer</string>
+    <string name="cat_name_music_practice">Musik-Übungstool</string>
+    <string name="cat_name_navigation">Navigation</string>
+    <string name="cat_name_network_analyzer">Netzwerkanalysator</string>
+    <string name="cat_name_news">Nachricht</string>
+    <string name="cat_name_note">Notiz</string>
+    <string name="cat_name_online_media_player">Online-Mediaplayer</string>
+    <string name="cat_name_pass_wallet">Pass-Wallet</string>
+    <string name="cat_name_fa">Passwort und 2FA</string>
+    <string name="cat_name_phone_sms">Telefon &amp; SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Öffentliche Verkehrsmittel</string>
+    <string name="cat_name_radio">Radio</string>
+    <string name="cat_name_reading">Lektüre</string>
+    <string name="cat_name_recipe_manager">Rezeptmanager</string>
+    <string name="cat_name_remote_controller">Fernbedienung</string>
+    <string name="cat_name_science_education">Wissenschaft und Bildung</string>
+    <string name="cat_name_security">Sicherheit</string>
+    <string name="cat_name_shopping_list">Einkaufsliste</string>
+    <string name="cat_name_social_network">Soziales Netzwerk</string>
+    <string name="cat_name_sports_health">Sport &amp; Gesundheit</string>
+    <string name="cat_name_streaming_app">Streaming-App</string>
+    <string name="cat_name_system">System</string>
+    <string name="cat_name_task">Aufgabe</string>
+    <string name="cat_name_text_editor">Texteditor</string>
+    <string name="cat_name_theming">Thematisierung</string>
+    <string name="cat_name_time">Zeit</string>
+    <string name="cat_name_tools">Werkzeuge</string>
+    <string name="cat_name_translation_dictionary">Übersetzung und Wörterbuch</string>
+    <string name="cat_name_unit_convertor">Einheitenumrechner</string>
+    <string name="cat_name_voice_video_chat">Sprach- und Video-Chat</string>
+    <string name="cat_name_vpn">VPN und Proxy</string>
+    <string name="cat_name_wallet">Geldbörse</string>
+    <string name="cat_name_wallpaper">Tapete</string>
+    <string name="cat_name_weather">Wetter</string>
+    <string name="cat_name_workout">Trainieren</string>
+    <string name="cat_name_writing">Schreiben</string>
+    <string name="cat_name_productivity">Produktivität</string>
+    <string name="cat_name_open_source">Open Source</string>
+    <string name="cat_name_trending">Im Trend</string>
+</resources>

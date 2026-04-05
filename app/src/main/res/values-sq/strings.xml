@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">Shtëpi</string>
+    <string name="games">Lojëra</string>
+    <string name="apps">Aplikacionet</string>
+    <string name="trending">Në trend</string>
+    <string name="search">Kërko</string>
+    <string name="profile">Profili</string>
+    <string name="back">Mbrapa</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Kërko aplikacione dhe lojëra</string>
+    <string name="search_github_repos">Kërkoni magazinat GitHub…</string>
+    <string name="search_hint">Kërko për aplikacione Android në GitHub</string>
+    <string name="no_results">Nuk u gjet asnjë rezultat</string>
+    <string name="clear">E qartë</string>
+    <string name="voice_search">Kërkimi me zë</string>
+    <string name="filter">Filtro</string>
+    <string name="sort_by">Rendit sipas</string>
+    <string name="updated">Përditësuar</string>
+    <string name="has_apk">Ka APK</string>
+    <string name="reset">Rivendos</string>
+    <string name="results_count">Rezultatet e %d</string>
+    <string name="any_language">Çdo gjuhë</string>
+    <string name="any_stars">Çdo yll</string>
+    <string name="min_stars_format">Yjet %d+</string>
+    <string name="best_match">Ndeshja më e mirë</string>
+    <string name="most_stars">Shumica e yjeve</string>
+    <string name="most_forks">Shumica e pirunëve</string>
+    <string name="recently_updated_sort">Përditësuar së fundmi</string>
+    <string name="any_time">Në çdo kohë</string>
+    <string name="last_week">Javën e kaluar</string>
+    <string name="last_month">Muajin e kaluar</string>
+    <string name="last_3_months">3 muajt e fundit</string>
+    <string name="last_year">Vitin e kaluar</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Rekomanduar për ju</string>
+    <string name="top_free_apps">Aplikacionet kryesore falas</string>
+    <string name="recently_updated">Përditësuar së fundmi</string>
+    <string name="see_more">Shih më shumë</string>
+    <string name="all_categories">Të gjitha kategoritë</string>
+    <string name="more">Më shumë</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Lojërat e veçuara</string>
+    <string name="popular_games">Lojëra popullore</string>
+    <string name="new_games">Lojëra të reja</string>
+    <string name="no_games_found">Nuk u gjet asnjë lojë</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Ikona e aplikacionit</string>
+    <string name="banner">Banner</string>
+    <string name="about">Rreth</string>
+    <string name="about_this_app">Rreth këtij aplikacioni</string>
+    <string name="screenshots">Pamjet e ekranit</string>
+    <string name="screenshot">Pamja e ekranit</string>
+    <string name="stars">Yjet</string>
+    <string name="forks">Pirunët</string>
+    <string name="language">Gjuha</string>
+    <string name="last_updated">Përditësimi i fundit</string>
+    <string name="updated_on">Përditësuar më</string>
+    <string name="latest_release">Publikimi i fundit</string>
+    <string name="whats_new">Çfarë \' është e re</string>
+    <string name="readme">LEXO</string>
+    <string name="download">Shkarkoni</string>
+    <string name="install">Instaloni</string>
+    <string name="download_apk">Shkarkoni APK</string>
+    <string name="view_release">Shiko Publikimin</string>
+    <string name="view_on_github">Shikoni në GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">Nuk ka përshkrim të disponueshëm</string>
+    <string name="no_release_notes">Nuk ka shënime lëshimi</string>
+    <string name="archived">Arkivuar</string>
+
+    <!-- Tags -->
+    <string name="tag_new">E RE</string>
+    <string name="tag_updated">I PËRDITËSUAR</string>
+    <string name="tag_archived">ARKIVUAR</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">Nuk u gjet asnjë aplikacion</string>
+    <string name="no_repos_found">Nuk u gjet asnjë depo</string>
+    <string name="rate_limit_error">Kufiri i tarifës u tejkalua. Ju lutemi provoni përsëri më vonë.</string>
+    <string name="network_error">Gabim rrjeti. Ju lutemi kontrolloni lidhjen tuaj.</string>
+    <string name="tap_to_retry">Trokit për të riprovuar</string>
+    <string name="loading">Po ngarkohet…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Depot</string>
+    <string name="repositories_count">Depot %d</string>
+    <string name="view_github_profile">Shikoni profilin e GitHub</string>
+
+    <!-- Settings -->
+    <string name="settings">Cilësimet</string>
+    <string name="github_token">GitHub Personal Access Token</string>
+    <string name="github_token_desc">Shto një shenjë për të rritur kufirin e normës së API nga 60 në 5000 kërkesa në orë.</string>
+    <string name="enter_token">Futni shenjën tuaj GitHub</string>
+    <string name="save_token">Ruaj Token</string>
+    <string name="clear_token">Pastro Token</string>
+    <string name="create_token_on_github">Krijo Token në GitHub</string>
+    <string name="token_saved">Token u ruajt me sukses</string>
+    <string name="token_removed">Shenja u hoq</string>
+    <string name="rate_limit_info_title">Kufiri i normës së API</string>
+    <string name="rate_limit_info_desc">Pa një shenjë: 60 kërkesa/orë\nMe një shenjë: 5000 kërkesa/orë</string>
+    <string name="how_to_create_token">Si të krijoni një shenjë:</string>
+    <string name="token_instructions">1. Shkoni te Cilësimet GitHub → Cilësimet e zhvilluesit\n2. Klikoni \"Shenjat e aksesit personal\" → \"Tokens (klasike)\"\n3. Klikoni \"Generate new token\"\n4. Jepini një emër dhe zgjidhni scope \"public_repo\"\n5. Klikoni \"Generate token\" dhe kopjojeni atë</string>
+    <string name="no_token_set">Nuk ka vendosur shenja</string>
+    <string name="token_configured">Token u konfigurua</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Zhvilluesi</string>
+    <string name="followers">Ndjekësit</string>
+    <string name="following">Në vijim</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">Po shkarkohet…</string>
+    <string name="downloading_apk">Po shkarkohet APK</string>
+    <string name="download_complete">Shkarkimi përfundoi</string>
+    <string name="download_in_progress">Shkarkimi tashmë është në vazhdim</string>
+    <string name="file_not_found">Skedari i shkarkuar nuk u gjet</string>
+    <string name="install_error">Instaluesi nuk mund të hapej</string>
+    <string name="installing">Po instalohet…</string>
+    <string name="open">Hapur</string>
+    <string name="cannot_open_app">Aplikacioni nuk mund të hapet</string>
+    <string name="queued">Në radhë…</string>
+    <string name="preparing">Po përgatitet…</string>
+    <string name="verifying">Po verifikon…</string>
+    <string name="storage_error">Ndodhi një gabim në ruajtje</string>
+    <string name="insufficient_storage">Nuk ka hapësirë ​​të mjaftueshme ruajtëse</string>
+    <string name="verification_failed">Verifikimi i skedarit dështoi</string>
+    <string name="download_timeout">Koha e shkarkimit përfundoi</string>
+    <string name="retry">Provo sërish</string>
+    <string name="cancel">Anulo</string>
+    <string name="update">Përditëso</string>
+    <string name="update_available">Ofrohet përditësim</string>
+    <string name="uninstall">Çinstaloni</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Hyni me GitHub</string>
+    <string name="sign_in_to_increase_limit">Identifikohu për të rritur kufirin e normës së API</string>
+    <string name="connecting_to_github">Po lidhet me GitHub…</string>
+    <string name="enter_code_on_github">Fusni këtë kod në GitHub</string>
+    <string name="code_instructions">Hapni GitHub në shfletuesin tuaj dhe futni kodin më poshtë për t\'u identifikuar</string>
+    <string name="copy_code">Kopjo kodin</string>
+    <string name="code_copied">Kodi u kopjua në kujtesën e fragmenteve</string>
+    <string name="open_github">Hap GitHub</string>
+    <string name="waiting_for_authorization">Në pritje të autorizimit…</string>
+    <string name="signed_in_successfully">Identifikuar me sukses!</string>
+    <string name="signed_in">I identifikuar</string>
+    <string name="signed_in_as">Identifikuar si %s</string>
+    <string name="rate_limit_increased">Kufiri i tarifës së API u rrit në 5000 kërkesa/orë</string>
+    <string name="sign_out">Dilni</string>
+    <string name="signed_out">Doli nga llogaria</string>
+    <string name="failed_to_get_code">Dështoi në marrjen e kodit të autorizimit</string>
+    <string name="auth_expired">Autorizimi ka skaduar. Ju lutemi provoni përsëri.</string>
+    <string name="unknown_error">Ndodhi një gabim i panjohur</string>
+    <string name="something_went_wrong">Diçka shkoi keq</string>
+    <string name="user">Përdoruesi @</string>
+    <string name="rate_limit_exceeded_title">Kufiri i tarifës u tejkalua</string>
+    <string name="rate_limit_exceeded_message">Ju\'ve e keni tejkaluar kufirin e tarifës së API-së GitHub (60 kërkesa/orë).</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve e kapërceu kufirin e vërtetuar të tarifës (5000 kërkesa/orë). Ju lutemi prisni disa minuta përpara se të provoni përsëri.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Dhuroni</string>
+    <string name="support_developer">Mbështetni Zhvilluesin</string>
+    <string name="donate_description">Nëse ju duket i dobishëm ky aplikacion, merrni parasysh mbështetjen e zhvillimit me një donacion të vogël.</string>
+    <string name="scan_qr_code">Skanoni kodin QR për të paguar</string>
+    <string name="upi_qr_code">Kodi QR UPI</string>
+    <string name="upi_id">ID UPI</string>
+    <string name="copy">Kopjo</string>
+    <string name="upi_id_copied">ID UPI u kopjua në kujtesën e fragmenteve</string>
+    <string name="thank_you_message">Faleminderit për mbështetjen tuaj! ❤️</string>
+    <string name="pay_with_upi_app">Paguani me aplikacionin UPI</string>
+    <string name="no_upi_apps_found">Nuk u gjet asnjë aplikacion pagese UPI në pajisjen tënde</string>
+    <string name="payment_app_icon">Ikona e aplikacionit të pagesave</string>
+    <string name="pay">Paguaj</string>
+    <string name="cannot_open_payment_app">Aplikacioni i pagesës nuk mund të hapet</string>
+    <string name="buy_me_a_coffee">Më ble një kafe</string>
+    <string name="support_buy_me_a_coffee">Mbështetje për Blini një kafe</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Licencat me burim të hapur</string>
+    <string name="source_code">Kodi burimor</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Versioni %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Aplikacionet e mia</string>
+    <string name="no_favorite_apps">Nuk ka ende aplikacione të preferuara</string>
+    <string name="no_favorite_apps_hint">Prekni ikonën e zemrës në çdo aplikacion për ta shtuar këtu</string>
+    <string name="add_to_favorites">Shtoni në të preferuarat</string>
+    <string name="remove_from_favorites">Hiq nga të preferuarat</string>
+    <string name="added_to_favorites">Shtuar në të preferuarat</string>
+    <string name="removed_from_favorites">U hoq nga të preferuarat</string>
+    <string name="favorite_apps">Aplikacionet e preferuara</string>
+    <string name="no_installed_apps">Asnjë aplikacion i instaluar</string>
+    <string name="no_installed_apps_hint">Aplikacionet që instaloni nga të preferuarat tuaja do të shfaqen këtu</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Pamja e jashtme</string>
+    <string name="theme_system">Sistemi</string>
+    <string name="theme_for_you">Për Ju</string>
+    <string name="theme_dark">E errët</string>
+    <string name="theme_light">Drita</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Shkarko Cilësimet</string>
+    <string name="proxy">Përfaqësues</string>
+    <string name="mirror_proxy_description">Për vendet ose rajonet ku GitHub është i bllokuar, përdorni një përfaqësues për të shkarkuar.</string>
+    <string name="enable_mirror_proxy">Aktivizo Mirror Proxy</string>
+    <string name="proxy_url_hint">URL-ja e përfaqësuesit (p.sh., https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Proxies popullore</string>
+    <string name="multi_part_download">Shkarkim me shumë pjesë</string>
+    <string name="multi_part_description">Shkarkoni skedarë duke përdorur lidhje të shumta për shpejtësi më të shpejta.</string>
+    <string name="enable_multi_part">Aktivizo shkarkimin me shumë pjesë</string>
+    <string name="download_threads">Shkarko Temat</string>
+    <string name="thread_count_hint">Vlerat më të larta mund të përmirësojnë shpejtësinë, por përdorin më shumë burime (1-32)</string>
+    <string name="download_settings_info">Proxy pasqyrë transformon URL-të GitHub përmes një serveri proxy. Shkarkimi me shumë pjesë i ndan skedarët në copa për shkarkim paralel.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Zgjidhni Version</string>
+    <string name="compatible">E përputhshme</string>
+    <string name="incompatible">E papajtueshme</string>
+    <string name="recommended">Rekomanduar</string>
+    <string name="app_mismatch_title">Mospërputhja e aplikacionit?</string>
+    <string name="app_mismatch_message">RepoStore përputhet me këtë depo me një aplikacion të instaluar: %1$s (%2$s).\n\nNëse ky NUK është i njëjti aplikacion, mund të zgjidhni gjithsesi të instaloni APK-në nga ky depo.</string>
+    <string name="install_anyway">Instalo Gjithsesi</string>
+    <string name="forget_mapping">Harrojeni hartën</string>
+    <string name="contributors">Kontribuesit</string>
+    <string name="no_apk_variants_available">Nuk ka variante APK të disponueshme</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Zgjedhur</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Të gjitha</string>
+    <string name="cat_name_ai_chat">AI Chat</string>
+    <string name="cat_name_app_manager">Menaxheri i aplikacionit</string>
+    <string name="cat_name_app_store_updater">Dyqani i aplikacioneve dhe përditësuesi</string>
+    <string name="cat_name_battery">Bateria</string>
+    <string name="cat_name_bookmark">Shënoni faqeshënues</string>
+    <string name="cat_name_browser">Shfletuesi</string>
+    <string name="cat_name_calculator">Llogaritësi</string>
+    <string name="cat_name_calendar_agenda">Kalendari &amp; Axhenda</string>
+    <string name="cat_name_clock">Ora</string>
+    <string name="cat_name_cloud_storage">Ruajtja në renë kompjuterike dhe sinkronizimi i skedarëve</string>
+    <string name="cat_name_connectivity">Lidhshmëria</string>
+    <string name="cat_name_contact">Kontaktoni</string>
+    <string name="cat_name_development">Zhvillimi</string>
+    <string name="cat_name_dns_hosts">DNS dhe hostet</string>
+    <string name="cat_name_draw">Vizatoni</string>
+    <string name="cat_name_ebook_reader">Lexues i librave elektronikë</string>
+    <string name="cat_name_email">Email</string>
+    <string name="cat_name_file_encryption">Kriptimi i skedarit dhe kasaforta</string>
+    <string name="cat_name_file_transfer">Transferimi i skedarëve</string>
+    <string name="cat_name_firewall">Firewall</string>
+    <string name="cat_name_finance_manager">Menaxher Finance</string>
+    <string name="cat_name_flashlight">Elektrik dore</string>
+    <string name="cat_name_forum">Forumi</string>
+    <string name="cat_name_gallery">Galeria</string>
+    <string name="cat_name_games">Lojëra</string>
+    <string name="cat_name_graphics">Grafika</string>
+    <string name="cat_name_habit_tracker">Gjurmuesi i zakoneve</string>
+    <string name="cat_name_icon_pack">Paketa e ikonave</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Inventari</string>
+    <string name="cat_name_keyboard_ime">Tastierë dhe IME</string>
+    <string name="cat_name_launcher">Lëshues</string>
+    <string name="cat_name_local_media_player">Local Media Player</string>
+    <string name="cat_name_location_tracker">Gjurmuesi dhe ndarja e vendndodhjes</string>
+    <string name="cat_name_messaging">Mesazhimi</string>
+    <string name="cat_name_money">Paratë</string>
+    <string name="cat_name_multimedia">Multimedia</string>
+    <string name="cat_name_music_audio">Muzikë &amp; Audio</string>
+    <string name="cat_name_video_players">Luajtës video</string>
+    <string name="cat_name_music_practice">Mjeti i praktikës muzikore</string>
+    <string name="cat_name_navigation">Navigimi</string>
+    <string name="cat_name_network_analyzer">Analizuesi i rrjetit</string>
+    <string name="cat_name_news">Lajme</string>
+    <string name="cat_name_note">Shënim</string>
+    <string name="cat_name_online_media_player">Media Player në internet</string>
+    <string name="cat_name_pass_wallet">Portofoli i kalimit</string>
+    <string name="cat_name_fa">Fjalëkalimi dhe 2FA</string>
+    <string name="cat_name_phone_sms">Telefon dhe SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Transporti publik</string>
+    <string name="cat_name_radio">Radio</string>
+    <string name="cat_name_reading">Leximi</string>
+    <string name="cat_name_recipe_manager">Menaxheri i recetave</string>
+    <string name="cat_name_remote_controller">Telekomandues</string>
+    <string name="cat_name_science_education">Shkencë &amp; Edukim</string>
+    <string name="cat_name_security">Siguria</string>
+    <string name="cat_name_shopping_list">Lista e blerjeve</string>
+    <string name="cat_name_social_network">Rrjeti social</string>
+    <string name="cat_name_sports_health">Sport &amp; Shëndeti</string>
+    <string name="cat_name_streaming_app">Aplikacioni i transmetimit</string>
+    <string name="cat_name_system">Sistemi</string>
+    <string name="cat_name_task">Detyrë</string>
+    <string name="cat_name_text_editor">Redaktori i tekstit</string>
+    <string name="cat_name_theming">Tematika</string>
+    <string name="cat_name_time">Koha</string>
+    <string name="cat_name_tools">Mjetet</string>
+    <string name="cat_name_translation_dictionary">Përkthim &amp; Fjalor</string>
+    <string name="cat_name_unit_convertor">Konvertuesi i njësisë</string>
+    <string name="cat_name_voice_video_chat">Bisedë me zë dhe video</string>
+    <string name="cat_name_vpn">VPN &amp; Proxy</string>
+    <string name="cat_name_wallet">Portofoli</string>
+    <string name="cat_name_wallpaper">Wallpaper</string>
+    <string name="cat_name_weather">Moti</string>
+    <string name="cat_name_workout">Stërvitje</string>
+    <string name="cat_name_writing">Shkrimi</string>
+    <string name="cat_name_productivity">Produktiviteti</string>
+    <string name="cat_name_open_source">Burim i hapur</string>
+    <string name="cat_name_trending">Në trend</string>
+</resources>

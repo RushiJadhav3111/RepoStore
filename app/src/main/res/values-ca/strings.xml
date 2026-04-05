@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">Repo Store</string>
+
+    <!-- Navigation -->
+    <string name="home">A casa</string>
+    <string name="games">Jocs</string>
+    <string name="apps">Aplicacions</string>
+    <string name="trending">Tendència</string>
+    <string name="search">Cerca</string>
+    <string name="profile">Perfil</string>
+    <string name="back">Enrere</string>
+
+    <!-- Search -->
+    <string name="search_apps_games">Cerca aplicacions i jocs</string>
+    <string name="search_github_repos">Cerca als repositoris GitHub...</string>
+    <string name="search_hint">Cerca aplicacions d\'Android a GitHub</string>
+    <string name="no_results">No s\'han trobat resultats</string>
+    <string name="clear">Clar</string>
+    <string name="voice_search">Cerca per veu</string>
+    <string name="filter">Filtre</string>
+    <string name="sort_by">Ordena per</string>
+    <string name="updated">Actualitzat</string>
+    <string name="has_apk">Té APK</string>
+    <string name="reset">Restableix</string>
+    <string name="results_count">Resultats %d</string>
+    <string name="any_language">Qualsevol idioma</string>
+    <string name="any_stars">Qualsevol estrella</string>
+    <string name="min_stars_format">%d+ estrelles</string>
+    <string name="best_match">Millor partit</string>
+    <string name="most_stars">La majoria de les estrelles</string>
+    <string name="most_forks">La majoria de Forks</string>
+    <string name="recently_updated_sort">Actualitzat recentment</string>
+    <string name="any_time">En qualsevol moment</string>
+    <string name="last_week">La setmana passada</string>
+    <string name="last_month">El mes passat</string>
+    <string name="last_3_months">Últims 3 mesos</string>
+    <string name="last_year">L\'any passat</string>
+
+    <!-- Home Sections -->
+    <string name="recommended_for_you">Recomanat per a tu</string>
+    <string name="top_free_apps">Les millors aplicacions gratuïtes</string>
+    <string name="recently_updated">Actualitzat recentment</string>
+    <string name="see_more">Veure més</string>
+    <string name="all_categories">Totes les categories</string>
+    <string name="more">Més</string>
+
+    <!-- Game Sections -->
+    <string name="featured_games">Jocs destacats</string>
+    <string name="popular_games">Jocs Populars</string>
+    <string name="new_games">Jocs nous</string>
+    <string name="no_games_found">No s\'han trobat jocs</string>
+
+    <!-- App Details -->
+    <string name="app_icon">Icona de l\'aplicació</string>
+    <string name="banner">Bandera</string>
+    <string name="about">Sobre</string>
+    <string name="about_this_app">Sobre aquesta aplicació</string>
+    <string name="screenshots">Captures de pantalla</string>
+    <string name="screenshot">Captura de pantalla</string>
+    <string name="stars">Estrelles</string>
+    <string name="forks">Forquilles</string>
+    <string name="language">Llengua</string>
+    <string name="last_updated">Última actualització</string>
+    <string name="updated_on">Actualitzat el</string>
+    <string name="latest_release">Últim llançament</string>
+    <string name="whats_new">Què és de nou \'</string>
+    <string name="readme">LLEGIUME</string>
+    <string name="download">Descarregar</string>
+    <string name="install">Instal·lar</string>
+    <string name="download_apk">Descarrega l\'APK</string>
+    <string name="view_release">Veure la publicació</string>
+    <string name="view_on_github">Veure a GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="no_description">No hi ha descripció disponible</string>
+    <string name="no_release_notes">No hi ha notes de llançament</string>
+    <string name="archived">Arxivat</string>
+
+    <!-- Tags -->
+    <string name="tag_new">NOU</string>
+    <string name="tag_updated">ACTUALITZAT</string>
+    <string name="tag_archived">ARXIVAT</string>
+
+    <!-- Error Messages -->
+    <string name="no_apps_found">No s\'ha trobat cap aplicació</string>
+    <string name="no_repos_found">No s\'han trobat repositoris</string>
+    <string name="rate_limit_error">S\'ha superat el límit de tarifa. Si us plau, torna-ho a provar més tard.</string>
+    <string name="network_error">Error de xarxa. Comproveu la vostra connexió.</string>
+    <string name="tap_to_retry">Toca per tornar-ho a provar</string>
+    <string name="loading">S\'està carregant…</string>
+
+    <!-- Developer -->
+    <string name="repositories">Repositoris</string>
+    <string name="repositories_count">Repositoris %d</string>
+    <string name="view_github_profile">Mostra el perfil de GitHub</string>
+
+    <!-- Settings -->
+    <string name="settings">Configuració</string>
+    <string name="github_token">GitHub Fitxa d\'accés personal</string>
+    <string name="github_token_desc">Afegiu un testimoni per augmentar el límit de velocitat de l\'API de 60 a 5.000 sol·licituds per hora.</string>
+    <string name="enter_token">Introduïu el vostre testimoni GitHub</string>
+    <string name="save_token">Desa el testimoni</string>
+    <string name="clear_token">Esborra el testimoni</string>
+    <string name="create_token_on_github">Crea un testimoni a GitHub</string>
+    <string name="token_saved">El testimoni s\'ha desat correctament</string>
+    <string name="token_removed">S\'ha eliminat el testimoni</string>
+    <string name="rate_limit_info_title">Límit de velocitat de l\'API</string>
+    <string name="rate_limit_info_desc">Sense testimoni: 60 sol·licituds/hora\nAmb testimoni: 5.000 sol·licituds/hora</string>
+    <string name="how_to_create_token">Com crear un testimoni:</string>
+    <string name="token_instructions">1. Aneu a Configuració GitHub → Configuració del desenvolupador\n2. Feu clic a \"Fitxas d\'accés personals\" → \"Fitxas (clàssic)\"\n3. Feu clic a \"Genera un testimoni nou\"\n4. Doneu-li un nom i seleccioneu \"public_repo\" scope\n5. Feu clic a \"Genera testimoni\" i copieu-lo</string>
+    <string name="no_token_set">No hi ha cap set de fitxes</string>
+    <string name="token_configured">Token configurat</string>
+    
+    <!-- Developer Info -->
+    <string name="developer">Desenvolupador</string>
+    <string name="followers">Seguidors</string>
+    <string name="following">Seguint</string>
+    
+    <!-- Download & Install -->
+    <string name="downloading">S\'està baixant…</string>
+    <string name="downloading_apk">S\'està baixant l\'APK</string>
+    <string name="download_complete">Descàrrega completa</string>
+    <string name="download_in_progress">Descàrrega ja en curs</string>
+    <string name="file_not_found">No s\'ha trobat el fitxer baixat</string>
+    <string name="install_error">No s\'ha pogut obrir l\'instal·lador</string>
+    <string name="installing">S\'està instal·lant...</string>
+    <string name="open">Obert</string>
+    <string name="cannot_open_app">No es pot obrir l\'aplicació</string>
+    <string name="queued">En cua...</string>
+    <string name="preparing">S\'està preparant…</string>
+    <string name="verifying">S\'està verificant…</string>
+    <string name="storage_error">S\'ha produït un error d\'emmagatzematge</string>
+    <string name="insufficient_storage">No hi ha prou espai d\'emmagatzematge</string>
+    <string name="verification_failed">La verificació del fitxer ha fallat</string>
+    <string name="download_timeout">S\'ha esgotat el temps de descàrrega</string>
+    <string name="retry">Torna-ho a provar</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="update">Actualització</string>
+    <string name="update_available">Actualització disponible</string>
+    <string name="uninstall">Desinstal·la</string>
+    
+    <!-- GitHub Sign In -->
+    <string name="github_sign_in">Inicieu la sessió amb GitHub</string>
+    <string name="sign_in_to_increase_limit">Inicieu la sessió per augmentar el límit de velocitat de l\'API</string>
+    <string name="connecting_to_github">S\'està connectant a GitHub...</string>
+    <string name="enter_code_on_github">Introduïu aquest codi a GitHub</string>
+    <string name="code_instructions">Obriu GitHub al vostre navegador i introduïu el codi següent per iniciar la sessió</string>
+    <string name="copy_code">Copia el codi</string>
+    <string name="code_copied">Codi copiat al porta-retalls</string>
+    <string name="open_github">Obriu GitHub</string>
+    <string name="waiting_for_authorization">S\'està esperant l\'autorització...</string>
+    <string name="signed_in_successfully">S\'ha iniciat la sessió correctament!</string>
+    <string name="signed_in">S\'ha iniciat la sessió</string>
+    <string name="signed_in_as">S\'ha iniciat la sessió com a %s</string>
+    <string name="rate_limit_increased">El límit de velocitat de l\'API ha augmentat a 5.000 sol·licituds/hora</string>
+    <string name="sign_out">Tanca la sessió</string>
+    <string name="signed_out">Tancat la sessió</string>
+    <string name="failed_to_get_code">No s\'ha pogut obtenir el codi d\'autorització</string>
+    <string name="auth_expired">L\'autorització ha caducat. Si us plau, torna-ho a provar.</string>
+    <string name="unknown_error">S\'ha produït un error desconegut</string>
+    <string name="something_went_wrong">Alguna cosa va fallar</string>
+    <string name="user">@user</string>
+    <string name="rate_limit_exceeded_title">S\'ha superat el límit de tarifa</string>
+    <string name="rate_limit_exceeded_message">You\'he ha superat el límit de velocitat de l\'API GitHub (60 sol·licituds/hora).\n\nInicieu la sessió amb GitHub per augmentar el vostre límit a 5.000 sol·licituds/hora de manera gratuïta.</string>
+    <string name="rate_limit_exceeded_signed_in">You\'ve ha superat el límit de tarifa autenticat (5.000 sol·licituds/hora). Espereu uns minuts abans de tornar-ho a provar.</string>
+    
+    <!-- Donate -->
+    <string name="donate">Donar</string>
+    <string name="support_developer">Donar suport al desenvolupador</string>
+    <string name="donate_description">Si trobeu útil aquesta aplicació, considereu donar suport al desenvolupament amb una petita donació.</string>
+    <string name="scan_qr_code">Escaneja el codi QR per pagar</string>
+    <string name="upi_qr_code">Codi QR UPI</string>
+    <string name="upi_id">ID UPI</string>
+    <string name="copy">Còpia</string>
+    <string name="upi_id_copied">ID UPI copiat al porta-retalls</string>
+    <string name="thank_you_message">Gràcies pel vostre suport! ❤️</string>
+    <string name="pay_with_upi_app">Paga amb l\'aplicació UPI</string>
+    <string name="no_upi_apps_found">No s\'ha trobat cap aplicació de pagament UPI al vostre dispositiu</string>
+    <string name="payment_app_icon">Icona de l\'aplicació de pagament</string>
+    <string name="pay">Pagar</string>
+    <string name="cannot_open_payment_app">No es pot obrir l\'aplicació de pagament</string>
+    <string name="buy_me_a_coffee">Compra\'m un cafè</string>
+    <string name="support_buy_me_a_coffee">Suport a Buy Me A Coffee</string>
+    
+    <!-- Open Source Licenses -->
+    <string name="open_source_licenses">Llicències de codi obert</string>
+    <string name="source_code">Codi font</string>
+    
+    <!-- Dynamic content format strings -->
+    <string name="download_progress">%1$s (%2$s/%3$s)</string>
+    <string name="download_starting">0%%</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="version_format">Versió %s</string>
+    <string name="username_format">@%s</string>
+    <string name="error_with_retry">%1$s\n\n%2$s</string>
+    
+    <!-- My Apps -->
+    <string name="my_apps">Les meves aplicacions</string>
+    <string name="no_favorite_apps">Encara no hi ha cap aplicació preferida</string>
+    <string name="no_favorite_apps_hint">Toqueu la icona del cor a qualsevol aplicació per afegir-la aquí</string>
+    <string name="add_to_favorites">Afegeix als preferits</string>
+    <string name="remove_from_favorites">Elimina dels preferits</string>
+    <string name="added_to_favorites">S\'ha afegit als preferits</string>
+    <string name="removed_from_favorites">S\'ha eliminat dels preferits</string>
+    <string name="favorite_apps">Aplicacions preferides</string>
+    <string name="no_installed_apps">No hi ha aplicacions instal·lades</string>
+    <string name="no_installed_apps_hint">Les aplicacions que instal·leu des dels vostres preferits apareixeran aquí</string>
+    
+    <!-- Appearance -->
+    <string name="appearance">Aparença</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_for_you">Per a tu</string>
+    <string name="theme_dark">Fosc</string>
+    <string name="theme_light">Llum</string>
+    
+    <!-- Download Settings -->
+    <string name="download_settings">Descarrega la configuració</string>
+    <string name="proxy">Proxy</string>
+    <string name="mirror_proxy_description">Per als països o regions on GitHub està bloquejat, utilitzeu un servidor intermediari per baixar-lo.</string>
+    <string name="enable_mirror_proxy">Activa el servidor intermediari mirall</string>
+    <string name="proxy_url_hint">URL del servidor intermediari (p. ex., https://gh-proxy.com/)</string>
+    <string name="popular_proxies">Proxies populars</string>
+    <string name="multi_part_download">Descàrrega de diverses parts</string>
+    <string name="multi_part_description">Baixeu fitxers mitjançant diverses connexions per obtenir velocitats més ràpides.</string>
+    <string name="enable_multi_part">Activa la baixada de diverses parts</string>
+    <string name="download_threads">Descarregar Fils</string>
+    <string name="thread_count_hint">Els valors més alts poden millorar la velocitat, però utilitzar més recursos (1-32)</string>
+    <string name="download_settings_info">El proxy mirall transforma els URL GitHub mitjançant un servidor intermediari. La descàrrega de diverses parts divideix els fitxers en trossos per a la descàrrega paral·lela.</string>
+    <string name="download_speed_format">%s/s</string>
+    <string name="select_variant">Seleccioneu Versió</string>
+    <string name="compatible">Compatible</string>
+    <string name="incompatible">Incompatible</string>
+    <string name="recommended">Recomanat</string>
+    <string name="app_mismatch_title">L\'aplicació no coincideix?</string>
+    <string name="app_mismatch_message">RepoStore ha fet coincidir aquest dipòsit amb una aplicació instal·lada: %1$s (%2$s).\n\nI Si aquesta NO és la mateixa aplicació, podeu optar per instal·lar l\'APK des d\'aquest dipòsit de totes maneres.</string>
+    <string name="install_anyway">Instal·leu de totes maneres</string>
+    <string name="forget_mapping">Oblida\'t de Mapes</string>
+    <string name="contributors">Col·laboradors</string>
+    <string name="no_apk_variants_available">No hi ha variants d\'APK disponibles</string>
+    <string name="chip_ghproxy" translatable="false">gh-proxy.com</string>
+    <string name="chip_ghproxy_net" translatable="false">ghproxy.net</string>
+    <string name="chip_mirror_ghproxy" translatable="false">mirror.ghproxy.com</string>
+    <string name="default_thread_count" translatable="false">4</string>
+    <string name="selected_content_desc">Seleccionat</string>
+
+    <!-- Categories -->
+    <string name="cat_name_all">Tots</string>
+    <string name="cat_name_ai_chat">Xat amb IA</string>
+    <string name="cat_name_app_manager">Gestor d\'aplicacions</string>
+    <string name="cat_name_app_store_updater">App Store i Actualitzador</string>
+    <string name="cat_name_battery">Bateria</string>
+    <string name="cat_name_bookmark">Marcador</string>
+    <string name="cat_name_browser">Navegador</string>
+    <string name="cat_name_calculator">Calculadora</string>
+    <string name="cat_name_calendar_agenda">Calendari i agenda</string>
+    <string name="cat_name_clock">Rellotge</string>
+    <string name="cat_name_cloud_storage">Emmagatzematge al núvol i sincronització de fitxers</string>
+    <string name="cat_name_connectivity">Connectivitat</string>
+    <string name="cat_name_contact">Contacte</string>
+    <string name="cat_name_development">Desenvolupament</string>
+    <string name="cat_name_dns_hosts">DNS i amfitrions</string>
+    <string name="cat_name_draw">Dibuixa</string>
+    <string name="cat_name_ebook_reader">Lector de llibres electrònics</string>
+    <string name="cat_name_email">Correu electrònic</string>
+    <string name="cat_name_file_encryption">Xifratge de fitxers i volta</string>
+    <string name="cat_name_file_transfer">Transferència de fitxers</string>
+    <string name="cat_name_firewall">Tallafoc</string>
+    <string name="cat_name_finance_manager">Responsable Financer</string>
+    <string name="cat_name_flashlight">Llanterna</string>
+    <string name="cat_name_forum">Fòrum</string>
+    <string name="cat_name_gallery">Galeria</string>
+    <string name="cat_name_games">Jocs</string>
+    <string name="cat_name_graphics">Gràfics</string>
+    <string name="cat_name_habit_tracker">Seguidor d\'hàbits</string>
+    <string name="cat_name_icon_pack">Paquet d\'icones</string>
+    <string name="cat_name_internet">Internet</string>
+    <string name="cat_name_inventory">Inventari</string>
+    <string name="cat_name_keyboard_ime">Teclat i IME</string>
+    <string name="cat_name_launcher">Llançador</string>
+    <string name="cat_name_local_media_player">Reproductor multimèdia local</string>
+    <string name="cat_name_location_tracker">Localitzador i compartidor</string>
+    <string name="cat_name_messaging">Missatgeria</string>
+    <string name="cat_name_money">Diners</string>
+    <string name="cat_name_multimedia">Multimèdia</string>
+    <string name="cat_name_music_audio">Música i àudio</string>
+    <string name="cat_name_video_players">Reproductors de vídeo</string>
+    <string name="cat_name_music_practice">Eina de pràctica musical</string>
+    <string name="cat_name_navigation">Navegació</string>
+    <string name="cat_name_network_analyzer">Analitzador de xarxes</string>
+    <string name="cat_name_news">Notícies</string>
+    <string name="cat_name_note">Nota</string>
+    <string name="cat_name_online_media_player">Reproductor multimèdia en línia</string>
+    <string name="cat_name_pass_wallet">Pass Wallet</string>
+    <string name="cat_name_fa">Contrasenya i 2FA</string>
+    <string name="cat_name_phone_sms">Telèfon i SMS</string>
+    <string name="cat_name_podcast">Podcast</string>
+    <string name="cat_name_public_transport">Transport públic</string>
+    <string name="cat_name_radio">Ràdio</string>
+    <string name="cat_name_reading">Lectura</string>
+    <string name="cat_name_recipe_manager">Gestor de receptes</string>
+    <string name="cat_name_remote_controller">Control remot</string>
+    <string name="cat_name_science_education">Ciència i Educació</string>
+    <string name="cat_name_security">Seguretat</string>
+    <string name="cat_name_shopping_list">Llista de la compra</string>
+    <string name="cat_name_social_network">Xarxa Social</string>
+    <string name="cat_name_sports_health">Esports i Salut</string>
+    <string name="cat_name_streaming_app">Aplicació de streaming</string>
+    <string name="cat_name_system">Sistema</string>
+    <string name="cat_name_task">Tasca</string>
+    <string name="cat_name_text_editor">Editor de textos</string>
+    <string name="cat_name_theming">Tematització</string>
+    <string name="cat_name_time">Temps</string>
+    <string name="cat_name_tools">Eines</string>
+    <string name="cat_name_translation_dictionary">Traducció i diccionari</string>
+    <string name="cat_name_unit_convertor">Convertidor d\'unitats</string>
+    <string name="cat_name_voice_video_chat">Xat de veu i vídeo</string>
+    <string name="cat_name_vpn">VPN i proxy</string>
+    <string name="cat_name_wallet">Cartera</string>
+    <string name="cat_name_wallpaper">Fons de pantalla</string>
+    <string name="cat_name_weather">El temps</string>
+    <string name="cat_name_workout">Entrenament</string>
+    <string name="cat_name_writing">Escriptura</string>
+    <string name="cat_name_productivity">Productivitat</string>
+    <string name="cat_name_open_source">codi obert</string>
+    <string name="cat_name_trending">Tendència</string>
+</resources>
