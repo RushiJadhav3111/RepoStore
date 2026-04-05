@@ -60,6 +60,7 @@
     <string name="stars">Stars</string>
     <string name="forks">Forks</string>
     <string name="language">Language</string>
+    <string name="search_language">Search language…</string>
     <string name="last_updated">Last updated</string>
     <string name="updated_on">Updated on</string>
     <string name="latest_release">Latest Release</string>
@@ -320,4 +321,5 @@
     <string name="cat_name_writing">Writing</string>
     <string name="cat_name_productivity">Productivity</string>
     <string name="cat_name_open_source">Open Source</string>
-    <string name="cat_name_trending">Trending</string></resources>
+    <string name="cat_name_trending">Trending</string>
+</resources>

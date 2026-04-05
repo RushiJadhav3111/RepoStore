@@ -15,6 +15,7 @@
     <color name="primary">#01875F</color>
     <color name="primary_variant">#00695C</color>
     <color name="secondary">#01875F</color>
+    <color name="transparent">#00000000</color>
 
     <!-- Chip background -->
     <color name="chip_background">#E8F5E9</color>

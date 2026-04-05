@@ -25,6 +25,8 @@ import com.samyak.repostore.ui.activity.FavoriteActivity
 import com.samyak.repostore.ui.activity.DownloadSettingsActivity
 
 
+import com.samyak.repostore.ui.dialog.showLanguageDialog
+
 class SettingsFragment : Fragment() {
 
     private var _binding: FragmentSettingsBinding? = null
@@ -111,46 +113,7 @@ class SettingsFragment : Fragment() {
         }
     }
 
-    private fun showLanguageDialog() {
-        val context = requireContext()
-        val rawLocales = context.assets.locales
-        
-        // Filter empty and distinct by language to build a list
-        val availableLocales = rawLocales
-            .filter { it.isNotEmpty() }
-            .map { java.util.Locale.forLanguageTag(it) }
-            .distinctBy { it.language }
-            .sortedBy { it.getDisplayName(it) }
 
-        // We will build a list of options: "System" + all available languages
-        val options = mutableListOf<String>()
-        options.add(getString(R.string.theme_system))
-        options.addAll(availableLocales.map { it.getDisplayName(it) })
-
-        val currentLocales = androidx.appcompat.app.AppCompatDelegate.getApplicationLocales()
-        var checkedItem = 0 // System
-        if (!currentLocales.isEmpty) {
-            val currentLocale = currentLocales.get(0)
-            val index = availableLocales.indexOfFirst { it.language == currentLocale?.language }
-            if (index != -1) {
-                checkedItem = index + 1
-            }
-        }
-
-        com.google.android.material.dialog.MaterialAlertDialogBuilder(context)
-            .setTitle(R.string.language)
-            .setSingleChoiceItems(options.toTypedArray(), checkedItem) { dialog, which ->
-                val newLocaleList = if (which == 0) {
-                    androidx.core.os.LocaleListCompat.getEmptyLocaleList()
-                } else {
-                    androidx.core.os.LocaleListCompat.create(availableLocales[which - 1])
-                }
-                androidx.appcompat.app.AppCompatDelegate.setApplicationLocales(newLocaleList)
-                dialog.dismiss()
-            }
-            .setNegativeButton(R.string.cancel, null)
-            .show()
-    }
 
     private fun setupAppearanceSection() {
         // Update selection state based on current theme
