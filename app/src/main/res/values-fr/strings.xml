@@ -110,12 +110,12 @@
     <string name="token_instructions">1. Accédez à Paramètres GitHub → Paramètres du développeur \n2. Cliquez sur \"Jetons d\'accès personnels\" → \"Jetons (classiques)\"\n3. Cliquez sur \"Générer un nouveau jeton\"\n4. Donnez-lui un nom et sélectionnez \"public_repo\" scope\n5. Cliquez sur \"Générer un jeton\" et copiez-le</string>
     <string name="no_token_set">Aucun jeu de jetons</string>
     <string name="token_configured">Jeton configuré</string>
-    
+
     <!-- Developer Info -->
     <string name="developer">Promoteur</string>
     <string name="followers">Abonnés</string>
     <string name="following">Suivant</string>
-    
+
     <!-- Download & Install -->
     <string name="downloading">Téléchargement…</string>
     <string name="downloading_apk">Téléchargement de l\'APK</string>
@@ -138,7 +138,7 @@
     <string name="update">Mise à jour</string>
     <string name="update_available">Mise à jour disponible</string>
     <string name="uninstall">Désinstaller</string>
-    
+
     <!-- GitHub Sign In -->
     <string name="github_sign_in">Connectez-vous avec GitHub</string>
     <string name="sign_in_to_increase_limit">Connectez-vous pour augmenter la limite de débit de l\'API</string>
@@ -161,9 +161,9 @@
     <string name="something_went_wrong">Quelque chose s\'est mal passé</string>
     <string name="user">\@utilisateur</string>
     <string name="rate_limit_exceeded_title">Limite de taux dépassée</string>
-    <string name="rate_limit_exceeded_message">Vous\' avez dépassé la limite de débit de l'API GitHub (60 requêtes/heure).\n\nConnectez-vous avec GitHub pour augmenter votre limite à 5 000 requêtes/heure gratuitement !</string>
+    <string name="rate_limit_exceeded_message">Vous\' avez dépassé la limite de débit de l\'API GitHub (60 requêtes/heure).\n\nConnectez-vous avec GitHub pour augmenter votre limite à 5 000 requêtes/heure gratuitement !</string>
     <string name="rate_limit_exceeded_signed_in">Vous\' avez dépassé la limite de débit authentifié (5 000 requêtes/heure). Veuillez patienter quelques minutes avant de réessayer.</string>
-    
+
     <!-- Donate -->
     <string name="donate">Faire un don</string>
     <string name="support_developer">Soutenir le développeur</string>
@@ -181,11 +181,11 @@
     <string name="cannot_open_payment_app">Impossible d\'ouvrir l\'application de paiement</string>
     <string name="buy_me_a_coffee">Achetez-moi un café</string>
     <string name="support_buy_me_a_coffee">Assistance pour Achetez-moi un café</string>
-    
+
     <!-- Open Source Licenses -->
     <string name="open_source_licenses">Licences Open Source</string>
     <string name="source_code">Code source</string>
-    
+
     <!-- Dynamic content format strings -->
     <string name="download_progress">%1$s (%2$s/%3$s)</string>
     <string name="download_starting">0%%</string>
@@ -193,7 +193,7 @@
     <string name="version_format">Version%s</string>
     <string name="username_format">\@%s</string>
     <string name="error_with_retry">%1$s\n\n%2$s</string>
-    
+
     <!-- My Apps -->
     <string name="my_apps">Mes applications</string>
     <string name="no_favorite_apps">Aucune application favorite pour l\'instant</string>
@@ -205,14 +205,14 @@
     <string name="favorite_apps">Applications préférées</string>
     <string name="no_installed_apps">Aucune application installée</string>
     <string name="no_installed_apps_hint">Les applications que vous installez depuis vos favoris apparaîtront ici</string>
-    
+
     <!-- Appearance -->
     <string name="appearance">Apparence</string>
     <string name="theme_system">Système</string>
     <string name="theme_for_you">Pour toi</string>
     <string name="theme_dark">Sombre</string>
     <string name="theme_light">Lumière</string>
-    
+
     <!-- Download Settings -->
     <string name="download_settings">Paramètres de téléchargement</string>
     <string name="proxy">Procuration</string>
@@ -321,4 +321,5 @@
     <string name="cat_name_writing">En écrivant</string>
     <string name="cat_name_productivity">Productivité</string>
     <string name="cat_name_open_source">Source ouverte</string>
-    <string name="cat_name_trending">Tendance</string></resources>
+    <string name="cat_name_trending">Tendance</string>
+</resources>
